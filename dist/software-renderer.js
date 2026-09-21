@@ -1,0 +1,24 @@
+import * as THREE from './three.module.js';
+// A painter-based 3D fallback for browsers with GPU rendering unavailable.
+// It uses the same world geometry, cameras, gameplay and hit tests as WebGL.
+export class SoftwareRenderer{
+ constructor({canvas}){const replacement=canvas.cloneNode();canvas.replaceWith(replacement);this.domElement=replacement;this.ctx=replacement.getContext('2d',{alpha:false});this.shadowMap={enabled:false};this.autoClear=true;this.ratio=1;this.width=innerWidth;this.height=innerHeight;this.cache=new WeakMap();this.software=true;this.setSize(this.width,this.height)}
+ setPixelRatio(r){this.ratio=Math.min(r,1)}setSize(w,h){this.width=w;this.height=h;this.domElement.width=w*this.ratio;this.domElement.height=h*this.ratio;this.ctx.setTransform(this.ratio,0,0,this.ratio,0,0)}clearDepth(){}
+ render(scene,camera){scene.updateMatrixWorld();camera.updateMatrixWorld();const ctx=this.ctx,w=this.width,h=this.height,f=h/(2*Math.tan(camera.fov*Math.PI/360)),near=.07,view=camera.matrixWorldInverse,items=[];if(this.autoClear){const bg=scene.background?.getStyle()||'#acc7c4';ctx.fillStyle=bg;ctx.fillRect(0,0,w,h);const horizon=h/2+Math.tan(camera.rotation.x)*f;ctx.fillStyle='#a2a58b';ctx.fillRect(0,Math.max(0,Math.min(h,horizon)),w,h);}
+ const project=v=>[w/2+v.x/-v.z*f,h/2-v.y/-v.z*f];const clip=poly=>{const out=[];for(let i=0;i<poly.length;i++){const a=poly[i],b=poly[(i+1)%poly.length],inside=a.z<-near,next=b.z<-near;if(inside)out.push(a);if(inside!==next){const t=(-near-a.z)/(b.z-a.z);out.push(a.clone().lerp(b,t))}}return out};
+ scene.traverseVisible(obj=>{
+  if(obj.isSprite){const pos=new THREE.Vector3().setFromMatrixPosition(obj.matrixWorld).applyMatrix4(view);if(pos.z>=-near)return;const p=project(pos),scale=obj.scale.x*f/-pos.z;items.push({depth:-pos.z,draw:()=>{const img=obj.material.map?.image;if(img)ctx.drawImage(img,p[0]-scale/2,p[1]-scale/2,scale,scale)}});return}
+  if(obj.isLine){const p=obj.geometry.attributes.position;if(!p)return;const matrix=new THREE.Matrix4().multiplyMatrices(view,obj.matrixWorld),a=new THREE.Vector3().fromBufferAttribute(p,0).applyMatrix4(matrix),b=new THREE.Vector3().fromBufferAttribute(p,1).applyMatrix4(matrix);if(a.z>=-near||b.z>=-near)return;const ap=project(a),bp=project(b);items.push({depth:Math.max(-a.z,-b.z),draw:()=>{ctx.strokeStyle=obj.material.color.getStyle();ctx.globalAlpha=obj.material.opacity;ctx.lineWidth=1.5;ctx.beginPath();ctx.moveTo(...ap);ctx.lineTo(...bp);ctx.stroke();ctx.globalAlpha=1}});return}
+  if(!obj.isMesh)return;const material=Array.isArray(obj.material)?obj.material[0]:obj.material;if(material.opacity<=0)return;const matrix=new THREE.Matrix4().multiplyMatrices(view,obj.matrixWorld),geom=obj.geometry;const pos=geom.attributes.position,index=geom.index;if(!pos)return;
+  const worldPos=new THREE.Vector3().setFromMatrixPosition(obj.matrixWorld),center=worldPos.clone().applyMatrix4(view);if(center.z>Math.max(obj.scale.x,obj.scale.y,obj.scale.z)*1.2)return;if(center.length()>160)return;
+  // Large base ground is represented by the horizon fill; surface tiles remain true geometry.
+  if(this.autoClear&&obj.scale.x===56&&obj.scale.z===48&&obj.position.y===-.5)return;
+  const verts=[];for(let i=0;i<pos.count;i++)verts.push(new THREE.Vector3().fromBufferAttribute(pos,i).applyMatrix4(matrix));
+  const color=material.emissive?.getHex()?material.emissive:material.color;const count=index?index.count:pos.count;const box=geom.type==='BoxGeometry';const step=box?6:3;
+  for(let i=0;i<count;i+=step){let points;if(box){const a=index.getX(i),b=index.getX(i+1),d=index.getX(i+2),c=index.getX(i+4);points=[verts[a],verts[b],verts[c],verts[d]]}else points=[verts[index?index.getX(i):i],verts[index?index.getX(i+1):i+1],verts[index?index.getX(i+2):i+2]];
+   const norm=points[1].clone().sub(points[0]).cross(points[2].clone().sub(points[0]));if(norm.dot(points[0])>=0)continue;const clipped=clip(points);if(clipped.length<3)continue;const ps=clipped.map(project);if(ps.every(p=>p[0]<0)||ps.every(p=>p[0]>w)||ps.every(p=>p[1]<0)||ps.every(p=>p[1]>h))continue;
+   norm.normalize();let shade=material.emissive?.getHex()?1.3:.66+Math.max(0,norm.dot(new THREE.Vector3(-.45,.8,.6).normalize()))*.47;const depth=clipped.reduce((s,p)=>s-p.z,0)/clipped.length;const col=color.clone().multiplyScalar(shade);if(this.autoClear&&scene.fog){const fog=THREE.MathUtils.clamp((depth-35)/100,0,.8);col.lerp(scene.fog.color,fog)}let fill=col.getStyle();if(material.map){fill=(obj.scale.y<.2?new THREE.Color(0x7d9559):new THREE.Color(0xa3ad98)).multiplyScalar(shade).getStyle()}
+   const alpha=material.opacity??1;items.push({depth,draw:()=>{ctx.fillStyle=fill;ctx.globalAlpha=alpha;ctx.beginPath();ctx.moveTo(...ps[0]);for(let k=1;k<ps.length;k++)ctx.lineTo(...ps[k]);ctx.closePath();ctx.fill();ctx.globalAlpha=1}})
+  }
+ });items.sort((a,b)=>b.depth-a.depth);for(const item of items)item.draw();}
+}
