@@ -29,3 +29,4 @@ body.equip-preview #vignette{background:radial-gradient(ellipse,transparent 55%,
 @media(max-width:480px){.layout-toolbar{gap:4px}.layout-panel button{padding:6px}.layout-panel{padding:9px}.layout-toolbar select{width:90px}.layout-hint{font-size:11px}.layout-control{font-size:11px}}
 .touch-mode #moveZone{z-index:1}
 body.layout-editing #menu{opacity:0;pointer-events:none}
+.mercy-step-row{display:flex;gap:6px}.mercy-step-row button{flex:1;min-width:0}.mercy-options input[type=range]{width:100%}.mercy-options output{white-space:nowrap}
