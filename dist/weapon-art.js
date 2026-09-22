@@ -1,3 +1,4 @@
+import {createChaos} from './chaos.js';
 import {createMercy} from './mercy.js';
 import {createKuronami} from './kuronami.js';
 import * as T from './three.module.js';
@@ -9,7 +10,8 @@ function profile(parent,points,width,color,x=0,holes=[],glow=0){const shape=new 
 function plate(parent,points,depth,color,z=0,glow=0){const shape=new T.Shape();points.forEach(([x,y],i)=>i?shape.lineTo(x,y):shape.moveTo(x,y));shape.closePath();const geo=new T.ExtrudeGeometry(shape,{depth,bevelEnabled:true,bevelSize:.002,bevelThickness:.002,bevelSegments:1,steps:1});geo.translate(0,0,z-depth/2);const mesh=new T.Mesh(geo,material(color,.78,glow));parent.add(mesh);return mesh}
 function ring(parent,x,y,z,r,tube,color,axis='z'){const mesh=new T.Mesh(new T.TorusGeometry(r,tube,6,20),material(color,.85));mesh.position.set(x,y,z);if(axis==='x')mesh.rotation.y=Math.PI/2;parent.add(mesh);return mesh}
 function screw(parent,x,y,z,color){cylinder(parent,x,y,z,.008,.006,color,'x',6);part(parent,x+.004,y,z,.001,.002,.009,0x16232c)}
-export function createWeaponArt(id,s,knifeType,showcase,variant='base',mercyVariant='red'){
+export function createWeaponArt(id,s,knifeType,showcase,variant='base',mercyVariant='red',chaosVariant='base'){
+ if(id==='vandal'&&s.chaos)return createChaos(showcase,chaosVariant);
  if(id==='knife'&&knifeType==='mercy')return createMercy(showcase,mercyVariant);
  if(id==='knife'&&knifeType==='kuronami')return createKuronami(showcase,variant);
  const model=new T.Group(),g=new T.Group();model.add(g);const dark=s.dark,metal=s.metal,edge=s.color,black=0x141d25,steel=0xa3acb3,rubber=0x242c31;let blade=null,handle=null,flash=null,magazine=null;

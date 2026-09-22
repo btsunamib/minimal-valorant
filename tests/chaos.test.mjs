@@ -1,0 +1,7 @@
+import test from 'node:test';import assert from 'node:assert/strict';
+import {createChaos,CHAOS_VARIANTS} from '../dist/chaos.js';
+import {sampleChaosEquip,CHAOS_DURATION} from '../dist/chaos-equip.js';
+import {createWeaponArt} from '../dist/weapon-art.js';import {SKINS} from '../dist/rules.js';
+function snapshot(art){art.model.updateMatrixWorld(true);const a=[];art.model.traverse(o=>{for(const n of o.matrixWorld.elements)assert.ok(Number.isFinite(n));a.push(...o.matrixWorld.elements);});return a;}
+test('Chaos equip can seek backwards and recover from reload or inspection in all variants',()=>{for(const v of Object.keys(CHAOS_VARIANTS)){const art=createChaos(false,v);for(let f=0;f<=72;f++) {art.update({time:f/60,equipSeconds:f/60});snapshot(art)}art.update({time:.4,equipSeconds:.4});const a=snapshot(art);art.update({time:3,inspect:.5,reload:.3,heat:1});art.update({time:.4,equipSeconds:.4});assert.deepEqual(snapshot(art),a);art.update({time:0,equipSeconds:CHAOS_DURATION});const b=snapshot(art);art.update({time:0});assert.deepEqual(snapshot(art),b);art.dispose()}});
+test('Chaos has its own rifle geometry and equip reaches a neutral pose',()=>{const art=createWeaponArt('vandal',SKINS.chaos,'mercy',true);assert.equal(art.model.name,'Prelude to Chaos Vandal');assert.deepEqual(sampleChaosEquip(99).rotation,[0,0,0]);assert.equal(sampleChaosEquip(-3).frame,0);assert.equal(sampleChaosEquip(.45).energy, .8125);art.dispose()});
