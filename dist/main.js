@@ -1,3 +1,4 @@
+import './browser-input.js';
 import * as THREE from './three.module.js';
 import {GyroAim} from './gyro.js';
 import {batchStaticWorld} from './static-batch.js';
