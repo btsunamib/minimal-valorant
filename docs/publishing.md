@@ -6,6 +6,7 @@
 
 - GitHub 账号：`btsunamib`。
 - 用户指定的游戏仓库：https://github.com/btsunamib/minimal-valorant ，分支 `main`，独立 remote 名称 `github`。
+- 2026-09-23 首次同步被 GitHub 写入权限阻止：`create_blob` 返回 HTTP 403 `Resource not accessible by integration`。已确认可读取仓库；尚未上传源码或更新远端分支，必须完成仓库 Contents 写入授权后重试。
 - 每次发布必须同步；没有常驻后台任务，执行发布的开发者/agent 必须完成此步骤。
 - 已有 Sites 源码远端必须保留，不能替换其 `origin`。
 - 最近游戏版本：`8c8232020e5685bb5fb9d85eeb5b25da18cb0530`，对应泷吟、混沌换弹与战斗音效更新。
