@@ -1,0 +1,50 @@
+# GitHub Pages 部署：Voxel Strike
+# 目标：把仓库里已经构建好的 dist/ 原样发布成静态站点
+# 地址：https://btsunamib.github.io/minimal-valorant/
+#
+# 放到仓库的 .github/workflows/pages.yml 即可生效。
+# 说明：dist/ 是自包含的构建产物（index.html 用相对路径引用
+# style.css / main.js / three.module.js / assets/），
+# 所以直接托管 dist/ 就行，不需要在 CI 里跑构建。
+
+name: Deploy dist to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'dist/**'
+      - '.github/workflows/pages.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# 同一时间只跑一个部署；新的推送取消排队中的旧部署，但不打断正在发布的
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload dist as Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
