@@ -1,0 +1,9 @@
+import test from 'node:test';import assert from 'node:assert/strict';import * as T from '../dist/three.module.js';import {SOLIDS} from '../dist/rules.js';import {detailedWorld} from '../dist/world-art.js';import {batchStaticWorld} from '../dist/static-batch.js';
+test('architectural reconstruction preserves physical walls and remains a batched finite scene',()=>{
+ const previous=globalThis.document;const noop=()=>{};const context=new Proxy({createLinearGradient:()=>({addColorStop:noop})},{get:(t,k)=>t[k]??noop,set:(t,k,v)=>(t[k]=v,true)});globalThis.document={createElement:()=>({width:0,height:0,getContext:()=>context})};
+ try{const scene=new T.Scene(),walls=SOLIDS.map(([x,z,w,d,h])=>{const m=new T.Mesh(new T.BoxGeometry(1,1,1),new T.MeshStandardMaterial());m.position.set(x,h/2,z);m.scale.set(w,h,d);scene.add(m);return m});const ground=new T.Mesh(new T.BoxGeometry(),new T.MeshStandardMaterial());scene.add(ground);const before=walls.map(m=>new T.Box3().setFromObject(m));detailedWorld(scene,SOLIDS,walls,ground);scene.updateMatrixWorld(true);
+ walls.forEach((m,i)=>assert.ok(new T.Box3().setFromObject(m).equals(before[i]),'collision cover must not move'));
+ let triangles=0;scene.traverse(o=>{if(!o.isMesh)return;assert.ok(o.geometry.attributes.position.array.every(Number.isFinite));assert.ok(o.matrixWorld.elements.every(Number.isFinite));triangles+=(o.geometry.index?.count??o.geometry.attributes.position.count)/3});assert.ok(triangles<250000,`world triangle budget exceeded: ${triangles}`);
+ const ray=new T.Raycaster(new T.Vector3(-17,1.6,12),new T.Vector3(0,0,-1));const distance=ray.intersectObjects(walls)[0]?.distance;const result=batchStaticWorld(scene);assert.ok(result.after<110,`draw groups ${result.after}`);assert.equal(ray.intersectObjects(walls)[0]?.distance,distance,'static batching preserves bullet cover');
+ }finally{globalThis.document=previous}
+});
