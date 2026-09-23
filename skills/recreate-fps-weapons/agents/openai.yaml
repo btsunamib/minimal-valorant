@@ -1,0 +1,4 @@
+interface:
+  display_name: "枪械与刀具逐帧还原"
+  short_description: "按实机参考重建武器模型、全部动作、特效与音效，并逐帧对照验收"
+  default_prompt: "使用 $recreate-fps-weapons 对照实机视频重建这把武器的模型、全部动作、特效和音效，列出逐帧验收结果。"
