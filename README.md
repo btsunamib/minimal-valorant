@@ -35,6 +35,8 @@ npm test
 
 ## 发布与 GitHub
 
+GitHub 源码：https://github.com/btsunamib/minimal-valorant
+
 用户要求：每次发布都提交并同步相应版本。流程见 `docs/publishing.md`，项目协作约定见 `AGENTS.md`。
 
 源码包包含项目自有源码及本地使用素材；不包含 `.git` 历史、访问凭据、缓存或可重新下载的参考视频。参考来源链接保存在 `docs/`。第三方素材归各自权利人所有；Three.js 许可见 `dist/THREE-LICENSE.txt`。
