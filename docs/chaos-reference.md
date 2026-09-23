@@ -27,3 +27,24 @@ reconstructed, not extracted original alpha footage. No claim of exact fidelity.
 Only Vandal uses the Chaos model/sound/feedback. Other guns fall back to Jade when
 Chaos is selected; knife-specific models and touch pointer capture remain intact.
 Other previously requested work remains deferred under work-in-progress/agents.
+
+## Dedicated reload update
+
+Reference: the same Level 3 clip, 10.05–12.65 s; 156-frame timeline at 60 fps.
+Phases inspected in the video: chamber presentation, purple core fragmentation,
+right-hand replacement stone insertion and palm press, left-hand collar rotation,
+blue re-ignition and return to firing stance. The magazine remains seated.
+`chaos-reload.js` records timed reconstructed 3D poses and phase boundaries.
+`reload.mp3` is the corresponding source audio excerpt with 10/80 ms edge fades.
+The motion and articulated hands are reconstruction, not an imported source rig;
+frame inspection is supported but exact per-pixel equivalence is not established.
+The dedicated animation uses 2.6 s including source lead-in and settle, while other
+weapons retain their previous timings. Ammo transfers only at reload completion.
+Switching, inspection, death, round end and menu exit stop reload sound. Pausing
+freezes reload progress; resuming restarts sound from that offset. Original-speed
+preview and in-game Chaos reload use elapsed time, avoiding audio drift at low FPS.
+All four variants have frame-seeking/cancellation coverage, including core handoff.
+
+### Follow-up: kill ladder and head impacts
+
+The previous note that all five kill buttons reused an identical cue is superseded. The available real kill sample now uses five distinct pitch steps (0, 2, 4, 7, 12 semitones) and a synthesized fifth-kill ending. A separate synthesized head impact layers over the cue, including nonlethal hits. This is a reconstruction, not the original isolated set. Team mode indexes by the life streak, and resets after death. See `narukami-reference.md` for the download limitation and validation.

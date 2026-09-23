@@ -8,7 +8,7 @@ export const WEAPONS={
  knife:{name:'战术近战',en:'MELEE',type:'近战',damage:65,head:100,rate:.46,mag:0,reserve:0,reload:0,cost:0,range:2.8,recoil:.025}
 };
 export const SKINS={chaos:{name:'混沌序曲',sub:'狂徒专属 · 机械核心 · 击杀反馈',chaos:true,weapon:'vandal',color:0x55cfff,dark:0x292832,metal:0xa98047,css:'#88cfff',symbol:'',sound:.75},jade:{name:'翡翠脉冲',sub:'能量弹道 · 晶体终结',color:0xc5f46b,dark:0x183b31,metal:0x8caa83,css:'#c5f46b',symbol:'◈',sound:1},ion:{name:'离子光谱',sub:'电弧弹道 · 离子终结',color:0x5ee8ff,dark:0xb8cfda,metal:0x364c65,css:'#5ee8ff',symbol:'✧',sound:1.4},reaver:{name:'暗影收割',sub:'紫焰弹道 · 灵魂终结',color:0xb685ff,dark:0x231934,metal:0x867997,css:'#b685ff',symbol:'♜',sound:.65},ember:{name:'赤焰龙鳞',sub:'熔火弹道 · 烈焰终结',color:0xff8354,dark:0x482b24,metal:0xbc8860,css:'#ff8354',symbol:'✦',sound:.8}};
-export const KNIVES={kuronami:'黑波之刃',mercy:'怜悯之刃',butterfly:'蝴蝶刀',karambit:'爪子刀',blade:'能量刃'};
+export const KNIVES={narukami:'泷吟 · 塑水宗 2.0',kuronami:'黑波之刃',mercy:'怜悯之刃',butterfly:'蝴蝶刀',karambit:'爪子刀',blade:'能量刃'};
 export const MAP_W=56, MAP_D=48, CELL=2;
 export const SOLIDS=[
  [-28,0,1,50,5],[28,0,1,50,5],[0,-24,57,1,5],[0,24,57,1,5],
