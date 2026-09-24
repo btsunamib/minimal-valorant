@@ -1,0 +1,48 @@
+{
+  "collection": "Prelude to Chaos EP5 / 混沌序曲狂徒",
+  "source_page": "https://wiki.playvalorant.com/en-us/Prelude_to_Chaos_Collection",
+  "public_folder": "https://drive.google.com/drive/folders/1PkJyMg_Kj7-rJHoptMudeT5VorBwM8jG",
+  "rights": "Riot Games audio; distributed by VALORANT Wiki public reference archive, not a claim of ownership",
+  "files": [
+    {
+      "file": "kill1.mp3",
+      "source": "https://drive.google.com/file/d/1g1MLM3uZHODXTliJV-FRZEE_xVqGqPr9/view",
+      "sha256": "a654d560942e8f67d5a4bbf00430790a43398df497b39dfca1167e5a1a32ee61",
+      "duration": 3.143786,
+      "bytes": 44013,
+      "processing": "none; original downloaded MP3; playbackRate=1"
+    },
+    {
+      "file": "kill2.mp3",
+      "source": "https://drive.google.com/file/d/1zDENw2Jqu2k0twsCkWjzwFPivQ1skq1N/view",
+      "sha256": "89ad46402da9a20bda55e6e984378f48af42d3af5ab6768edf9eded608c426e8",
+      "duration": 3.143786,
+      "bytes": 44013,
+      "processing": "none; original downloaded MP3; playbackRate=1"
+    },
+    {
+      "file": "kill3.mp3",
+      "source": "https://drive.google.com/file/d/1BmPd3h0DfooypDZAtJi4LFmUj15ejag9/view",
+      "sha256": "3b1b7016307c926f9215ba485b142a328470f424576f8056872638835fd2eb25",
+      "duration": 3.143786,
+      "bytes": 44013,
+      "processing": "none; original downloaded MP3; playbackRate=1"
+    },
+    {
+      "file": "kill4.mp3",
+      "source": "https://drive.google.com/file/d/1Z-XI7Ze6k9JINe6Mpa1V4dUNN1w4p9_A/view",
+      "sha256": "489e209ffc81bb538e60cc39d237e7979d62082bd9b468a48f54595dc984d8de",
+      "duration": 3.143786,
+      "bytes": 44013,
+      "processing": "none; original downloaded MP3; playbackRate=1"
+    },
+    {
+      "file": "kill5.mp3",
+      "source": "https://drive.google.com/file/d/1o2ibq32kQOKwfdtvYvgNWDkU2joolpMx/view",
+      "sha256": "4265d9140dcc53fff8710531c752f8efa68a0adac95a0d5c1d6b7010b15c277d",
+      "duration": 7.192786,
+      "bytes": 100699,
+      "processing": "none; original downloaded MP3; playbackRate=1"
+    }
+  ]
+}

@@ -48,3 +48,33 @@ All four variants have frame-seeking/cancellation coverage, including core hando
 ### Follow-up: kill ladder and head impacts
 
 The previous note that all five kill buttons reused an identical cue is superseded. The available real kill sample now uses five distinct pitch steps (0, 2, 4, 7, 12 semitones) and a synthesized fifth-kill ending. A separate synthesized head impact layers over the cue, including nonlethal hits. This is a reconstruction, not the original isolated set. Team mode indexes by the life streak, and resets after death. See `narukami-reference.md` for the download limitation and validation.
+
+## 2026-09-24: independent kill audio and layered crest
+
+Supersedes the pitch-ladder implementation above. Five **separate downloaded MP3s**
+from the VALORANT Wiki public Cosmetic SFX archive are now shipped locally as
+`kill1.mp3` through `kill5.mp3`. They retain the source bytes and playback rate 1;
+there is no transposition, synthetic fifth-kill ending or duplicate single-sample
+fallback. Each file has a recorded public source ID, SHA-256 and duration in
+`dist/assets/chaos/kill-sources.json`. Kills 1–4 are 3.143786 seconds each and kill 5
+is 7.192786 seconds. This is the Wiki-distributed game audio, not an independently
+authenticated Riot studio master. The older finisher-contaminated `kill.mp3` is no
+longer loaded. Head impact stays a separate synthesized layer. Missing audio
+retries on a subsequent gesture; it does not silently substitute an altered cue.
+
+Crest reference: EP5 Vandal Level 4 preview, 1920×1080, 60/1 fps, source segment
+0.40–2.80 s, 144 extracted native frames. `docs/references/chaos-badge-manifest.json`
+records source hash and every timestamp; `chaos-badge-contact.jpg` is an orientation
+sheet, not a complete fidelity audit. Updated SVG motion separates mask drop,
+outer/inner circle expansion, crown, gem flash, orbiting red arcs and shrink exit.
+It samples absolute time and supports backwards/forwards frame seeking at 60 Hz
+and quarter-speed playback in the existing arsenal. No rotating whole halo or
+single bounce animation remains. Repeated previews cancel pending async starts.
+Switching weapon, leaving the arsenal, pausing, death and menu exit stop stale cues.
+
+**Status: reconstructed, not measured-pass.** The crest is still traced SVG,
+not original transparent animation. Exact contour, crown details, arc shape,
+color grading and frame timings have not passed per-frame landmark/pixel gates.
+144 seekable frames and successful tests do not prove 144 matched source frames.
+Original source frames can be regenerated with the weapon workflow extractor;
+they remain in the working reference folder and are not shipped to players.
