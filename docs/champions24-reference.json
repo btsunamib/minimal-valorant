@@ -1,0 +1,70 @@
+{
+  "weapon": "2024全球冠军赛 战刀 / Champions 2024 Blade",
+  "variant": "base / Level 2 Animation, right handed",
+  "reference": {
+    "url": "https://valorant.dyn.riotcdn.net/x/videos/release-13.06/28d2b959-471f-d5b0-d4ff-17a590906a2f_default_universal.mp4",
+    "sha256": "19d13d1cb35fad1dfa1448651a03ed0b17b91be846bc822788eb84fb3a85d51f",
+    "native_fps": "60/1",
+    "width": 1920,
+    "height": 1080
+  },
+  "actions": [
+    {
+      "id": "equip",
+      "start": 0,
+      "duration": 0.8,
+      "status": "reconstructed",
+      "manifest": "references/champions24-manifest.json",
+      "source_annotations": "references/champions24-annotations.json",
+      "events": [
+        {
+          "frame": 3,
+          "name": "first arc visible"
+        },
+        {
+          "frame": 18,
+          "name": "blade rising again"
+        },
+        {
+          "frame": 38,
+          "name": "horizontal grip"
+        },
+        {
+          "frame": 44,
+          "name": "settled"
+        }
+      ],
+      "audio": {
+        "origin": "source-excerpt",
+        "onset_error_ms": null
+      },
+      "differences": [
+        "Screen guide marked at reduced resolution; some bolster markings are obscured by hand.",
+        "Depth, wrist roll, fingers and trail width reconstructed.",
+        "No complete render/reference silhouette and landmark comparison. Two-pixel gate NOT passed."
+      ],
+      "report": null,
+      "verified_commit": null
+    },
+    {
+      "id": "idle",
+      "status": "reconstructed"
+    },
+    {
+      "id": "inspect",
+      "status": "reconstructed"
+    },
+    {
+      "id": "light-attack",
+      "status": "reconstructed"
+    },
+    {
+      "id": "heavy-attack",
+      "status": "reconstructed"
+    },
+    {
+      "id": "aura",
+      "status": "unverified"
+    }
+  ]
+}

@@ -1,0 +1,587 @@
+{
+  "required_landmarks": [
+    "tip",
+    "bolster"
+  ],
+  "annotation_scale": [
+    400,
+    225
+  ],
+  "reference_size": [
+    1920,
+    1080
+  ],
+  "occlusions": "Tip outside view during much of flip; extrapolated pose coordinates only live in reconstruction, not evidence. Wrists/fingers and masks remain unannotated.",
+  "frames": [
+    {
+      "index": 0,
+      "points": {
+        "tip": null,
+        "bolster": null
+      },
+      "note": "Manual approximate annotation from contact/full frames; not a two-pixel verified trace."
+    },
+    {
+      "index": 1,
+      "points": {
+        "tip": null,
+        "bolster": [
+          1862.4,
+          456.0
+        ]
+      },
+      "note": "Manual approximate annotation from contact/full frames; not a two-pixel verified trace."
+    },
+    {
+      "index": 2,
+      "points": {
+        "tip": null,
+        "bolster": [
+          1747.2,
+          484.8
+        ]
+      },
+      "note": "Manual approximate annotation from contact/full frames; not a two-pixel verified trace."
+    },
+    {
+      "index": 3,
+      "points": {
+        "tip": [
+          1512.0,
+          244.8
+        ],
+        "bolster": [
+          1689.6,
+          513.6
+        ]
+      },
+      "note": "Manual approximate annotation from contact/full frames; not a two-pixel verified trace."
+    },
+    {
+      "index": 4,
+      "points": {
+        "tip": [
+          1516.8,
+          412.8
+        ],
+        "bolster": [
+          1670.4,
+          667.2
+        ]
+      },
+      "note": "Manual approximate annotation from contact/full frames; not a two-pixel verified trace."
+    },
+    {
+      "index": 5,
+      "points": {
+        "tip": [
+          1680.0,
+          1017.6
+        ],
+        "bolster": [
+          1622.4,
+          753.6
+        ]
+      },
+      "note": "Manual approximate annotation from contact/full frames; not a two-pixel verified trace."
+    },
+    {
+      "index": 6,
+      "points": {
+        "tip": [
+          1492.8,
+          1032.0
+        ],
+        "bolster": [
+          1564.8,
+          811.2
+        ]
+      },
+      "note": "Manual approximate annotation from contact/full frames; not a two-pixel verified trace."
+    },
+    {
+      "index": 7,
+      "points": {
+        "tip": [
+          1454.4,
+          1075.2
+        ],
+        "bolster": [
+          1545.6,
+          844.8
+        ]
+      },
+      "note": "Manual approximate annotation from contact/full frames; not a two-pixel verified trace."
+    },
+    {
+      "index": 8,
+      "points": {
+        "tip": null,
+        "bolster": [
+          1617.6,
+          940.8
+        ]
+      },
+      "note": "Manual approximate annotation from contact/full frames; not a two-pixel verified trace."
+    },
+    {
+      "index": 9,
+      "points": {
+        "tip": null,
+        "bolster": [
+          1636.8,
+          940.8
+        ]
+      },
+      "note": "Manual approximate annotation from contact/full frames; not a two-pixel verified trace."
+    },
+    {
+      "index": 10,
+      "points": {
+        "tip": null,
+        "bolster": [
+          1780.8,
+          955.2
+        ]
+      },
+      "note": "Manual approximate annotation from contact/full frames; not a two-pixel verified trace."
+    },
+    {
+      "index": 11,
+      "points": {
+        "tip": null,
+        "bolster": [
+          1872.0,
+          950.4
+        ]
+      },
+      "note": "Manual approximate annotation from contact/full frames; not a two-pixel verified trace."
+    },
+    {
+      "index": 12,
+      "points": {
+        "tip": null,
+        "bolster": [
+          1900.8,
+          806.4
+        ]
+      },
+      "note": "Manual approximate annotation from contact/full frames; not a two-pixel verified trace."
+    },
+    {
+      "index": 13,
+      "points": {
+        "tip": null,
+        "bolster": [
+          1896.0,
+          686.4
+        ]
+      },
+      "note": "Manual approximate annotation from contact/full frames; not a two-pixel verified trace."
+    },
+    {
+      "index": 14,
+      "points": {
+        "tip": null,
+        "bolster": null
+      },
+      "note": "Manual approximate annotation from contact/full frames; not a two-pixel verified trace."
+    },
+    {
+      "index": 15,
+      "points": {
+        "tip": null,
+        "bolster": null
+      },
+      "note": "Manual approximate annotation from contact/full frames; not a two-pixel verified trace."
+    },
+    {
+      "index": 16,
+      "points": {
+        "tip": null,
+        "bolster": [
+          1848.0,
+          504.0
+        ]
+      },
+      "note": "Manual approximate annotation from contact/full frames; not a two-pixel verified trace."
+    },
+    {
+      "index": 17,
+      "points": {
+        "tip": null,
+        "bolster": [
+          1776.0,
+          494.4
+        ]
+      },
+      "note": "Manual approximate annotation from contact/full frames; not a two-pixel verified trace."
+    },
+    {
+      "index": 18,
+      "points": {
+        "tip": null,
+        "bolster": [
+          1723.2,
+          542.4
+        ]
+      },
+      "note": "Manual approximate annotation from contact/full frames; not a two-pixel verified trace."
+    },
+    {
+      "index": 19,
+      "points": {
+        "tip": null,
+        "bolster": [
+          1713.6,
+          600.0
+        ]
+      },
+      "note": "Manual approximate annotation from contact/full frames; not a two-pixel verified trace."
+    },
+    {
+      "index": 20,
+      "points": {
+        "tip": null,
+        "bolster": [
+          1660.8,
+          667.2
+        ]
+      },
+      "note": "Manual approximate annotation from contact/full frames; not a two-pixel verified trace."
+    },
+    {
+      "index": 21,
+      "points": {
+        "tip": null,
+        "bolster": [
+          1641.6,
+          734.4
+        ]
+      },
+      "note": "Manual approximate annotation from contact/full frames; not a two-pixel verified trace."
+    },
+    {
+      "index": 22,
+      "points": {
+        "tip": null,
+        "bolster": [
+          1612.8,
+          768.0
+        ]
+      },
+      "note": "Manual approximate annotation from contact/full frames; not a two-pixel verified trace."
+    },
+    {
+      "index": 23,
+      "points": {
+        "tip": [
+          1008.0,
+          192.0
+        ],
+        "bolster": [
+          1608.0,
+          825.6
+        ]
+      },
+      "note": "Manual approximate annotation from contact/full frames; not a two-pixel verified trace."
+    },
+    {
+      "index": 24,
+      "points": {
+        "tip": [
+          955.2,
+          499.2
+        ],
+        "bolster": [
+          1516.8,
+          897.6
+        ]
+      },
+      "note": "Manual approximate annotation from contact/full frames; not a two-pixel verified trace."
+    },
+    {
+      "index": 25,
+      "points": {
+        "tip": [
+          960.0,
+          955.2
+        ],
+        "bolster": [
+          1598.4,
+          916.8
+        ]
+      },
+      "note": "Manual approximate annotation from contact/full frames; not a two-pixel verified trace."
+    },
+    {
+      "index": 26,
+      "points": {
+        "tip": null,
+        "bolster": [
+          1689.6,
+          926.4
+        ]
+      },
+      "note": "Manual approximate annotation from contact/full frames; not a two-pixel verified trace."
+    },
+    {
+      "index": 27,
+      "points": {
+        "tip": null,
+        "bolster": [
+          1742.4,
+          955.2
+        ]
+      },
+      "note": "Manual approximate annotation from contact/full frames; not a two-pixel verified trace."
+    },
+    {
+      "index": 28,
+      "points": {
+        "tip": null,
+        "bolster": [
+          1756.8,
+          1036.8
+        ]
+      },
+      "note": "Manual approximate annotation from contact/full frames; not a two-pixel verified trace."
+    },
+    {
+      "index": 29,
+      "points": {
+        "tip": null,
+        "bolster": [
+          1737.6,
+          1003.2
+        ]
+      },
+      "note": "Manual approximate annotation from contact/full frames; not a two-pixel verified trace."
+    },
+    {
+      "index": 30,
+      "points": {
+        "tip": null,
+        "bolster": [
+          1780.8,
+          1036.8
+        ]
+      },
+      "note": "Manual approximate annotation from contact/full frames; not a two-pixel verified trace."
+    },
+    {
+      "index": 31,
+      "points": {
+        "tip": null,
+        "bolster": [
+          1795.2,
+          1032.0
+        ]
+      },
+      "note": "Manual approximate annotation from contact/full frames; not a two-pixel verified trace."
+    },
+    {
+      "index": 32,
+      "points": {
+        "tip": null,
+        "bolster": [
+          1795.2,
+          984.0
+        ]
+      },
+      "note": "Manual approximate annotation from contact/full frames; not a two-pixel verified trace."
+    },
+    {
+      "index": 33,
+      "points": {
+        "tip": null,
+        "bolster": [
+          1790.4,
+          897.6
+        ]
+      },
+      "note": "Manual approximate annotation from contact/full frames; not a two-pixel verified trace."
+    },
+    {
+      "index": 34,
+      "points": {
+        "tip": null,
+        "bolster": [
+          1756.8,
+          820.8
+        ]
+      },
+      "note": "Manual approximate annotation from contact/full frames; not a two-pixel verified trace."
+    },
+    {
+      "index": 35,
+      "points": {
+        "tip": null,
+        "bolster": [
+          1660.8,
+          787.2
+        ]
+      },
+      "note": "Manual approximate annotation from contact/full frames; not a two-pixel verified trace."
+    },
+    {
+      "index": 36,
+      "points": {
+        "tip": null,
+        "bolster": [
+          1483.2,
+          811.2
+        ]
+      },
+      "note": "Manual approximate annotation from contact/full frames; not a two-pixel verified trace."
+    },
+    {
+      "index": 37,
+      "points": {
+        "tip": null,
+        "bolster": [
+          1310.4,
+          816.0
+        ]
+      },
+      "note": "Manual approximate annotation from contact/full frames; not a two-pixel verified trace."
+    },
+    {
+      "index": 38,
+      "points": {
+        "tip": null,
+        "bolster": [
+          1176.0,
+          820.8
+        ]
+      },
+      "note": "Manual approximate annotation from contact/full frames; not a two-pixel verified trace."
+    },
+    {
+      "index": 39,
+      "points": {
+        "tip": [
+          1876.8,
+          715.2
+        ],
+        "bolster": [
+          1027.2,
+          787.2
+        ]
+      },
+      "note": "Manual approximate annotation from contact/full frames; not a two-pixel verified trace."
+    },
+    {
+      "index": 40,
+      "points": {
+        "tip": [
+          1742.4,
+          744.0
+        ],
+        "bolster": [
+          806.4,
+          787.2
+        ]
+      },
+      "note": "Manual approximate annotation from contact/full frames; not a two-pixel verified trace."
+    },
+    {
+      "index": 41,
+      "points": {
+        "tip": [
+          1646.4,
+          840.0
+        ],
+        "bolster": [
+          724.8,
+          820.8
+        ]
+      },
+      "note": "Manual approximate annotation from contact/full frames; not a two-pixel verified trace."
+    },
+    {
+      "index": 42,
+      "points": {
+        "tip": [
+          1603.2,
+          907.2
+        ],
+        "bolster": [
+          705.6,
+          883.2
+        ]
+      },
+      "note": "Manual approximate annotation from contact/full frames; not a two-pixel verified trace."
+    },
+    {
+      "index": 43,
+      "points": {
+        "tip": [
+          1627.2,
+          936.0
+        ],
+        "bolster": [
+          710.4,
+          936.0
+        ]
+      },
+      "note": "Manual approximate annotation from contact/full frames; not a two-pixel verified trace."
+    },
+    {
+      "index": 44,
+      "points": {
+        "tip": [
+          1632.0,
+          806.4
+        ],
+        "bolster": [
+          715.2,
+          912.0
+        ]
+      },
+      "note": "Manual approximate annotation from contact/full frames; not a two-pixel verified trace."
+    },
+    {
+      "index": 45,
+      "points": {
+        "tip": [
+          1636.8,
+          787.2
+        ],
+        "bolster": [
+          724.8,
+          916.8
+        ]
+      },
+      "note": "Manual approximate annotation from contact/full frames; not a two-pixel verified trace."
+    },
+    {
+      "index": 46,
+      "points": {
+        "tip": [
+          1641.6,
+          787.2
+        ],
+        "bolster": [
+          724.8,
+          916.8
+        ]
+      },
+      "note": "Manual approximate annotation from contact/full frames; not a two-pixel verified trace."
+    },
+    {
+      "index": 47,
+      "points": {
+        "tip": [
+          1641.6,
+          787.2
+        ],
+        "bolster": [
+          724.8,
+          916.8
+        ]
+      },
+      "note": "Manual approximate annotation from contact/full frames; not a two-pixel verified trace."
+    }
+  ]
+}
