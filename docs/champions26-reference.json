@@ -1,0 +1,113 @@
+{
+  "asset": {
+    "uuid": "7b17cfbb-4d50-4908-9da5-18afb3a63d8a",
+    "displayName": "Champions 2026 Phantom",
+    "themeUuid": "e7d3ab91-4bc8-5f70-04aa-35b21a7962e7",
+    "contentTierUuid": "e046854e-406c-37f4-6607-19a9ba8426fc",
+    "contentEditionUuid": "3d190ff8-49c2-2ae5-f8b1-a3b782fb4b79",
+    "displayIcon": "https://media.valorant-api.com/weaponskins/7b17cfbb-4d50-4908-9da5-18afb3a63d8a/displayicon.png",
+    "wallpaper": "https://media.valorant-api.com/weaponskins/7b17cfbb-4d50-4908-9da5-18afb3a63d8a/wallpaper.png",
+    "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Carbine/Champions2026/Carbine_Champions2026_PrimaryAsset",
+    "chromas": [
+      {
+        "uuid": "3ec220aa-4395-9927-28e3-01aa2c3ccb94",
+        "displayName": "Champions 2026 Phantom",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/3ec220aa-4395-9927-28e3-01aa2c3ccb94/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/3ec220aa-4395-9927-28e3-01aa2c3ccb94/fullrender.png",
+        "swatch": null,
+        "streamedVideo": null,
+        "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Carbine/Champions2026/Chromas/Standard/Carbine_Champions2026_Standard_PrimaryAsset"
+      }
+    ],
+    "levels": [
+      {
+        "uuid": "49dd8152-4901-0fc7-3d4a-cbb7c4f4e409",
+        "displayName": "Champions 2026 Phantom",
+        "levelItem": null,
+        "displayIcon": "https://media.valorant-api.com/weaponskinlevels/49dd8152-4901-0fc7-3d4a-cbb7c4f4e409/displayicon.png",
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.06/9dd039d3-4231-7dcb-a484-278d775b33dd_default_universal.mp4",
+        "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Carbine/Champions2026/Levels/Carbine_Champions2026_Lv1_PrimaryAsset"
+      },
+      {
+        "uuid": "92b704dd-4da3-0594-6be5-48b288b4020a",
+        "displayName": "Champions 2026 Phantom Level 2\nThe skin design changes if you are attacker or defender",
+        "levelItem": "EEquippableSkinLevelItem::SoundEffects",
+        "displayIcon": null,
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.06/ba17324e-40e4-0eef-8a56-288a8f16a57a_default_universal.mp4",
+        "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Carbine/Champions2026/Levels/Carbine_Champions2026_Lv2_PrimaryAsset"
+      },
+      {
+        "uuid": "082706cc-45b1-d570-48bd-a2acaa3fb149",
+        "displayName": "Champions 2026 Phantom Level 3\nThe skin design changes if you are attacker or defender",
+        "levelItem": "EEquippableSkinLevelItem::InspectAndKill",
+        "displayIcon": "https://media.valorant-api.com/weaponskinlevels/082706cc-45b1-d570-48bd-a2acaa3fb149/displayicon.png",
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.06/cde619a1-41d2-7292-129c-3bba403300e4_default_universal.mp4",
+        "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Carbine/Champions2026/Levels/Carbine_Champions2026_Lv3_PrimaryAsset"
+      },
+      {
+        "uuid": "de58c560-4557-fff1-ca4b-fe85d05796d7",
+        "displayName": "Champions 2026 Phantom Level 4\nThe skin design changes if you are attacker or defender",
+        "levelItem": "EEquippableSkinLevelItem::TopFrag",
+        "displayIcon": "https://media.valorant-api.com/weaponskinlevels/de58c560-4557-fff1-ca4b-fe85d05796d7/displayicon.png",
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.06/8514fc1e-45c6-c634-e676-5fb30bd9fe72_default_universal.mp4",
+        "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Carbine/Champions2026/Levels/Carbine_Champions2026_Lv4_PrimaryAsset"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "file": "level2.mp4",
+      "sha256": "1bb1922c474e452bd6fc90e23e8982c05f9108e1f27f3f9791c2cce470e7c189"
+    },
+    {
+      "file": "level3.mp4",
+      "sha256": "c71267ddc847dfcba12b674ffd95440743bf988d3289cccb1df06f55ef55c8e5"
+    },
+    {
+      "file": "level4.mp4",
+      "sha256": "93ad175a14a0b797915642284606dcefb342d0706be1608150aa6abc6d266100"
+    }
+  ],
+  "side_rule": {
+    "attack": "red/black",
+    "defense": "white/gold"
+  },
+  "fidelity_status": "reconstructed-unverified",
+  "missing_acceptance": [
+    "all-frame visible silhouette and wrist/finger annotations",
+    "same-camera reference/render image comparisons",
+    "landmark error gate <=2px",
+    "exact original geometry, texture and skinning",
+    "finisher dragon shape/pattern and all stage timings"
+  ],
+  "actions": {
+    "equip": {
+      "status": "reconstructed-unverified",
+      "reference": "level3 0–1.2s"
+    },
+    "reload": {
+      "status": "reconstructed-unverified",
+      "reference": "level3 6.35–8.65s"
+    },
+    "inspect": {
+      "status": "reconstructed-unverified",
+      "reference": "level3 20–28s"
+    },
+    "fire": {
+      "status": "reconstructed-unverified",
+      "reference": "level3 3.42s onward"
+    },
+    "kill": {
+      "status": "reconstructed-unverified",
+      "reference": "level4 first 10s; original PNG badges and 6 independent audio files"
+    },
+    "finisher_attack": {
+      "status": "reconstructed-unverified",
+      "reference": "level4 9–21s"
+    },
+    "finisher_defense": {
+      "status": "reconstructed-unverified",
+      "reference": "level4 34–46s"
+    }
+  }
+}

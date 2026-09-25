@@ -1,3 +1,4 @@
+import {createChampions26} from './champions26.js';
 import {createChampion} from './champions24.js';
 import {createArsenalGun} from './arsenal-art.js';
 import {createNarukami} from './narukami.js';
@@ -14,6 +15,7 @@ function plate(parent,points,depth,color,z=0,glow=0){const shape=new T.Shape();p
 function ring(parent,x,y,z,r,tube,color,axis='z'){const mesh=new T.Mesh(new T.TorusGeometry(r,tube,6,20),material(color,.85));mesh.position.set(x,y,z);if(axis==='x')mesh.rotation.y=Math.PI/2;parent.add(mesh);return mesh}
 function screw(parent,x,y,z,color){cylinder(parent,x,y,z,.008,.006,color,'x',6);part(parent,x+.004,y,z,.001,.002,.009,0x16232c)}
 export function createWeaponArt(id,s,knifeType,showcase,variant='base',mercyVariant='red',chaosVariant='base',naruVariant='base'){
+ if(id==='phantom'&&s.champions26)return createChampions26(showcase);
  if(id==='knife'&&knifeType==='champions24')return createChampion(showcase);
  if(id==='knife'&&knifeType==='narukami')return createNarukami(showcase,naruVariant);
  if(id==='vandal'&&s.chaos)return createChaos(showcase,chaosVariant);

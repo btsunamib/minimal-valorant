@@ -1,0 +1,76 @@
+[
+  {
+    "file": "finisher_attack.mp3",
+    "url": "https://wiki.playvalorant.com/en-us/images/Champions_2026_Finisher_Attacking.mp3?3e9c0",
+    "sha256": "10eda672a69961484f6d799c526df9a52f145827d719f7a387d802ac75faeffa"
+  },
+  {
+    "file": "finisher_defense.mp3",
+    "url": "https://wiki.playvalorant.com/en-us/images/Champions_2026_Finisher_Defending.mp3?3e9c0",
+    "sha256": "7af0d7937d9e953297cc213baee4f46520935bcd49a775101dc56eb07a2944b0"
+  },
+  {
+    "file": "kill_1.mp3",
+    "url": "https://wiki.playvalorant.com/en-us/images/Champions_2026_Kill_1.mp3?37af0",
+    "sha256": "9c5541eb7dd939a22df957152d43593050503d9435f6cbbfefb449e74705a496"
+  },
+  {
+    "file": "kill_2.mp3",
+    "url": "https://wiki.playvalorant.com/en-us/images/Champions_2026_Kill_2.mp3?37af0",
+    "sha256": "c6f90d95907069497d71a4a93706b9fd2c25edf8c03b2fd7cd4e25446756320e"
+  },
+  {
+    "file": "kill_3.mp3",
+    "url": "https://wiki.playvalorant.com/en-us/images/Champions_2026_Kill_3.mp3?2746f",
+    "sha256": "5a4ed219dbf8168c589e73bdccdf32937f9eb33c9ad40edd1c20489b31d444d8"
+  },
+  {
+    "file": "kill_4.mp3",
+    "url": "https://wiki.playvalorant.com/en-us/images/Champions_2026_Kill_4.mp3?37af0",
+    "sha256": "5ffb6f1a760c7505d98a3f0d32ea14b7be053889e788fe48e0d9fbb4653f5d71"
+  },
+  {
+    "file": "kill_5.mp3",
+    "url": "https://wiki.playvalorant.com/en-us/images/Champions_2026_Kill_5.mp3?37af0",
+    "sha256": "0c336fe7d083dc8d38c937163ce63a1f3360a409deb2784f20601b5387040bf2"
+  },
+  {
+    "file": "kill_6.mp3",
+    "url": "https://wiki.playvalorant.com/en-us/images/Champions_2026_Kill_6.mp3?37af0",
+    "sha256": "75e2780a774659f755171ed7a95adee529a91b78c014ed4afbfce3a8a44fb241"
+  },
+  {
+    "file": "inspect_attack.mp3",
+    "url": "https://wiki.playvalorant.com/en-us/images/Champions_2026_Phantom_Inspect_Attacking.mp3?9d2c8",
+    "sha256": "f96541f3eab25113c501f83535892b170f2d2ba7a5c462e259d2821aae91f521"
+  },
+  {
+    "file": "inspect_defense.mp3",
+    "url": "https://wiki.playvalorant.com/en-us/images/Champions_2026_Phantom_Inspect_Defending.mp3?9d2c8",
+    "sha256": "ea33328b8f904fb5636bfedea0641d2ae9069bcab43bcb54591488bde2ae4a8c"
+  },
+  {
+    "file": "equip.mp3",
+    "url": "https://valorant.dyn.riotcdn.net/x/videos/release-13.06/cde619a1-41d2-7292-129c-3bba403300e4_default_universal.mp4",
+    "source_start_seconds": 0,
+    "duration": 1.2,
+    "sha256": "bb25e16f0cbc813d590f79babf8e7510e3bf91c5ffbdb5930a30ea803455814c",
+    "note": "clip from split-screen official demonstration; not an isolated game master"
+  },
+  {
+    "file": "shot.mp3",
+    "url": "https://valorant.dyn.riotcdn.net/x/videos/release-13.06/cde619a1-41d2-7292-129c-3bba403300e4_default_universal.mp4",
+    "source_start_seconds": 3.42,
+    "duration": 0.27,
+    "sha256": "9175201794a6d6d337458170d3e272a7a5f027a9e71d517c2af2993d2ea70a3d",
+    "note": "clip from split-screen official demonstration; not an isolated game master"
+  },
+  {
+    "file": "reload.mp3",
+    "url": "https://valorant.dyn.riotcdn.net/x/videos/release-13.06/cde619a1-41d2-7292-129c-3bba403300e4_default_universal.mp4",
+    "source_start_seconds": 6.35,
+    "duration": 2.3,
+    "sha256": "3859cba5cf88595d4a8e5fa54a5a0d7b08823965a262869986656a3e4028fe69",
+    "note": "clip from split-screen official demonstration; not an isolated game master"
+  }
+]
