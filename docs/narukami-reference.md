@@ -38,3 +38,16 @@ The chosen starting form and variant are saved with the existing loadout. Live t
 ## Validation
 
 38 automated tests pass, including every seekable Naru frame, all color variants, both idle and attack forms, water transition interruption, independent headshot layering, distinct Chaos kill steps, reload cancellation, touch multi-pointer actions, barriers, gyro and layout tests. Browser preview verified both conversion timelines and frame seeking. A live bot match using touch controls verified 转长刀 → 转苦无 and retained the long form after gun/knife toggling. Cloud browser uses the software renderer; it cannot establish real-device GPU quality or phone frame rate.
+
+## September 25: kunai holding-pose correction
+
+Rechecked the same Riot Level 2 video, using the settled kunai at 12.50–12.75 s (15 native 60 Hz frames). Source SHA and timestamps are in `references/narukami-hold/manifest.json`; the first full-resolution reference frame is included. All extracted PNGs remain in the working reference folder; this repository contains the manifest and anchor image, not every extracted image.
+
+- Changed the short blade's settled screen angle from 0.94 to 1.08 radians and adjusted its bolster position against the up-left-pointing reference silhouette.
+- Replaced the reused long-knife wrist placement with a dedicated forward kunai grip: palm beside the handle, four fingers curled across it, thumb beside the blade base, back of glove facing the camera. Enlarged/repositioned the open left hand.
+- Blend the grip through the catch/recovery in both `drawKunai` and `toKunai`; `toLong` releases it continuously. Idle, draw completion and transform completion produce the same hand/weapon transforms. Attacks and interruptions retain the committed form.
+- On narrow landscape displays, fit the kunai view model toward the bottom of the screen so the left hand is less cropped. The long form and input handling retain their existing behavior.
+
+Validation: 66 automated tests passed, including a new grip continuity/reset regression and the existing all-frame seeking / transition interruption cases. Browser checked touch gun → kunai switching and the settled grip at 1363×936. `qa/naru-grip-fixed.jpg` shows the gameplay result; software rendering is not real-device GPU evidence.
+
+This fixes the holding-pose layout, not the full hand anatomy or original textures. The hand mesh remains simplified. The reference and browser views have different aspect ratios, and there is no complete matched-camera <=2px landmark or all-frame fidelity pass; this is an unverified visual reconstruction, not a 1:1 claim.

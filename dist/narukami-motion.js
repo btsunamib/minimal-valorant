@@ -6,7 +6,7 @@ const clamp=(x,a=0,b=1)=>Math.max(a,Math.min(b,x)),mix=(a,b,t)=>a+(b-a)*t;
 const smooth=(a,b,x)=>{const t=clamp((x-a)/(b-a));return t*t*(3-2*t)};
 // [frame, bolster x/y, blade screen angle, axial twist, left palm x/y, hand openness, water length]
 const L=[0,-.27,-.55,-1.38,.15,-.94,-.82,.05,1];
-const K=[0,.65,-.62,.94,-.08,-.89,-.52,.08,0];
+const K=[0,.68,-.60,1.08,-.08,-1.02,-.64,.08,0];
 const end=(p,f)=>[f,...p.slice(1)];
 const tracks={
  drawLong:[[0,.80,-1.12,0,0,-.9,-.9,1,0],[6,.74,-.44,-.15,.1,-.9,-.78,1,0],[12,.69,-.08,-2.4,.3,-.9,-.78,.8,0],[18,.61,-.10,-4.8,.4,-.9,-.75,.7,0],[25,.56,-.20,-7.65,.1,-.3,-.34,.25,0],[31,.59,-.22,-4.83,.02,.08,-.28,.1,0],[38,.65,-.22,-4.47,.12,-.35,-.35,.02,.6],[45,.69,-.23,-4.47,.12,-.73,-.45,.02,1],[53,.62,-.25,-3.6,.4,-.9,-.6,0,1],[61,.46,-.28,-1.95,.6,-.95,-.75,0,1],end(L,72)],
@@ -25,7 +25,9 @@ export function sampleNaru({clip=null,seconds=0,form='long',attack=-1,heavy=fals
  const dissolving=clip==='toKunai'?smooth(47,65,f):0;
  const droplets=clip==='toKunai'&&f>46&&f<116?Math.sin(clamp((f-46)/70)*Math.PI):clip==='toLong'&&f>48&&f<90?Math.sin((f-48)/42*Math.PI):0;
  const stage=!clip?(form==='kunai'?'苦无':'长刀'):clip.startsWith('draw')?(f<30?'指间旋转':f<46&&clip==='drawLong'?'左手凝水成刃':'收刀就绪'):clip==='toKunai'?(f<47?'反手展刃':f<66?'水刃化珠':f<113?'散水':f<160?'翻指接刀':'苦无就绪'):(f<35?'旋转刀柄':f<49?'左手接刃':f<69?'抽水凝刃':f<105?'长刀成形':f<166?'翻腕反握':'长刀就绪');
- return {frame:f,bolster:[p[1],p[2],0],angle:p[3],twist:p[4],left:[p[5],p[6],.02],open:p[7],water:p[8],trail:!!trail,droplets,forming,dissolving,stage};
+ // Closed forward grip settles with the catch, rather than reusing the long-blade wrist.
+ const kunaiGrip=!clip?(form==='kunai'?1:0):clip==='drawKunai'?smooth(25,42,f):clip==='toKunai'?smooth(146,178,f):clip==='toLong'?1-smooth(0,18,f):0;
+ return {kunaiGrip,frame:f,bolster:[p[1],p[2],0],angle:p[3],twist:p[4],left:[p[5],p[6],.02],open:p[7],water:p[8],trail:!!trail,droplets,forming,dissolving,stage};
 }
 // The actual visible form commits when water forms/dissolves, not when F is pressed.
 export class NaruMotion{

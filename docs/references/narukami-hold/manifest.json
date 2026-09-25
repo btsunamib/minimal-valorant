@@ -1,0 +1,145 @@
+{
+  "source": "level2-hold-reference.mp4",
+  "source_sha256": "077800d365bcd771db8c3d0a6c282936e66624e9695ce9e03c75207bbd42cfcf",
+  "start": 12.5,
+  "duration": 0.25,
+  "stream": {
+    "width": 1920,
+    "height": 1080,
+    "r_frame_rate": "60/1",
+    "avg_frame_rate": "60/1",
+    "disposition": {
+      "default": 1,
+      "dub": 0,
+      "original": 0,
+      "comment": 0,
+      "lyrics": 0,
+      "karaoke": 0,
+      "forced": 0,
+      "hearing_impaired": 0,
+      "visual_impaired": 0,
+      "clean_effects": 0,
+      "attached_pic": 0,
+      "timed_thumbnails": 0,
+      "non_diegetic": 0,
+      "captions": 0,
+      "descriptions": 0,
+      "metadata": 0,
+      "dependent": 0,
+      "still_image": 0
+    },
+    "tags": {
+      "creation_time": "2026-03-27T21:09:01.000000Z",
+      "language": "und",
+      "handler_name": "VideoHandler",
+      "vendor_id": "[0][0][0][0]"
+    }
+  },
+  "frames": [
+    {
+      "index": 0,
+      "source_frame": 750,
+      "source_seconds": 12.5,
+      "action_seconds": 0.0,
+      "file": "frame-000000.png"
+    },
+    {
+      "index": 1,
+      "source_frame": 751,
+      "source_seconds": 12.516667,
+      "action_seconds": 0.016666999999999987,
+      "file": "frame-000001.png"
+    },
+    {
+      "index": 2,
+      "source_frame": 752,
+      "source_seconds": 12.533333,
+      "action_seconds": 0.03333300000000072,
+      "file": "frame-000002.png"
+    },
+    {
+      "index": 3,
+      "source_frame": 753,
+      "source_seconds": 12.55,
+      "action_seconds": 0.05000000000000071,
+      "file": "frame-000003.png"
+    },
+    {
+      "index": 4,
+      "source_frame": 754,
+      "source_seconds": 12.566667,
+      "action_seconds": 0.0666670000000007,
+      "file": "frame-000004.png"
+    },
+    {
+      "index": 5,
+      "source_frame": 755,
+      "source_seconds": 12.583333,
+      "action_seconds": 0.08333299999999966,
+      "file": "frame-000005.png"
+    },
+    {
+      "index": 6,
+      "source_frame": 756,
+      "source_seconds": 12.6,
+      "action_seconds": 0.09999999999999964,
+      "file": "frame-000006.png"
+    },
+    {
+      "index": 7,
+      "source_frame": 757,
+      "source_seconds": 12.616667,
+      "action_seconds": 0.11666699999999963,
+      "file": "frame-000007.png"
+    },
+    {
+      "index": 8,
+      "source_frame": 758,
+      "source_seconds": 12.633333,
+      "action_seconds": 0.13333300000000037,
+      "file": "frame-000008.png"
+    },
+    {
+      "index": 9,
+      "source_frame": 759,
+      "source_seconds": 12.65,
+      "action_seconds": 0.15000000000000036,
+      "file": "frame-000009.png"
+    },
+    {
+      "index": 10,
+      "source_frame": 760,
+      "source_seconds": 12.666667,
+      "action_seconds": 0.16666700000000034,
+      "file": "frame-000010.png"
+    },
+    {
+      "index": 11,
+      "source_frame": 761,
+      "source_seconds": 12.683333,
+      "action_seconds": 0.1833329999999993,
+      "file": "frame-000011.png"
+    },
+    {
+      "index": 12,
+      "source_frame": 762,
+      "source_seconds": 12.7,
+      "action_seconds": 0.1999999999999993,
+      "file": "frame-000012.png"
+    },
+    {
+      "index": 13,
+      "source_frame": 763,
+      "source_seconds": 12.716667,
+      "action_seconds": 0.21666699999999928,
+      "file": "frame-000013.png"
+    },
+    {
+      "index": 14,
+      "source_frame": 764,
+      "source_seconds": 12.733333,
+      "action_seconds": 0.233333,
+      "file": "frame-000014.png"
+    }
+  ]
+}
