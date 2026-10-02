@@ -1,0 +1,149 @@
+[
+  {
+    "index": 0,
+    "name": "Shezo",
+    "fps": 30.0,
+    "frames": 2,
+    "events": []
+  },
+  {
+    "index": 1,
+    "name": "slash1_1",
+    "fps": 60.0,
+    "frames": 102,
+    "events": [
+      {
+        "frame": 2,
+        "event": 5004,
+        "options": "weapons/valorant/champnolvlblade/s1.wav",
+        "sound": "weapons/valorant/champnolvlblade/s1.wav"
+      }
+    ]
+  },
+  {
+    "index": 2,
+    "name": "slash1_2",
+    "fps": 70.0,
+    "frames": 102,
+    "events": [
+      {
+        "frame": 2,
+        "event": 5004,
+        "options": "weapons/valorant/champnolvlblade/s1.wav",
+        "sound": "weapons/valorant/champnolvlblade/s1.wav"
+      }
+    ]
+  },
+  {
+    "index": 3,
+    "name": "slash2_1",
+    "fps": 60.0,
+    "frames": 95,
+    "events": [
+      {
+        "frame": 2,
+        "event": 5004,
+        "options": "weapons/valorant/champnolvlblade/s2.wav",
+        "sound": "weapons/valorant/champnolvlblade/s2.wav"
+      }
+    ]
+  },
+  {
+    "index": 4,
+    "name": "slash2_2",
+    "fps": 70.0,
+    "frames": 95,
+    "events": [
+      {
+        "frame": 2,
+        "event": 5004,
+        "options": "weapons/valorant/champnolvlblade/s2.wav",
+        "sound": "weapons/valorant/champnolvlblade/s2.wav"
+      }
+    ]
+  },
+  {
+    "index": 5,
+    "name": "draw_1",
+    "fps": 60.0,
+    "frames": 77,
+    "events": [
+      {
+        "frame": 1,
+        "event": 5004,
+        "options": "weapons/valorant/champnolvlblade/d.wav",
+        "sound": "weapons/valorant/champnolvlblade/d.wav"
+      }
+    ]
+  },
+  {
+    "index": 6,
+    "name": "draw_2",
+    "fps": 70.0,
+    "frames": 77,
+    "events": [
+      {
+        "frame": 1,
+        "event": 5004,
+        "options": "weapons/valorant/champnolvlblade/d.wav",
+        "sound": "weapons/valorant/champnolvlblade/d.wav"
+      }
+    ]
+  },
+  {
+    "index": 7,
+    "name": "stab_1",
+    "fps": 60.0,
+    "frames": 124,
+    "events": [
+      {
+        "frame": 2,
+        "event": 5004,
+        "options": "weapons/valorant/champnolvlblade/stab.wav",
+        "sound": "weapons/valorant/champnolvlblade/stab.wav"
+      }
+    ]
+  },
+  {
+    "index": 8,
+    "name": "stab_2",
+    "fps": 60.0,
+    "frames": 124,
+    "events": [
+      {
+        "frame": 2,
+        "event": 5004,
+        "options": "weapons/valorant/champnolvlblade/stab.wav",
+        "sound": "weapons/valorant/champnolvlblade/stab.wav"
+      }
+    ]
+  },
+  {
+    "index": 9,
+    "name": "inspect_1",
+    "fps": 30.0,
+    "frames": 153,
+    "events": [
+      {
+        "frame": 1,
+        "event": 5004,
+        "options": "weapons/valorant/champnolvlblade/i.wav",
+        "sound": "weapons/valorant/champnolvlblade/i.wav"
+      }
+    ]
+  },
+  {
+    "index": 10,
+    "name": "inspect_2",
+    "fps": 30.0,
+    "frames": 153,
+    "events": [
+      {
+        "frame": 1,
+        "event": 5004,
+        "options": "weapons/valorant/champnolvlblade/i.wav",
+        "sound": "weapons/valorant/champnolvlblade/i.wav"
+      }
+    ]
+  }
+]

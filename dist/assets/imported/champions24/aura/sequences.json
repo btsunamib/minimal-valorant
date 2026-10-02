@@ -1,0 +1,257 @@
+[
+  {
+    "index": 0,
+    "name": "Shezo",
+    "fps": 30.0,
+    "frames": 61,
+    "events": []
+  },
+  {
+    "index": 1,
+    "name": "slash1_1",
+    "fps": 60.0,
+    "frames": 62,
+    "events": [
+      {
+        "frame": 2,
+        "event": 5004,
+        "options": "weapons/valorant/champions4blade/s1.wav",
+        "sound": "weapons/valorant/champions4blade/s1.wav"
+      }
+    ]
+  },
+  {
+    "index": 2,
+    "name": "slash1_2",
+    "fps": 70.0,
+    "frames": 62,
+    "events": [
+      {
+        "frame": 2,
+        "event": 5004,
+        "options": "weapons/valorant/champions4blade/s1.wav",
+        "sound": "weapons/valorant/champions4blade/s1.wav"
+      }
+    ]
+  },
+  {
+    "index": 3,
+    "name": "slash2_1",
+    "fps": 60.0,
+    "frames": 54,
+    "events": [
+      {
+        "frame": 2,
+        "event": 5004,
+        "options": "weapons/valorant/champions4blade/s2.wav",
+        "sound": "weapons/valorant/champions4blade/s2.wav"
+      }
+    ]
+  },
+  {
+    "index": 4,
+    "name": "slash2_2",
+    "fps": 70.0,
+    "frames": 54,
+    "events": [
+      {
+        "frame": 2,
+        "event": 5004,
+        "options": "weapons/valorant/champions4blade/s2.wav",
+        "sound": "weapons/valorant/champions4blade/s2.wav"
+      }
+    ]
+  },
+  {
+    "index": 5,
+    "name": "draw",
+    "fps": 60.0,
+    "frames": 77,
+    "events": [
+      {
+        "frame": 1,
+        "event": 5004,
+        "options": "weapons/valorant/champions4blade/d1.wav",
+        "sound": "weapons/valorant/champions4blade/d1.wav"
+      },
+      {
+        "frame": 12,
+        "event": 5004,
+        "options": "weapons/valorant/champions4blade/d2.wav",
+        "sound": "weapons/valorant/champions4blade/d2.wav"
+      },
+      {
+        "frame": 34,
+        "event": 5004,
+        "options": "weapons/valorant/champions4blade/d3.wav",
+        "sound": "weapons/valorant/champions4blade/d3.wav"
+      }
+    ]
+  },
+  {
+    "index": 6,
+    "name": "draw",
+    "fps": 70.0,
+    "frames": 77,
+    "events": [
+      {
+        "frame": 1,
+        "event": 5004,
+        "options": "weapons/valorant/champions4blade/d1.wav",
+        "sound": "weapons/valorant/champions4blade/d1.wav"
+      },
+      {
+        "frame": 12,
+        "event": 5004,
+        "options": "weapons/valorant/champions4blade/d2.wav",
+        "sound": "weapons/valorant/champions4blade/d2.wav"
+      },
+      {
+        "frame": 34,
+        "event": 5004,
+        "options": "weapons/valorant/champions4blade/d3.wav",
+        "sound": "weapons/valorant/champions4blade/d3.wav"
+      }
+    ]
+  },
+  {
+    "index": 7,
+    "name": "stab_1",
+    "fps": 60.0,
+    "frames": 123,
+    "events": [
+      {
+        "frame": 2,
+        "event": 5004,
+        "options": "weapons/valorant/champions4blade/stab_attack.wav",
+        "sound": "weapons/valorant/champions4blade/stab_attack.wav"
+      },
+      {
+        "frame": 34,
+        "event": 5004,
+        "options": "weapons/valorant/champions4blade/stab_return.wav",
+        "sound": "weapons/valorant/champions4blade/stab_return.wav"
+      }
+    ]
+  },
+  {
+    "index": 8,
+    "name": "stab_2",
+    "fps": 60.0,
+    "frames": 123,
+    "events": [
+      {
+        "frame": 2,
+        "event": 5004,
+        "options": "weapons/valorant/champions4blade/stab_attack.wav",
+        "sound": "weapons/valorant/champions4blade/stab_attack.wav"
+      },
+      {
+        "frame": 34,
+        "event": 5004,
+        "options": "weapons/valorant/champions4blade/stab_return.wav",
+        "sound": "weapons/valorant/champions4blade/stab_return.wav"
+      }
+    ]
+  },
+  {
+    "index": 9,
+    "name": "inspect",
+    "fps": 30.0,
+    "frames": 161,
+    "events": [
+      {
+        "frame": 8,
+        "event": 5004,
+        "options": "weapons/valorant/champions4blade/i1.wav",
+        "sound": "weapons/valorant/champions4blade/i1.wav"
+      },
+      {
+        "frame": 21,
+        "event": 5004,
+        "options": "weapons/valorant/champions4blade/i2.wav",
+        "sound": "weapons/valorant/champions4blade/i2.wav"
+      },
+      {
+        "frame": 33,
+        "event": 5004,
+        "options": "weapons/valorant/champions4blade/i3.wav",
+        "sound": "weapons/valorant/champions4blade/i3.wav"
+      },
+      {
+        "frame": 38,
+        "event": 5004,
+        "options": "weapons/valorant/champions4blade/i4.wav",
+        "sound": "weapons/valorant/champions4blade/i4.wav"
+      },
+      {
+        "frame": 71,
+        "event": 5004,
+        "options": "weapons/valorant/champions4blade/i5.wav",
+        "sound": "weapons/valorant/champions4blade/i5.wav"
+      },
+      {
+        "frame": 79,
+        "event": 5004,
+        "options": "weapons/valorant/champions4blade/i6.wav",
+        "sound": "weapons/valorant/champions4blade/i6.wav"
+      },
+      {
+        "frame": 117,
+        "event": 5004,
+        "options": "weapons/valorant/champions4blade/i7.wav",
+        "sound": "weapons/valorant/champions4blade/i7.wav"
+      }
+    ]
+  },
+  {
+    "index": 10,
+    "name": "inspect",
+    "fps": 30.0,
+    "frames": 161,
+    "events": [
+      {
+        "frame": 8,
+        "event": 5004,
+        "options": "weapons/valorant/champions4blade/i1.wav",
+        "sound": "weapons/valorant/champions4blade/i1.wav"
+      },
+      {
+        "frame": 21,
+        "event": 5004,
+        "options": "weapons/valorant/champions4blade/i2.wav",
+        "sound": "weapons/valorant/champions4blade/i2.wav"
+      },
+      {
+        "frame": 33,
+        "event": 5004,
+        "options": "weapons/valorant/champions4blade/i3.wav",
+        "sound": "weapons/valorant/champions4blade/i3.wav"
+      },
+      {
+        "frame": 38,
+        "event": 5004,
+        "options": "weapons/valorant/champions4blade/i4.wav",
+        "sound": "weapons/valorant/champions4blade/i4.wav"
+      },
+      {
+        "frame": 71,
+        "event": 5004,
+        "options": "weapons/valorant/champions4blade/i5.wav",
+        "sound": "weapons/valorant/champions4blade/i5.wav"
+      },
+      {
+        "frame": 79,
+        "event": 5004,
+        "options": "weapons/valorant/champions4blade/i6.wav",
+        "sound": "weapons/valorant/champions4blade/i6.wav"
+      },
+      {
+        "frame": 117,
+        "event": 5004,
+        "options": "weapons/valorant/champions4blade/i7.wav",
+        "sound": "weapons/valorant/champions4blade/i7.wav"
+      }
+    ]
+  }
+]

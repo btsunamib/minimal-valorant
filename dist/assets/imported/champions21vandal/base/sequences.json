@@ -1,0 +1,298 @@
+[
+  {
+    "index": 0,
+    "name": "idle_xeiv",
+    "fps": 60.0,
+    "frames": 2,
+    "events": []
+  },
+  {
+    "index": 1,
+    "name": "zoom_idle",
+    "fps": 60.0,
+    "frames": 2,
+    "events": []
+  },
+  {
+    "index": 2,
+    "name": "reload",
+    "fps": 60.0,
+    "frames": 177,
+    "events": [
+      {
+        "frame": 1,
+        "event": 5004,
+        "options": "weapons/valorant/championsvandal/equip_mvt_a.wav",
+        "sound": "weapons/valorant/championsvandal/equip_mvt_a.wav"
+      },
+      {
+        "frame": 36,
+        "event": 5004,
+        "options": "weapons/valorant/championsvandal/magout.wav",
+        "sound": "weapons/valorant/championsvandal/magout.wav"
+      },
+      {
+        "frame": 55,
+        "event": 5004,
+        "options": "weapons/valorant/championsvandal/mag_drop.wav",
+        "sound": "weapons/valorant/championsvandal/mag_drop.wav"
+      },
+      {
+        "frame": 70,
+        "event": 5004,
+        "options": "weapons/valorant/championsvandal/magin_start.wav",
+        "sound": "weapons/valorant/championsvandal/magin_start.wav"
+      },
+      {
+        "frame": 81,
+        "event": 5004,
+        "options": "weapons/valorant/championsvandal/magin_end.wav",
+        "sound": "weapons/valorant/championsvandal/magin_end.wav"
+      },
+      {
+        "frame": 106,
+        "event": 5004,
+        "options": "weapons/valorant/championsvandal/chg_hndl_back.wav",
+        "sound": "weapons/valorant/championsvandal/chg_hndl_back.wav"
+      },
+      {
+        "frame": 119,
+        "event": 5004,
+        "options": "weapons/valorant/championsvandal/chg_hndl_fwd.wav",
+        "sound": "weapons/valorant/championsvandal/chg_hndl_fwd.wav"
+      },
+      {
+        "frame": 149,
+        "event": 5004,
+        "options": "weapons/valorant/championsvandal/grab.wav",
+        "sound": "weapons/valorant/championsvandal/grab.wav"
+      }
+    ]
+  },
+  {
+    "index": 3,
+    "name": "reload_fast",
+    "fps": 90.0,
+    "frames": 177,
+    "events": [
+      {
+        "frame": 1,
+        "event": 5004,
+        "options": "weapons/valorant/championsvandal/equip_mvt_a.wav",
+        "sound": "weapons/valorant/championsvandal/equip_mvt_a.wav"
+      },
+      {
+        "frame": 36,
+        "event": 5004,
+        "options": "weapons/valorant/championsvandal/magout.wav",
+        "sound": "weapons/valorant/championsvandal/magout.wav"
+      },
+      {
+        "frame": 55,
+        "event": 5004,
+        "options": "weapons/valorant/championsvandal/mag_drop.wav",
+        "sound": "weapons/valorant/championsvandal/mag_drop.wav"
+      },
+      {
+        "frame": 70,
+        "event": 5004,
+        "options": "weapons/valorant/championsvandal/magin_start.wav",
+        "sound": "weapons/valorant/championsvandal/magin_start.wav"
+      },
+      {
+        "frame": 81,
+        "event": 5004,
+        "options": "weapons/valorant/championsvandal/magin_end.wav",
+        "sound": "weapons/valorant/championsvandal/magin_end.wav"
+      },
+      {
+        "frame": 106,
+        "event": 5004,
+        "options": "weapons/valorant/championsvandal/chg_hndl_back.wav",
+        "sound": "weapons/valorant/championsvandal/chg_hndl_back.wav"
+      },
+      {
+        "frame": 119,
+        "event": 5004,
+        "options": "weapons/valorant/championsvandal/chg_hndl_fwd.wav",
+        "sound": "weapons/valorant/championsvandal/chg_hndl_fwd.wav"
+      },
+      {
+        "frame": 149,
+        "event": 5004,
+        "options": "weapons/valorant/championsvandal/grab.wav",
+        "sound": "weapons/valorant/championsvandal/grab.wav"
+      }
+    ]
+  },
+  {
+    "index": 4,
+    "name": "draw",
+    "fps": 60.0,
+    "frames": 100,
+    "events": [
+      {
+        "frame": 2,
+        "event": 5004,
+        "options": "weapons/valorant/championsvandal/equip_mvt_a.wav",
+        "sound": "weapons/valorant/championsvandal/equip_mvt_a.wav"
+      },
+      {
+        "frame": 24,
+        "event": 5004,
+        "options": "weapons/valorant/championsvandal/chg_hndl_back.wav",
+        "sound": "weapons/valorant/championsvandal/chg_hndl_back.wav"
+      },
+      {
+        "frame": 39,
+        "event": 5004,
+        "options": "weapons/valorant/championsvandal/chg_hndl_fwd.wav",
+        "sound": "weapons/valorant/championsvandal/chg_hndl_fwd.wav"
+      },
+      {
+        "frame": 42,
+        "event": 5004,
+        "options": "weapons/valorant/championsvandal/chg_hndl_grab.wav",
+        "sound": "weapons/valorant/championsvandal/chg_hndl_grab.wav"
+      },
+      {
+        "frame": 59,
+        "event": 5004,
+        "options": "weapons/valorant/championsvandal/grab.wav",
+        "sound": "weapons/valorant/championsvandal/grab.wav"
+      }
+    ]
+  },
+  {
+    "index": 5,
+    "name": "draw_fast",
+    "fps": 60.0,
+    "frames": 100,
+    "events": [
+      {
+        "frame": 2,
+        "event": 5004,
+        "options": "weapons/valorant/championsvandal/equip_mvt_a.wav",
+        "sound": "weapons/valorant/championsvandal/equip_mvt_a.wav"
+      },
+      {
+        "frame": 24,
+        "event": 5004,
+        "options": "weapons/valorant/championsvandal/chg_hndl_back.wav",
+        "sound": "weapons/valorant/championsvandal/chg_hndl_back.wav"
+      },
+      {
+        "frame": 39,
+        "event": 5004,
+        "options": "weapons/valorant/championsvandal/chg_hndl_fwd.wav",
+        "sound": "weapons/valorant/championsvandal/chg_hndl_fwd.wav"
+      },
+      {
+        "frame": 42,
+        "event": 5004,
+        "options": "weapons/valorant/championsvandal/chg_hndl_grab.wav",
+        "sound": "weapons/valorant/championsvandal/chg_hndl_grab.wav"
+      },
+      {
+        "frame": 59,
+        "event": 5004,
+        "options": "weapons/valorant/championsvandal/grab.wav",
+        "sound": "weapons/valorant/championsvandal/grab.wav"
+      }
+    ]
+  },
+  {
+    "index": 6,
+    "name": "shoot1",
+    "fps": 60.0,
+    "frames": 16,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5001,
+        "options": "5",
+        "sound": null
+      }
+    ]
+  },
+  {
+    "index": 7,
+    "name": "shoot_fast",
+    "fps": 90.0,
+    "frames": 16,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5001,
+        "options": "5",
+        "sound": null
+      }
+    ]
+  },
+  {
+    "index": 8,
+    "name": "zoom_shoot",
+    "fps": 60.0,
+    "frames": 20,
+    "events": []
+  },
+  {
+    "index": 9,
+    "name": "zoom_shoot_fast",
+    "fps": 90.0,
+    "frames": 20,
+    "events": []
+  },
+  {
+    "index": 10,
+    "name": "inspect",
+    "fps": 30.0,
+    "frames": 276,
+    "events": [
+      {
+        "frame": 1,
+        "event": 5004,
+        "options": "weapons/valorant/championsvandal/inspect_mvt_a.wav",
+        "sound": "weapons/valorant/championsvandal/inspect_mvt_a.wav"
+      },
+      {
+        "frame": 12,
+        "event": 5004,
+        "options": "weapons/valorant/championsvandal/inspect_begin.wav",
+        "sound": "weapons/valorant/championsvandal/inspect_begin.wav"
+      },
+      {
+        "frame": 30,
+        "event": 5004,
+        "options": "weapons/valorant/championsvandal/inspect_loop.wav",
+        "sound": "weapons/valorant/championsvandal/inspect_loop.wav"
+      }
+    ]
+  },
+  {
+    "index": 11,
+    "name": "inspect_fast",
+    "fps": 30.0,
+    "frames": 276,
+    "events": [
+      {
+        "frame": 1,
+        "event": 5004,
+        "options": "weapons/valorant/championsvandal/inspect_mvt_a.wav",
+        "sound": "weapons/valorant/championsvandal/inspect_mvt_a.wav"
+      },
+      {
+        "frame": 12,
+        "event": 5004,
+        "options": "weapons/valorant/championsvandal/inspect_begin.wav",
+        "sound": "weapons/valorant/championsvandal/inspect_begin.wav"
+      },
+      {
+        "frame": 30,
+        "event": 5004,
+        "options": "weapons/valorant/championsvandal/inspect_loop.wav",
+        "sound": "weapons/valorant/championsvandal/inspect_loop.wav"
+      }
+    ]
+  }
+]

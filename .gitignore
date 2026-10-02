@@ -1,0 +1,4 @@
+node_modules/
+dist/.qa-*.mjs
+.openai/*.tar
+.openai/*.tar.gz

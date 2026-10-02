@@ -45,3 +45,7 @@ GitHub 源码：https://github.com/btsunamib/minimal-valorant
 
 ### Five-agent release
 Playable Jett, Sage, Sova, Phoenix and Raze with C/Q/E/X skills, a lobby picker, normal humanoid proportions and reconstructed cast gestures. Gun draw runs at 1.3× in matches. See `docs/five-agents.md` for scope and fidelity limitations.
+
+### 用户资源包导入
+
+五套 ValStrike 资源现已直接接入：2021 冠军狂徒/爪刀、2024 冠军战刀、黑波之刃和塑水宗狂徒（15 个模型变体）。在武器库选择皮肤/刀后，可查看所有原始动作，原速/慢放、逐帧前后拖动。模型帧与事件来自原始 MDL；缺少的手部贴图用当前角色材质适配。详细来源、缺项与验证见 `docs/imported-weapons-update.md`。开发验证使用 `npm test` 与 `npm run check:integration`。

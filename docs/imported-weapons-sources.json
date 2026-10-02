@@ -1,0 +1,1207 @@
+{
+  "input": "Five user supplied resource archives, October 2 2026",
+  "method": "Original IDST v10 model bytes, textures, frame streams and event records preserved. TGA/SPR images decoded losslessly to PNG.",
+  "missing": "White Kuronami Vandal package has no finisher: its finisher uses the supplied blue model. No original kill music is included.",
+  "files": [
+    {
+      "source": "21冠军ak材质重置版/VANDAL/models/v_vandal.mdl",
+      "output": "dist/assets/imported/champions21vandal/base/model.mdl",
+      "sha256": "3bb73ad3ef65f79fcd0141cb6e695c8bc74195b927fe44a1aeaec564171a81e3",
+      "bytes": 4513784
+    },
+    {
+      "source": "21冠军ak材质重置版/VANDAL/sound/weapons/valorant/championsvandal/magout.wav",
+      "output": "dist/assets/imported/champions21vandal/base/sound/weapons/valorant/championsvandal/magout.wav",
+      "sha256": "a29cb6772f942a0c6b21fdc242ff8f052b9851ee23341cb272af7780eb12c943",
+      "bytes": 38546
+    },
+    {
+      "source": "21冠军ak材质重置版/VANDAL/sound/weapons/valorant/championsvandal/chg_hndl_fwd.wav",
+      "output": "dist/assets/imported/champions21vandal/base/sound/weapons/valorant/championsvandal/chg_hndl_fwd.wav",
+      "sha256": "2af09e3ba52d00b13414ff5982fdf91490eb834052b69052eb7c9d26684bf2a0",
+      "bytes": 13828
+    },
+    {
+      "source": "21冠军ak材质重置版/VANDAL/sound/weapons/valorant/championsvandal/mag_drop.wav",
+      "output": "dist/assets/imported/champions21vandal/base/sound/weapons/valorant/championsvandal/mag_drop.wav",
+      "sha256": "514445ed9763550f375fa682d9610f37d55b1f8ab3331e7fa01402c7068e9258",
+      "bytes": 19218
+    },
+    {
+      "source": "21冠军ak材质重置版/VANDAL/sound/weapons/valorant/championsvandal/magin_end.wav",
+      "output": "dist/assets/imported/champions21vandal/base/sound/weapons/valorant/championsvandal/magin_end.wav",
+      "sha256": "c8688024aefd83efa7b73541ffa535ac3e723b97e653cc765edd6baf46c4ba37",
+      "bytes": 13784
+    },
+    {
+      "source": "21冠军ak材质重置版/VANDAL/sound/weapons/valorant/championsvandal/magin_start.wav",
+      "output": "dist/assets/imported/champions21vandal/base/sound/weapons/valorant/championsvandal/magin_start.wav",
+      "sha256": "6572b685e035cf4209493503749b8746011095cd48844358bd26a8c05cf55333",
+      "bytes": 6496
+    },
+    {
+      "source": "21冠军ak材质重置版/VANDAL/sound/weapons/valorant/championsvandal/inspect_begin.wav",
+      "output": "dist/assets/imported/champions21vandal/base/sound/weapons/valorant/championsvandal/inspect_begin.wav",
+      "sha256": "48a2a50f54a78a3772f852e2b4a511468c1402f96920f8cbcc0c8464bd2331bd",
+      "bytes": 28422
+    },
+    {
+      "source": "21冠军ak材质重置版/VANDAL/sound/weapons/valorant/championsvandal/equip_mvt_a.wav",
+      "output": "dist/assets/imported/champions21vandal/base/sound/weapons/valorant/championsvandal/equip_mvt_a.wav",
+      "sha256": "05d4b958b0b2005edd8234070d6753c3ef97f7eeddef64084ffcdb18597b3a65",
+      "bytes": 16490
+    },
+    {
+      "source": "21冠军ak材质重置版/VANDAL/sound/weapons/valorant/championsvandal/inspect_loop.wav",
+      "output": "dist/assets/imported/champions21vandal/base/sound/weapons/valorant/championsvandal/inspect_loop.wav",
+      "sha256": "f762fd04685a7c61acdbe160b4f2dc27d56f65ed209e81961ad5b544c4902a98",
+      "bytes": 445794
+    },
+    {
+      "source": "21冠军ak材质重置版/VANDAL/sound/weapons/valorant/championsvandal/grab.wav",
+      "output": "dist/assets/imported/champions21vandal/base/sound/weapons/valorant/championsvandal/grab.wav",
+      "sha256": "dc5b1654dc1ea7b792cb06d96782870a9655a8736558c73ac479a46782231275",
+      "bytes": 9696
+    },
+    {
+      "source": "21冠军ak材质重置版/VANDAL/sound/weapons/valorant/championsvandal/chg_hndl_grab.wav",
+      "output": "dist/assets/imported/champions21vandal/base/sound/weapons/valorant/championsvandal/chg_hndl_grab.wav",
+      "sha256": "0e08b857b13b813b37ff6994c8659f8b7d321a8f8ef8e614c3d8dc87ed6693ee",
+      "bytes": 8402
+    },
+    {
+      "source": "21冠军ak材质重置版/VANDAL/sound/weapons/valorant/championsvandal/inspect_mvt_a.wav",
+      "output": "dist/assets/imported/champions21vandal/base/sound/weapons/valorant/championsvandal/inspect_mvt_a.wav",
+      "sha256": "bda329e2a1d8ffe1fcbd1c46724f60e10ef9cfd4cdac124a08e4c47948d73bd9",
+      "bytes": 23588
+    },
+    {
+      "source": "21冠军ak材质重置版/VANDAL/sound/weapons/valorant/championsvandal/chg_hndl_back.wav",
+      "output": "dist/assets/imported/champions21vandal/base/sound/weapons/valorant/championsvandal/chg_hndl_back.wav",
+      "sha256": "4ffb38d3dace150fde25e08ae0ebf1e6ab4846af46f0c327c835b4923e8c8115",
+      "bytes": 11944
+    },
+    {
+      "source": "val新21爪刀/val新21爪刀/v_knife.mdl",
+      "output": "dist/assets/imported/champions21knife/base/model.mdl",
+      "sha256": "41d97553dc2018579b1c6fc895ad8caaaff320771097690f0e66b04379857870",
+      "bytes": 2799268
+    },
+    {
+      "source": "val新21爪刀/val新21爪刀/2021karamaura/return.wav",
+      "output": "dist/assets/imported/champions21knife/base/sound/return.wav",
+      "sha256": "55db18a39c644c4634c4a2c63f5870835b702be15b325af8f620f437abefb88c",
+      "bytes": 22752
+    },
+    {
+      "source": "val新21爪刀/val新21爪刀/2021karamaura/inspect_2.wav",
+      "output": "dist/assets/imported/champions21knife/base/sound/inspect_2.wav",
+      "sha256": "e27889c83a748c9347ad42ea496388f2b79226fccb5e9c45127a60cd38d801d5",
+      "bytes": 67604
+    },
+    {
+      "source": "val新21爪刀/val新21爪刀/2021karamaura/inspect_1.wav",
+      "output": "dist/assets/imported/champions21knife/base/sound/inspect_1.wav",
+      "sha256": "10534bbe20cb0819ca019910f5235a0dd6ae71f1e9acae1191f04316fd39b51a",
+      "bytes": 29214
+    },
+    {
+      "source": "val新21爪刀/val新21爪刀/2021karamaura/inspect_loop.wav",
+      "output": "dist/assets/imported/champions21knife/base/sound/inspect_loop.wav",
+      "sha256": "385bc25d0037386bb12b0621a18e02aeb7c33562ced9ffde3ada916503795838",
+      "bytes": 86240
+    },
+    {
+      "source": "val新21爪刀/val新21爪刀/2021karamaura/draw.wav",
+      "output": "dist/assets/imported/champions21knife/base/sound/draw.wav",
+      "sha256": "66cc776bccfb3095e2fca119b9a9219d79801ebef4af6d89484dcc0730f26bdf",
+      "bytes": 25824
+    },
+    {
+      "source": "24直刀(1)/1/2级/fade/v_knife.mdl",
+      "output": "dist/assets/imported/champions24/base/model.mdl",
+      "sha256": "b8d7f9998d0d6ee4b501ac851e0078a371d1891a8a7858c5f5c881af36bdee2e",
+      "bytes": 2004140
+    },
+    {
+      "source": "24直刀(1)/1/sound/weapons/valorant/champions4blade/i2.wav",
+      "output": "dist/assets/imported/champions24/base/sound/weapons/valorant/champions4blade/i2.wav",
+      "sha256": "be38670d3e8a700c0da9bbb5c02776d01767db0693580090a8ccabcab738b061",
+      "bytes": 19680
+    },
+    {
+      "source": "24直刀(1)/1/sound/weapons/valorant/champions4blade/s1.wav",
+      "output": "dist/assets/imported/champions24/base/sound/weapons/valorant/champions4blade/s1.wav",
+      "sha256": "41159d70dfd21ecddcca76a0bd03c5e7e3b1db440a250773f1ea188415718a2c",
+      "bytes": 22752
+    },
+    {
+      "source": "24直刀(1)/1/sound/weapons/valorant/champions4blade/i4.wav",
+      "output": "dist/assets/imported/champions24/base/sound/weapons/valorant/champions4blade/i4.wav",
+      "sha256": "594bd916e54efd4aebf4133693f353ec411d0b3912c13bdcffe384169b3d5829",
+      "bytes": 52448
+    },
+    {
+      "source": "24直刀(1)/1/sound/weapons/valorant/champions4blade/i5.wav",
+      "output": "dist/assets/imported/champions24/base/sound/weapons/valorant/champions4blade/i5.wav",
+      "sha256": "b4adf2b97280e9235fd8c8d34f496f1b0e6423c55ab0adbe97d9655a62c73786",
+      "bytes": 15584
+    },
+    {
+      "source": "24直刀(1)/1/sound/weapons/valorant/champions4blade/i3.wav",
+      "output": "dist/assets/imported/champions24/base/sound/weapons/valorant/champions4blade/i3.wav",
+      "sha256": "ad00f8e32aa82b64b3e03fc2446b6f6e13e054e63ccb0a350b2c5d11a918dcc6",
+      "bytes": 12512
+    },
+    {
+      "source": "24直刀(1)/1/sound/weapons/valorant/champions4blade/d3.wav",
+      "output": "dist/assets/imported/champions24/base/sound/weapons/valorant/champions4blade/d3.wav",
+      "sha256": "6d019d0aa7cd4be9ddfbdc3fd399a73f5314cc83ce05b5c21a192b2e324e675c",
+      "bytes": 37088
+    },
+    {
+      "source": "24直刀(1)/1/sound/weapons/valorant/champions4blade/stab_attack.wav",
+      "output": "dist/assets/imported/champions24/base/sound/weapons/valorant/champions4blade/stab_attack.wav",
+      "sha256": "95e769343a17c345c7b36f35758fc6c650a314f857c2dffca9c0936fa5e68c61",
+      "bytes": 40160
+    },
+    {
+      "source": "24直刀(1)/1/sound/weapons/valorant/champions4blade/i1.wav",
+      "output": "dist/assets/imported/champions24/base/sound/weapons/valorant/champions4blade/i1.wav",
+      "sha256": "6f4357738b2897971561f295b8abc34788b1058b51e116141d64f3b72942780a",
+      "bytes": 19680
+    },
+    {
+      "source": "24直刀(1)/1/sound/weapons/valorant/champions4blade/stab_return.wav",
+      "output": "dist/assets/imported/champions24/base/sound/weapons/valorant/champions4blade/stab_return.wav",
+      "sha256": "41089fc0c79ebc9969d3a97418b9cf05d366558d58c3c11eca826e62eadacb2e",
+      "bytes": 59616
+    },
+    {
+      "source": "24直刀(1)/1/sound/weapons/valorant/champions4blade/d2.wav",
+      "output": "dist/assets/imported/champions24/base/sound/weapons/valorant/champions4blade/d2.wav",
+      "sha256": "3e2b973595392026526641b85e1c9c5364c7883e1f31b266e1b0fd260df5e48a",
+      "bytes": 16608
+    },
+    {
+      "source": "24直刀(1)/1/sound/weapons/valorant/champions4blade/i6.wav",
+      "output": "dist/assets/imported/champions24/base/sound/weapons/valorant/champions4blade/i6.wav",
+      "sha256": "c9507db49186dcd24980727608b2e8e8b9d2ac9f01e4a8a8c6f6c12f17442665",
+      "bytes": 57568
+    },
+    {
+      "source": "24直刀(1)/1/sound/weapons/valorant/champions4blade/i7.wav",
+      "output": "dist/assets/imported/champions24/base/sound/weapons/valorant/champions4blade/i7.wav",
+      "sha256": "9c0719300bee4f5b0512197c2e3fb25a6a64fe40a562c640f7d36a98b5cbc784",
+      "bytes": 66784
+    },
+    {
+      "source": "24直刀(1)/1/sound/weapons/valorant/champions4blade/s2.wav",
+      "output": "dist/assets/imported/champions24/base/sound/weapons/valorant/champions4blade/s2.wav",
+      "sha256": "e87d85807dd4acd0288561d74085ac82bb0d4cb30811ae5e71f703fd78850730",
+      "bytes": 23776
+    },
+    {
+      "source": "24直刀(1)/1/sound/weapons/valorant/champions4blade/d1.wav",
+      "output": "dist/assets/imported/champions24/base/sound/weapons/valorant/champions4blade/d1.wav",
+      "sha256": "d8de0362f043c4b392931132202baf08be2e1bfd96540d8afa3eee00c8accb59",
+      "bytes": 9440
+    },
+    {
+      "source": "24直刀(1)/1/sound/weapons/valorant/champnolvlblade/return.WAV",
+      "output": "dist/assets/imported/champions24/base/sound/weapons/valorant/champnolvlblade/return.wav",
+      "sha256": "569106447c0d2d3a2becf41bca080e07521a50db662953f00839058370f14791",
+      "bytes": 114766
+    },
+    {
+      "source": "24直刀(1)/1/sound/weapons/valorant/champnolvlblade/s2.WAV",
+      "output": "dist/assets/imported/champions24/base/sound/weapons/valorant/champnolvlblade/s2.wav",
+      "sha256": "13dbb1c15d49189520ff498f13a94aed393e673e79cffb109abe4dc35fd5c21e",
+      "bytes": 86094
+    },
+    {
+      "source": "24直刀(1)/1/sound/weapons/valorant/champnolvlblade/d.WAV",
+      "output": "dist/assets/imported/champions24/base/sound/weapons/valorant/champnolvlblade/d.wav",
+      "sha256": "acbca5f48cbd2eb9e60f7f254b05085f7c37c97f7a43ef0e935e2b3371e4410a",
+      "bytes": 159822
+    },
+    {
+      "source": "24直刀(1)/1/sound/weapons/valorant/champnolvlblade/i.WAV",
+      "output": "dist/assets/imported/champions24/base/sound/weapons/valorant/champnolvlblade/i.wav",
+      "sha256": "6f42aa3676e9796bbbc8eee4eeee45d5af104483273aac680d152798b7505d91",
+      "bytes": 901198
+    },
+    {
+      "source": "24直刀(1)/1/sound/weapons/valorant/champnolvlblade/stab.WAV",
+      "output": "dist/assets/imported/champions24/base/sound/weapons/valorant/champnolvlblade/stab.wav",
+      "sha256": "8faa902431ed406fe0a7a3cf617de76bc2c7685eb722240df8b1de85c8f62868",
+      "bytes": 307278
+    },
+    {
+      "source": "24直刀(1)/1/sound/weapons/valorant/champnolvlblade/s1.WAV",
+      "output": "dist/assets/imported/champions24/base/sound/weapons/valorant/champnolvlblade/s1.wav",
+      "sha256": "68782d9b1e83775f3645af6595322240eb5c243f9e7ba5832d4a1149ef0c795e",
+      "bytes": 86094
+    },
+    {
+      "source": "24直刀(1)/1/1级/fade/v_knife.mdl",
+      "output": "dist/assets/imported/champions24/level1/model.mdl",
+      "sha256": "c8c0282837137d4aacb0e15396f024537d849219f9395aaa6924c2ea952fe253",
+      "bytes": 2320912
+    },
+    {
+      "source": "24直刀(1)/1/sound/weapons/valorant/champions4blade/i2.wav",
+      "output": "dist/assets/imported/champions24/level1/sound/weapons/valorant/champions4blade/i2.wav",
+      "sha256": "be38670d3e8a700c0da9bbb5c02776d01767db0693580090a8ccabcab738b061",
+      "bytes": 19680
+    },
+    {
+      "source": "24直刀(1)/1/sound/weapons/valorant/champions4blade/s1.wav",
+      "output": "dist/assets/imported/champions24/level1/sound/weapons/valorant/champions4blade/s1.wav",
+      "sha256": "41159d70dfd21ecddcca76a0bd03c5e7e3b1db440a250773f1ea188415718a2c",
+      "bytes": 22752
+    },
+    {
+      "source": "24直刀(1)/1/sound/weapons/valorant/champions4blade/i4.wav",
+      "output": "dist/assets/imported/champions24/level1/sound/weapons/valorant/champions4blade/i4.wav",
+      "sha256": "594bd916e54efd4aebf4133693f353ec411d0b3912c13bdcffe384169b3d5829",
+      "bytes": 52448
+    },
+    {
+      "source": "24直刀(1)/1/sound/weapons/valorant/champions4blade/i5.wav",
+      "output": "dist/assets/imported/champions24/level1/sound/weapons/valorant/champions4blade/i5.wav",
+      "sha256": "b4adf2b97280e9235fd8c8d34f496f1b0e6423c55ab0adbe97d9655a62c73786",
+      "bytes": 15584
+    },
+    {
+      "source": "24直刀(1)/1/sound/weapons/valorant/champions4blade/i3.wav",
+      "output": "dist/assets/imported/champions24/level1/sound/weapons/valorant/champions4blade/i3.wav",
+      "sha256": "ad00f8e32aa82b64b3e03fc2446b6f6e13e054e63ccb0a350b2c5d11a918dcc6",
+      "bytes": 12512
+    },
+    {
+      "source": "24直刀(1)/1/sound/weapons/valorant/champions4blade/d3.wav",
+      "output": "dist/assets/imported/champions24/level1/sound/weapons/valorant/champions4blade/d3.wav",
+      "sha256": "6d019d0aa7cd4be9ddfbdc3fd399a73f5314cc83ce05b5c21a192b2e324e675c",
+      "bytes": 37088
+    },
+    {
+      "source": "24直刀(1)/1/sound/weapons/valorant/champions4blade/stab_attack.wav",
+      "output": "dist/assets/imported/champions24/level1/sound/weapons/valorant/champions4blade/stab_attack.wav",
+      "sha256": "95e769343a17c345c7b36f35758fc6c650a314f857c2dffca9c0936fa5e68c61",
+      "bytes": 40160
+    },
+    {
+      "source": "24直刀(1)/1/sound/weapons/valorant/champions4blade/i1.wav",
+      "output": "dist/assets/imported/champions24/level1/sound/weapons/valorant/champions4blade/i1.wav",
+      "sha256": "6f4357738b2897971561f295b8abc34788b1058b51e116141d64f3b72942780a",
+      "bytes": 19680
+    },
+    {
+      "source": "24直刀(1)/1/sound/weapons/valorant/champions4blade/stab_return.wav",
+      "output": "dist/assets/imported/champions24/level1/sound/weapons/valorant/champions4blade/stab_return.wav",
+      "sha256": "41089fc0c79ebc9969d3a97418b9cf05d366558d58c3c11eca826e62eadacb2e",
+      "bytes": 59616
+    },
+    {
+      "source": "24直刀(1)/1/sound/weapons/valorant/champions4blade/d2.wav",
+      "output": "dist/assets/imported/champions24/level1/sound/weapons/valorant/champions4blade/d2.wav",
+      "sha256": "3e2b973595392026526641b85e1c9c5364c7883e1f31b266e1b0fd260df5e48a",
+      "bytes": 16608
+    },
+    {
+      "source": "24直刀(1)/1/sound/weapons/valorant/champions4blade/i6.wav",
+      "output": "dist/assets/imported/champions24/level1/sound/weapons/valorant/champions4blade/i6.wav",
+      "sha256": "c9507db49186dcd24980727608b2e8e8b9d2ac9f01e4a8a8c6f6c12f17442665",
+      "bytes": 57568
+    },
+    {
+      "source": "24直刀(1)/1/sound/weapons/valorant/champions4blade/i7.wav",
+      "output": "dist/assets/imported/champions24/level1/sound/weapons/valorant/champions4blade/i7.wav",
+      "sha256": "9c0719300bee4f5b0512197c2e3fb25a6a64fe40a562c640f7d36a98b5cbc784",
+      "bytes": 66784
+    },
+    {
+      "source": "24直刀(1)/1/sound/weapons/valorant/champions4blade/s2.wav",
+      "output": "dist/assets/imported/champions24/level1/sound/weapons/valorant/champions4blade/s2.wav",
+      "sha256": "e87d85807dd4acd0288561d74085ac82bb0d4cb30811ae5e71f703fd78850730",
+      "bytes": 23776
+    },
+    {
+      "source": "24直刀(1)/1/sound/weapons/valorant/champions4blade/d1.wav",
+      "output": "dist/assets/imported/champions24/level1/sound/weapons/valorant/champions4blade/d1.wav",
+      "sha256": "d8de0362f043c4b392931132202baf08be2e1bfd96540d8afa3eee00c8accb59",
+      "bytes": 9440
+    },
+    {
+      "source": "24直刀(1)/1/sound/weapons/valorant/champnolvlblade/return.WAV",
+      "output": "dist/assets/imported/champions24/level1/sound/weapons/valorant/champnolvlblade/return.wav",
+      "sha256": "569106447c0d2d3a2becf41bca080e07521a50db662953f00839058370f14791",
+      "bytes": 114766
+    },
+    {
+      "source": "24直刀(1)/1/sound/weapons/valorant/champnolvlblade/s2.WAV",
+      "output": "dist/assets/imported/champions24/level1/sound/weapons/valorant/champnolvlblade/s2.wav",
+      "sha256": "13dbb1c15d49189520ff498f13a94aed393e673e79cffb109abe4dc35fd5c21e",
+      "bytes": 86094
+    },
+    {
+      "source": "24直刀(1)/1/sound/weapons/valorant/champnolvlblade/d.WAV",
+      "output": "dist/assets/imported/champions24/level1/sound/weapons/valorant/champnolvlblade/d.wav",
+      "sha256": "acbca5f48cbd2eb9e60f7f254b05085f7c37c97f7a43ef0e935e2b3371e4410a",
+      "bytes": 159822
+    },
+    {
+      "source": "24直刀(1)/1/sound/weapons/valorant/champnolvlblade/i.WAV",
+      "output": "dist/assets/imported/champions24/level1/sound/weapons/valorant/champnolvlblade/i.wav",
+      "sha256": "6f42aa3676e9796bbbc8eee4eeee45d5af104483273aac680d152798b7505d91",
+      "bytes": 901198
+    },
+    {
+      "source": "24直刀(1)/1/sound/weapons/valorant/champnolvlblade/stab.WAV",
+      "output": "dist/assets/imported/champions24/level1/sound/weapons/valorant/champnolvlblade/stab.wav",
+      "sha256": "8faa902431ed406fe0a7a3cf617de76bc2c7685eb722240df8b1de85c8f62868",
+      "bytes": 307278
+    },
+    {
+      "source": "24直刀(1)/1/sound/weapons/valorant/champnolvlblade/s1.WAV",
+      "output": "dist/assets/imported/champions24/level1/sound/weapons/valorant/champnolvlblade/s1.wav",
+      "sha256": "68782d9b1e83775f3645af6595322240eb5c243f9e7ba5832d4a1149ef0c795e",
+      "bytes": 86094
+    },
+    {
+      "source": "24直刀(1)/1/冠军气息/fade/v_knife.mdl",
+      "output": "dist/assets/imported/champions24/aura/model.mdl",
+      "sha256": "42091a09d9049c8c2901e4570f6f9dafcc65339cbc1d5256f0858e20b4561181",
+      "bytes": 2327804
+    },
+    {
+      "source": "24直刀(1)/1/sound/weapons/valorant/champions4blade/i2.wav",
+      "output": "dist/assets/imported/champions24/aura/sound/weapons/valorant/champions4blade/i2.wav",
+      "sha256": "be38670d3e8a700c0da9bbb5c02776d01767db0693580090a8ccabcab738b061",
+      "bytes": 19680
+    },
+    {
+      "source": "24直刀(1)/1/sound/weapons/valorant/champions4blade/s1.wav",
+      "output": "dist/assets/imported/champions24/aura/sound/weapons/valorant/champions4blade/s1.wav",
+      "sha256": "41159d70dfd21ecddcca76a0bd03c5e7e3b1db440a250773f1ea188415718a2c",
+      "bytes": 22752
+    },
+    {
+      "source": "24直刀(1)/1/sound/weapons/valorant/champions4blade/i4.wav",
+      "output": "dist/assets/imported/champions24/aura/sound/weapons/valorant/champions4blade/i4.wav",
+      "sha256": "594bd916e54efd4aebf4133693f353ec411d0b3912c13bdcffe384169b3d5829",
+      "bytes": 52448
+    },
+    {
+      "source": "24直刀(1)/1/sound/weapons/valorant/champions4blade/i5.wav",
+      "output": "dist/assets/imported/champions24/aura/sound/weapons/valorant/champions4blade/i5.wav",
+      "sha256": "b4adf2b97280e9235fd8c8d34f496f1b0e6423c55ab0adbe97d9655a62c73786",
+      "bytes": 15584
+    },
+    {
+      "source": "24直刀(1)/1/sound/weapons/valorant/champions4blade/i3.wav",
+      "output": "dist/assets/imported/champions24/aura/sound/weapons/valorant/champions4blade/i3.wav",
+      "sha256": "ad00f8e32aa82b64b3e03fc2446b6f6e13e054e63ccb0a350b2c5d11a918dcc6",
+      "bytes": 12512
+    },
+    {
+      "source": "24直刀(1)/1/sound/weapons/valorant/champions4blade/d3.wav",
+      "output": "dist/assets/imported/champions24/aura/sound/weapons/valorant/champions4blade/d3.wav",
+      "sha256": "6d019d0aa7cd4be9ddfbdc3fd399a73f5314cc83ce05b5c21a192b2e324e675c",
+      "bytes": 37088
+    },
+    {
+      "source": "24直刀(1)/1/sound/weapons/valorant/champions4blade/stab_attack.wav",
+      "output": "dist/assets/imported/champions24/aura/sound/weapons/valorant/champions4blade/stab_attack.wav",
+      "sha256": "95e769343a17c345c7b36f35758fc6c650a314f857c2dffca9c0936fa5e68c61",
+      "bytes": 40160
+    },
+    {
+      "source": "24直刀(1)/1/sound/weapons/valorant/champions4blade/i1.wav",
+      "output": "dist/assets/imported/champions24/aura/sound/weapons/valorant/champions4blade/i1.wav",
+      "sha256": "6f4357738b2897971561f295b8abc34788b1058b51e116141d64f3b72942780a",
+      "bytes": 19680
+    },
+    {
+      "source": "24直刀(1)/1/sound/weapons/valorant/champions4blade/stab_return.wav",
+      "output": "dist/assets/imported/champions24/aura/sound/weapons/valorant/champions4blade/stab_return.wav",
+      "sha256": "41089fc0c79ebc9969d3a97418b9cf05d366558d58c3c11eca826e62eadacb2e",
+      "bytes": 59616
+    },
+    {
+      "source": "24直刀(1)/1/sound/weapons/valorant/champions4blade/d2.wav",
+      "output": "dist/assets/imported/champions24/aura/sound/weapons/valorant/champions4blade/d2.wav",
+      "sha256": "3e2b973595392026526641b85e1c9c5364c7883e1f31b266e1b0fd260df5e48a",
+      "bytes": 16608
+    },
+    {
+      "source": "24直刀(1)/1/sound/weapons/valorant/champions4blade/i6.wav",
+      "output": "dist/assets/imported/champions24/aura/sound/weapons/valorant/champions4blade/i6.wav",
+      "sha256": "c9507db49186dcd24980727608b2e8e8b9d2ac9f01e4a8a8c6f6c12f17442665",
+      "bytes": 57568
+    },
+    {
+      "source": "24直刀(1)/1/sound/weapons/valorant/champions4blade/i7.wav",
+      "output": "dist/assets/imported/champions24/aura/sound/weapons/valorant/champions4blade/i7.wav",
+      "sha256": "9c0719300bee4f5b0512197c2e3fb25a6a64fe40a562c640f7d36a98b5cbc784",
+      "bytes": 66784
+    },
+    {
+      "source": "24直刀(1)/1/sound/weapons/valorant/champions4blade/s2.wav",
+      "output": "dist/assets/imported/champions24/aura/sound/weapons/valorant/champions4blade/s2.wav",
+      "sha256": "e87d85807dd4acd0288561d74085ac82bb0d4cb30811ae5e71f703fd78850730",
+      "bytes": 23776
+    },
+    {
+      "source": "24直刀(1)/1/sound/weapons/valorant/champions4blade/d1.wav",
+      "output": "dist/assets/imported/champions24/aura/sound/weapons/valorant/champions4blade/d1.wav",
+      "sha256": "d8de0362f043c4b392931132202baf08be2e1bfd96540d8afa3eee00c8accb59",
+      "bytes": 9440
+    },
+    {
+      "source": "24直刀(1)/1/sound/weapons/valorant/champnolvlblade/return.WAV",
+      "output": "dist/assets/imported/champions24/aura/sound/weapons/valorant/champnolvlblade/return.wav",
+      "sha256": "569106447c0d2d3a2becf41bca080e07521a50db662953f00839058370f14791",
+      "bytes": 114766
+    },
+    {
+      "source": "24直刀(1)/1/sound/weapons/valorant/champnolvlblade/s2.WAV",
+      "output": "dist/assets/imported/champions24/aura/sound/weapons/valorant/champnolvlblade/s2.wav",
+      "sha256": "13dbb1c15d49189520ff498f13a94aed393e673e79cffb109abe4dc35fd5c21e",
+      "bytes": 86094
+    },
+    {
+      "source": "24直刀(1)/1/sound/weapons/valorant/champnolvlblade/d.WAV",
+      "output": "dist/assets/imported/champions24/aura/sound/weapons/valorant/champnolvlblade/d.wav",
+      "sha256": "acbca5f48cbd2eb9e60f7f254b05085f7c37c97f7a43ef0e935e2b3371e4410a",
+      "bytes": 159822
+    },
+    {
+      "source": "24直刀(1)/1/sound/weapons/valorant/champnolvlblade/i.WAV",
+      "output": "dist/assets/imported/champions24/aura/sound/weapons/valorant/champnolvlblade/i.wav",
+      "sha256": "6f42aa3676e9796bbbc8eee4eeee45d5af104483273aac680d152798b7505d91",
+      "bytes": 901198
+    },
+    {
+      "source": "24直刀(1)/1/sound/weapons/valorant/champnolvlblade/stab.WAV",
+      "output": "dist/assets/imported/champions24/aura/sound/weapons/valorant/champnolvlblade/stab.wav",
+      "sha256": "8faa902431ed406fe0a7a3cf617de76bc2c7685eb722240df8b1de85c8f62868",
+      "bytes": 307278
+    },
+    {
+      "source": "24直刀(1)/1/sound/weapons/valorant/champnolvlblade/s1.WAV",
+      "output": "dist/assets/imported/champions24/aura/sound/weapons/valorant/champnolvlblade/s1.wav",
+      "sha256": "68782d9b1e83775f3645af6595322240eb5c243f9e7ba5832d4a1149ef0c795e",
+      "bytes": 86094
+    },
+    {
+      "source": "24直刀(1)/1/没有气息/fade/v_knife.mdl",
+      "output": "dist/assets/imported/champions24/plain/model.mdl",
+      "sha256": "4bbd8605d7af8bc2429f6f6aaaa4a642b39c85771bc97e2f5db46c196ec25669",
+      "bytes": 2327804
+    },
+    {
+      "source": "24直刀(1)/1/sound/weapons/valorant/champions4blade/i2.wav",
+      "output": "dist/assets/imported/champions24/plain/sound/weapons/valorant/champions4blade/i2.wav",
+      "sha256": "be38670d3e8a700c0da9bbb5c02776d01767db0693580090a8ccabcab738b061",
+      "bytes": 19680
+    },
+    {
+      "source": "24直刀(1)/1/sound/weapons/valorant/champions4blade/s1.wav",
+      "output": "dist/assets/imported/champions24/plain/sound/weapons/valorant/champions4blade/s1.wav",
+      "sha256": "41159d70dfd21ecddcca76a0bd03c5e7e3b1db440a250773f1ea188415718a2c",
+      "bytes": 22752
+    },
+    {
+      "source": "24直刀(1)/1/sound/weapons/valorant/champions4blade/i4.wav",
+      "output": "dist/assets/imported/champions24/plain/sound/weapons/valorant/champions4blade/i4.wav",
+      "sha256": "594bd916e54efd4aebf4133693f353ec411d0b3912c13bdcffe384169b3d5829",
+      "bytes": 52448
+    },
+    {
+      "source": "24直刀(1)/1/sound/weapons/valorant/champions4blade/i5.wav",
+      "output": "dist/assets/imported/champions24/plain/sound/weapons/valorant/champions4blade/i5.wav",
+      "sha256": "b4adf2b97280e9235fd8c8d34f496f1b0e6423c55ab0adbe97d9655a62c73786",
+      "bytes": 15584
+    },
+    {
+      "source": "24直刀(1)/1/sound/weapons/valorant/champions4blade/i3.wav",
+      "output": "dist/assets/imported/champions24/plain/sound/weapons/valorant/champions4blade/i3.wav",
+      "sha256": "ad00f8e32aa82b64b3e03fc2446b6f6e13e054e63ccb0a350b2c5d11a918dcc6",
+      "bytes": 12512
+    },
+    {
+      "source": "24直刀(1)/1/sound/weapons/valorant/champions4blade/d3.wav",
+      "output": "dist/assets/imported/champions24/plain/sound/weapons/valorant/champions4blade/d3.wav",
+      "sha256": "6d019d0aa7cd4be9ddfbdc3fd399a73f5314cc83ce05b5c21a192b2e324e675c",
+      "bytes": 37088
+    },
+    {
+      "source": "24直刀(1)/1/sound/weapons/valorant/champions4blade/stab_attack.wav",
+      "output": "dist/assets/imported/champions24/plain/sound/weapons/valorant/champions4blade/stab_attack.wav",
+      "sha256": "95e769343a17c345c7b36f35758fc6c650a314f857c2dffca9c0936fa5e68c61",
+      "bytes": 40160
+    },
+    {
+      "source": "24直刀(1)/1/sound/weapons/valorant/champions4blade/i1.wav",
+      "output": "dist/assets/imported/champions24/plain/sound/weapons/valorant/champions4blade/i1.wav",
+      "sha256": "6f4357738b2897971561f295b8abc34788b1058b51e116141d64f3b72942780a",
+      "bytes": 19680
+    },
+    {
+      "source": "24直刀(1)/1/sound/weapons/valorant/champions4blade/stab_return.wav",
+      "output": "dist/assets/imported/champions24/plain/sound/weapons/valorant/champions4blade/stab_return.wav",
+      "sha256": "41089fc0c79ebc9969d3a97418b9cf05d366558d58c3c11eca826e62eadacb2e",
+      "bytes": 59616
+    },
+    {
+      "source": "24直刀(1)/1/sound/weapons/valorant/champions4blade/d2.wav",
+      "output": "dist/assets/imported/champions24/plain/sound/weapons/valorant/champions4blade/d2.wav",
+      "sha256": "3e2b973595392026526641b85e1c9c5364c7883e1f31b266e1b0fd260df5e48a",
+      "bytes": 16608
+    },
+    {
+      "source": "24直刀(1)/1/sound/weapons/valorant/champions4blade/i6.wav",
+      "output": "dist/assets/imported/champions24/plain/sound/weapons/valorant/champions4blade/i6.wav",
+      "sha256": "c9507db49186dcd24980727608b2e8e8b9d2ac9f01e4a8a8c6f6c12f17442665",
+      "bytes": 57568
+    },
+    {
+      "source": "24直刀(1)/1/sound/weapons/valorant/champions4blade/i7.wav",
+      "output": "dist/assets/imported/champions24/plain/sound/weapons/valorant/champions4blade/i7.wav",
+      "sha256": "9c0719300bee4f5b0512197c2e3fb25a6a64fe40a562c640f7d36a98b5cbc784",
+      "bytes": 66784
+    },
+    {
+      "source": "24直刀(1)/1/sound/weapons/valorant/champions4blade/s2.wav",
+      "output": "dist/assets/imported/champions24/plain/sound/weapons/valorant/champions4blade/s2.wav",
+      "sha256": "e87d85807dd4acd0288561d74085ac82bb0d4cb30811ae5e71f703fd78850730",
+      "bytes": 23776
+    },
+    {
+      "source": "24直刀(1)/1/sound/weapons/valorant/champions4blade/d1.wav",
+      "output": "dist/assets/imported/champions24/plain/sound/weapons/valorant/champions4blade/d1.wav",
+      "sha256": "d8de0362f043c4b392931132202baf08be2e1bfd96540d8afa3eee00c8accb59",
+      "bytes": 9440
+    },
+    {
+      "source": "24直刀(1)/1/sound/weapons/valorant/champnolvlblade/return.WAV",
+      "output": "dist/assets/imported/champions24/plain/sound/weapons/valorant/champnolvlblade/return.wav",
+      "sha256": "569106447c0d2d3a2becf41bca080e07521a50db662953f00839058370f14791",
+      "bytes": 114766
+    },
+    {
+      "source": "24直刀(1)/1/sound/weapons/valorant/champnolvlblade/s2.WAV",
+      "output": "dist/assets/imported/champions24/plain/sound/weapons/valorant/champnolvlblade/s2.wav",
+      "sha256": "13dbb1c15d49189520ff498f13a94aed393e673e79cffb109abe4dc35fd5c21e",
+      "bytes": 86094
+    },
+    {
+      "source": "24直刀(1)/1/sound/weapons/valorant/champnolvlblade/d.WAV",
+      "output": "dist/assets/imported/champions24/plain/sound/weapons/valorant/champnolvlblade/d.wav",
+      "sha256": "acbca5f48cbd2eb9e60f7f254b05085f7c37c97f7a43ef0e935e2b3371e4410a",
+      "bytes": 159822
+    },
+    {
+      "source": "24直刀(1)/1/sound/weapons/valorant/champnolvlblade/i.WAV",
+      "output": "dist/assets/imported/champions24/plain/sound/weapons/valorant/champnolvlblade/i.wav",
+      "sha256": "6f42aa3676e9796bbbc8eee4eeee45d5af104483273aac680d152798b7505d91",
+      "bytes": 901198
+    },
+    {
+      "source": "24直刀(1)/1/sound/weapons/valorant/champnolvlblade/stab.WAV",
+      "output": "dist/assets/imported/champions24/plain/sound/weapons/valorant/champnolvlblade/stab.wav",
+      "sha256": "8faa902431ed406fe0a7a3cf617de76bc2c7685eb722240df8b1de85c8f62868",
+      "bytes": 307278
+    },
+    {
+      "source": "24直刀(1)/1/sound/weapons/valorant/champnolvlblade/s1.WAV",
+      "output": "dist/assets/imported/champions24/plain/sound/weapons/valorant/champnolvlblade/s1.wav",
+      "sha256": "68782d9b1e83775f3645af6595322240eb5c243f9e7ba5832d4a1149ef0c795e",
+      "bytes": 86094
+    },
+    {
+      "source": "24直刀(1)/1/金色破碎/fade/v_knife.mdl",
+      "output": "dist/assets/imported/champions24/shatter/model.mdl",
+      "sha256": "738ea344882d45ea2e75c9f9b7f56fc6407d92d2f76967c123d869482950eeae",
+      "bytes": 2327804
+    },
+    {
+      "source": "24直刀(1)/1/sound/weapons/valorant/champions4blade/i2.wav",
+      "output": "dist/assets/imported/champions24/shatter/sound/weapons/valorant/champions4blade/i2.wav",
+      "sha256": "be38670d3e8a700c0da9bbb5c02776d01767db0693580090a8ccabcab738b061",
+      "bytes": 19680
+    },
+    {
+      "source": "24直刀(1)/1/sound/weapons/valorant/champions4blade/s1.wav",
+      "output": "dist/assets/imported/champions24/shatter/sound/weapons/valorant/champions4blade/s1.wav",
+      "sha256": "41159d70dfd21ecddcca76a0bd03c5e7e3b1db440a250773f1ea188415718a2c",
+      "bytes": 22752
+    },
+    {
+      "source": "24直刀(1)/1/sound/weapons/valorant/champions4blade/i4.wav",
+      "output": "dist/assets/imported/champions24/shatter/sound/weapons/valorant/champions4blade/i4.wav",
+      "sha256": "594bd916e54efd4aebf4133693f353ec411d0b3912c13bdcffe384169b3d5829",
+      "bytes": 52448
+    },
+    {
+      "source": "24直刀(1)/1/sound/weapons/valorant/champions4blade/i5.wav",
+      "output": "dist/assets/imported/champions24/shatter/sound/weapons/valorant/champions4blade/i5.wav",
+      "sha256": "b4adf2b97280e9235fd8c8d34f496f1b0e6423c55ab0adbe97d9655a62c73786",
+      "bytes": 15584
+    },
+    {
+      "source": "24直刀(1)/1/sound/weapons/valorant/champions4blade/i3.wav",
+      "output": "dist/assets/imported/champions24/shatter/sound/weapons/valorant/champions4blade/i3.wav",
+      "sha256": "ad00f8e32aa82b64b3e03fc2446b6f6e13e054e63ccb0a350b2c5d11a918dcc6",
+      "bytes": 12512
+    },
+    {
+      "source": "24直刀(1)/1/sound/weapons/valorant/champions4blade/d3.wav",
+      "output": "dist/assets/imported/champions24/shatter/sound/weapons/valorant/champions4blade/d3.wav",
+      "sha256": "6d019d0aa7cd4be9ddfbdc3fd399a73f5314cc83ce05b5c21a192b2e324e675c",
+      "bytes": 37088
+    },
+    {
+      "source": "24直刀(1)/1/sound/weapons/valorant/champions4blade/stab_attack.wav",
+      "output": "dist/assets/imported/champions24/shatter/sound/weapons/valorant/champions4blade/stab_attack.wav",
+      "sha256": "95e769343a17c345c7b36f35758fc6c650a314f857c2dffca9c0936fa5e68c61",
+      "bytes": 40160
+    },
+    {
+      "source": "24直刀(1)/1/sound/weapons/valorant/champions4blade/i1.wav",
+      "output": "dist/assets/imported/champions24/shatter/sound/weapons/valorant/champions4blade/i1.wav",
+      "sha256": "6f4357738b2897971561f295b8abc34788b1058b51e116141d64f3b72942780a",
+      "bytes": 19680
+    },
+    {
+      "source": "24直刀(1)/1/sound/weapons/valorant/champions4blade/stab_return.wav",
+      "output": "dist/assets/imported/champions24/shatter/sound/weapons/valorant/champions4blade/stab_return.wav",
+      "sha256": "41089fc0c79ebc9969d3a97418b9cf05d366558d58c3c11eca826e62eadacb2e",
+      "bytes": 59616
+    },
+    {
+      "source": "24直刀(1)/1/sound/weapons/valorant/champions4blade/d2.wav",
+      "output": "dist/assets/imported/champions24/shatter/sound/weapons/valorant/champions4blade/d2.wav",
+      "sha256": "3e2b973595392026526641b85e1c9c5364c7883e1f31b266e1b0fd260df5e48a",
+      "bytes": 16608
+    },
+    {
+      "source": "24直刀(1)/1/sound/weapons/valorant/champions4blade/i6.wav",
+      "output": "dist/assets/imported/champions24/shatter/sound/weapons/valorant/champions4blade/i6.wav",
+      "sha256": "c9507db49186dcd24980727608b2e8e8b9d2ac9f01e4a8a8c6f6c12f17442665",
+      "bytes": 57568
+    },
+    {
+      "source": "24直刀(1)/1/sound/weapons/valorant/champions4blade/i7.wav",
+      "output": "dist/assets/imported/champions24/shatter/sound/weapons/valorant/champions4blade/i7.wav",
+      "sha256": "9c0719300bee4f5b0512197c2e3fb25a6a64fe40a562c640f7d36a98b5cbc784",
+      "bytes": 66784
+    },
+    {
+      "source": "24直刀(1)/1/sound/weapons/valorant/champions4blade/s2.wav",
+      "output": "dist/assets/imported/champions24/shatter/sound/weapons/valorant/champions4blade/s2.wav",
+      "sha256": "e87d85807dd4acd0288561d74085ac82bb0d4cb30811ae5e71f703fd78850730",
+      "bytes": 23776
+    },
+    {
+      "source": "24直刀(1)/1/sound/weapons/valorant/champions4blade/d1.wav",
+      "output": "dist/assets/imported/champions24/shatter/sound/weapons/valorant/champions4blade/d1.wav",
+      "sha256": "d8de0362f043c4b392931132202baf08be2e1bfd96540d8afa3eee00c8accb59",
+      "bytes": 9440
+    },
+    {
+      "source": "24直刀(1)/1/sound/weapons/valorant/champnolvlblade/return.WAV",
+      "output": "dist/assets/imported/champions24/shatter/sound/weapons/valorant/champnolvlblade/return.wav",
+      "sha256": "569106447c0d2d3a2becf41bca080e07521a50db662953f00839058370f14791",
+      "bytes": 114766
+    },
+    {
+      "source": "24直刀(1)/1/sound/weapons/valorant/champnolvlblade/s2.WAV",
+      "output": "dist/assets/imported/champions24/shatter/sound/weapons/valorant/champnolvlblade/s2.wav",
+      "sha256": "13dbb1c15d49189520ff498f13a94aed393e673e79cffb109abe4dc35fd5c21e",
+      "bytes": 86094
+    },
+    {
+      "source": "24直刀(1)/1/sound/weapons/valorant/champnolvlblade/d.WAV",
+      "output": "dist/assets/imported/champions24/shatter/sound/weapons/valorant/champnolvlblade/d.wav",
+      "sha256": "acbca5f48cbd2eb9e60f7f254b05085f7c37c97f7a43ef0e935e2b3371e4410a",
+      "bytes": 159822
+    },
+    {
+      "source": "24直刀(1)/1/sound/weapons/valorant/champnolvlblade/i.WAV",
+      "output": "dist/assets/imported/champions24/shatter/sound/weapons/valorant/champnolvlblade/i.wav",
+      "sha256": "6f42aa3676e9796bbbc8eee4eeee45d5af104483273aac680d152798b7505d91",
+      "bytes": 901198
+    },
+    {
+      "source": "24直刀(1)/1/sound/weapons/valorant/champnolvlblade/stab.WAV",
+      "output": "dist/assets/imported/champions24/shatter/sound/weapons/valorant/champnolvlblade/stab.wav",
+      "sha256": "8faa902431ed406fe0a7a3cf617de76bc2c7685eb722240df8b1de85c8f62868",
+      "bytes": 307278
+    },
+    {
+      "source": "24直刀(1)/1/sound/weapons/valorant/champnolvlblade/s1.WAV",
+      "output": "dist/assets/imported/champions24/shatter/sound/weapons/valorant/champnolvlblade/s1.wav",
+      "sha256": "68782d9b1e83775f3645af6595322240eb5c243f9e7ba5832d4a1149ef0c795e",
+      "bytes": 86094
+    },
+    {
+      "source": "特效更好的黑波/@DR⁴_KURONAMI KUNAI/default/com.valstrike/files/valstrike/models/v_knife.mdl",
+      "output": "dist/assets/imported/kuronami/base/model.mdl",
+      "sha256": "5faa162e86d9c54480992bddb73588e41207ce20f7ae8b9f1f0b36ff34aaa69f",
+      "bytes": 2736632
+    },
+    {
+      "source": "特效更好的黑波/@DR⁴_KURONAMI KUNAI/default/com.valstrike/files/valstrike/sound/weapons/valorant/kuroknife/draw2.wav",
+      "output": "dist/assets/imported/kuronami/base/sound/weapons/valorant/kuroknife/draw2.wav",
+      "sha256": "ffe9804a8399ca0938d09d5878a6a198bc291a5027b733806e175a1649aace46",
+      "bytes": 39284
+    },
+    {
+      "source": "特效更好的黑波/@DR⁴_KURONAMI KUNAI/default/com.valstrike/files/valstrike/sound/weapons/valorant/kuroknife/inspect.wav",
+      "output": "dist/assets/imported/kuronami/base/sound/weapons/valorant/kuroknife/inspect.wav",
+      "sha256": "8d584dd74037308aedc2b78c96cbb765b917d970c513bdfbfc4f5682d95529b7",
+      "bytes": 235728
+    },
+    {
+      "source": "特效更好的黑波/@DR⁴_KURONAMI KUNAI/default/com.valstrike/files/valstrike/sound/weapons/valorant/kuroknife/slash_back4.wav",
+      "output": "dist/assets/imported/kuronami/base/sound/weapons/valorant/kuroknife/slash_back4.wav",
+      "sha256": "cf226f1f1212252a35d72c5b360ba680b4f7e47dc664939315a7ac6f6ea14df5",
+      "bytes": 30996
+    },
+    {
+      "source": "特效更好的黑波/@DR⁴_KURONAMI KUNAI/default/com.valstrike/files/valstrike/sound/weapons/valorant/kuroknife/slash_back2.wav",
+      "output": "dist/assets/imported/kuronami/base/sound/weapons/valorant/kuroknife/slash_back2.wav",
+      "sha256": "a3a0334e55dc49db5d5709b08eccee7b3f43669a3a83fc0a96d6b744e86d1217",
+      "bytes": 37626
+    },
+    {
+      "source": "特效更好的黑波/@DR⁴_KURONAMI KUNAI/default/com.valstrike/files/valstrike/sound/weapons/valorant/kuroknife/slash_back1.wav",
+      "output": "dist/assets/imported/kuronami/base/sound/weapons/valorant/kuroknife/slash_back1.wav",
+      "sha256": "6e391bbb4d58d863ad0eb3cccb21fc744852cad43c7d77838d69eae9988a75c4",
+      "bytes": 32250
+    },
+    {
+      "source": "特效更好的黑波/@DR⁴_KURONAMI KUNAI/default/com.valstrike/files/valstrike/sound/weapons/valorant/kuroknife/stab1.wav",
+      "output": "dist/assets/imported/kuronami/base/sound/weapons/valorant/kuroknife/stab1.wav",
+      "sha256": "7db2200b812e3f5f96a0c6bb4a73ffa6fea77e051b767cc561596222f616dccd",
+      "bytes": 29426
+    },
+    {
+      "source": "特效更好的黑波/@DR⁴_KURONAMI KUNAI/default/com.valstrike/files/valstrike/sound/weapons/valorant/kuroknife/slash_back3.wav",
+      "output": "dist/assets/imported/kuronami/base/sound/weapons/valorant/kuroknife/slash_back3.wav",
+      "sha256": "ebba139f387afa1534e04de78589e92408fe16e84cf3ad9f005130e47920bfa9",
+      "bytes": 24722
+    },
+    {
+      "source": "特效更好的黑波/@DR⁴_KURONAMI KUNAI/default/com.valstrike/files/valstrike/sound/weapons/valorant/kuroknife/draw1.wav",
+      "output": "dist/assets/imported/kuronami/base/sound/weapons/valorant/kuroknife/draw1.wav",
+      "sha256": "3f73f5f3889325abd15d732f7a08c9986cee6f51cef06b91f59148707194ca1f",
+      "bytes": 23782
+    },
+    {
+      "source": "特效更好的黑波/@DR⁴_KURONAMI KUNAI/default/com.valstrike/files/valstrike/sound/weapons/valorant/kuroknife/stab2.wav",
+      "output": "dist/assets/imported/kuronami/base/sound/weapons/valorant/kuroknife/stab2.wav",
+      "sha256": "fda91b5fa1e1e2b5d22b00515c75fb92c96137c63b6f54e1fbe2e5dac3759021",
+      "bytes": 40260
+    },
+    {
+      "source": "特效更好的黑波/@DR⁴_KURONAMI KUNAI/puprle/com.valstrike/files/valstrike/models/v_knife.mdl",
+      "output": "dist/assets/imported/kuronami/purple/model.mdl",
+      "sha256": "007737eb0adc6cdcfed0403a8c0e7798bc8fa042c15ca92b426ba1c6eadb69f5",
+      "bytes": 2736632
+    },
+    {
+      "source": "特效更好的黑波/@DR⁴_KURONAMI KUNAI/puprle/com.valstrike/files/valstrike/sound/weapons/valorant/kuroknife/draw2.wav",
+      "output": "dist/assets/imported/kuronami/purple/sound/weapons/valorant/kuroknife/draw2.wav",
+      "sha256": "ffe9804a8399ca0938d09d5878a6a198bc291a5027b733806e175a1649aace46",
+      "bytes": 39284
+    },
+    {
+      "source": "特效更好的黑波/@DR⁴_KURONAMI KUNAI/puprle/com.valstrike/files/valstrike/sound/weapons/valorant/kuroknife/inspect.wav",
+      "output": "dist/assets/imported/kuronami/purple/sound/weapons/valorant/kuroknife/inspect.wav",
+      "sha256": "8d584dd74037308aedc2b78c96cbb765b917d970c513bdfbfc4f5682d95529b7",
+      "bytes": 235728
+    },
+    {
+      "source": "特效更好的黑波/@DR⁴_KURONAMI KUNAI/puprle/com.valstrike/files/valstrike/sound/weapons/valorant/kuroknife/slash_back4.wav",
+      "output": "dist/assets/imported/kuronami/purple/sound/weapons/valorant/kuroknife/slash_back4.wav",
+      "sha256": "cf226f1f1212252a35d72c5b360ba680b4f7e47dc664939315a7ac6f6ea14df5",
+      "bytes": 30996
+    },
+    {
+      "source": "特效更好的黑波/@DR⁴_KURONAMI KUNAI/puprle/com.valstrike/files/valstrike/sound/weapons/valorant/kuroknife/slash_back2.wav",
+      "output": "dist/assets/imported/kuronami/purple/sound/weapons/valorant/kuroknife/slash_back2.wav",
+      "sha256": "a3a0334e55dc49db5d5709b08eccee7b3f43669a3a83fc0a96d6b744e86d1217",
+      "bytes": 37626
+    },
+    {
+      "source": "特效更好的黑波/@DR⁴_KURONAMI KUNAI/puprle/com.valstrike/files/valstrike/sound/weapons/valorant/kuroknife/slash_back1.wav",
+      "output": "dist/assets/imported/kuronami/purple/sound/weapons/valorant/kuroknife/slash_back1.wav",
+      "sha256": "6e391bbb4d58d863ad0eb3cccb21fc744852cad43c7d77838d69eae9988a75c4",
+      "bytes": 32250
+    },
+    {
+      "source": "特效更好的黑波/@DR⁴_KURONAMI KUNAI/puprle/com.valstrike/files/valstrike/sound/weapons/valorant/kuroknife/stab1.wav",
+      "output": "dist/assets/imported/kuronami/purple/sound/weapons/valorant/kuroknife/stab1.wav",
+      "sha256": "7db2200b812e3f5f96a0c6bb4a73ffa6fea77e051b767cc561596222f616dccd",
+      "bytes": 29426
+    },
+    {
+      "source": "特效更好的黑波/@DR⁴_KURONAMI KUNAI/puprle/com.valstrike/files/valstrike/sound/weapons/valorant/kuroknife/slash_back3.wav",
+      "output": "dist/assets/imported/kuronami/purple/sound/weapons/valorant/kuroknife/slash_back3.wav",
+      "sha256": "ebba139f387afa1534e04de78589e92408fe16e84cf3ad9f005130e47920bfa9",
+      "bytes": 24722
+    },
+    {
+      "source": "特效更好的黑波/@DR⁴_KURONAMI KUNAI/puprle/com.valstrike/files/valstrike/sound/weapons/valorant/kuroknife/draw1.wav",
+      "output": "dist/assets/imported/kuronami/purple/sound/weapons/valorant/kuroknife/draw1.wav",
+      "sha256": "3f73f5f3889325abd15d732f7a08c9986cee6f51cef06b91f59148707194ca1f",
+      "bytes": 23782
+    },
+    {
+      "source": "特效更好的黑波/@DR⁴_KURONAMI KUNAI/puprle/com.valstrike/files/valstrike/sound/weapons/valorant/kuroknife/stab2.wav",
+      "output": "dist/assets/imported/kuronami/purple/sound/weapons/valorant/kuroknife/stab2.wav",
+      "sha256": "fda91b5fa1e1e2b5d22b00515c75fb92c96137c63b6f54e1fbe2e5dac3759021",
+      "bytes": 40260
+    },
+    {
+      "source": "特效更好的黑波/@DR⁴_KURONAMI KUNAI/white/com.valstrike/files/valstrike/models/v_knife.mdl",
+      "output": "dist/assets/imported/kuronami/white/model.mdl",
+      "sha256": "62b101ed6f218c69cf0eda218ddfdd5ae054e42a2d1ef9caf07500d255cec211",
+      "bytes": 2736632
+    },
+    {
+      "source": "特效更好的黑波/@DR⁴_KURONAMI KUNAI/white/com.valstrike/files/valstrike/sound/weapons/valorant/kuroknife/draw2.wav",
+      "output": "dist/assets/imported/kuronami/white/sound/weapons/valorant/kuroknife/draw2.wav",
+      "sha256": "ffe9804a8399ca0938d09d5878a6a198bc291a5027b733806e175a1649aace46",
+      "bytes": 39284
+    },
+    {
+      "source": "特效更好的黑波/@DR⁴_KURONAMI KUNAI/white/com.valstrike/files/valstrike/sound/weapons/valorant/kuroknife/inspect.wav",
+      "output": "dist/assets/imported/kuronami/white/sound/weapons/valorant/kuroknife/inspect.wav",
+      "sha256": "8d584dd74037308aedc2b78c96cbb765b917d970c513bdfbfc4f5682d95529b7",
+      "bytes": 235728
+    },
+    {
+      "source": "特效更好的黑波/@DR⁴_KURONAMI KUNAI/white/com.valstrike/files/valstrike/sound/weapons/valorant/kuroknife/slash_back4.wav",
+      "output": "dist/assets/imported/kuronami/white/sound/weapons/valorant/kuroknife/slash_back4.wav",
+      "sha256": "cf226f1f1212252a35d72c5b360ba680b4f7e47dc664939315a7ac6f6ea14df5",
+      "bytes": 30996
+    },
+    {
+      "source": "特效更好的黑波/@DR⁴_KURONAMI KUNAI/white/com.valstrike/files/valstrike/sound/weapons/valorant/kuroknife/slash_back2.wav",
+      "output": "dist/assets/imported/kuronami/white/sound/weapons/valorant/kuroknife/slash_back2.wav",
+      "sha256": "a3a0334e55dc49db5d5709b08eccee7b3f43669a3a83fc0a96d6b744e86d1217",
+      "bytes": 37626
+    },
+    {
+      "source": "特效更好的黑波/@DR⁴_KURONAMI KUNAI/white/com.valstrike/files/valstrike/sound/weapons/valorant/kuroknife/slash_back1.wav",
+      "output": "dist/assets/imported/kuronami/white/sound/weapons/valorant/kuroknife/slash_back1.wav",
+      "sha256": "6e391bbb4d58d863ad0eb3cccb21fc744852cad43c7d77838d69eae9988a75c4",
+      "bytes": 32250
+    },
+    {
+      "source": "特效更好的黑波/@DR⁴_KURONAMI KUNAI/white/com.valstrike/files/valstrike/sound/weapons/valorant/kuroknife/stab1.wav",
+      "output": "dist/assets/imported/kuronami/white/sound/weapons/valorant/kuroknife/stab1.wav",
+      "sha256": "7db2200b812e3f5f96a0c6bb4a73ffa6fea77e051b767cc561596222f616dccd",
+      "bytes": 29426
+    },
+    {
+      "source": "特效更好的黑波/@DR⁴_KURONAMI KUNAI/white/com.valstrike/files/valstrike/sound/weapons/valorant/kuroknife/slash_back3.wav",
+      "output": "dist/assets/imported/kuronami/white/sound/weapons/valorant/kuroknife/slash_back3.wav",
+      "sha256": "ebba139f387afa1534e04de78589e92408fe16e84cf3ad9f005130e47920bfa9",
+      "bytes": 24722
+    },
+    {
+      "source": "特效更好的黑波/@DR⁴_KURONAMI KUNAI/white/com.valstrike/files/valstrike/sound/weapons/valorant/kuroknife/draw1.wav",
+      "output": "dist/assets/imported/kuronami/white/sound/weapons/valorant/kuroknife/draw1.wav",
+      "sha256": "3f73f5f3889325abd15d732f7a08c9986cee6f51cef06b91f59148707194ca1f",
+      "bytes": 23782
+    },
+    {
+      "source": "特效更好的黑波/@DR⁴_KURONAMI KUNAI/white/com.valstrike/files/valstrike/sound/weapons/valorant/kuroknife/stab2.wav",
+      "output": "dist/assets/imported/kuronami/white/sound/weapons/valorant/kuroknife/stab2.wav",
+      "sha256": "fda91b5fa1e1e2b5d22b00515c75fb92c96137c63b6f54e1fbe2e5dac3759021",
+      "bytes": 40260
+    },
+    {
+      "source": "特效更好的黑波/@DR⁴_KURONAMI KUNAI/red/com.valstrike/files/valstrike/models/v_knife.mdl",
+      "output": "dist/assets/imported/kuronami/black/model.mdl",
+      "sha256": "b95d52d68f8b2e5609bde77f7b3da59655c4dce8e30baa3f7c4870fef015c27b",
+      "bytes": 2736632
+    },
+    {
+      "source": "特效更好的黑波/@DR⁴_KURONAMI KUNAI/red/com.valstrike/files/valstrike/sound/weapons/valorant/kuroknife/draw2.wav",
+      "output": "dist/assets/imported/kuronami/black/sound/weapons/valorant/kuroknife/draw2.wav",
+      "sha256": "ffe9804a8399ca0938d09d5878a6a198bc291a5027b733806e175a1649aace46",
+      "bytes": 39284
+    },
+    {
+      "source": "特效更好的黑波/@DR⁴_KURONAMI KUNAI/red/com.valstrike/files/valstrike/sound/weapons/valorant/kuroknife/inspect.wav",
+      "output": "dist/assets/imported/kuronami/black/sound/weapons/valorant/kuroknife/inspect.wav",
+      "sha256": "8d584dd74037308aedc2b78c96cbb765b917d970c513bdfbfc4f5682d95529b7",
+      "bytes": 235728
+    },
+    {
+      "source": "特效更好的黑波/@DR⁴_KURONAMI KUNAI/red/com.valstrike/files/valstrike/sound/weapons/valorant/kuroknife/slash_back4.wav",
+      "output": "dist/assets/imported/kuronami/black/sound/weapons/valorant/kuroknife/slash_back4.wav",
+      "sha256": "cf226f1f1212252a35d72c5b360ba680b4f7e47dc664939315a7ac6f6ea14df5",
+      "bytes": 30996
+    },
+    {
+      "source": "特效更好的黑波/@DR⁴_KURONAMI KUNAI/red/com.valstrike/files/valstrike/sound/weapons/valorant/kuroknife/slash_back2.wav",
+      "output": "dist/assets/imported/kuronami/black/sound/weapons/valorant/kuroknife/slash_back2.wav",
+      "sha256": "a3a0334e55dc49db5d5709b08eccee7b3f43669a3a83fc0a96d6b744e86d1217",
+      "bytes": 37626
+    },
+    {
+      "source": "特效更好的黑波/@DR⁴_KURONAMI KUNAI/red/com.valstrike/files/valstrike/sound/weapons/valorant/kuroknife/slash_back1.wav",
+      "output": "dist/assets/imported/kuronami/black/sound/weapons/valorant/kuroknife/slash_back1.wav",
+      "sha256": "6e391bbb4d58d863ad0eb3cccb21fc744852cad43c7d77838d69eae9988a75c4",
+      "bytes": 32250
+    },
+    {
+      "source": "特效更好的黑波/@DR⁴_KURONAMI KUNAI/red/com.valstrike/files/valstrike/sound/weapons/valorant/kuroknife/stab1.wav",
+      "output": "dist/assets/imported/kuronami/black/sound/weapons/valorant/kuroknife/stab1.wav",
+      "sha256": "7db2200b812e3f5f96a0c6bb4a73ffa6fea77e051b767cc561596222f616dccd",
+      "bytes": 29426
+    },
+    {
+      "source": "特效更好的黑波/@DR⁴_KURONAMI KUNAI/red/com.valstrike/files/valstrike/sound/weapons/valorant/kuroknife/slash_back3.wav",
+      "output": "dist/assets/imported/kuronami/black/sound/weapons/valorant/kuroknife/slash_back3.wav",
+      "sha256": "ebba139f387afa1534e04de78589e92408fe16e84cf3ad9f005130e47920bfa9",
+      "bytes": 24722
+    },
+    {
+      "source": "特效更好的黑波/@DR⁴_KURONAMI KUNAI/red/com.valstrike/files/valstrike/sound/weapons/valorant/kuroknife/draw1.wav",
+      "output": "dist/assets/imported/kuronami/black/sound/weapons/valorant/kuroknife/draw1.wav",
+      "sha256": "3f73f5f3889325abd15d732f7a08c9986cee6f51cef06b91f59148707194ca1f",
+      "bytes": 23782
+    },
+    {
+      "source": "特效更好的黑波/@DR⁴_KURONAMI KUNAI/red/com.valstrike/files/valstrike/sound/weapons/valorant/kuroknife/stab2.wav",
+      "output": "dist/assets/imported/kuronami/black/sound/weapons/valorant/kuroknife/stab2.wav",
+      "sha256": "fda91b5fa1e1e2b5d22b00515c75fb92c96137c63b6f54e1fbe2e5dac3759021",
+      "bytes": 40260
+    },
+    {
+      "source": "有特效的塑水狂徒/vandal kuronami/blue/models/v_vandal.mdl",
+      "output": "dist/assets/imported/kuronamivandal/base/model.mdl",
+      "sha256": "675ed69617bbcd34ca8031853a0f6b3a28869a518b4126d24570e5fcb94000c2",
+      "bytes": 3283928
+    },
+    {
+      "source": "有特效的塑水狂徒/vandal kuronami/blue/sound/weapons/vandal/vandal1.wav",
+      "output": "dist/assets/imported/kuronamivandal/base/sound/weapons/vandal/vandal1.wav",
+      "sha256": "d90bac8c00c37914f58f610518b01c040d5877941349f33cb11c5cc33ce90068",
+      "bytes": 23576
+    },
+    {
+      "source": "有特效的塑水狂徒/vandal kuronami/blue/sound/weapons/valorant/kuronamivandal/reload.wav",
+      "output": "dist/assets/imported/kuronamivandal/base/sound/weapons/valorant/kuronamivandal/reload.wav",
+      "sha256": "02ff2d60151d5d283294f792e3d5e7bc2ab0f151963edc36c8e01118415925ce",
+      "bytes": 103502
+    },
+    {
+      "source": "有特效的塑水狂徒/vandal kuronami/blue/sound/weapons/valorant/kuronamivandal/shoot.wav",
+      "output": "dist/assets/imported/kuronamivandal/base/sound/weapons/valorant/kuronamivandal/shoot.wav",
+      "sha256": "d90bac8c00c37914f58f610518b01c040d5877941349f33cb11c5cc33ce90068",
+      "bytes": 23576
+    },
+    {
+      "source": "有特效的塑水狂徒/vandal kuronami/blue/sound/weapons/valorant/kuronamivandal/inspect.wav",
+      "output": "dist/assets/imported/kuronamivandal/base/sound/weapons/valorant/kuronamivandal/inspect.wav",
+      "sha256": "d3d51f5bfb914cf5aa6bf68dc1b685c3bb4e7f3d8320f7b30c5b4fc0a834e02a",
+      "bytes": 182132
+    },
+    {
+      "source": "有特效的塑水狂徒/vandal kuronami/blue/sound/weapons/valorant/kuronamivandal/draw.wav",
+      "output": "dist/assets/imported/kuronamivandal/base/sound/weapons/valorant/kuronamivandal/draw.wav",
+      "sha256": "f9afca313e29178d50da36b8ad6e7cfef5353c86f0477b67e9beaff3516b6a89",
+      "bytes": 52302
+    },
+    {
+      "source": "有特效的塑水狂徒/vandal kuronami/blue/models/finisher/kuro.mdl",
+      "output": "dist/assets/imported/kuronamivandal/base/finisher.mdl",
+      "sha256": "4ffefcdaab5bbf64db5c255530a843ce9561eade5152ae133ab0a164294dbf94",
+      "bytes": 3181408
+    },
+    {
+      "source": "有特效的塑水狂徒/vandal kuronami/blue/models/attachment/v_vandal_sight.mdl",
+      "output": "dist/assets/imported/kuronamivandal/base/v_vandal_sight.mdl",
+      "sha256": "37c88c3d47ae10d465d8d170a631fb78625fdfed42edf24b61e898e67793e435",
+      "bytes": 310048
+    },
+    {
+      "source": "有特效的塑水狂徒/vandal kuronami/blue/models/attachment/v_vandal_sight_dummy.mdl",
+      "output": "dist/assets/imported/kuronamivandal/base/v_vandal_sight_dummy.mdl",
+      "sha256": "b82278616f04e5e25eb72a732d250b91375ea0f26581b3b77f35864a609b2d6d",
+      "bytes": 32644
+    },
+    {
+      "source": "有特效的塑水狂徒/vandal kuronami/purple/models/v_vandal.mdl",
+      "output": "dist/assets/imported/kuronamivandal/purple/model.mdl",
+      "sha256": "5a5bf265299c5af5ba350a244593ec249b9191a299c6afacd48357fe2fbeb93c",
+      "bytes": 3283928
+    },
+    {
+      "source": "有特效的塑水狂徒/vandal kuronami/purple/sound/weapons/vandal/vandal1.wav",
+      "output": "dist/assets/imported/kuronamivandal/purple/sound/weapons/vandal/vandal1.wav",
+      "sha256": "d90bac8c00c37914f58f610518b01c040d5877941349f33cb11c5cc33ce90068",
+      "bytes": 23576
+    },
+    {
+      "source": "有特效的塑水狂徒/vandal kuronami/purple/sound/weapons/valorant/kuronamivandal/reload.wav",
+      "output": "dist/assets/imported/kuronamivandal/purple/sound/weapons/valorant/kuronamivandal/reload.wav",
+      "sha256": "02ff2d60151d5d283294f792e3d5e7bc2ab0f151963edc36c8e01118415925ce",
+      "bytes": 103502
+    },
+    {
+      "source": "有特效的塑水狂徒/vandal kuronami/purple/sound/weapons/valorant/kuronamivandal/shoot.wav",
+      "output": "dist/assets/imported/kuronamivandal/purple/sound/weapons/valorant/kuronamivandal/shoot.wav",
+      "sha256": "d90bac8c00c37914f58f610518b01c040d5877941349f33cb11c5cc33ce90068",
+      "bytes": 23576
+    },
+    {
+      "source": "有特效的塑水狂徒/vandal kuronami/purple/sound/weapons/valorant/kuronamivandal/inspect.wav",
+      "output": "dist/assets/imported/kuronamivandal/purple/sound/weapons/valorant/kuronamivandal/inspect.wav",
+      "sha256": "d3d51f5bfb914cf5aa6bf68dc1b685c3bb4e7f3d8320f7b30c5b4fc0a834e02a",
+      "bytes": 182132
+    },
+    {
+      "source": "有特效的塑水狂徒/vandal kuronami/purple/sound/weapons/valorant/kuronamivandal/draw.wav",
+      "output": "dist/assets/imported/kuronamivandal/purple/sound/weapons/valorant/kuronamivandal/draw.wav",
+      "sha256": "f9afca313e29178d50da36b8ad6e7cfef5353c86f0477b67e9beaff3516b6a89",
+      "bytes": 52302
+    },
+    {
+      "source": "有特效的塑水狂徒/vandal kuronami/purple/models/finisher/kuropurple.mdl",
+      "output": "dist/assets/imported/kuronamivandal/purple/finisher.mdl",
+      "sha256": "13961ee041bab8551c268d8c6ca9d2d91cc37af91e925ef3527fef76772f5f29",
+      "bytes": 3181408
+    },
+    {
+      "source": "有特效的塑水狂徒/vandal kuronami/purple/models/attachment/v_vandal_sight.mdl",
+      "output": "dist/assets/imported/kuronamivandal/purple/v_vandal_sight.mdl",
+      "sha256": "f08f2c46a0a2d11b490b915800ba4b9305cd00e5885d1c8dcf00f6bdc03fcd3c",
+      "bytes": 352364
+    },
+    {
+      "source": "有特效的塑水狂徒/vandal kuronami/purple/models/attachment/v_vandal_sight_dummy.mdl",
+      "output": "dist/assets/imported/kuronamivandal/purple/v_vandal_sight_dummy.mdl",
+      "sha256": "1bc70ccc6a1d3aa06879f66d0ae1d3a08df0916b7225ea18981804df17b8f3da",
+      "bytes": 78992
+    },
+    {
+      "source": "有特效的塑水狂徒/vandal kuronami/white/models/v_vandal.mdl",
+      "output": "dist/assets/imported/kuronamivandal/white/model.mdl",
+      "sha256": "2d6851cba37889130f5ce05829ee25029092b98f452e346a4171d2091de905d3",
+      "bytes": 3283928
+    },
+    {
+      "source": "有特效的塑水狂徒/vandal kuronami/white/sound/weapons/vandal/vandal1.wav",
+      "output": "dist/assets/imported/kuronamivandal/white/sound/weapons/vandal/vandal1.wav",
+      "sha256": "d90bac8c00c37914f58f610518b01c040d5877941349f33cb11c5cc33ce90068",
+      "bytes": 23576
+    },
+    {
+      "source": "有特效的塑水狂徒/vandal kuronami/white/sound/weapons/valorant/kuronamivandal/reload.wav",
+      "output": "dist/assets/imported/kuronamivandal/white/sound/weapons/valorant/kuronamivandal/reload.wav",
+      "sha256": "02ff2d60151d5d283294f792e3d5e7bc2ab0f151963edc36c8e01118415925ce",
+      "bytes": 103502
+    },
+    {
+      "source": "有特效的塑水狂徒/vandal kuronami/white/sound/weapons/valorant/kuronamivandal/shoot.wav",
+      "output": "dist/assets/imported/kuronamivandal/white/sound/weapons/valorant/kuronamivandal/shoot.wav",
+      "sha256": "d90bac8c00c37914f58f610518b01c040d5877941349f33cb11c5cc33ce90068",
+      "bytes": 23576
+    },
+    {
+      "source": "有特效的塑水狂徒/vandal kuronami/white/sound/weapons/valorant/kuronamivandal/inspect.wav",
+      "output": "dist/assets/imported/kuronamivandal/white/sound/weapons/valorant/kuronamivandal/inspect.wav",
+      "sha256": "d3d51f5bfb914cf5aa6bf68dc1b685c3bb4e7f3d8320f7b30c5b4fc0a834e02a",
+      "bytes": 182132
+    },
+    {
+      "source": "有特效的塑水狂徒/vandal kuronami/white/sound/weapons/valorant/kuronamivandal/draw.wav",
+      "output": "dist/assets/imported/kuronamivandal/white/sound/weapons/valorant/kuronamivandal/draw.wav",
+      "sha256": "f9afca313e29178d50da36b8ad6e7cfef5353c86f0477b67e9beaff3516b6a89",
+      "bytes": 52302
+    },
+    {
+      "source": "有特效的塑水狂徒/vandal kuronami/blue/models/finisher/kuro.mdl",
+      "output": "dist/assets/imported/kuronamivandal/white/finisher.mdl",
+      "sha256": "4ffefcdaab5bbf64db5c255530a843ce9561eade5152ae133ab0a164294dbf94",
+      "bytes": 3181408
+    },
+    {
+      "source": "有特效的塑水狂徒/vandal kuronami/white/models/attachment/v_vandal_sight.mdl",
+      "output": "dist/assets/imported/kuronamivandal/white/v_vandal_sight.mdl",
+      "sha256": "63fced154761cd143ba0e8a24eedde8b402013d0377a6d60aae3be87fde47b47",
+      "bytes": 352124
+    },
+    {
+      "source": "有特效的塑水狂徒/vandal kuronami/white/models/attachment/v_vandal_sight_dummy.mdl",
+      "output": "dist/assets/imported/kuronamivandal/white/v_vandal_sight_dummy.mdl",
+      "sha256": "137aa53d54cb244643ae8df199fbb696acae926d258790b0eb0b1445332073cd",
+      "bytes": 74720
+    },
+    {
+      "source": "有特效的塑水狂徒/vandal kuronami/red/models/v_vandal.mdl",
+      "output": "dist/assets/imported/kuronamivandal/black/model.mdl",
+      "sha256": "991c2616197b80e139356470f7424948419a0a19b9cceba1e54a8ce7a8a05d1d",
+      "bytes": 3283928
+    },
+    {
+      "source": "有特效的塑水狂徒/vandal kuronami/red/sound/weapons/vandal/vandal1.wav",
+      "output": "dist/assets/imported/kuronamivandal/black/sound/weapons/vandal/vandal1.wav",
+      "sha256": "d90bac8c00c37914f58f610518b01c040d5877941349f33cb11c5cc33ce90068",
+      "bytes": 23576
+    },
+    {
+      "source": "有特效的塑水狂徒/vandal kuronami/red/sound/weapons/valorant/kuronamivandal/reload.wav",
+      "output": "dist/assets/imported/kuronamivandal/black/sound/weapons/valorant/kuronamivandal/reload.wav",
+      "sha256": "02ff2d60151d5d283294f792e3d5e7bc2ab0f151963edc36c8e01118415925ce",
+      "bytes": 103502
+    },
+    {
+      "source": "有特效的塑水狂徒/vandal kuronami/red/sound/weapons/valorant/kuronamivandal/shoot.wav",
+      "output": "dist/assets/imported/kuronamivandal/black/sound/weapons/valorant/kuronamivandal/shoot.wav",
+      "sha256": "d90bac8c00c37914f58f610518b01c040d5877941349f33cb11c5cc33ce90068",
+      "bytes": 23576
+    },
+    {
+      "source": "有特效的塑水狂徒/vandal kuronami/red/sound/weapons/valorant/kuronamivandal/inspect.wav",
+      "output": "dist/assets/imported/kuronamivandal/black/sound/weapons/valorant/kuronamivandal/inspect.wav",
+      "sha256": "d3d51f5bfb914cf5aa6bf68dc1b685c3bb4e7f3d8320f7b30c5b4fc0a834e02a",
+      "bytes": 182132
+    },
+    {
+      "source": "有特效的塑水狂徒/vandal kuronami/red/sound/weapons/valorant/kuronamivandal/draw.wav",
+      "output": "dist/assets/imported/kuronamivandal/black/sound/weapons/valorant/kuronamivandal/draw.wav",
+      "sha256": "f9afca313e29178d50da36b8ad6e7cfef5353c86f0477b67e9beaff3516b6a89",
+      "bytes": 52302
+    },
+    {
+      "source": "有特效的塑水狂徒/vandal kuronami/red/models/finisher/kurored.mdl",
+      "output": "dist/assets/imported/kuronamivandal/black/finisher.mdl",
+      "sha256": "7e2f5c98fe19252e8cccf716f9e294da95179c854a5f9b60034cb0296d534e6a",
+      "bytes": 3181408
+    },
+    {
+      "source": "有特效的塑水狂徒/vandal kuronami/red/models/attachment/v_vandal_sight.mdl",
+      "output": "dist/assets/imported/kuronamivandal/black/v_vandal_sight.mdl",
+      "sha256": "fca86f9f8625db83014a3d1d6af9a3d8963339ac0bcdc661be285d9d3f9fccca",
+      "bytes": 352620
+    },
+    {
+      "source": "有特效的塑水狂徒/vandal kuronami/red/models/attachment/v_vandal_sight_dummy.mdl",
+      "output": "dist/assets/imported/kuronamivandal/black/v_vandal_sight_dummy.mdl",
+      "sha256": "592a9eb2bee46fe18357a573970dfdaa432d591f7630a361a698937a254666ea",
+      "bytes": 75216
+    }
+  ]
+}
