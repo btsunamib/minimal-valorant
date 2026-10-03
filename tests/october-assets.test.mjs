@@ -5,6 +5,8 @@ import {gunzipSync} from 'node:zlib';
 import * as T from '../dist/three.module.js';
 import {MapNavigation} from '../dist/map-navigation.js';
 import {loadSourceModel} from '../dist/source-model.js';
+import {skinThumbnail} from '../dist/collection.js';
+import {prepareNativeShowroom,showNativeShowroom} from '../dist/native-showroom.js';
 import {GoldSrcModel} from '../dist/goldsrc-model.js';
 import {OCTOBER_IMPORTS} from '../dist/october-catalog.js';
 import {FEEDBACK_PACKS} from '../dist/feedback-catalog.js';
@@ -32,9 +34,10 @@ test('Source 49 model retains 327 finite bone frames, valid skinning and materia
  for(const m of d.meshes){assert(m.indices.every(i=>i>=0&&i<92));for(let i=0;i<m.weights.length;i+=4)assert(Math.abs(m.weights.slice(i,i+4).reduce((a,b)=>a+b,0)-1)<1e-5);assert(m.triangles.every(i=>i<m.positions.length/3));}
  assert(d.textures.some(t=>t.name==='aura'&&t.additive));for(const t of d.textures)assert.equal(Buffer.from(t.rgba,'base64').length,t.width*t.height*4);
  const previous=globalThis.fetch;globalThis.fetch=async()=>new Response(b);
- try{const rig=(await loadSourceModel('./assets/imported/champions25source/base/model.json.gz')).instantiate(),m=rig.meshes.find(m=>m.name==='shezo_25'),point=()=>m.getVertexPosition(0,new T.Vector3()).toArray();rig.sample(5,70);const expected=point();rig.sample(4,10);rig.sample(5,70);assert.deepEqual(point(),expected);assert(expected.every(Number.isFinite));rig.dispose();}finally{globalThis.fetch=previous;}
+ try{const rig=(await loadSourceModel('./assets/imported/champions25source/base/model.json.gz')).instantiate(),m=rig.meshes.find(m=>m.name==='shezo_25'),point=()=>m.getVertexPosition(0,new T.Vector3()).toArray();rig.sample(5,70);const expected=point();rig.sample(4,10);rig.sample(5,70);assert.deepEqual(point(),expected);assert(expected.every(Number.isFinite));rig.sample(0,0);prepareNativeShowroom(rig);showNativeShowroom(rig);assert(rig.meshes.filter(m=>m.name.startsWith('fp_bountyhunter_')).every(m=>m.userData.nativeHand&&!m.visible));assert(rig.meshes.some(m=>m.userData.showroomIndices.length<m.userData.nativeIndices.length));rig.dispose();}finally{globalThis.fetch=previous;}
 });
 test('All six supplied aim models and both objective view models decode, and five feedback packs retain five audio stages',()=>{
+ for(const [key,s]of Object.entries(OCTOBER_IMPORTS))assert(existsSync(new URL('../dist/'+skinThumbnail(s.weapon,key),import.meta.url)),key+' default thumbnail');
  for(const [key,s]of Object.entries(OCTOBER_IMPORTS).filter(([,s])=>s.hasAim)){
   const b=gunzipSync(readFileSync(asset('imported/'+key+'/base/aim.mdl.gz'))),p=new GoldSrcModel(b.buffer.slice(b.byteOffset,b.byteOffset+b.byteLength));assert(p.sequences.some(s=>s.name==='zoom_shoot'));for(const seq of p.sequences)for(let f=0;f<seq.frames;f++)assert(p.pose(seq.index,f).every(Number.isFinite));
  }

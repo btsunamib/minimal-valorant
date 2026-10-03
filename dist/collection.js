@@ -1,5 +1,5 @@
 import {SKINS,KNIVES} from './rules.js';
-import {IMPORTED_WEAPONS} from './imported-weapons.js?v=20261003-world2';
+import {IMPORTED_WEAPONS} from './imported-weapons.js?v=20261003-world3';
 
 export function equippedSkin(id,prefs){
  const key=prefs.weaponSkins?.[id]??prefs.skin??'standard',s=SKINS[key];
@@ -19,7 +19,7 @@ export function skinItems(id){
 }
 export function skinThumbnail(id,key,variant='base'){
  if(key==='standard'&&IMPORTED_WEAPONS['valstrike'+id])return `assets/imported/valstrike${id}/base/thumb.webp`;
- if(IMPORTED_WEAPONS[key])return `assets/imported/${key}/${variant}/thumb.webp`;
+ if(IMPORTED_WEAPONS[key]){const spec=IMPORTED_WEAPONS[key],selected=Object.hasOwn(spec.variants,variant)?variant:Object.hasOwn(spec.variants,'base')?'base':Object.keys(spec.variants)[0];return `assets/imported/${key}/${selected}/thumb.webp`;}
  return `assets/ui/${key==='chaos'?'chaos':key==='champions26'?'champions26':key==='champions24'?'champions24':id}.png`;
 }
 export function variantColor(id){return ({base:'#71ced8',purple:'#9472c4',pink:'#e2a4c8',white:'#ede8da',black:'#c25164',red:'#c25164',blue:'#61bdda',brown:'#c5aa8a',aura:'#eed991',level1:'#b2b4b7',plain:'#71757a',shatter:'#cfab59'})[id]||'#78a8ad';}

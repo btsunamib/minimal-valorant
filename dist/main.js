@@ -1,10 +1,10 @@
-import {NativeUtilities,createNativeSpike} from './native-utilities.js?v=20261003-world2';
-import {MAPS,loadNativeMap} from './native-maps.js?v=20261003-world2';
-import {configureValorantRender} from './valorant-render.js?v=20261003-world2';
-import {setupNativeUI,NativeFeedback,FEEDBACK_NAMES} from './native-ui.js?v=20261003-world2';
+import {NativeUtilities,createNativeSpike} from './native-utilities.js?v=20261003-world3';
+import {MAPS,loadNativeMap} from './native-maps.js?v=20261003-world3';
+import {configureValorantRender} from './valorant-render.js?v=20261003-world3';
+import {setupNativeUI,NativeFeedback,FEEDBACK_NAMES} from './native-ui.js?v=20261003-world3';
 import {prepareNativeShowroom,showNativeShowroom,restoreNativeViewmodel} from './native-showroom.js';
-import {equippedSkin,collectionDraft,equipCollection,skinItems,skinThumbnail,variantColor} from './collection.js?v=20261003-world2';
-import {ImportedKillAudio,importedFeedbackFamily,IMPORTED_WEAPONS,importedSelection,createImportedWeapon,createImportedFinisher,importedBadgeMarkup,updateImportedBadge,sequenceFor} from './imported-weapons.js?v=20261003-world2';
+import {equippedSkin,collectionDraft,equipCollection,skinItems,skinThumbnail,variantColor} from './collection.js?v=20261003-world3';
+import {ImportedKillAudio,importedFeedbackFamily,IMPORTED_WEAPONS,importedSelection,createImportedWeapon,createImportedFinisher,importedBadgeMarkup,updateImportedBadge,sequenceFor} from './imported-weapons.js?v=20261003-world3';
 import {C26_CLIPS,sampleC26,championSide} from './champions26.js';
 import {C26Audio,c26BadgeMarkup,updateC26Badge,createC26Finisher,C26_BADGE_DURATION} from './champions26-feedback.js';
 import {HitEffects} from './hit-effects.js';
@@ -41,7 +41,7 @@ import {GyroAim} from './gyro.js';
 import {batchStaticWorld} from './static-batch.js';
 import {detailedWorld} from './world-art.js';
 import {createWeaponArt} from './weapon-art.js';
-import {SoftwareRenderer} from './software-renderer.js?v=20261003-world2';
+import {SoftwareRenderer} from './software-renderer.js?v=20261003-world3';
 import {WEAPONS,SKINS,KNIVES,SOLIDS,SITES,collision,pathfind,absorbDamage,rankInfo,roundResult} from './rules.js';
 const $=id=>document.getElementById(id),clamp=(v,a,b)=>Math.max(a,Math.min(b,v)),rand=(a,b)=>a+Math.random()*(b-a),V=(x=0,y=0,z=0)=>new THREE.Vector3(x,y,z);
 const coarsePointer=matchMedia('(pointer:coarse)').matches;let touchDevice=coarsePointer;let storageOK=true;
@@ -411,5 +411,5 @@ for(const [id,step]of [['spectatorPrev',-1],['spectatorNext',1]])bindTouchAction
 // Browser-native tools mirror the visible settings and match controls when supported.
 if(document.modelContext?.registerTool){const lifecycle=new AbortController();for(const tool of[
  {name:'get_match_status',title:'读取对局状态',description:'Read the current mode, score, phase and local rank without modifying the game.',inputSchema:{type:'object',properties:{},additionalProperties:false},annotations:{readOnlyHint:true},execute:()=>({state,mode,phase,score:[...score],round,hp:Math.ceil(player.hp),weapon:weaponId(),rank:rankInfo(career.rr).name})},
- {name:'configure_loadout',title:'配置武器皮肤',description:'Equip a primary weapon, cosmetic skin and knife in the lobby, just like the arsenal controls.',inputSchema:{type:'object',properties:{weapon:{enum:PRIMARY_GUNS},skin:{enum:Object.keys(SKINS)},knife:{enum:Object.keys(KNIVES)}},required:['weapon','skin','knife'],additionalProperties:false},annotations:{readOnlyHint:false},execute:input=>{if(state!=='menu')throw new Error('Return to lobby first');if(!input||!PRIMARY_GUNS.includes(input.weapon)||!Object.hasOwn(SKINS,input.skin)||!Object.hasOwn(KNIVES,input.knife))throw new Error('Invalid loadout');prefs.primary=input.weapon;prefs.skin=input.skin;prefs.knife=input.knife;primary=input.weapon;save();setTab('collection');return{weapon:prefs.primary,skin:prefs.skin,knife:prefs.knife}}}
+ {name:'configure_loadout',title:'配置武器皮肤',description:'Equip a primary weapon, cosmetic skin and knife in the lobby, just like the arsenal controls.',inputSchema:{type:'object',properties:{weapon:{enum:PRIMARY_GUNS},skin:{enum:Object.keys(SKINS)},knife:{enum:Object.keys(KNIVES)}},required:['weapon','skin','knife'],additionalProperties:false},annotations:{readOnlyHint:false},execute:input=>{if(state!=='menu')throw new Error('Return to lobby first');if(!input||!PRIMARY_GUNS.includes(input.weapon)||!Object.hasOwn(SKINS,input.skin)||!Object.hasOwn(KNIVES,input.knife))throw new Error('Invalid loadout');prefs.primary=input.weapon;prefs.weaponSkins={...prefs.weaponSkins,[input.weapon]:input.skin};prefs.skin=input.skin;prefs.knife=input.knife;primary=input.weapon;save();setTab('collection');return{weapon:prefs.primary,skin:prefs.skin,knife:prefs.knife}}}
  ]){try{Promise.resolve(document.modelContext.registerTool(tool,{signal:lifecycle.signal})).catch(()=>{})}catch{}}window.addEventListener('pagehide',()=>lifecycle.abort(),{once:true})}
