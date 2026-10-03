@@ -5,13 +5,14 @@ import {prepareNativeShowroom,showNativeShowroom} from '../dist/native-showroom.
 import fs from 'node:fs';
 import {spawnSync} from 'node:child_process';
 import * as T from '../dist/three.module.js';
+import {loadSourceModel} from '../dist/source-model.js';
 import {GoldSrcModel} from '../dist/goldsrc-model.js';
 import {IMPORTED_WEAPONS,sequenceFor} from '../dist/imported-weapons.js';
 const only=process.argv[2];let count=0;
 for(const [key,spec]of Object.entries(IMPORTED_WEAPONS)){
  if(only&&key!==only)continue;
  for(const variant of Object.keys(spec.variants)){
-  const folder=`dist/assets/imported/${key}/${variant}`,b=fs.existsSync(folder+'/model.mdl')?fs.readFileSync(folder+'/model.mdl'):gunzipSync(fs.readFileSync(folder+'/model.mdl.gz')),p=new GoldSrcModel(b.buffer.slice(b.byteOffset,b.byteOffset+b.byteLength)),rig=p.instantiate();
+  const folder=`dist/assets/imported/${key}/${variant}`;if(spec.format==='source49')continue;const b=fs.existsSync(folder+'/model.mdl')?fs.readFileSync(folder+'/model.mdl'):gunzipSync(fs.readFileSync(folder+'/model.mdl.gz')),p=new GoldSrcModel(b.buffer.slice(b.byteOffset,b.byteOffset+b.byteLength)),rig=p.instantiate();
   rig.sample(sequenceFor(p.sequences,'idle'),0);
   const wrapper=new T.Group();wrapper.add(rig.model);wrapper.quaternion.copy(prepareNativeShowroom(rig,spec.weapon==='knife'));showNativeShowroom(rig);wrapper.updateMatrixWorld(true);
   const meshes=[],textures={},point=new T.Vector3();

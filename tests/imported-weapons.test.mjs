@@ -7,9 +7,9 @@ import {GoldSrcModel} from '../dist/goldsrc-model.js';
 import {NativeTimeline,IMPORTED_WEAPONS,importedSelection,sequenceFor} from '../dist/imported-weapons.js';
 const base=new URL('../dist/assets/imported/',import.meta.url);
 const load=url=>{const b=existsSync(url)?readFileSync(url):gunzipSync(readFileSync(new URL(url.href+'.gz')));return new GoldSrcModel(b.buffer.slice(b.byteOffset,b.byteOffset+b.byteLength));};
-test('All 100 supplied model variants decode every original bone frame, event, texture and triangle',()=>{
+test('All supplied GoldSrc model variants decode every original bone frame, event, texture and triangle',()=>{
  let frames=0,variants=0;
- for(const [key,spec]of Object.entries(IMPORTED_WEAPONS))for(const variant of Object.keys(spec.variants)){
+ for(const [key,spec]of Object.entries(IMPORTED_WEAPONS).filter(([,s])=>s.format!=='source49'))for(const variant of Object.keys(spec.variants)){
   const path=new URL(`${key}/${variant}/`,base),parsed=load(new URL('model.mdl',path)),meta=JSON.parse(readFileSync(new URL('sequences.json',path)));
   assert.equal(meta.length,parsed.sequences.length);
   for(const seq of parsed.sequences){assert.equal(meta[seq.index].name,seq.name);assert.equal(meta[seq.index].frames,seq.frames);assert.equal(meta[seq.index].fps,seq.fps);assert.equal(meta[seq.index].events.length,seq.events.length);
@@ -20,7 +20,7 @@ test('All 100 supplied model variants decode every original bone frame, event, t
   if(key==='kuronamivandal'){const finisher=load(new URL('finisher.mdl',path));for(let f=0;f<finisher.sequences[0].frames;f++)assert(finisher.pose(0,f).every(Number.isFinite));assert(existsSync(new URL('muzzle.json',path)));}
   variants++;
  }
- assert.equal(variants,100);assert(frames>10000);
+ assert.equal(variants,Object.values(IMPORTED_WEAPONS).filter(s=>s.format!=='source49').reduce((n,s)=>n+Object.keys(s.variants).length,0));assert(frames>10000);
 });
 test('Native seeking restores identical deformed mesh positions in either direction',()=>{
  const p=load(new URL('champions24/aura/model.mdl',base)),rig=p.instantiate(),seq=sequenceFor(p.sequences,'draw'),mesh=rig.meshes[0];

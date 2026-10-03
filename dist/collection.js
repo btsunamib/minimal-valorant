@@ -18,6 +18,7 @@ export function skinItems(id){
  return entries.flatMap(item=>item.key==='vctclassic'?Object.entries(IMPORTED_WEAPONS.vctclassic.variants).map(([variant,label])=>({...item,variant,name:label+' · 标配'})):[item]);
 }
 export function skinThumbnail(id,key,variant='base'){
+ if(key==='standard'&&IMPORTED_WEAPONS['valstrike'+id])return `assets/imported/valstrike${id}/base/thumb.webp`;
  if(IMPORTED_WEAPONS[key])return `assets/imported/${key}/${variant}/thumb.webp`;
  return `assets/ui/${key==='chaos'?'chaos':key==='champions26'?'champions26':key==='champions24'?'champions24':id}.png`;
 }

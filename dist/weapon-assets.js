@@ -1,8 +1,10 @@
 // Immutable, already published resource tree. No credentials go to the client.
 export const WEAPON_ASSET_COMMIT='9f9a2a13fb80293f4b0b8cc3d85c86f430c0ecae';
 export const WEAPON_ASSET_ROOT=`https://raw.githubusercontent.com/btsunamib/minimal-valorant/${WEAPON_ASSET_COMMIT}/dist/`;
+export const NEW_ASSET_ROOT='./';
 export function weaponAssetURL(path){
  const clean=String(path).replace(/^\.\//,'').replace(/^\//,'');
+ if(/^assets\/(maps|native-ui|feedback)\//.test(clean)||/^assets\/imported\/(valstrike|phaseguard|sovereign|eternal|forsaken|neofrontier|kuronamivfx|champions25source|champions22knifev2|originbuckyv2|utilities)/.test(clean))return NEW_ASSET_ROOT+clean;
  if(clean.startsWith('assets/imported/')&&!clean.split('/').includes('..'))return WEAPON_ASSET_ROOT+clean;
  return String(path);
 }
