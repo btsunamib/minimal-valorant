@@ -1,3 +1,4 @@
+import {gunzipSync} from 'node:zlib';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync,readdirSync,existsSync} from 'node:fs';
@@ -5,7 +6,7 @@ import * as T from '../dist/three.module.js';
 import {GoldSrcModel} from '../dist/goldsrc-model.js';
 import {NativeTimeline,IMPORTED_WEAPONS,importedSelection,sequenceFor} from '../dist/imported-weapons.js';
 const base=new URL('../dist/assets/imported/',import.meta.url);
-const load=url=>{const b=readFileSync(url);return new GoldSrcModel(b.buffer.slice(b.byteOffset,b.byteOffset+b.byteLength));};
+const load=url=>{const b=existsSync(url)?readFileSync(url):gunzipSync(readFileSync(new URL(url.href+'.gz')));return new GoldSrcModel(b.buffer.slice(b.byteOffset,b.byteOffset+b.byteLength));};
 test('All 100 supplied model variants decode every original bone frame, event, texture and triangle',()=>{
  let frames=0,variants=0;
  for(const [key,spec]of Object.entries(IMPORTED_WEAPONS))for(const variant of Object.keys(spec.variants)){

@@ -41,5 +41,11 @@ export class GoldSrcModel {
   return{model,bones,meshes,skeleton,sequences:this.sequences,sample,attachments:this.attachments,dispose(){disposed=true;meshes.forEach(m=>m.geometry.dispose());materials.forEach(m=>m.dispose());handMaterials.forEach(m=>m.dispose());maps.forEach(m=>m.dispose());skeleton.dispose();model.removeFromParent();}};
  }
 }
+// Some servers transparently decode Content-Encoding; inspect actual bytes.
+export async function decodeGoldSrcAsset(buffer,{useNative=true}={}){
+ const bytes=new Uint8Array(buffer);if(bytes[0]!==31||bytes[1]!==139)return buffer;
+ if(useNative&&typeof DecompressionStream!=='undefined')return new Response(new Blob([buffer]).stream().pipeThrough(new DecompressionStream('gzip'))).arrayBuffer();
+ const {gunzipSync}=await import('./fflate.module.js'),plain=gunzipSync(bytes);return plain.buffer.slice(plain.byteOffset,plain.byteOffset+plain.byteLength);
+}
 const cache=new Map();
-export async function loadGoldSrc(url){if(!cache.has(url)){if(cache.size>=4)cache.delete(cache.keys().next().value);cache.set(url,fetch(url).then(r=>{if(!r.ok)throw Error('Weapon resource '+r.status);return r.arrayBuffer();}).then(b=>new GoldSrcModel(b)).catch(e=>{cache.delete(url);throw e;}));}return cache.get(url);}
+export async function loadGoldSrc(url){if(!cache.has(url)){if(cache.size>=4)cache.delete(cache.keys().next().value);cache.set(url,fetch(url).then(r=>{if(!r.ok)throw Error('Weapon resource '+r.status);return r.arrayBuffer();}).then(decodeGoldSrcAsset).then(b=>new GoldSrcModel(b)).catch(e=>{cache.delete(url);throw e;}));}return cache.get(url);}

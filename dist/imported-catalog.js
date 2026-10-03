@@ -92,7 +92,8 @@ export const COLLECTION_IMPORTS={
       "zeta": "ZETA"
     },
     "soundBase": "./assets/imported/vctclassic/sound",
-    "shot": "ce24a0dffbb7bef06515.wav"
+    "shot": "ce24a0dffbb7bef06515.wav",
+    "modelFile": "model.mdl.gz"
   },
   "kuronamisheriff": {
     "name": "塑水宗 · 正义",
@@ -181,7 +182,8 @@ export const COLLECTION_IMPORTS={
       "base": "原色",
       "red": "红色"
     },
-    "soundBase": "./assets/imported/reconphantom/sound"
+    "soundBase": "./assets/imported/reconphantom/sound",
+    "modelFile": "model.mdl.gz"
   },
   "kemiaovandal": {
     "name": "颗秒 · 狂徒",

@@ -327,9 +327,10 @@
     },
     {
       "source": "VCT标配全战队/VCT标配全战队/v_classic.mdl",
-      "output": "dist/assets/imported/vctclassic/base/model.mdl",
+      "output": "source-assets/vctclassic/base/model.mdl",
       "sha256": "d66de518589c51bcc8fff6584318a885efe7b1c41118a017ad43186f7cc09eb7",
-      "bytes": 920428
+      "bytes": 920428,
+      "runtimeOutput": "dist/assets/imported/vctclassic/base/model.mdl.gz"
     },
     {
       "source": "VCT标配全战队/VCT标配全战队/sound/weapons/valorant/vctclassic/Reload_A_FP.wav",
@@ -453,261 +454,304 @@
     },
     {
       "source": "VCT标配全战队/VCT标配全战队/100T/v_classic.mdl",
-      "output": "dist/assets/imported/vctclassic/100t/model.mdl",
+      "output": "source-assets/vctclassic/100t/model.mdl",
       "sha256": "70ac0650b86eea87f046f21deddcec4e8a561e5d311b83c3754bce576fcd0241",
-      "bytes": 920428
+      "bytes": 920428,
+      "runtimeOutput": "dist/assets/imported/vctclassic/100t/model.mdl.gz"
     },
     {
       "source": "VCT标配全战队/VCT标配全战队/AG/v_classic.mdl",
-      "output": "dist/assets/imported/vctclassic/ag/model.mdl",
+      "output": "source-assets/vctclassic/ag/model.mdl",
       "sha256": "e3325e1eb34b994dd64573fa75ad8311e55512c1ac9b69f61fc98998e2bf5aec",
-      "bytes": 920428
+      "bytes": 920428,
+      "runtimeOutput": "dist/assets/imported/vctclassic/ag/model.mdl.gz"
     },
     {
       "source": "VCT标配全战队/VCT标配全战队/BBL/v_classic.mdl",
-      "output": "dist/assets/imported/vctclassic/bbl/model.mdl",
+      "output": "source-assets/vctclassic/bbl/model.mdl",
       "sha256": "b121957c9f609a3dc612294b434a2e462184c29cf2876a6da87ee212c5179c91",
-      "bytes": 920428
+      "bytes": 920428,
+      "runtimeOutput": "dist/assets/imported/vctclassic/bbl/model.mdl.gz"
     },
     {
       "source": "VCT标配全战队/VCT标配全战队/BLD/v_classic.mdl",
-      "output": "dist/assets/imported/vctclassic/bld/model.mdl",
+      "output": "source-assets/vctclassic/bld/model.mdl",
       "sha256": "d66de518589c51bcc8fff6584318a885efe7b1c41118a017ad43186f7cc09eb7",
-      "bytes": 920428
+      "bytes": 920428,
+      "runtimeOutput": "dist/assets/imported/vctclassic/bld/model.mdl.gz"
     },
     {
       "source": "VCT标配全战队/VCT标配全战队/BLG/v_classic.mdl",
-      "output": "dist/assets/imported/vctclassic/blg/model.mdl",
+      "output": "source-assets/vctclassic/blg/model.mdl",
       "sha256": "d66de518589c51bcc8fff6584318a885efe7b1c41118a017ad43186f7cc09eb7",
-      "bytes": 920428
+      "bytes": 920428,
+      "runtimeOutput": "dist/assets/imported/vctclassic/blg/model.mdl.gz"
     },
     {
       "source": "VCT标配全战队/VCT标配全战队/C9/v_classic.mdl",
-      "output": "dist/assets/imported/vctclassic/c9/model.mdl",
+      "output": "source-assets/vctclassic/c9/model.mdl",
       "sha256": "c8149ef76a9d88756a4a98ad71df671ab704ac976409aba0d22bac00ea0cb81a",
-      "bytes": 920428
+      "bytes": 920428,
+      "runtimeOutput": "dist/assets/imported/vctclassic/c9/model.mdl.gz"
     },
     {
       "source": "VCT标配全战队/VCT标配全战队/DFM/v_classic.mdl",
-      "output": "dist/assets/imported/vctclassic/dfm/model.mdl",
+      "output": "source-assets/vctclassic/dfm/model.mdl",
       "sha256": "adf3f724cfde3703c115900043d4ec42400d37acc68ed1938cfd069ea3685626",
-      "bytes": 920428
+      "bytes": 920428,
+      "runtimeOutput": "dist/assets/imported/vctclassic/dfm/model.mdl.gz"
     },
     {
       "source": "VCT标配全战队/VCT标配全战队/DRX/v_classic.mdl",
-      "output": "dist/assets/imported/vctclassic/drx/model.mdl",
+      "output": "source-assets/vctclassic/drx/model.mdl",
       "sha256": "d4fabb3a6e655873586cadf7fbaf714da3cfc02d89d14e879ca119b50ca39e61",
-      "bytes": 920428
+      "bytes": 920428,
+      "runtimeOutput": "dist/assets/imported/vctclassic/drx/model.mdl.gz"
     },
     {
       "source": "VCT标配全战队/VCT标配全战队/EDG/v_classic.mdl",
-      "output": "dist/assets/imported/vctclassic/edg/model.mdl",
+      "output": "source-assets/vctclassic/edg/model.mdl",
       "sha256": "9cd9b8ee29eb6821ecb5c7bb3a1d99372148b7e345a2bc704271f38cc710176a",
-      "bytes": 920428
+      "bytes": 920428,
+      "runtimeOutput": "dist/assets/imported/vctclassic/edg/model.mdl.gz"
     },
     {
       "source": "VCT标配全战队/VCT标配全战队/EG/v_classic.mdl",
-      "output": "dist/assets/imported/vctclassic/eg/model.mdl",
+      "output": "source-assets/vctclassic/eg/model.mdl",
       "sha256": "9a97812c8079a50d279cf9f6256be9d0939a795ff0c4e00c705ecf0e4bd0fc00",
-      "bytes": 920428
+      "bytes": 920428,
+      "runtimeOutput": "dist/assets/imported/vctclassic/eg/model.mdl.gz"
     },
     {
       "source": "VCT标配全战队/VCT标配全战队/FNC/v_classic.mdl",
-      "output": "dist/assets/imported/vctclassic/fnc/model.mdl",
+      "output": "source-assets/vctclassic/fnc/model.mdl",
       "sha256": "2d0c48b3ce259b470fd917c6e73601659c751f1c801873105a8e650e3a2869c7",
-      "bytes": 920428
+      "bytes": 920428,
+      "runtimeOutput": "dist/assets/imported/vctclassic/fnc/model.mdl.gz"
     },
     {
       "source": "VCT标配全战队/VCT标配全战队/FPX/v_classic.mdl",
-      "output": "dist/assets/imported/vctclassic/fpx/model.mdl",
+      "output": "source-assets/vctclassic/fpx/model.mdl",
       "sha256": "d66de518589c51bcc8fff6584318a885efe7b1c41118a017ad43186f7cc09eb7",
-      "bytes": 920428
+      "bytes": 920428,
+      "runtimeOutput": "dist/assets/imported/vctclassic/fpx/model.mdl.gz"
     },
     {
       "source": "VCT标配全战队/VCT标配全战队/FUR/v_classic.mdl",
-      "output": "dist/assets/imported/vctclassic/fur/model.mdl",
+      "output": "source-assets/vctclassic/fur/model.mdl",
       "sha256": "40a7d737618ca0518c4931cb436d703a7ef0a11f016d41eb13088da7b0153a5c",
-      "bytes": 920428
+      "bytes": 920428,
+      "runtimeOutput": "dist/assets/imported/vctclassic/fur/model.mdl.gz"
     },
     {
       "source": "VCT标配全战队/VCT标配全战队/FUT/v_classic.mdl",
-      "output": "dist/assets/imported/vctclassic/fut/model.mdl",
+      "output": "source-assets/vctclassic/fut/model.mdl",
       "sha256": "6671f44ee38eb686071054afb83d1907af6e7996ae69b40dbd2725e35cc5cb40",
-      "bytes": 920428
+      "bytes": 920428,
+      "runtimeOutput": "dist/assets/imported/vctclassic/fut/model.mdl.gz"
     },
     {
       "source": "VCT标配全战队/VCT标配全战队/G2/v_classic.mdl",
-      "output": "dist/assets/imported/vctclassic/g2/model.mdl",
+      "output": "source-assets/vctclassic/g2/model.mdl",
       "sha256": "b1c2ddffbfad816f2d0b7b61544bb112cd00ce9aa56eac4c3f16ac38b537ca54",
-      "bytes": 920428
+      "bytes": 920428,
+      "runtimeOutput": "dist/assets/imported/vctclassic/g2/model.mdl.gz"
     },
     {
       "source": "VCT标配全战队/VCT标配全战队/GEN/v_classic.mdl",
-      "output": "dist/assets/imported/vctclassic/gen/model.mdl",
+      "output": "source-assets/vctclassic/gen/model.mdl",
       "sha256": "70e6667e1af4fc253f819363e33a12b5cc14f9f5ab94db0cec4151d6149ea66e",
-      "bytes": 920428
+      "bytes": 920428,
+      "runtimeOutput": "dist/assets/imported/vctclassic/gen/model.mdl.gz"
     },
     {
       "source": "VCT标配全战队/VCT标配全战队/GES/v_classic.mdl",
-      "output": "dist/assets/imported/vctclassic/ges/model.mdl",
+      "output": "source-assets/vctclassic/ges/model.mdl",
       "sha256": "7b3de6e162da52057a9c30ee2d594ff54451605b41e9644d84365e28081b6d1c",
-      "bytes": 920428
+      "bytes": 920428,
+      "runtimeOutput": "dist/assets/imported/vctclassic/ges/model.mdl.gz"
     },
     {
       "source": "VCT标配全战队/VCT标配全战队/GX/v_classic.mdl",
-      "output": "dist/assets/imported/vctclassic/gx/model.mdl",
+      "output": "source-assets/vctclassic/gx/model.mdl",
       "sha256": "a023ba8d6a60e9985813af38efbefa3b5c9bf3ccb75f3e028da24ace9b25fb7b",
-      "bytes": 920428
+      "bytes": 920428,
+      "runtimeOutput": "dist/assets/imported/vctclassic/gx/model.mdl.gz"
     },
     {
       "source": "VCT标配全战队/VCT标配全战队/JDG/v_classic.mdl",
-      "output": "dist/assets/imported/vctclassic/jdg/model.mdl",
+      "output": "source-assets/vctclassic/jdg/model.mdl",
       "sha256": "336971d9f73028293680f774de430efbcd867470e60c6b1c96038cee27a5f6ee",
-      "bytes": 920428
+      "bytes": 920428,
+      "runtimeOutput": "dist/assets/imported/vctclassic/jdg/model.mdl.gz"
     },
     {
       "source": "VCT标配全战队/VCT标配全战队/KC/v_classic.mdl",
-      "output": "dist/assets/imported/vctclassic/kc/model.mdl",
+      "output": "source-assets/vctclassic/kc/model.mdl",
       "sha256": "8e73b414af290a665cfbe9a1fdeae919b9b3566f98a384988bf56eb0c63613d4",
-      "bytes": 920428
+      "bytes": 920428,
+      "runtimeOutput": "dist/assets/imported/vctclassic/kc/model.mdl.gz"
     },
     {
       "source": "VCT标配全战队/VCT标配全战队/KOI/v_classic.mdl",
-      "output": "dist/assets/imported/vctclassic/koi/model.mdl",
+      "output": "source-assets/vctclassic/koi/model.mdl",
       "sha256": "9e1584ee25629deddec8972f3e1de241cff0f3e8802d2c2a54e0ffcf3bf7029a",
-      "bytes": 920428
+      "bytes": 920428,
+      "runtimeOutput": "dist/assets/imported/vctclassic/koi/model.mdl.gz"
     },
     {
       "source": "VCT标配全战队/VCT标配全战队/KRU/v_classic.mdl",
-      "output": "dist/assets/imported/vctclassic/kru/model.mdl",
+      "output": "source-assets/vctclassic/kru/model.mdl",
       "sha256": "a6fa03395fa8ef2ba0f82532f16cea075a1817f81d3cd57c801a69a078ce6612",
-      "bytes": 920428
+      "bytes": 920428,
+      "runtimeOutput": "dist/assets/imported/vctclassic/kru/model.mdl.gz"
     },
     {
       "source": "VCT标配全战队/VCT标配全战队/LEV/v_classic.mdl",
-      "output": "dist/assets/imported/vctclassic/lev/model.mdl",
+      "output": "source-assets/vctclassic/lev/model.mdl",
       "sha256": "98b37511ec6272606e8748672dcb388ddb2f5cc4fa528debe58f9f6cbd7b14d4",
-      "bytes": 920428
+      "bytes": 920428,
+      "runtimeOutput": "dist/assets/imported/vctclassic/lev/model.mdl.gz"
     },
     {
       "source": "VCT标配全战队/VCT标配全战队/LOUD/v_classic.mdl",
-      "output": "dist/assets/imported/vctclassic/loud/model.mdl",
+      "output": "source-assets/vctclassic/loud/model.mdl",
       "sha256": "e8acbbd305697b060653c1d195d5f1474848983902a9a8eafda870a4b14f162f",
-      "bytes": 920428
+      "bytes": 920428,
+      "runtimeOutput": "dist/assets/imported/vctclassic/loud/model.mdl.gz"
     },
     {
       "source": "VCT标配全战队/VCT标配全战队/M8/v_classic.mdl",
-      "output": "dist/assets/imported/vctclassic/m8/model.mdl",
+      "output": "source-assets/vctclassic/m8/model.mdl",
       "sha256": "abf87d41f4c3c22f0ba9486a5ab2ffb014a155befb1c161ba4d8ed1ad733ba0d",
-      "bytes": 920428
+      "bytes": 920428,
+      "runtimeOutput": "dist/assets/imported/vctclassic/m8/model.mdl.gz"
     },
     {
       "source": "VCT标配全战队/VCT标配全战队/MIBR/v_classic.mdl",
-      "output": "dist/assets/imported/vctclassic/mibr/model.mdl",
+      "output": "source-assets/vctclassic/mibr/model.mdl",
       "sha256": "d6452a5f59087953c3b7093bf573ce82f0cb026be26a52667bec0f17b54b60a7",
-      "bytes": 920428
+      "bytes": 920428,
+      "runtimeOutput": "dist/assets/imported/vctclassic/mibr/model.mdl.gz"
     },
     {
       "source": "VCT标配全战队/VCT标配全战队/NAVI/v_classic.mdl",
-      "output": "dist/assets/imported/vctclassic/navi/model.mdl",
+      "output": "source-assets/vctclassic/navi/model.mdl",
       "sha256": "9910d31ab7fd4b635ad044074a2e825e463adfd8bed680e764fe49f7206c5b09",
-      "bytes": 920428
+      "bytes": 920428,
+      "runtimeOutput": "dist/assets/imported/vctclassic/navi/model.mdl.gz"
     },
     {
       "source": "VCT标配全战队/VCT标配全战队/NOVA/v_classic.mdl",
-      "output": "dist/assets/imported/vctclassic/nova/model.mdl",
+      "output": "source-assets/vctclassic/nova/model.mdl",
       "sha256": "ee95fa68dd5a4442bbe53bf11811e1e4c868ac3c3c34e57e0d903baa6493d106",
-      "bytes": 920428
+      "bytes": 920428,
+      "runtimeOutput": "dist/assets/imported/vctclassic/nova/model.mdl.gz"
     },
     {
       "source": "VCT标配全战队/VCT标配全战队/NRG/v_classic.mdl",
-      "output": "dist/assets/imported/vctclassic/nrg/model.mdl",
+      "output": "source-assets/vctclassic/nrg/model.mdl",
       "sha256": "e941dda9759b0169259cf9b8ffa9bf4536652e9011f7115fdbef6e74a204db40",
-      "bytes": 920428
+      "bytes": 920428,
+      "runtimeOutput": "dist/assets/imported/vctclassic/nrg/model.mdl.gz"
     },
     {
       "source": "VCT标配全战队/VCT标配全战队/PRX/v_classic.mdl",
-      "output": "dist/assets/imported/vctclassic/prx/model.mdl",
+      "output": "source-assets/vctclassic/prx/model.mdl",
       "sha256": "e99fc203bebb0ae1f463bfe111c28c0b42f1cbbe7e7d13bb4b0b1564f88ba942",
-      "bytes": 920428
+      "bytes": 920428,
+      "runtimeOutput": "dist/assets/imported/vctclassic/prx/model.mdl.gz"
     },
     {
       "source": "VCT标配全战队/VCT标配全战队/RRQ/v_classic.mdl",
-      "output": "dist/assets/imported/vctclassic/rrq/model.mdl",
+      "output": "source-assets/vctclassic/rrq/model.mdl",
       "sha256": "aea8b523be3dc21408bf1c025acdd429c965951618db0d613bc460afdf828db6",
-      "bytes": 920428
+      "bytes": 920428,
+      "runtimeOutput": "dist/assets/imported/vctclassic/rrq/model.mdl.gz"
     },
     {
       "source": "VCT标配全战队/VCT标配全战队/SEN/v_classic.mdl",
-      "output": "dist/assets/imported/vctclassic/sen/model.mdl",
+      "output": "source-assets/vctclassic/sen/model.mdl",
       "sha256": "d0ac420b32dab9f89cebbcd9e811535ee2786d5c317877f226efe26a00341944",
-      "bytes": 920428
+      "bytes": 920428,
+      "runtimeOutput": "dist/assets/imported/vctclassic/sen/model.mdl.gz"
     },
     {
       "source": "VCT标配全战队/VCT标配全战队/T1/v_classic.mdl",
-      "output": "dist/assets/imported/vctclassic/t1/model.mdl",
+      "output": "source-assets/vctclassic/t1/model.mdl",
       "sha256": "4de9826424d0d34f63fdf724a096c6415564d01e52c5528a1fbd6cd2f95eb840",
-      "bytes": 920428
+      "bytes": 920428,
+      "runtimeOutput": "dist/assets/imported/vctclassic/t1/model.mdl.gz"
     },
     {
       "source": "VCT标配全战队/VCT标配全战队/TE/v_classic.mdl",
-      "output": "dist/assets/imported/vctclassic/te/model.mdl",
+      "output": "source-assets/vctclassic/te/model.mdl",
       "sha256": "3e63d5b1228f1e9649e9977938fe5eccda568581240c468e333d7bce95ae4b19",
-      "bytes": 920428
+      "bytes": 920428,
+      "runtimeOutput": "dist/assets/imported/vctclassic/te/model.mdl.gz"
     },
     {
       "source": "VCT标配全战队/VCT标配全战队/TEC/v_classic.mdl",
-      "output": "dist/assets/imported/vctclassic/tec/model.mdl",
+      "output": "source-assets/vctclassic/tec/model.mdl",
       "sha256": "a968790e94917fdc6796c769d6720d13df5f396078514671d70a32ebaa401db9",
-      "bytes": 920428
+      "bytes": 920428,
+      "runtimeOutput": "dist/assets/imported/vctclassic/tec/model.mdl.gz"
     },
     {
       "source": "VCT标配全战队/VCT标配全战队/TH/v_classic.mdl",
-      "output": "dist/assets/imported/vctclassic/th/model.mdl",
+      "output": "source-assets/vctclassic/th/model.mdl",
       "sha256": "611b76847bbc942475b9081c068337fc921573203da9a8321c3737a6837ddb1a",
-      "bytes": 920428
+      "bytes": 920428,
+      "runtimeOutput": "dist/assets/imported/vctclassic/th/model.mdl.gz"
     },
     {
       "source": "VCT标配全战队/VCT标配全战队/TL/v_classic.mdl",
-      "output": "dist/assets/imported/vctclassic/tl/model.mdl",
+      "output": "source-assets/vctclassic/tl/model.mdl",
       "sha256": "125231180700ec9a3a51d72cb3e0410979c41ae4efffa1d9d7f0821cfd563c19",
-      "bytes": 920428
+      "bytes": 920428,
+      "runtimeOutput": "dist/assets/imported/vctclassic/tl/model.mdl.gz"
     },
     {
       "source": "VCT标配全战队/VCT标配全战队/TLN/v_classic.mdl",
-      "output": "dist/assets/imported/vctclassic/tln/model.mdl",
+      "output": "source-assets/vctclassic/tln/model.mdl",
       "sha256": "e62c46bc7e886490bba33ea4ec9c27759d51ee9b5209d6d36df2a7113a3a5ce9",
-      "bytes": 920428
+      "bytes": 920428,
+      "runtimeOutput": "dist/assets/imported/vctclassic/tln/model.mdl.gz"
     },
     {
       "source": "VCT标配全战队/VCT标配全战队/TLY/v_classic.mdl",
-      "output": "dist/assets/imported/vctclassic/tly/model.mdl",
+      "output": "source-assets/vctclassic/tly/model.mdl",
       "sha256": "701adf966e459fc89edd8bfb714bfb9d24c478503bcb8b87b1d4b4b05421085c",
-      "bytes": 920428
+      "bytes": 920428,
+      "runtimeOutput": "dist/assets/imported/vctclassic/tly/model.mdl.gz"
     },
     {
       "source": "VCT标配全战队/VCT标配全战队/TS/v_classic.mdl",
-      "output": "dist/assets/imported/vctclassic/ts/model.mdl",
+      "output": "source-assets/vctclassic/ts/model.mdl",
       "sha256": "b69d7b36cc80735bd76cf0cc06d02d5a478d9fb8ebec0d18da49cb3e5da15de4",
-      "bytes": 920428
+      "bytes": 920428,
+      "runtimeOutput": "dist/assets/imported/vctclassic/ts/model.mdl.gz"
     },
     {
       "source": "VCT标配全战队/VCT标配全战队/VIT/v_classic.mdl",
-      "output": "dist/assets/imported/vctclassic/vit/model.mdl",
+      "output": "source-assets/vctclassic/vit/model.mdl",
       "sha256": "fbb144c85e549f491e962a8733c76b44ebcefc7fc0cd057172516ea5319ccf2d",
-      "bytes": 920428
+      "bytes": 920428,
+      "runtimeOutput": "dist/assets/imported/vctclassic/vit/model.mdl.gz"
     },
     {
       "source": "VCT标配全战队/VCT标配全战队/WOL/v_classic.mdl",
-      "output": "dist/assets/imported/vctclassic/wol/model.mdl",
+      "output": "source-assets/vctclassic/wol/model.mdl",
       "sha256": "f7d21af12fb11c2d1e0ed4c18eef41c20711e0929301856befae2694345a2dc0",
-      "bytes": 920428
+      "bytes": 920428,
+      "runtimeOutput": "dist/assets/imported/vctclassic/wol/model.mdl.gz"
     },
     {
       "source": "VCT标配全战队/VCT标配全战队/ZETA/v_classic.mdl",
-      "output": "dist/assets/imported/vctclassic/zeta/model.mdl",
+      "output": "source-assets/vctclassic/zeta/model.mdl",
       "sha256": "d79d0f762c9986943a81cabbe6a9e3d6171273465f3ee8f555dc11e9984d1c75",
-      "bytes": 920428
+      "bytes": 920428,
+      "runtimeOutput": "dist/assets/imported/vctclassic/zeta/model.mdl.gz"
     },
     {
       "source": "valstrike塑水宗套装/inner/Kuronami Collection by zip/sound/weapons/deagle-1.wav",
@@ -1251,15 +1295,17 @@
     },
     {
       "source": "高清修复侦察m4/原色/v_phantom.mdl",
-      "output": "dist/assets/imported/reconphantom/base/model.mdl",
+      "output": "source-assets/reconphantom/base/model.mdl",
       "sha256": "41b39e65c722a4b11216f28bca966f40462110645bfd3d44d4baa17d1790cd1e",
-      "bytes": 19449092
+      "bytes": 19449092,
+      "runtimeOutput": "dist/assets/imported/reconphantom/base/model.mdl.gz"
     },
     {
       "source": "高清修复侦察m4/红色/v_phantom.mdl",
-      "output": "dist/assets/imported/reconphantom/red/model.mdl",
+      "output": "source-assets/reconphantom/red/model.mdl",
       "sha256": "65d65ef080092901045a43004f93af7b40958028435c733c69e96af42c4f33c2",
-      "bytes": 19114908
+      "bytes": 19114908,
+      "runtimeOutput": "dist/assets/imported/reconphantom/red/model.mdl.gz"
     },
     {
       "source": "高清修复颗秒套装/v_vandal.mdl",
@@ -11951,6 +11997,422 @@
       "sourceSHA256": "97d5313c74f0f375ee16be209b46bebff01dd997e2d2248f897e08926a287c5c",
       "outputSHA256": "78694a6c5e041bc442295c87ee7ef3319ecb4d2d7a6afb0358a6c2192f1d4ed8",
       "method": "palette/RGBA decode to lossless PNG"
+    }
+  ],
+  "runtimeCompression": [
+    {
+      "variant": "100t",
+      "original": "source-assets/vctclassic/100t/model.mdl",
+      "runtime": "dist/assets/imported/vctclassic/100t/model.mdl.gz",
+      "rawSHA256": "70ac0650b86eea87f046f21deddcec4e8a561e5d311b83c3754bce576fcd0241",
+      "gzipSHA256": "76c318f9cfe5fa879ddedaf30e0d8417904b89f98cf167cc3958ffb6eae517bd",
+      "originalBytes": 920428,
+      "runtimeBytes": 392891
+    },
+    {
+      "variant": "ag",
+      "original": "source-assets/vctclassic/ag/model.mdl",
+      "runtime": "dist/assets/imported/vctclassic/ag/model.mdl.gz",
+      "rawSHA256": "e3325e1eb34b994dd64573fa75ad8311e55512c1ac9b69f61fc98998e2bf5aec",
+      "gzipSHA256": "0302cc525a575f976434745e2e0b48ec6c72e75961d17480510106bfa8844b16",
+      "originalBytes": 920428,
+      "runtimeBytes": 345492
+    },
+    {
+      "variant": "base",
+      "original": "source-assets/vctclassic/base/model.mdl",
+      "runtime": "dist/assets/imported/vctclassic/base/model.mdl.gz",
+      "rawSHA256": "d66de518589c51bcc8fff6584318a885efe7b1c41118a017ad43186f7cc09eb7",
+      "gzipSHA256": "6e073835761f01cb664645407b49844b500af77985591e8c07c26a82a2e152bd",
+      "originalBytes": 920428,
+      "runtimeBytes": 378942
+    },
+    {
+      "variant": "bbl",
+      "original": "source-assets/vctclassic/bbl/model.mdl",
+      "runtime": "dist/assets/imported/vctclassic/bbl/model.mdl.gz",
+      "rawSHA256": "b121957c9f609a3dc612294b434a2e462184c29cf2876a6da87ee212c5179c91",
+      "gzipSHA256": "a20832e4977a6da2f185d291b8db3afdb36ee08dffe58d1dfaaa212fe4512001",
+      "originalBytes": 920428,
+      "runtimeBytes": 386083
+    },
+    {
+      "variant": "bld",
+      "original": "source-assets/vctclassic/bld/model.mdl",
+      "runtime": "dist/assets/imported/vctclassic/bld/model.mdl.gz",
+      "rawSHA256": "d66de518589c51bcc8fff6584318a885efe7b1c41118a017ad43186f7cc09eb7",
+      "gzipSHA256": "6e073835761f01cb664645407b49844b500af77985591e8c07c26a82a2e152bd",
+      "originalBytes": 920428,
+      "runtimeBytes": 378942
+    },
+    {
+      "variant": "blg",
+      "original": "source-assets/vctclassic/blg/model.mdl",
+      "runtime": "dist/assets/imported/vctclassic/blg/model.mdl.gz",
+      "rawSHA256": "d66de518589c51bcc8fff6584318a885efe7b1c41118a017ad43186f7cc09eb7",
+      "gzipSHA256": "6e073835761f01cb664645407b49844b500af77985591e8c07c26a82a2e152bd",
+      "originalBytes": 920428,
+      "runtimeBytes": 378942
+    },
+    {
+      "variant": "c9",
+      "original": "source-assets/vctclassic/c9/model.mdl",
+      "runtime": "dist/assets/imported/vctclassic/c9/model.mdl.gz",
+      "rawSHA256": "c8149ef76a9d88756a4a98ad71df671ab704ac976409aba0d22bac00ea0cb81a",
+      "gzipSHA256": "38e46ee5cce9916ddfaa95a3fcd2a58bc5156fa525cb60dfd82f29d840b41b71",
+      "originalBytes": 920428,
+      "runtimeBytes": 373974
+    },
+    {
+      "variant": "dfm",
+      "original": "source-assets/vctclassic/dfm/model.mdl",
+      "runtime": "dist/assets/imported/vctclassic/dfm/model.mdl.gz",
+      "rawSHA256": "adf3f724cfde3703c115900043d4ec42400d37acc68ed1938cfd069ea3685626",
+      "gzipSHA256": "16b8bfc25af85677fc7513903c0a613b57e1aaf21702347974b67cdaab4e2b0a",
+      "originalBytes": 920428,
+      "runtimeBytes": 365032
+    },
+    {
+      "variant": "drx",
+      "original": "source-assets/vctclassic/drx/model.mdl",
+      "runtime": "dist/assets/imported/vctclassic/drx/model.mdl.gz",
+      "rawSHA256": "d4fabb3a6e655873586cadf7fbaf714da3cfc02d89d14e879ca119b50ca39e61",
+      "gzipSHA256": "5be7cff473e5eff251ac0c44ec58ef5e45cf1f0e3b447145962fda851b10567e",
+      "originalBytes": 920428,
+      "runtimeBytes": 377308
+    },
+    {
+      "variant": "edg",
+      "original": "source-assets/vctclassic/edg/model.mdl",
+      "runtime": "dist/assets/imported/vctclassic/edg/model.mdl.gz",
+      "rawSHA256": "9cd9b8ee29eb6821ecb5c7bb3a1d99372148b7e345a2bc704271f38cc710176a",
+      "gzipSHA256": "411c60169db14f188cec109c4fadcebddb76e7a9fbc14d2615b34ea1fb616761",
+      "originalBytes": 920428,
+      "runtimeBytes": 362556
+    },
+    {
+      "variant": "eg",
+      "original": "source-assets/vctclassic/eg/model.mdl",
+      "runtime": "dist/assets/imported/vctclassic/eg/model.mdl.gz",
+      "rawSHA256": "9a97812c8079a50d279cf9f6256be9d0939a795ff0c4e00c705ecf0e4bd0fc00",
+      "gzipSHA256": "c6c0553cac499ce1026ae509bec4e30971e8238c08c15fec36bee2257b14e95a",
+      "originalBytes": 920428,
+      "runtimeBytes": 364956
+    },
+    {
+      "variant": "fnc",
+      "original": "source-assets/vctclassic/fnc/model.mdl",
+      "runtime": "dist/assets/imported/vctclassic/fnc/model.mdl.gz",
+      "rawSHA256": "2d0c48b3ce259b470fd917c6e73601659c751f1c801873105a8e650e3a2869c7",
+      "gzipSHA256": "09463ad7843f4508b45866bb874e150efc6fc265b7f38e3c389cd499332d0d4f",
+      "originalBytes": 920428,
+      "runtimeBytes": 383737
+    },
+    {
+      "variant": "fpx",
+      "original": "source-assets/vctclassic/fpx/model.mdl",
+      "runtime": "dist/assets/imported/vctclassic/fpx/model.mdl.gz",
+      "rawSHA256": "d66de518589c51bcc8fff6584318a885efe7b1c41118a017ad43186f7cc09eb7",
+      "gzipSHA256": "6e073835761f01cb664645407b49844b500af77985591e8c07c26a82a2e152bd",
+      "originalBytes": 920428,
+      "runtimeBytes": 378942
+    },
+    {
+      "variant": "fur",
+      "original": "source-assets/vctclassic/fur/model.mdl",
+      "runtime": "dist/assets/imported/vctclassic/fur/model.mdl.gz",
+      "rawSHA256": "40a7d737618ca0518c4931cb436d703a7ef0a11f016d41eb13088da7b0153a5c",
+      "gzipSHA256": "63cb8a8f87979eade6021eaee86c2acead324203ebd41cf9e6f4d2ca89d3a392",
+      "originalBytes": 920428,
+      "runtimeBytes": 393523
+    },
+    {
+      "variant": "fut",
+      "original": "source-assets/vctclassic/fut/model.mdl",
+      "runtime": "dist/assets/imported/vctclassic/fut/model.mdl.gz",
+      "rawSHA256": "6671f44ee38eb686071054afb83d1907af6e7996ae69b40dbd2725e35cc5cb40",
+      "gzipSHA256": "d5835369c7d1167d7e6503ffcd7428f84a6282ddcd6a93af0011dd55e4efcab3",
+      "originalBytes": 920428,
+      "runtimeBytes": 366773
+    },
+    {
+      "variant": "g2",
+      "original": "source-assets/vctclassic/g2/model.mdl",
+      "runtime": "dist/assets/imported/vctclassic/g2/model.mdl.gz",
+      "rawSHA256": "b1c2ddffbfad816f2d0b7b61544bb112cd00ce9aa56eac4c3f16ac38b537ca54",
+      "gzipSHA256": "0bf3c2464ceb43d3321b3e102ad4745af63d688cfa8f3509415fda07e5b52bdc",
+      "originalBytes": 920428,
+      "runtimeBytes": 418092
+    },
+    {
+      "variant": "gen",
+      "original": "source-assets/vctclassic/gen/model.mdl",
+      "runtime": "dist/assets/imported/vctclassic/gen/model.mdl.gz",
+      "rawSHA256": "70e6667e1af4fc253f819363e33a12b5cc14f9f5ab94db0cec4151d6149ea66e",
+      "gzipSHA256": "a42ea74fa540a0a2452c5acfbcd733f5dedf6d767299017df7b717ee6e4152c2",
+      "originalBytes": 920428,
+      "runtimeBytes": 396148
+    },
+    {
+      "variant": "ges",
+      "original": "source-assets/vctclassic/ges/model.mdl",
+      "runtime": "dist/assets/imported/vctclassic/ges/model.mdl.gz",
+      "rawSHA256": "7b3de6e162da52057a9c30ee2d594ff54451605b41e9644d84365e28081b6d1c",
+      "gzipSHA256": "24563c3f03d267d8e0c2316ed220154335bc9a43a9d529676232526c61c40b6f",
+      "originalBytes": 920428,
+      "runtimeBytes": 388768
+    },
+    {
+      "variant": "gx",
+      "original": "source-assets/vctclassic/gx/model.mdl",
+      "runtime": "dist/assets/imported/vctclassic/gx/model.mdl.gz",
+      "rawSHA256": "a023ba8d6a60e9985813af38efbefa3b5c9bf3ccb75f3e028da24ace9b25fb7b",
+      "gzipSHA256": "c3e449f1240b72adec1912f71eae3a8aecd9a2598b7ab4e8b6ab91e2db993b17",
+      "originalBytes": 920428,
+      "runtimeBytes": 398013
+    },
+    {
+      "variant": "jdg",
+      "original": "source-assets/vctclassic/jdg/model.mdl",
+      "runtime": "dist/assets/imported/vctclassic/jdg/model.mdl.gz",
+      "rawSHA256": "336971d9f73028293680f774de430efbcd867470e60c6b1c96038cee27a5f6ee",
+      "gzipSHA256": "d3be7a14019640ff967bbde7274df2d2d24a1726907542ce376b80dba1a32d42",
+      "originalBytes": 920428,
+      "runtimeBytes": 387705
+    },
+    {
+      "variant": "kc",
+      "original": "source-assets/vctclassic/kc/model.mdl",
+      "runtime": "dist/assets/imported/vctclassic/kc/model.mdl.gz",
+      "rawSHA256": "8e73b414af290a665cfbe9a1fdeae919b9b3566f98a384988bf56eb0c63613d4",
+      "gzipSHA256": "7bfff0e470d49cca85ca5b70d0f4f3f38fa70ec7b25472e7e406eebcdfa277a1",
+      "originalBytes": 920428,
+      "runtimeBytes": 378188
+    },
+    {
+      "variant": "koi",
+      "original": "source-assets/vctclassic/koi/model.mdl",
+      "runtime": "dist/assets/imported/vctclassic/koi/model.mdl.gz",
+      "rawSHA256": "9e1584ee25629deddec8972f3e1de241cff0f3e8802d2c2a54e0ffcf3bf7029a",
+      "gzipSHA256": "bdc4e20c2fa579306ea0f4fd4bf6ea7daa4bb021987c4d6d17ba5e8048b37494",
+      "originalBytes": 920428,
+      "runtimeBytes": 377541
+    },
+    {
+      "variant": "kru",
+      "original": "source-assets/vctclassic/kru/model.mdl",
+      "runtime": "dist/assets/imported/vctclassic/kru/model.mdl.gz",
+      "rawSHA256": "a6fa03395fa8ef2ba0f82532f16cea075a1817f81d3cd57c801a69a078ce6612",
+      "gzipSHA256": "e5c2fc8e60b46e7b99161fbfda232182723cd39fc0f65406647aeae7fa17f76a",
+      "originalBytes": 920428,
+      "runtimeBytes": 396233
+    },
+    {
+      "variant": "lev",
+      "original": "source-assets/vctclassic/lev/model.mdl",
+      "runtime": "dist/assets/imported/vctclassic/lev/model.mdl.gz",
+      "rawSHA256": "98b37511ec6272606e8748672dcb388ddb2f5cc4fa528debe58f9f6cbd7b14d4",
+      "gzipSHA256": "1b27914a93e30afb0314627002ef2bc3a7edb9339f59f6774ecf9f59c0285961",
+      "originalBytes": 920428,
+      "runtimeBytes": 376818
+    },
+    {
+      "variant": "loud",
+      "original": "source-assets/vctclassic/loud/model.mdl",
+      "runtime": "dist/assets/imported/vctclassic/loud/model.mdl.gz",
+      "rawSHA256": "e8acbbd305697b060653c1d195d5f1474848983902a9a8eafda870a4b14f162f",
+      "gzipSHA256": "3289a9091e7766811e5431887cf78b405b3ee9a41492e1ed6e4282fc00106b69",
+      "originalBytes": 920428,
+      "runtimeBytes": 375034
+    },
+    {
+      "variant": "m8",
+      "original": "source-assets/vctclassic/m8/model.mdl",
+      "runtime": "dist/assets/imported/vctclassic/m8/model.mdl.gz",
+      "rawSHA256": "abf87d41f4c3c22f0ba9486a5ab2ffb014a155befb1c161ba4d8ed1ad733ba0d",
+      "gzipSHA256": "07e6be87d6ea5f1a1dccba238f3466337eee910e89e0b4e738ff1888473143f8",
+      "originalBytes": 920428,
+      "runtimeBytes": 378185
+    },
+    {
+      "variant": "mibr",
+      "original": "source-assets/vctclassic/mibr/model.mdl",
+      "runtime": "dist/assets/imported/vctclassic/mibr/model.mdl.gz",
+      "rawSHA256": "d6452a5f59087953c3b7093bf573ce82f0cb026be26a52667bec0f17b54b60a7",
+      "gzipSHA256": "cf197bf9b87e18e07dffe3b614289764f3ea59cef5b5357724c6ac1461697d00",
+      "originalBytes": 920428,
+      "runtimeBytes": 380323
+    },
+    {
+      "variant": "navi",
+      "original": "source-assets/vctclassic/navi/model.mdl",
+      "runtime": "dist/assets/imported/vctclassic/navi/model.mdl.gz",
+      "rawSHA256": "9910d31ab7fd4b635ad044074a2e825e463adfd8bed680e764fe49f7206c5b09",
+      "gzipSHA256": "91edec9f0ddb770076aa7a3f69ba96ee5f56e07963457a3780612e009a0ee88b",
+      "originalBytes": 920428,
+      "runtimeBytes": 375741
+    },
+    {
+      "variant": "nova",
+      "original": "source-assets/vctclassic/nova/model.mdl",
+      "runtime": "dist/assets/imported/vctclassic/nova/model.mdl.gz",
+      "rawSHA256": "ee95fa68dd5a4442bbe53bf11811e1e4c868ac3c3c34e57e0d903baa6493d106",
+      "gzipSHA256": "f2afab2c0f6562a4330a78fb3c5ad7a7de180e730bf6f154a20a31ee1c48be3e",
+      "originalBytes": 920428,
+      "runtimeBytes": 382576
+    },
+    {
+      "variant": "nrg",
+      "original": "source-assets/vctclassic/nrg/model.mdl",
+      "runtime": "dist/assets/imported/vctclassic/nrg/model.mdl.gz",
+      "rawSHA256": "e941dda9759b0169259cf9b8ffa9bf4536652e9011f7115fdbef6e74a204db40",
+      "gzipSHA256": "a4ca477ca37ac1e654a3561e0143db8dc33ab8b6d5808ff66989e9032374644b",
+      "originalBytes": 920428,
+      "runtimeBytes": 425591
+    },
+    {
+      "variant": "prx",
+      "original": "source-assets/vctclassic/prx/model.mdl",
+      "runtime": "dist/assets/imported/vctclassic/prx/model.mdl.gz",
+      "rawSHA256": "e99fc203bebb0ae1f463bfe111c28c0b42f1cbbe7e7d13bb4b0b1564f88ba942",
+      "gzipSHA256": "59b4308ad639f5b4176d760101b4b178731d42fd2f7fde2d3aea8a919b304f07",
+      "originalBytes": 920428,
+      "runtimeBytes": 378949
+    },
+    {
+      "variant": "rrq",
+      "original": "source-assets/vctclassic/rrq/model.mdl",
+      "runtime": "dist/assets/imported/vctclassic/rrq/model.mdl.gz",
+      "rawSHA256": "aea8b523be3dc21408bf1c025acdd429c965951618db0d613bc460afdf828db6",
+      "gzipSHA256": "6075cbdec5f0422a1d3f9410b9197ba7220b6f9a6219514293de190a0250902a",
+      "originalBytes": 920428,
+      "runtimeBytes": 385000
+    },
+    {
+      "variant": "sen",
+      "original": "source-assets/vctclassic/sen/model.mdl",
+      "runtime": "dist/assets/imported/vctclassic/sen/model.mdl.gz",
+      "rawSHA256": "d0ac420b32dab9f89cebbcd9e811535ee2786d5c317877f226efe26a00341944",
+      "gzipSHA256": "827bd7a36e24a37652768ff4c9ba0eb16e30c7865f680a926dad0503d5ac8b6b",
+      "originalBytes": 920428,
+      "runtimeBytes": 385686
+    },
+    {
+      "variant": "t1",
+      "original": "source-assets/vctclassic/t1/model.mdl",
+      "runtime": "dist/assets/imported/vctclassic/t1/model.mdl.gz",
+      "rawSHA256": "4de9826424d0d34f63fdf724a096c6415564d01e52c5528a1fbd6cd2f95eb840",
+      "gzipSHA256": "3bd6651fb2996f33c5b5dfaf087d2d677872a49fd5580ef2708dacb250febe2e",
+      "originalBytes": 920428,
+      "runtimeBytes": 397612
+    },
+    {
+      "variant": "te",
+      "original": "source-assets/vctclassic/te/model.mdl",
+      "runtime": "dist/assets/imported/vctclassic/te/model.mdl.gz",
+      "rawSHA256": "3e63d5b1228f1e9649e9977938fe5eccda568581240c468e333d7bce95ae4b19",
+      "gzipSHA256": "bc477aac17249da9bf65d92781ad40b0ea62c15907e1d9d945b82de1a431ce20",
+      "originalBytes": 920428,
+      "runtimeBytes": 368619
+    },
+    {
+      "variant": "tec",
+      "original": "source-assets/vctclassic/tec/model.mdl",
+      "runtime": "dist/assets/imported/vctclassic/tec/model.mdl.gz",
+      "rawSHA256": "a968790e94917fdc6796c769d6720d13df5f396078514671d70a32ebaa401db9",
+      "gzipSHA256": "4bd5f3ad142f871befef3ae79ebb75bbdd789e07152a9fadde84907bb9dc8d0f",
+      "originalBytes": 920428,
+      "runtimeBytes": 361409
+    },
+    {
+      "variant": "th",
+      "original": "source-assets/vctclassic/th/model.mdl",
+      "runtime": "dist/assets/imported/vctclassic/th/model.mdl.gz",
+      "rawSHA256": "611b76847bbc942475b9081c068337fc921573203da9a8321c3737a6837ddb1a",
+      "gzipSHA256": "d8cfd2464a985c64a5d9367b6842610cbf0d75447f2a5cb712302fb16a2a2c32",
+      "originalBytes": 920428,
+      "runtimeBytes": 360089
+    },
+    {
+      "variant": "tl",
+      "original": "source-assets/vctclassic/tl/model.mdl",
+      "runtime": "dist/assets/imported/vctclassic/tl/model.mdl.gz",
+      "rawSHA256": "125231180700ec9a3a51d72cb3e0410979c41ae4efffa1d9d7f0821cfd563c19",
+      "gzipSHA256": "32196e0b78b4314ce30ca1c0952d882c6b57f98ec2c7191fa0812902cc1d3744",
+      "originalBytes": 920428,
+      "runtimeBytes": 369186
+    },
+    {
+      "variant": "tln",
+      "original": "source-assets/vctclassic/tln/model.mdl",
+      "runtime": "dist/assets/imported/vctclassic/tln/model.mdl.gz",
+      "rawSHA256": "e62c46bc7e886490bba33ea4ec9c27759d51ee9b5209d6d36df2a7113a3a5ce9",
+      "gzipSHA256": "61bee518ccfbfea3b3a57471c8f33880160dc1790369da5829055e59baffa212",
+      "originalBytes": 920428,
+      "runtimeBytes": 370167
+    },
+    {
+      "variant": "tly",
+      "original": "source-assets/vctclassic/tly/model.mdl",
+      "runtime": "dist/assets/imported/vctclassic/tly/model.mdl.gz",
+      "rawSHA256": "701adf966e459fc89edd8bfb714bfb9d24c478503bcb8b87b1d4b4b05421085c",
+      "gzipSHA256": "2e15e59bfd72af526a5be0a8fd1c4fbce242eed554746b941cfeab7441b89a42",
+      "originalBytes": 920428,
+      "runtimeBytes": 392499
+    },
+    {
+      "variant": "ts",
+      "original": "source-assets/vctclassic/ts/model.mdl",
+      "runtime": "dist/assets/imported/vctclassic/ts/model.mdl.gz",
+      "rawSHA256": "b69d7b36cc80735bd76cf0cc06d02d5a478d9fb8ebec0d18da49cb3e5da15de4",
+      "gzipSHA256": "6dfc104cee3b6be62d58eae7f418491bc60674ed57389cbf1be2a39269ed793b",
+      "originalBytes": 920428,
+      "runtimeBytes": 376802
+    },
+    {
+      "variant": "vit",
+      "original": "source-assets/vctclassic/vit/model.mdl",
+      "runtime": "dist/assets/imported/vctclassic/vit/model.mdl.gz",
+      "rawSHA256": "fbb144c85e549f491e962a8733c76b44ebcefc7fc0cd057172516ea5319ccf2d",
+      "gzipSHA256": "abe92860b197256ce01be5502ddebddff25a685511bf017d9b3d2d541b32e070",
+      "originalBytes": 920428,
+      "runtimeBytes": 368808
+    },
+    {
+      "variant": "wol",
+      "original": "source-assets/vctclassic/wol/model.mdl",
+      "runtime": "dist/assets/imported/vctclassic/wol/model.mdl.gz",
+      "rawSHA256": "f7d21af12fb11c2d1e0ed4c18eef41c20711e0929301856befae2694345a2dc0",
+      "gzipSHA256": "7bb8b47789808bff41319d3339701ebfb9a34deb28861c71907533e8e5294a5c",
+      "originalBytes": 920428,
+      "runtimeBytes": 362837
+    },
+    {
+      "variant": "zeta",
+      "original": "source-assets/vctclassic/zeta/model.mdl",
+      "runtime": "dist/assets/imported/vctclassic/zeta/model.mdl.gz",
+      "rawSHA256": "d79d0f762c9986943a81cabbe6a9e3d6171273465f3ee8f555dc11e9984d1c75",
+      "gzipSHA256": "5d2540ee189ec830652c872a996c5237695b0394dd39860b78d77e787c1f9d6d",
+      "originalBytes": 920428,
+      "runtimeBytes": 364957
+    },
+    {
+      "variant": "base",
+      "original": "source-assets/reconphantom/base/model.mdl",
+      "runtime": "dist/assets/imported/reconphantom/base/model.mdl.gz",
+      "rawSHA256": "41b39e65c722a4b11216f28bca966f40462110645bfd3d44d4baa17d1790cd1e",
+      "gzipSHA256": "af490615e0a9f05fcad8f5b6972ced687ad80c9940f6f6b18b0505572d5ed7b2",
+      "originalBytes": 19449092,
+      "runtimeBytes": 6937440
+    },
+    {
+      "variant": "red",
+      "original": "source-assets/reconphantom/red/model.mdl",
+      "runtime": "dist/assets/imported/reconphantom/red/model.mdl.gz",
+      "rawSHA256": "65d65ef080092901045a43004f93af7b40958028435c733c69e96af42c4f33c2",
+      "gzipSHA256": "b2d096117f2f816bc0d8624c2c453da1f23d109b75612a98b5e9a5b561b3cd53",
+      "originalBytes": 19114908,
+      "runtimeBytes": 6510110
     }
   ]
 }

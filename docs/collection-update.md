@@ -40,3 +40,9 @@
 `docs/qa/collection/native-model-contact.jpg` 为实际网格的离线 CPU 缩略图汇总，不是浏览器截图。当前环境无 Sites 要求的 control-browser，因此没有浏览器视觉验收或真机帧率数据。移动布局的投影检查使用模拟矩形，不能替代实际设备验证。
 
 仍缺原游戏视频/镜头参数与客户端特效驱动程序；这些是第三方资源包适配，不能称原版无畏契约 1:1。徽章动态时间继续按现有项目适配，并非已对照原游戏全帧验收。新包侦察幻影、颗秒两件未附带 WAV，部分动作引用声音缺失，逐项保存在源清单。5 个独立 ADS 文件已原样保存，当前狂徒仍采用主视模里的 zoom_idle/zoom_shoot，未切换到独立 ADS 视模。原有白色塑水终结模型替代、手部占位材质、Chrome 环境映射差异仍存在。
+
+## 发布体积修复
+
+初次上传因超过 Sites 256 MiB 解包限制被拒绝。44 个 VCT 及 2 个侦察幻影视模现以 GZIP 无损文件按需读取；完整原始 MDL 移到 Git 源码中的 `source-assets/`，未删减骨骼、帧或纹理。压缩前后 SHA/大小见清单的 `runtimeCompression`。现代浏览器优先使用原生 DecompressionStream；旧浏览器用随包提供的 MIT 许可 fflate 0.8.2 模块回退，加载不依赖 CDN。主模型解析仍收到逐字节相同的原始 IDST 数据。已分别验证原生和回退解压。重新导入包后运行 `python scripts/compress-native-models.py`。
+
+fflate 来源：[官方仓库](https://github.com/101arrowz/fflate)，本地许可 `dist/FFLATE-LICENSE.txt`。
