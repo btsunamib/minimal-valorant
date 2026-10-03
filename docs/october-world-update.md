@@ -25,7 +25,7 @@
 - 保留地图嵌入贴图和 BSP 烘焙色彩；静态道具共享几何与贴图并用实例化绘制。
 - 武器使用 Three.js 标准材质的高光和三段渐变漫反射，原有加色／透明光效保持独立。设计参考 [Riot：VALORANT Shaders and Gameplay Clarity](https://www.riotgames.com/en/news/valorant-shaders-and-gameplay-clarity)，并非原 UE 着色器移植。
 - BSP 地板补足不完整 NAV，读取层高；出生点避开墙体与孤立屋顶。寻路目标显式携带楼层，避免把上下重叠区域当作同一平面。
-- 碰撞使用 BSP 空间查询及竖直刷面边界，地图网格用于视线／射线命中。静态装饰 MDL 不作为移动碰撞体。
+- 碰撞使用 BSP 主世界空间查询，地面高度从实际上向三角面计算；地图网格用于视线／射线命中。装饰刷面和静态装饰 MDL 不作为移动碰撞体。
 - 保留空岛街区、移动端多指操作、陀螺仪和原玩法。
 
 ## 转换与复现
@@ -38,6 +38,7 @@ python scripts/import-source-champions25.py SOURCE_CHAMPIONS_PACK_ROOT
 python scripts/import-bsp-maps.py EXTRACTED_ARCHIVE_ROOT
 python scripts/resolve-map-textures.py
 python scripts/render-map-previews.py
+node scripts/compile-map-navigation.mjs
 node scripts/render-collection-thumbnails.mjs
 python scripts/render-source-thumbnail.py
 python scripts/compress-october-assets.py
@@ -53,4 +54,6 @@ Source 结构按 [Valve studio.h](https://github.com/ValveSoftware/source-sdk-20
 
 自动验证涵盖每个视模的骨骼帧／事件／三角形、Source 全部 327 帧与蒙皮权重、六图出生点到所有爆破点的图路径、装置和瞄准视模读取、反馈图层／五段音频文件，以及现有装备、射击、换弹、重试、手机布局和输入回归。
 
-这些地图是用户包内 GoldSrc 地图移植，不是完整 UE 端游地图。外置 WAD 未随包提供，248 个纹理条目使用重建纹理；原天空素材仅有五张地图具备完整六面。原始 NAV 中的跳跃、梯子、特殊穿越和门逻辑没有完整复刻；使用可步行连接，地图门以开放路线呈现。图路径测试不等于所有机器人路径都经真人跑图验收。Source 包没有检视，按原包保留；尚无端游画面对照误差验收。
+这些地图是用户包内 GoldSrc 地图移植，不是完整 UE 端游地图。外置 WAD 未随包提供，248 个纹理条目使用重建纹理；原天空素材仅有五张地图具备完整六面。原始 NAV 中的跳跃、梯子、特殊穿越和门逻辑没有完整复刻；机器人支持不超过 1.12 米的短台阶／跳跃连接，玩家在跳跃接近顶点时可越过相应台阶；地图门以开放路线呈现。已额外验证六图进攻／防守出生点到所有包点的 26 条实际移动路线；通路编译按 0.04／0.07／0.125 米三个步长检查。装饰屋顶和超出出生点／包点高度范围的区域不参与机器人路径。尚未覆盖每一个动态追击位置，也未完成真人跑图验收。Source 包没有检视，按原包保留；尚无端游画面对照误差验收。
+
+本次最终本地验证：88 项自动测试全部通过，完整集成检查及 26 条实体移动路线通过。云浏览器禁用了 WebGL，不能据此确认 GPU 着色器的端游视觉一致性。发布入口和变更模块带版本标识，避免页面与旧缓存脚本混用。

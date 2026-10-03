@@ -1,6 +1,6 @@
-import {NATIVE_UI} from './ui-catalog.js';
-import {FEEDBACK_PACKS} from './feedback-catalog.js';
-import {fetchWeaponAsset,weaponAssetURL} from './weapon-assets.js';
+import {NATIVE_UI} from './ui-catalog.js?v=20261003-world2';
+import {FEEDBACK_PACKS} from './feedback-catalog.js?v=20261003-world2';
+import {fetchWeaponAsset,weaponAssetURL} from './weapon-assets.js?v=20261003-world2';
 export const FEEDBACK_NAMES={auto:'随皮肤',sovereign:'天界神兵',phaseguard:'超时空护卫队',singularity:'奇点 · 白色',neo:'新边疆',additional:'资源包击杀徽章'};
 export function setupNativeUI(doc){
  const mappings={touchFire:'attack',touchAim:'attack2',touchReload:'reload',touchJump:'jump',touchCrouch:'duck',touchSwitch:'lastinv',touchBuy:'buy',touchPlant:'use',touchPrimary:'1',touchPistol:'2',pauseBtn:'pause'};

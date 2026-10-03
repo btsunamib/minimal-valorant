@@ -1,8 +1,8 @@
 import * as THREE from './three.module.js';
-import {loadGoldSrc} from './goldsrc-model.js';
-import {loadSourceModel} from './source-model.js';
-import {COLLECTION_IMPORTS} from './imported-catalog.js';
-import {weaponAssetURL,fetchWeaponAsset} from './weapon-assets.js';
+import {loadGoldSrc} from './goldsrc-model.js?v=20261003-world2';
+import {loadSourceModel} from './source-model.js?v=20261003-world2';
+import {COLLECTION_IMPORTS} from './imported-catalog.js?v=20261003-world2';
+import {weaponAssetURL,fetchWeaponAsset} from './weapon-assets.js?v=20261003-world2';
 export const IMPORTED_WEAPONS={
  champions21vandal:{weapon:'vandal',name:'2021 冠军 · 狂徒',variants:{base:'重置材质'}},
  champions21knife:{weapon:'knife',name:'2021 冠军 · 爪刀',variants:{base:'冠军气息'}},

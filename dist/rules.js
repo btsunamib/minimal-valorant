@@ -1,4 +1,4 @@
-import {COLLECTION_IMPORTS} from './imported-catalog.js';
+import {COLLECTION_IMPORTS} from './imported-catalog.js?v=20261003-world2';
 export const WEAPONS={
  "classic": {
   "name": "标配",

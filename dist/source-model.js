@@ -1,7 +1,7 @@
 import * as T from './three.module.js';
-import {fetchWeaponAsset,weaponAssetURL} from './weapon-assets.js';
-import {decodeGoldSrcAsset} from './goldsrc-model.js';
-import {nativeMaterial} from './valorant-render.js';
+import {fetchWeaponAsset,weaponAssetURL} from './weapon-assets.js?v=20261003-world2';
+import {decodeGoldSrcAsset} from './goldsrc-model.js?v=20261003-world2';
+import {nativeMaterial} from './valorant-render.js?v=20261003-world2';
 export async function loadSourceModel(url,{onProgress=()=>{}}={}){
  const raw=await fetchWeaponAsset(url,{onProgress}),plain=await decodeGoldSrcAsset(raw),d=JSON.parse(new TextDecoder().decode(plain));
  const textures=d.textures.map(tex=>{const bytes=Uint8Array.from(atob(tex.rgba),c=>c.charCodeAt(0));const t=new T.DataTexture(bytes,tex.width,tex.height,T.RGBAFormat);t.colorSpace=T.SRGBColorSpace;t.flipY=false;t.magFilter=T.LinearFilter;t.minFilter=T.LinearMipmapLinearFilter;t.generateMipmaps=true;t.needsUpdate=true;return t;});
