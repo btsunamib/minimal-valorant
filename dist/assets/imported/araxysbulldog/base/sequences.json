@@ -1,0 +1,365 @@
+[
+  {
+    "index": 0,
+    "name": "idle",
+    "fps": 60.0,
+    "frames": 3,
+    "events": []
+  },
+  {
+    "index": 1,
+    "name": "reload",
+    "fps": 55.0,
+    "frames": 181,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5004,
+        "options": "weapons/valorant/protocolbulldog/reload_mvt_a.wav",
+        "sound": "e4a22bf5a55f8515faae.wav"
+      },
+      {
+        "frame": 14,
+        "event": 5004,
+        "options": "weapons/valorant/protocolbulldog/chg_hndl_back.wav",
+        "sound": "cb5cd63b12ce7c06faac.wav"
+      },
+      {
+        "frame": 35,
+        "event": 5004,
+        "options": "weapons/valorant/protocolbulldog/chg_hndl_button.wav",
+        "sound": "eede34a47c0a68fb601a.wav"
+      },
+      {
+        "frame": 54,
+        "event": 5004,
+        "options": "weapons/valorant/protocolbulldog/reload_magout.wav",
+        "sound": "db36678348bc7740be42.wav"
+      },
+      {
+        "frame": 101,
+        "event": 5004,
+        "options": "weapons/valorant/protocolbulldog/reload_magin.wav",
+        "sound": "f74267a21d61866ac63d.wav"
+      },
+      {
+        "frame": 106,
+        "event": 5004,
+        "options": "weapons/valorant/protocolbulldog/reload_maginhit.wav",
+        "sound": "ac20c9833c015373f178.wav"
+      },
+      {
+        "frame": 130,
+        "event": 5004,
+        "options": "weapons/valorant/protocolbulldog/chg_hndl_fwd.wav",
+        "sound": "714709f28aebf1a70c4f.wav"
+      },
+      {
+        "frame": 145,
+        "event": 5004,
+        "options": "weapons/valorant/protocolbulldog/grab.wav",
+        "sound": "97e6b22a752be2f7552b.wav"
+      }
+    ]
+  },
+  {
+    "index": 2,
+    "name": "reload_fast",
+    "fps": 55.0,
+    "frames": 181,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5004,
+        "options": "weapons/valorant/protocolbulldog/reload_mvt_a.wav",
+        "sound": "e4a22bf5a55f8515faae.wav"
+      },
+      {
+        "frame": 14,
+        "event": 5004,
+        "options": "weapons/valorant/protocolbulldog/chg_hndl_back.wav",
+        "sound": "cb5cd63b12ce7c06faac.wav"
+      },
+      {
+        "frame": 35,
+        "event": 5004,
+        "options": "weapons/valorant/protocolbulldog/chg_hndl_button.wav",
+        "sound": "eede34a47c0a68fb601a.wav"
+      },
+      {
+        "frame": 54,
+        "event": 5004,
+        "options": "weapons/valorant/protocolbulldog/reload_magout.wav",
+        "sound": "db36678348bc7740be42.wav"
+      },
+      {
+        "frame": 101,
+        "event": 5004,
+        "options": "weapons/valorant/protocolbulldog/reload_magin.wav",
+        "sound": "f74267a21d61866ac63d.wav"
+      },
+      {
+        "frame": 106,
+        "event": 5004,
+        "options": "weapons/valorant/protocolbulldog/reload_maginhit.wav",
+        "sound": "ac20c9833c015373f178.wav"
+      },
+      {
+        "frame": 130,
+        "event": 5004,
+        "options": "weapons/valorant/protocolbulldog/chg_hndl_fwd.wav",
+        "sound": "714709f28aebf1a70c4f.wav"
+      },
+      {
+        "frame": 145,
+        "event": 5004,
+        "options": "weapons/valorant/protocolbulldog/grab.wav",
+        "sound": "97e6b22a752be2f7552b.wav"
+      }
+    ]
+  },
+  {
+    "index": 3,
+    "name": "draw",
+    "fps": 60.0,
+    "frames": 83,
+    "events": [
+      {
+        "frame": 1,
+        "event": 5004,
+        "options": "weapons/valorant/protocolbulldog/equip_mvt_a.wav",
+        "sound": "9d09512760af17783a09.wav"
+      },
+      {
+        "frame": 17,
+        "event": 5004,
+        "options": "weapons/valorant/protocolbulldog/chg_hndl_back.wav",
+        "sound": "cb5cd63b12ce7c06faac.wav"
+      },
+      {
+        "frame": 29,
+        "event": 5004,
+        "options": "weapons/valorant/protocolbulldog/chg_hndl_fwd.wav",
+        "sound": "714709f28aebf1a70c4f.wav"
+      },
+      {
+        "frame": 50,
+        "event": 5004,
+        "options": "weapons/valorant/protocolbulldog/grab.wav",
+        "sound": "97e6b22a752be2f7552b.wav"
+      }
+    ]
+  },
+  {
+    "index": 4,
+    "name": "draw_fast",
+    "fps": 60.0,
+    "frames": 83,
+    "events": [
+      {
+        "frame": 1,
+        "event": 5004,
+        "options": "weapons/valorant/protocolbulldog/equip_mvt_a.wav",
+        "sound": "9d09512760af17783a09.wav"
+      },
+      {
+        "frame": 17,
+        "event": 5004,
+        "options": "weapons/valorant/protocolbulldog/chg_hndl_back.wav",
+        "sound": "cb5cd63b12ce7c06faac.wav"
+      },
+      {
+        "frame": 29,
+        "event": 5004,
+        "options": "weapons/valorant/protocolbulldog/chg_hndl_fwd.wav",
+        "sound": "714709f28aebf1a70c4f.wav"
+      },
+      {
+        "frame": 50,
+        "event": 5004,
+        "options": "weapons/valorant/protocolbulldog/grab.wav",
+        "sound": "97e6b22a752be2f7552b.wav"
+      }
+    ]
+  },
+  {
+    "index": 5,
+    "name": "shoot1",
+    "fps": 60.0,
+    "frames": 26,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5001,
+        "options": "22",
+        "sound": null
+      }
+    ]
+  },
+  {
+    "index": 6,
+    "name": "shoot_fast",
+    "fps": 60.0,
+    "frames": 26,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5001,
+        "options": "22",
+        "sound": null
+      }
+    ]
+  },
+  {
+    "index": 7,
+    "name": "shoot2",
+    "fps": 60.0,
+    "frames": 26,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5001,
+        "options": "22",
+        "sound": null
+      }
+    ]
+  },
+  {
+    "index": 8,
+    "name": "shoot3",
+    "fps": 60.0,
+    "frames": 26,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5001,
+        "options": "22",
+        "sound": null
+      }
+    ]
+  },
+  {
+    "index": 9,
+    "name": "inspect",
+    "fps": 60.0,
+    "frames": 251,
+    "events": [
+      {
+        "frame": 1,
+        "event": 5004,
+        "options": "weapons/valorant/protocolbulldog/special_inspect.wav",
+        "sound": "419edc6d3fee3c4d8f51.wav"
+      },
+      {
+        "frame": 1,
+        "event": 5004,
+        "options": "weapons/valorant/protocolbulldog/inspect_mvt_a.wav",
+        "sound": "f5a3ece9caf6264ac194.wav"
+      },
+      {
+        "frame": 60,
+        "event": 5004,
+        "options": "weapons/valorant/protocolbulldog/inspect_mvt_f.wav",
+        "sound": "6405298f65aa6941fce4.wav"
+      },
+      {
+        "frame": 75,
+        "event": 5004,
+        "options": "weapons/valorant/protocolbulldog/inspect_mvt_g.wav",
+        "sound": "5dc2353b3642b1f6baf3.wav"
+      },
+      {
+        "frame": 100,
+        "event": 5004,
+        "options": "weapons/valorant/protocolbulldog/inspect_mvt_b.wav",
+        "sound": "4add662cbf68f12b33c2.wav"
+      },
+      {
+        "frame": 147,
+        "event": 5004,
+        "options": "weapons/valorant/protocolbulldog/inspect_mvt_e.wav",
+        "sound": "92ce0cc280e88170959c.wav"
+      },
+      {
+        "frame": 157,
+        "event": 5004,
+        "options": "weapons/valorant/protocolbulldog/inspect_mvt_d.wav",
+        "sound": "01a74032e7942f93cd19.wav"
+      },
+      {
+        "frame": 190,
+        "event": 5004,
+        "options": "weapons/valorant/protocolbulldog/inspect_mvt_c.wav",
+        "sound": "6735e6abbcf8ef023fa9.wav"
+      },
+      {
+        "frame": 216,
+        "event": 5004,
+        "options": "weapons/valorant/protocolbulldog/grab.wav",
+        "sound": "97e6b22a752be2f7552b.wav"
+      }
+    ]
+  },
+  {
+    "index": 10,
+    "name": "inspect_fast",
+    "fps": 60.0,
+    "frames": 251,
+    "events": [
+      {
+        "frame": 1,
+        "event": 5004,
+        "options": "weapons/valorant/protocolbulldog/special_inspect.wav",
+        "sound": "419edc6d3fee3c4d8f51.wav"
+      },
+      {
+        "frame": 1,
+        "event": 5004,
+        "options": "weapons/valorant/protocolbulldog/inspect_mvt_a.wav",
+        "sound": "f5a3ece9caf6264ac194.wav"
+      },
+      {
+        "frame": 60,
+        "event": 5004,
+        "options": "weapons/valorant/protocolbulldog/inspect_mvt_f.wav",
+        "sound": "6405298f65aa6941fce4.wav"
+      },
+      {
+        "frame": 75,
+        "event": 5004,
+        "options": "weapons/valorant/protocolbulldog/inspect_mvt_g.wav",
+        "sound": "5dc2353b3642b1f6baf3.wav"
+      },
+      {
+        "frame": 100,
+        "event": 5004,
+        "options": "weapons/valorant/protocolbulldog/inspect_mvt_b.wav",
+        "sound": "4add662cbf68f12b33c2.wav"
+      },
+      {
+        "frame": 147,
+        "event": 5004,
+        "options": "weapons/valorant/protocolbulldog/inspect_mvt_e.wav",
+        "sound": "92ce0cc280e88170959c.wav"
+      },
+      {
+        "frame": 157,
+        "event": 5004,
+        "options": "weapons/valorant/protocolbulldog/inspect_mvt_d.wav",
+        "sound": "01a74032e7942f93cd19.wav"
+      },
+      {
+        "frame": 190,
+        "event": 5004,
+        "options": "weapons/valorant/protocolbulldog/inspect_mvt_c.wav",
+        "sound": "6735e6abbcf8ef023fa9.wav"
+      },
+      {
+        "frame": 216,
+        "event": 5004,
+        "options": "weapons/valorant/protocolbulldog/grab.wav",
+        "sound": "97e6b22a752be2f7552b.wav"
+      }
+    ]
+  }
+]

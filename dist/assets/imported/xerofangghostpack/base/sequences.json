@@ -1,0 +1,409 @@
+[
+  {
+    "index": 0,
+    "name": "idle_1",
+    "fps": 60.0,
+    "frames": 83,
+    "events": []
+  },
+  {
+    "index": 1,
+    "name": "shoot_1",
+    "fps": 60.0,
+    "frames": 22,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5001,
+        "options": "11",
+        "sound": null
+      }
+    ]
+  },
+  {
+    "index": 2,
+    "name": "shoot_2",
+    "fps": 90.0,
+    "frames": 22,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5001,
+        "options": "11",
+        "sound": null
+      }
+    ]
+  },
+  {
+    "index": 3,
+    "name": "reload_1",
+    "fps": 60.0,
+    "frames": 153,
+    "events": [
+      {
+        "frame": 1,
+        "event": 5004,
+        "options": "weapons/valorant/xerofangghost/Reload_Mvt_A_FP.wav",
+        "sound": "6bef44f09935639208e6.wav"
+      },
+      {
+        "frame": 15,
+        "event": 5004,
+        "options": "weapons/valorant/xerofangghost/Reload_Ele_A.wav",
+        "sound": "f94743fbbcfdd87dfd8f.wav"
+      },
+      {
+        "frame": 16,
+        "event": 5004,
+        "options": "weapons/valorant/xerofangghost/Reload_Mag_Out_FP.wav",
+        "sound": "6c14bd2c91599ae800fe.wav"
+      },
+      {
+        "frame": 26,
+        "event": 5004,
+        "options": "weapons/valorant/xerofangghost/Reload_Mvt_B_FP.wav",
+        "sound": null
+      },
+      {
+        "frame": 35,
+        "event": 5004,
+        "options": "weapons/valorant/xerofangghost/Reload_Mag_In_A_FP.wav",
+        "sound": "3b2490383afc45f8b0a9.wav"
+      },
+      {
+        "frame": 40,
+        "event": 5004,
+        "options": "weapons/valorant/xerofangghost/Reload_Mag_In_B_FP.wav",
+        "sound": "0b3c7f9bf3d1b141ae12.wav"
+      },
+      {
+        "frame": 45,
+        "event": 5004,
+        "options": "weapons/valorant/xerofangghost/Reload_Mag_In_c_FP.wav",
+        "sound": "86ae89e08c45a7360abb.wav"
+      },
+      {
+        "frame": 49,
+        "event": 5004,
+        "options": "weapons/valorant/xerofangghost/Reload_Ele_B.wav",
+        "sound": "14ab100e723148fcb882.wav"
+      },
+      {
+        "frame": 64,
+        "event": 5004,
+        "options": "weapons/valorant/xerofangghost/Reload_Slide_Back_FP.wav",
+        "sound": "ce05f372cad899792af3.wav"
+      },
+      {
+        "frame": 73,
+        "event": 5004,
+        "options": "weapons/valorant/xerofangghost/Reload_Slide_Fwd_FP.wav",
+        "sound": "b92c47a3e287bf45160a.wav"
+      },
+      {
+        "frame": 78,
+        "event": 5004,
+        "options": "weapons/valorant/xerofangghost/Reload_Slide_Lock_FP.wav",
+        "sound": "f790c073d09c1df30cba.wav"
+      },
+      {
+        "frame": 89,
+        "event": 5004,
+        "options": "weapons/valorant/xerofangghost/Reload_Grab_FP.wav",
+        "sound": "815af1ebc34fb1a773dc.wav"
+      }
+    ]
+  },
+  {
+    "index": 4,
+    "name": "reload_2",
+    "fps": 70.0,
+    "frames": 153,
+    "events": [
+      {
+        "frame": 1,
+        "event": 5004,
+        "options": "weapons/valorant/xerofangghost/Reload_Mvt_A_FP.wav",
+        "sound": "6bef44f09935639208e6.wav"
+      },
+      {
+        "frame": 15,
+        "event": 5004,
+        "options": "weapons/valorant/xerofangghost/Reload_Ele_A.wav",
+        "sound": "f94743fbbcfdd87dfd8f.wav"
+      },
+      {
+        "frame": 16,
+        "event": 5004,
+        "options": "weapons/valorant/xerofangghost/Reload_Mag_Out_FP.wav",
+        "sound": "6c14bd2c91599ae800fe.wav"
+      },
+      {
+        "frame": 26,
+        "event": 5004,
+        "options": "weapons/valorant/xerofangghost/Reload_Mvt_B_FP.wav",
+        "sound": null
+      },
+      {
+        "frame": 35,
+        "event": 5004,
+        "options": "weapons/valorant/xerofangghost/Reload_Mag_In_A_FP.wav",
+        "sound": "3b2490383afc45f8b0a9.wav"
+      },
+      {
+        "frame": 40,
+        "event": 5004,
+        "options": "weapons/valorant/xerofangghost/Reload_Mag_In_B_FP.wav",
+        "sound": "0b3c7f9bf3d1b141ae12.wav"
+      },
+      {
+        "frame": 45,
+        "event": 5004,
+        "options": "weapons/valorant/xerofangghost/Reload_Mag_In_c_FP.wav",
+        "sound": "86ae89e08c45a7360abb.wav"
+      },
+      {
+        "frame": 49,
+        "event": 5004,
+        "options": "weapons/valorant/xerofangghost/Reload_Ele_B.wav",
+        "sound": "14ab100e723148fcb882.wav"
+      },
+      {
+        "frame": 64,
+        "event": 5004,
+        "options": "weapons/valorant/xerofangghost/Reload_Slide_Back_FP.wav",
+        "sound": "ce05f372cad899792af3.wav"
+      },
+      {
+        "frame": 73,
+        "event": 5004,
+        "options": "weapons/valorant/xerofangghost/Reload_Slide_Fwd_FP.wav",
+        "sound": "b92c47a3e287bf45160a.wav"
+      },
+      {
+        "frame": 78,
+        "event": 5004,
+        "options": "weapons/valorant/xerofangghost/Reload_Slide_Lock_FP.wav",
+        "sound": "f790c073d09c1df30cba.wav"
+      },
+      {
+        "frame": 89,
+        "event": 5004,
+        "options": "weapons/valorant/xerofangghost/Reload_Grab_FP.wav",
+        "sound": "815af1ebc34fb1a773dc.wav"
+      }
+    ]
+  },
+  {
+    "index": 5,
+    "name": "draw_1",
+    "fps": 60.0,
+    "frames": 84,
+    "events": [
+      {
+        "frame": 1,
+        "event": 5004,
+        "options": "weapons/valorant/xerofangghost/Equip_Mvt_A_FP.wav",
+        "sound": "435e114c62bf5680a488.wav"
+      },
+      {
+        "frame": 5,
+        "event": 5004,
+        "options": "weapons/valorant/xerofangghost/Reload_Slide_Back_FP.wav",
+        "sound": "ce05f372cad899792af3.wav"
+      },
+      {
+        "frame": 15,
+        "event": 5004,
+        "options": "weapons/valorant/xerofangghost/Reload_Ele_A.wav",
+        "sound": "f94743fbbcfdd87dfd8f.wav"
+      },
+      {
+        "frame": 22,
+        "event": 5004,
+        "options": "weapons/valorant/xerofangghost/Reload_Slide_Fwd_FP.wav",
+        "sound": "b92c47a3e287bf45160a.wav"
+      },
+      {
+        "frame": 25,
+        "event": 5004,
+        "options": "weapons/valorant/xerofangghost/Equip_Ele_A.wav",
+        "sound": "a2ee792a95018359be65.wav"
+      },
+      {
+        "frame": 25,
+        "event": 5004,
+        "options": "weapons/valorant/xerofangghost/Reload_Slide_Lock_FP.wav",
+        "sound": "f790c073d09c1df30cba.wav"
+      },
+      {
+        "frame": 32,
+        "event": 5004,
+        "options": "weapons/valorant/xerofangghost/Equip_Mvt_B_FP.wav",
+        "sound": "c156363a9dc9e5b7af7e.wav"
+      },
+      {
+        "frame": 42,
+        "event": 5004,
+        "options": "weapons/valorant/xerofangghost/Reload_Grab_FP.wav",
+        "sound": "815af1ebc34fb1a773dc.wav"
+      }
+    ]
+  },
+  {
+    "index": 6,
+    "name": "draw_2",
+    "fps": 70.0,
+    "frames": 84,
+    "events": [
+      {
+        "frame": 1,
+        "event": 5004,
+        "options": "weapons/valorant/xerofangghost/Equip_Mvt_A_FP.wav",
+        "sound": "435e114c62bf5680a488.wav"
+      },
+      {
+        "frame": 5,
+        "event": 5004,
+        "options": "weapons/valorant/xerofangghost/Reload_Slide_Back_FP.wav",
+        "sound": "ce05f372cad899792af3.wav"
+      },
+      {
+        "frame": 15,
+        "event": 5004,
+        "options": "weapons/valorant/xerofangghost/Reload_Ele_A.wav",
+        "sound": "f94743fbbcfdd87dfd8f.wav"
+      },
+      {
+        "frame": 22,
+        "event": 5004,
+        "options": "weapons/valorant/xerofangghost/Reload_Slide_Fwd_FP.wav",
+        "sound": "b92c47a3e287bf45160a.wav"
+      },
+      {
+        "frame": 25,
+        "event": 5004,
+        "options": "weapons/valorant/xerofangghost/Equip_Ele_A.wav",
+        "sound": "a2ee792a95018359be65.wav"
+      },
+      {
+        "frame": 25,
+        "event": 5004,
+        "options": "weapons/valorant/xerofangghost/Reload_Slide_Lock_FP.wav",
+        "sound": "f790c073d09c1df30cba.wav"
+      },
+      {
+        "frame": 32,
+        "event": 5004,
+        "options": "weapons/valorant/xerofangghost/Equip_Mvt_B_FP.wav",
+        "sound": "c156363a9dc9e5b7af7e.wav"
+      },
+      {
+        "frame": 42,
+        "event": 5004,
+        "options": "weapons/valorant/xerofangghost/Reload_Grab_FP.wav",
+        "sound": "815af1ebc34fb1a773dc.wav"
+      }
+    ]
+  },
+  {
+    "index": 7,
+    "name": "inspect_1",
+    "fps": 60.0,
+    "frames": 193,
+    "events": [
+      {
+        "frame": 1,
+        "event": 5004,
+        "options": "weapons/valorant/xerofangghost/Inspect_Mvt_A_FP.wav",
+        "sound": "c01d6375c2a0e54039cd.wav"
+      },
+      {
+        "frame": 17,
+        "event": 5004,
+        "options": "weapons/valorant/xerofangghost/Reload_Grab_FP.wav",
+        "sound": "815af1ebc34fb1a773dc.wav"
+      },
+      {
+        "frame": 34,
+        "event": 5004,
+        "options": "weapons/valorant/xerofangghost/Inspect_Ele_A.wav",
+        "sound": "8f9789066679133b37f1.wav"
+      },
+      {
+        "frame": 66,
+        "event": 5004,
+        "options": "weapons/valorant/xerofangghost/Inspect_Mvt_B_FP.wav",
+        "sound": "d10b399dd7720615d905.wav"
+      },
+      {
+        "frame": 87,
+        "event": 5004,
+        "options": "weapons/valorant/xerofangghost/Inspect_Ele_B.wav",
+        "sound": "7ee5a993707e5460754e.wav"
+      },
+      {
+        "frame": 102,
+        "event": 5004,
+        "options": "weapons/valorant/xerofangghost/Inspect_Mvt_C_FP.wav",
+        "sound": "6c10e56de729c4a12cfa.wav"
+      },
+      {
+        "frame": 155,
+        "event": 5004,
+        "options": "weapons/valorant/xerofangghost/Inspect_Mvt_D_FP.wav",
+        "sound": "44d6b54a6f7262665c71.wav"
+      }
+    ]
+  },
+  {
+    "index": 8,
+    "name": "inspect_2",
+    "fps": 60.0,
+    "frames": 193,
+    "events": [
+      {
+        "frame": 1,
+        "event": 5004,
+        "options": "weapons/valorant/xerofangghost/Inspect_Mvt_A_FP.wav",
+        "sound": "c01d6375c2a0e54039cd.wav"
+      },
+      {
+        "frame": 17,
+        "event": 5004,
+        "options": "weapons/valorant/xerofangghost/Reload_Grab_FP.wav",
+        "sound": "815af1ebc34fb1a773dc.wav"
+      },
+      {
+        "frame": 34,
+        "event": 5004,
+        "options": "weapons/valorant/xerofangghost/Inspect_Ele_A.wav",
+        "sound": "8f9789066679133b37f1.wav"
+      },
+      {
+        "frame": 66,
+        "event": 5004,
+        "options": "weapons/valorant/xerofangghost/Inspect_Mvt_B_FP.wav",
+        "sound": "d10b399dd7720615d905.wav"
+      },
+      {
+        "frame": 87,
+        "event": 5004,
+        "options": "weapons/valorant/xerofangghost/Inspect_Ele_B.wav",
+        "sound": "7ee5a993707e5460754e.wav"
+      },
+      {
+        "frame": 102,
+        "event": 5004,
+        "options": "weapons/valorant/xerofangghost/Inspect_Mvt_C_FP.wav",
+        "sound": "6c10e56de729c4a12cfa.wav"
+      },
+      {
+        "frame": 155,
+        "event": 5004,
+        "options": "weapons/valorant/xerofangghost/Inspect_Mvt_D_FP.wav",
+        "sound": "44d6b54a6f7262665c71.wav"
+      }
+    ]
+  }
+]

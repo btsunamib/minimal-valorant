@@ -1,0 +1,499 @@
+[
+  {
+    "index": 0,
+    "name": "idle",
+    "fps": 60.0,
+    "frames": 165,
+    "events": []
+  },
+  {
+    "index": 1,
+    "name": "shoot1",
+    "fps": 25.0,
+    "frames": 21,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5001,
+        "options": "21",
+        "sound": null
+      },
+      {
+        "frame": 6,
+        "event": 5004,
+        "options": "weapons/valorant/kuronamimarshal/Lever_Out_Fast_FP.wav",
+        "sound": "138932d3abb8970b92a4.wav"
+      },
+      {
+        "frame": 11,
+        "event": 5004,
+        "options": "weapons/valorant/kuronamimarshal/Lever_In_Fast_FP.wav",
+        "sound": "0f72613a56a9407c9c14.wav"
+      }
+    ]
+  },
+  {
+    "index": 2,
+    "name": "shoot1_fast",
+    "fps": 25.0,
+    "frames": 21,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5001,
+        "options": "21",
+        "sound": null
+      },
+      {
+        "frame": 6,
+        "event": 5004,
+        "options": "weapons/valorant/kuronamimarshal/Lever_Out_Fast_FP.wav",
+        "sound": "138932d3abb8970b92a4.wav"
+      },
+      {
+        "frame": 11,
+        "event": 5004,
+        "options": "weapons/valorant/kuronamimarshal/Lever_In_Fast_FP.wav",
+        "sound": "0f72613a56a9407c9c14.wav"
+      }
+    ]
+  },
+  {
+    "index": 3,
+    "name": "shoot2",
+    "fps": 25.0,
+    "frames": 21,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5001,
+        "options": "21",
+        "sound": null
+      },
+      {
+        "frame": 6,
+        "event": 5004,
+        "options": "weapons/valorant/kuronamimarshal/Lever_Out_Fast_FP.wav",
+        "sound": "138932d3abb8970b92a4.wav"
+      },
+      {
+        "frame": 11,
+        "event": 5004,
+        "options": "weapons/valorant/kuronamimarshal/Lever_In_Fast_FP.wav",
+        "sound": "0f72613a56a9407c9c14.wav"
+      }
+    ]
+  },
+  {
+    "index": 4,
+    "name": "reload_start",
+    "fps": 90.0,
+    "frames": 141,
+    "events": [
+      {
+        "frame": 1,
+        "event": 5004,
+        "options": "Valorant/weapons/marshall/reload_mvt_a.wav",
+        "sound": null
+      }
+    ]
+  },
+  {
+    "index": 5,
+    "name": "reload_start_fast",
+    "fps": 100.0,
+    "frames": 141,
+    "events": [
+      {
+        "frame": 1,
+        "event": 5004,
+        "options": "Valorant/weapons/marshall/reload_mvt_a.wav",
+        "sound": null
+      }
+    ]
+  },
+  {
+    "index": 6,
+    "name": "reload",
+    "fps": 75.0,
+    "frames": 141,
+    "events": [
+      {
+        "frame": 1,
+        "event": 5004,
+        "options": "weapons/valorant/kuronamimarshal/Reload_Mvt_A_FP.wav",
+        "sound": "b3a35efc54de1a5f978d.wav"
+      },
+      {
+        "frame": 6,
+        "event": 5004,
+        "options": "weapons/valorant/kuronamimarshal/Lever_Out_FP.wav",
+        "sound": "ba2e78aff4c19e7a39b7.wav"
+      },
+      {
+        "frame": 16,
+        "event": 5004,
+        "options": "weapons/valorant/kuronamimarshal/Reload_Mvt_Ele_A_FP.wav",
+        "sound": "8782051ad64bb2352893.wav"
+      },
+      {
+        "frame": 24,
+        "event": 5004,
+        "options": "weapons/valorant/kuronamimarshal/Reload_Mvt_Ele_B_FP.wav",
+        "sound": "7b0fbf9d03001db14936.wav"
+      },
+      {
+        "frame": 32,
+        "event": 5004,
+        "options": "weapons/valorant/kuronamimarshal/Reload_Shell_Insert_FP.wav",
+        "sound": "3e908e8e6e7c852a7157.wav"
+      },
+      {
+        "frame": 70,
+        "event": 5004,
+        "options": "weapons/valorant/kuronamimarshal/Reload_Port_Click_FP.wav",
+        "sound": "ef4165d0e9d121225805.wav"
+      },
+      {
+        "frame": 80,
+        "event": 5004,
+        "options": "weapons/valorant/kuronamimarshal/Reload_Mvt_Ele_C_FP.wav",
+        "sound": "d74821b64749768f2c62.wav"
+      },
+      {
+        "frame": 85,
+        "event": 5004,
+        "options": "weapons/valorant/kuronamimarshal/Lever_In_FP.wav",
+        "sound": "6f2c746c5c1c88a908b2.wav"
+      },
+      {
+        "frame": 117,
+        "event": 5004,
+        "options": "weapons/valorant/kuronamimarshal/Reload_Grab_FP.wav",
+        "sound": "feabe1663001850d2de6.wav"
+      }
+    ]
+  },
+  {
+    "index": 7,
+    "name": "reload_fast",
+    "fps": 85.0,
+    "frames": 141,
+    "events": [
+      {
+        "frame": 1,
+        "event": 5004,
+        "options": "weapons/valorant/kuronamimarshal/Reload_Mvt_A_FP.wav",
+        "sound": "b3a35efc54de1a5f978d.wav"
+      },
+      {
+        "frame": 6,
+        "event": 5004,
+        "options": "weapons/valorant/kuronamimarshal/Lever_Out_FP.wav",
+        "sound": "ba2e78aff4c19e7a39b7.wav"
+      },
+      {
+        "frame": 16,
+        "event": 5004,
+        "options": "weapons/valorant/kuronamimarshal/Reload_Mvt_Ele_A_FP.wav",
+        "sound": "8782051ad64bb2352893.wav"
+      },
+      {
+        "frame": 24,
+        "event": 5004,
+        "options": "weapons/valorant/kuronamimarshal/Reload_Mvt_Ele_B_FP.wav",
+        "sound": "7b0fbf9d03001db14936.wav"
+      },
+      {
+        "frame": 32,
+        "event": 5004,
+        "options": "weapons/valorant/kuronamimarshal/Reload_Shell_Insert_FP.wav",
+        "sound": "3e908e8e6e7c852a7157.wav"
+      },
+      {
+        "frame": 70,
+        "event": 5004,
+        "options": "weapons/valorant/kuronamimarshal/Reload_Port_Click_FP.wav",
+        "sound": "ef4165d0e9d121225805.wav"
+      },
+      {
+        "frame": 80,
+        "event": 5004,
+        "options": "weapons/valorant/kuronamimarshal/Reload_Mvt_Ele_C_FP.wav",
+        "sound": "d74821b64749768f2c62.wav"
+      },
+      {
+        "frame": 85,
+        "event": 5004,
+        "options": "weapons/valorant/kuronamimarshal/Lever_In_FP.wav",
+        "sound": "6f2c746c5c1c88a908b2.wav"
+      },
+      {
+        "frame": 117,
+        "event": 5004,
+        "options": "weapons/valorant/kuronamimarshal/Reload_Grab_FP.wav",
+        "sound": "feabe1663001850d2de6.wav"
+      }
+    ]
+  },
+  {
+    "index": 8,
+    "name": "draw",
+    "fps": 60.0,
+    "frames": 131,
+    "events": [
+      {
+        "frame": 1,
+        "event": 5004,
+        "options": "weapons/valorant/kuronamimarshal/Equip_Ele_Katana_A.wav",
+        "sound": "76c454e65484c64cc99f.wav"
+      },
+      {
+        "frame": 3,
+        "event": 5004,
+        "options": "weapons/valorant/kuronamimarshal/Equip_Ele_Water_FP.wav",
+        "sound": "7a4d6879b977c6e8136a.wav"
+      },
+      {
+        "frame": 18,
+        "event": 5004,
+        "options": "weapons/valorant/kuronamimarshal/Lever_Out_FP.wav",
+        "sound": "ba2e78aff4c19e7a39b7.wav"
+      },
+      {
+        "frame": 25,
+        "event": 5004,
+        "options": "weapons/valorant/kuronamimarshal/Equip_Ele_Metal_FP.wav",
+        "sound": "c4370169fe5c6f1a9eb4.wav"
+      },
+      {
+        "frame": 32,
+        "event": 5004,
+        "options": "weapons/valorant/kuronamimarshal/Lever_In_FP.wav",
+        "sound": "6f2c746c5c1c88a908b2.wav"
+      },
+      {
+        "frame": 64,
+        "event": 5004,
+        "options": "weapons/valorant/kuronamimarshal/Equip_Mvt_B_FP.wav",
+        "sound": "20d261f0c546dca9abb8.wav"
+      },
+      {
+        "frame": 66,
+        "event": 5004,
+        "options": "weapons/valorant/kuronamimarshal/Equip_Ele_LEDOn.wav",
+        "sound": "91959cc44d2f2a150d23.wav"
+      }
+    ]
+  },
+  {
+    "index": 9,
+    "name": "draw_fast",
+    "fps": 80.0,
+    "frames": 131,
+    "events": [
+      {
+        "frame": 1,
+        "event": 5004,
+        "options": "weapons/valorant/kuronamimarshal/Equip_Ele_Katana_A.wav",
+        "sound": "76c454e65484c64cc99f.wav"
+      },
+      {
+        "frame": 3,
+        "event": 5004,
+        "options": "weapons/valorant/kuronamimarshal/Equip_Ele_Water_FP.wav",
+        "sound": "7a4d6879b977c6e8136a.wav"
+      },
+      {
+        "frame": 18,
+        "event": 5004,
+        "options": "weapons/valorant/kuronamimarshal/Lever_Out_FP.wav",
+        "sound": "ba2e78aff4c19e7a39b7.wav"
+      },
+      {
+        "frame": 25,
+        "event": 5004,
+        "options": "weapons/valorant/kuronamimarshal/Equip_Ele_Metal_FP.wav",
+        "sound": "c4370169fe5c6f1a9eb4.wav"
+      },
+      {
+        "frame": 32,
+        "event": 5004,
+        "options": "weapons/valorant/kuronamimarshal/Lever_In_FP.wav",
+        "sound": "6f2c746c5c1c88a908b2.wav"
+      },
+      {
+        "frame": 64,
+        "event": 5004,
+        "options": "weapons/valorant/kuronamimarshal/Equip_Mvt_B_FP.wav",
+        "sound": "20d261f0c546dca9abb8.wav"
+      },
+      {
+        "frame": 66,
+        "event": 5004,
+        "options": "weapons/valorant/kuronamimarshal/Equip_Ele_LEDOn.wav",
+        "sound": "91959cc44d2f2a150d23.wav"
+      }
+    ]
+  },
+  {
+    "index": 10,
+    "name": "inspect",
+    "fps": 60.0,
+    "frames": 261,
+    "events": [
+      {
+        "frame": 1,
+        "event": 5004,
+        "options": "weapons/valorant/kuronamimarshal/Inspect_Mvt_A_FP.wav",
+        "sound": "1dab263c4026e6074f0d.wav"
+      },
+      {
+        "frame": 23,
+        "event": 5004,
+        "options": "weapons/valorant/kuronamimarshal/Inspect_Mvt_Ele_Metal_A_FP.wav",
+        "sound": "c446a13522b14fb4a942.wav"
+      },
+      {
+        "frame": 25,
+        "event": 5004,
+        "options": "weapons/valorant/kuronamimarshal/Inspect_Mvt_Ele_Water_A_FP.wav",
+        "sound": "a5b919d4423a8aec710d.wav"
+      },
+      {
+        "frame": 50,
+        "event": 5004,
+        "options": "weapons/valorant/kuronamimarshal/Inspect_Music.wav",
+        "sound": "133771f32869dad21c2f.wav"
+      },
+      {
+        "frame": 103,
+        "event": 5004,
+        "options": "weapons/valorant/kuronamimarshal/Inspect_Mvt_B_FP.wav",
+        "sound": "5d05b85fe67e88274224.wav"
+      },
+      {
+        "frame": 107,
+        "event": 5004,
+        "options": "weapons/valorant/kuronamimarshal/Inspect_Lever_Out_Start_FP.wav",
+        "sound": "fb1b14b70d1a461f4ee0.wav"
+      },
+      {
+        "frame": 109,
+        "event": 5004,
+        "options": "weapons/valorant/kuronamimarshal/Inspect_Lever_Out_FP.wav",
+        "sound": "f712b5b9054201ca32e1.wav"
+      },
+      {
+        "frame": 128,
+        "event": 5004,
+        "options": "weapons/valorant/kuronamimarshal/Inspect_Mvt_Ele_Water_B_FP.wav",
+        "sound": "9a408a58b173e2fc2720.wav"
+      },
+      {
+        "frame": 145,
+        "event": 5004,
+        "options": "weapons/valorant/kuronamimarshal/Inspect_Mvt_Ele_Metal_B_FP.wav",
+        "sound": "eb9458029e6dc8ba9e6b.wav"
+      },
+      {
+        "frame": 209,
+        "event": 5004,
+        "options": "weapons/valorant/kuronamimarshal/Inspect_Lever_In_FP.wav",
+        "sound": "190329302bbf58c3dfe1.wav"
+      },
+      {
+        "frame": 211,
+        "event": 5004,
+        "options": "weapons/valorant/kuronamimarshal/Inspect_Mvt_Ele_Water_C_FP.wav",
+        "sound": "b63d604e0e489fbe8fb4.wav"
+      },
+      {
+        "frame": 212,
+        "event": 5004,
+        "options": "weapons/valorant/kuronamimarshal/Inspect_Mvt_C_FP.wav",
+        "sound": "32a5e48147b0593551cd.wav"
+      }
+    ]
+  },
+  {
+    "index": 11,
+    "name": "inspect_fast",
+    "fps": 60.0,
+    "frames": 261,
+    "events": [
+      {
+        "frame": 1,
+        "event": 5004,
+        "options": "weapons/valorant/kuronamimarshal/Inspect_Mvt_A_FP.wav",
+        "sound": "1dab263c4026e6074f0d.wav"
+      },
+      {
+        "frame": 23,
+        "event": 5004,
+        "options": "weapons/valorant/kuronamimarshal/Inspect_Mvt_Ele_Metal_A_FP.wav",
+        "sound": "c446a13522b14fb4a942.wav"
+      },
+      {
+        "frame": 25,
+        "event": 5004,
+        "options": "weapons/valorant/kuronamimarshal/Inspect_Mvt_Ele_Water_A_FP.wav",
+        "sound": "a5b919d4423a8aec710d.wav"
+      },
+      {
+        "frame": 50,
+        "event": 5004,
+        "options": "weapons/valorant/kuronamimarshal/Inspect_Music.wav",
+        "sound": "133771f32869dad21c2f.wav"
+      },
+      {
+        "frame": 103,
+        "event": 5004,
+        "options": "weapons/valorant/kuronamimarshal/Inspect_Mvt_B_FP.wav",
+        "sound": "5d05b85fe67e88274224.wav"
+      },
+      {
+        "frame": 107,
+        "event": 5004,
+        "options": "weapons/valorant/kuronamimarshal/Inspect_Lever_Out_Start_FP.wav",
+        "sound": "fb1b14b70d1a461f4ee0.wav"
+      },
+      {
+        "frame": 109,
+        "event": 5004,
+        "options": "weapons/valorant/kuronamimarshal/Inspect_Lever_Out_FP.wav",
+        "sound": "f712b5b9054201ca32e1.wav"
+      },
+      {
+        "frame": 128,
+        "event": 5004,
+        "options": "weapons/valorant/kuronamimarshal/Inspect_Mvt_Ele_Water_B_FP.wav",
+        "sound": "9a408a58b173e2fc2720.wav"
+      },
+      {
+        "frame": 145,
+        "event": 5004,
+        "options": "weapons/valorant/kuronamimarshal/Inspect_Mvt_Ele_Metal_B_FP.wav",
+        "sound": "eb9458029e6dc8ba9e6b.wav"
+      },
+      {
+        "frame": 209,
+        "event": 5004,
+        "options": "weapons/valorant/kuronamimarshal/Inspect_Lever_In_FP.wav",
+        "sound": "190329302bbf58c3dfe1.wav"
+      },
+      {
+        "frame": 211,
+        "event": 5004,
+        "options": "weapons/valorant/kuronamimarshal/Inspect_Mvt_Ele_Water_C_FP.wav",
+        "sound": "b63d604e0e489fbe8fb4.wav"
+      },
+      {
+        "frame": 212,
+        "event": 5004,
+        "options": "weapons/valorant/kuronamimarshal/Inspect_Mvt_C_FP.wav",
+        "sound": "32a5e48147b0593551cd.wav"
+      }
+    ]
+  }
+]

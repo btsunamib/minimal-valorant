@@ -1,3 +1,4 @@
+import {COLLECTION_IMPORTS} from './imported-catalog.js';
 export const WEAPONS={
  "classic": {
   "name": "标配",
@@ -810,6 +811,8 @@ for(const w of Object.values(WEAPONS))if(w.equip)w.equip=Math.round(w.equip*.72*
 for(const [id,seconds]of Object.entries({vandal:2.35,phantom:2.2,operator:3.2,spectre:2.1,judge:2.5,classic:1.65}))WEAPONS[id].reload=seconds;
 export const SKINS={champions21vandal:{name:'2021 冠军 · 狂徒',sub:'资源包导入 · 重置材质',weapon:'vandal',color:0xffd15b,dark:0x14161b,metal:0xb89749,css:'#ffd15b',symbol:'✦',sound:1},kuronamivandal:{name:'塑水宗 · 狂徒',sub:'资源包导入 · 骨骼动作 · 水流终结',weapon:'vandal',color:0x6edbf4,dark:0x152c38,metal:0x98bfce,css:'#6edbf4',symbol:'✦',sound:1},champions26:{name:'2026 全球冠军赛',sub:'幻影专属 · 攻守双形态',champions26:true,weapon:'phantom',color:0xffce66,dark:0x181b22,metal:0xd6ab52,css:'#ffce66',symbol:'✦',sound:1},standard:{name:'标准款',sub:'原厂枪身 · 哑光金属',standard:true,color:0xd5c9a4,dark:0x34373a,metal:0x737778,css:'#bfc6c9',symbol:'◇',sound:1},chaos:{name:'混沌序曲',sub:'狂徒专属 · 机械核心 · 击杀反馈',chaos:true,weapon:'vandal',color:0x55cfff,dark:0x292832,metal:0xa98047,css:'#88cfff',symbol:'',sound:.75},jade:{name:'翡翠脉冲',sub:'能量弹道 · 晶体终结',color:0xc5f46b,dark:0x183b31,metal:0x8caa83,css:'#c5f46b',symbol:'◈',sound:1},ion:{name:'离子光谱',sub:'电弧弹道 · 离子终结',color:0x5ee8ff,dark:0xb8cfda,metal:0x364c65,css:'#5ee8ff',symbol:'✧',sound:1.4},reaver:{name:'暗影收割',sub:'紫焰弹道 · 灵魂终结',color:0xb685ff,dark:0x231934,metal:0x867997,css:'#b685ff',symbol:'♜',sound:.65},ember:{name:'赤焰龙鳞',sub:'熔火弹道 · 烈焰终结',color:0xff8354,dark:0x482b24,metal:0xbc8860,css:'#ff8354',symbol:'✦',sound:.8}};
 export const KNIVES={champions21knife:'2021 全球冠军赛 · 爪刀',champions24:'2024 全球冠军赛 · 战刀',narukami:'泷吟 · 塑水宗 2.0',kuronami:'黑波之刃',mercy:'怜悯之刃',butterfly:'蝴蝶刀',karambit:'爪子刀',blade:'能量刃'};
+for(const [key,s] of Object.entries(COLLECTION_IMPORTS)){if(s.weapon==='knife')KNIVES[key]=s.name;else SKINS[key]={name:s.name,sub:s.en,weapon:s.weapon,color:parseInt(s.color.slice(1),16),css:s.color,dark:0x18212c,metal:0x98a7b4,symbol:'✦',sound:1};}
+
 export const MAP_W=56, MAP_D=48, CELL=2;
 export const SOLIDS=[
  [-28,0,1,50,5],[28,0,1,50,5],[0,-24,57,1,5],[0,24,57,1,5],

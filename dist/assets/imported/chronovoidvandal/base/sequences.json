@@ -1,0 +1,401 @@
+[
+  {
+    "index": 0,
+    "name": "idle",
+    "fps": 60.0,
+    "frames": 480,
+    "events": []
+  },
+  {
+    "index": 1,
+    "name": "reload",
+    "fps": 60.0,
+    "frames": 177,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5004,
+        "options": "weapons/valorant/chronovoidvandal/reload_mvt_a.wav",
+        "sound": "f0e8f6e2067c415355cc.wav"
+      },
+      {
+        "frame": 25,
+        "event": 5004,
+        "options": "weapons/valorant/chronovoidvandal/reload_elmt_a.wav",
+        "sound": "62ce20ba5df2ec7f61af.wav"
+      },
+      {
+        "frame": 49,
+        "event": 5004,
+        "options": "weapons/valorant/chronovoidvandal/reload_elmt_b.wav",
+        "sound": "5b34a3404eab7c3bd57f.wav"
+      },
+      {
+        "frame": 93,
+        "event": 5004,
+        "options": "weapons/valorant/chronovoidvandal/reload_elmt_c.wav",
+        "sound": "2125aaf3831a323b4947.wav"
+      },
+      {
+        "frame": 100,
+        "event": 5004,
+        "options": "weapons/valorant/chronovoidvandal/reload_elmt_d.wav",
+        "sound": "568f6317e1471274639d.wav"
+      },
+      {
+        "frame": 122,
+        "event": 5004,
+        "options": "weapons/valorant/chronovoidvandal/chg_hnd_grab.wav",
+        "sound": "db03403d14bb4db9defd.wav"
+      },
+      {
+        "frame": 123,
+        "event": 5004,
+        "options": "weapons/valorant/chronovoidvandal/chg_hnd_back.wav",
+        "sound": "1f66ddfabd5e5cf4122e.wav"
+      },
+      {
+        "frame": 140,
+        "event": 5004,
+        "options": "weapons/valorant/chronovoidvandal/chg_hnd_fwd.wav",
+        "sound": "57c132f374aa9b5507f0.wav"
+      },
+      {
+        "frame": 167,
+        "event": 5004,
+        "options": "weapons/valorant/chronovoidvandal/grab.wav",
+        "sound": "b526f19de41269a77823.wav"
+      }
+    ]
+  },
+  {
+    "index": 2,
+    "name": "reload_fast",
+    "fps": 70.0,
+    "frames": 177,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5004,
+        "options": "weapons/valorant/chronovoidvandal/reload_mvt_a.wav",
+        "sound": "f0e8f6e2067c415355cc.wav"
+      },
+      {
+        "frame": 25,
+        "event": 5004,
+        "options": "weapons/valorant/chronovoidvandal/reload_elmt_a.wav",
+        "sound": "62ce20ba5df2ec7f61af.wav"
+      },
+      {
+        "frame": 49,
+        "event": 5004,
+        "options": "weapons/valorant/chronovoidvandal/reload_elmt_b.wav",
+        "sound": "5b34a3404eab7c3bd57f.wav"
+      },
+      {
+        "frame": 93,
+        "event": 5004,
+        "options": "weapons/valorant/chronovoidvandal/reload_elmt_c.wav",
+        "sound": "2125aaf3831a323b4947.wav"
+      },
+      {
+        "frame": 100,
+        "event": 5004,
+        "options": "weapons/valorant/chronovoidvandal/reload_elmt_d.wav",
+        "sound": "568f6317e1471274639d.wav"
+      },
+      {
+        "frame": 122,
+        "event": 5004,
+        "options": "weapons/valorant/chronovoidvandal/chg_hnd_grab.wav",
+        "sound": "db03403d14bb4db9defd.wav"
+      },
+      {
+        "frame": 123,
+        "event": 5004,
+        "options": "weapons/valorant/chronovoidvandal/chg_hnd_back.wav",
+        "sound": "1f66ddfabd5e5cf4122e.wav"
+      },
+      {
+        "frame": 140,
+        "event": 5004,
+        "options": "weapons/valorant/chronovoidvandal/chg_hnd_fwd.wav",
+        "sound": "57c132f374aa9b5507f0.wav"
+      },
+      {
+        "frame": 167,
+        "event": 5004,
+        "options": "weapons/valorant/chronovoidvandal/grab.wav",
+        "sound": "b526f19de41269a77823.wav"
+      }
+    ]
+  },
+  {
+    "index": 3,
+    "name": "draw",
+    "fps": 60.0,
+    "frames": 100,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5004,
+        "options": "weapons/valorant/chronovoidvandal/equip_mvt_a.wav",
+        "sound": "7503d72c30c51d45d1fc.wav"
+      },
+      {
+        "frame": 13,
+        "event": 5004,
+        "options": "weapons/valorant/chronovoidvandal/equip_elmt_a.wav",
+        "sound": "f171223567d92154270c.wav"
+      },
+      {
+        "frame": 22,
+        "event": 5004,
+        "options": "weapons/valorant/chronovoidvandal/chg_hnd_grab.wav",
+        "sound": "db03403d14bb4db9defd.wav"
+      },
+      {
+        "frame": 23,
+        "event": 5004,
+        "options": "weapons/valorant/chronovoidvandal/chg_hnd_back.wav",
+        "sound": "1f66ddfabd5e5cf4122e.wav"
+      },
+      {
+        "frame": 23,
+        "event": 5004,
+        "options": "weapons/valorant/chronovoidvandal/equip_elmt_b.wav",
+        "sound": "a81851775438f22d18e6.wav"
+      },
+      {
+        "frame": 39,
+        "event": 5004,
+        "options": "weapons/valorant/chronovoidvandal/chg_hnd_fwd.wav",
+        "sound": "57c132f374aa9b5507f0.wav"
+      },
+      {
+        "frame": 41,
+        "event": 5004,
+        "options": "weapons/valorant/chronovoidvandal/equip_elmt_c.wav",
+        "sound": "e4ae26a7946818e42ac1.wav"
+      },
+      {
+        "frame": 62,
+        "event": 5004,
+        "options": "weapons/valorant/chronovoidvandal/grab.wav",
+        "sound": "b526f19de41269a77823.wav"
+      }
+    ]
+  },
+  {
+    "index": 4,
+    "name": "draw_fast",
+    "fps": 70.0,
+    "frames": 100,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5004,
+        "options": "weapons/valorant/chronovoidvandal/equip_mvt_a.wav",
+        "sound": "7503d72c30c51d45d1fc.wav"
+      },
+      {
+        "frame": 13,
+        "event": 5004,
+        "options": "weapons/valorant/chronovoidvandal/equip_elmt_a.wav",
+        "sound": "f171223567d92154270c.wav"
+      },
+      {
+        "frame": 22,
+        "event": 5004,
+        "options": "weapons/valorant/chronovoidvandal/chg_hnd_grab.wav",
+        "sound": "db03403d14bb4db9defd.wav"
+      },
+      {
+        "frame": 23,
+        "event": 5004,
+        "options": "weapons/valorant/chronovoidvandal/chg_hnd_back.wav",
+        "sound": "1f66ddfabd5e5cf4122e.wav"
+      },
+      {
+        "frame": 23,
+        "event": 5004,
+        "options": "weapons/valorant/chronovoidvandal/equip_elmt_b.wav",
+        "sound": "a81851775438f22d18e6.wav"
+      },
+      {
+        "frame": 39,
+        "event": 5004,
+        "options": "weapons/valorant/chronovoidvandal/chg_hnd_fwd.wav",
+        "sound": "57c132f374aa9b5507f0.wav"
+      },
+      {
+        "frame": 41,
+        "event": 5004,
+        "options": "weapons/valorant/chronovoidvandal/equip_elmt_c.wav",
+        "sound": "e4ae26a7946818e42ac1.wav"
+      },
+      {
+        "frame": 62,
+        "event": 5004,
+        "options": "weapons/valorant/chronovoidvandal/grab.wav",
+        "sound": "b526f19de41269a77823.wav"
+      }
+    ]
+  },
+  {
+    "index": 5,
+    "name": "shoot_1",
+    "fps": 60.0,
+    "frames": 20,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5001,
+        "options": "24",
+        "sound": null
+      }
+    ]
+  },
+  {
+    "index": 6,
+    "name": "shoot_fast",
+    "fps": 60.0,
+    "frames": 20,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5001,
+        "options": "24",
+        "sound": null
+      }
+    ]
+  },
+  {
+    "index": 7,
+    "name": "shoot_2",
+    "fps": 60.0,
+    "frames": 20,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5001,
+        "options": "24",
+        "sound": null
+      }
+    ]
+  },
+  {
+    "index": 8,
+    "name": "shoot_3",
+    "fps": 60.0,
+    "frames": 20,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5001,
+        "options": "24",
+        "sound": null
+      }
+    ]
+  },
+  {
+    "index": 9,
+    "name": "inspect",
+    "fps": 60.0,
+    "frames": 193,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5004,
+        "options": "weapons/valorant/chronovoidvandal/inspect_mvt_a.wav",
+        "sound": "6387075a55064f332fe6.wav"
+      },
+      {
+        "frame": 1,
+        "event": 5004,
+        "options": "weapons/valorant/chronovoidvandal/inspect_elmt_a.wav",
+        "sound": "6758c81601f93537c097.wav"
+      },
+      {
+        "frame": 65,
+        "event": 5004,
+        "options": "weapons/valorant/chronovoidvandal/inspect_mvt_b.wav",
+        "sound": "8633aec93067331664aa.wav"
+      },
+      {
+        "frame": 66,
+        "event": 5004,
+        "options": "weapons/valorant/chronovoidvandal/inspect_elmt_b.wav",
+        "sound": "bfa1a440842b7022fef6.wav"
+      },
+      {
+        "frame": 152,
+        "event": 5004,
+        "options": "weapons/valorant/chronovoidvandal/inspect_mvt_c.wav",
+        "sound": "38d9d95096aac6c393ed.wav"
+      },
+      {
+        "frame": 153,
+        "event": 5004,
+        "options": "weapons/valorant/chronovoidvandal/inspect_elmt_c.wav",
+        "sound": "04369d733fa3fd2994ae.wav"
+      },
+      {
+        "frame": 170,
+        "event": 5004,
+        "options": "weapons/valorant/chronovoidvandal/grab.wav",
+        "sound": "b526f19de41269a77823.wav"
+      }
+    ]
+  },
+  {
+    "index": 10,
+    "name": "inspect_fast",
+    "fps": 70.0,
+    "frames": 193,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5004,
+        "options": "weapons/valorant/chronovoidvandal/inspect_mvt_a.wav",
+        "sound": "6387075a55064f332fe6.wav"
+      },
+      {
+        "frame": 1,
+        "event": 5004,
+        "options": "weapons/valorant/chronovoidvandal/inspect_elmt_a.wav",
+        "sound": "6758c81601f93537c097.wav"
+      },
+      {
+        "frame": 65,
+        "event": 5004,
+        "options": "weapons/valorant/chronovoidvandal/inspect_mvt_b.wav",
+        "sound": "8633aec93067331664aa.wav"
+      },
+      {
+        "frame": 66,
+        "event": 5004,
+        "options": "weapons/valorant/chronovoidvandal/inspect_elmt_b.wav",
+        "sound": "bfa1a440842b7022fef6.wav"
+      },
+      {
+        "frame": 152,
+        "event": 5004,
+        "options": "weapons/valorant/chronovoidvandal/inspect_mvt_c.wav",
+        "sound": "38d9d95096aac6c393ed.wav"
+      },
+      {
+        "frame": 153,
+        "event": 5004,
+        "options": "weapons/valorant/chronovoidvandal/inspect_elmt_c.wav",
+        "sound": "04369d733fa3fd2994ae.wav"
+      },
+      {
+        "frame": 170,
+        "event": 5004,
+        "options": "weapons/valorant/chronovoidvandal/grab.wav",
+        "sound": "b526f19de41269a77823.wav"
+      }
+    ]
+  }
+]

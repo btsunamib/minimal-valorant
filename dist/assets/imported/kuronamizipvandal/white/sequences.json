@@ -1,0 +1,142 @@
+[
+  {
+    "index": 0,
+    "name": "idle",
+    "fps": 60.0,
+    "frames": 2,
+    "events": []
+  },
+  {
+    "index": 1,
+    "name": "zoom_idle",
+    "fps": 60.0,
+    "frames": 2,
+    "events": []
+  },
+  {
+    "index": 2,
+    "name": "reload",
+    "fps": 60.0,
+    "frames": 177,
+    "events": [
+      {
+        "frame": 1,
+        "event": 5004,
+        "options": "weapons/valorant/kuronamivandal/reload.wav",
+        "sound": "02ff2d60151d5d283294.wav"
+      }
+    ]
+  },
+  {
+    "index": 3,
+    "name": "reload_fast",
+    "fps": 70.0,
+    "frames": 177,
+    "events": [
+      {
+        "frame": 1,
+        "event": 5004,
+        "options": "weapons/valorant/kuronamivandal/reload.wav",
+        "sound": "02ff2d60151d5d283294.wav"
+      }
+    ]
+  },
+  {
+    "index": 4,
+    "name": "draw",
+    "fps": 60.0,
+    "frames": 100,
+    "events": [
+      {
+        "frame": 1,
+        "event": 5004,
+        "options": "weapons/valorant/kuronamivandal/draw.wav",
+        "sound": "f9afca313e29178d50da.wav"
+      }
+    ]
+  },
+  {
+    "index": 5,
+    "name": "draw_fast",
+    "fps": 70.0,
+    "frames": 100,
+    "events": [
+      {
+        "frame": 1,
+        "event": 5004,
+        "options": "weapons/valorant/kuronamivandal/draw.wav",
+        "sound": "f9afca313e29178d50da.wav"
+      }
+    ]
+  },
+  {
+    "index": 6,
+    "name": "shoot1",
+    "fps": 60.0,
+    "frames": 20,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5001,
+        "options": "24",
+        "sound": null
+      }
+    ]
+  },
+  {
+    "index": 7,
+    "name": "shoot2",
+    "fps": 60.0,
+    "frames": 20,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5001,
+        "options": "24",
+        "sound": null
+      }
+    ]
+  },
+  {
+    "index": 8,
+    "name": "zoom_shoot",
+    "fps": 60.0,
+    "frames": 20,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5001,
+        "options": "24",
+        "sound": null
+      }
+    ]
+  },
+  {
+    "index": 9,
+    "name": "inspect",
+    "fps": 60.0,
+    "frames": 251,
+    "events": [
+      {
+        "frame": 1,
+        "event": 5004,
+        "options": "weapons/valorant/kuronamivandal/inspect.wav",
+        "sound": "d3d51f5bfb914cf5aa6b.wav"
+      }
+    ]
+  },
+  {
+    "index": 10,
+    "name": "inspect_fast",
+    "fps": 60.0,
+    "frames": 251,
+    "events": [
+      {
+        "frame": 1,
+        "event": 5004,
+        "options": "weapons/valorant/kuronamivandal/inspect.wav",
+        "sound": "d3d51f5bfb914cf5aa6b.wav"
+      }
+    ]
+  }
+]

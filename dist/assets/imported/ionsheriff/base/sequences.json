@@ -1,0 +1,107 @@
+[
+  {
+    "index": 0,
+    "name": "idle",
+    "fps": 0.0,
+    "frames": 165,
+    "events": []
+  },
+  {
+    "index": 1,
+    "name": "shoot1",
+    "fps": 60.0,
+    "frames": 24,
+    "events": []
+  },
+  {
+    "index": 2,
+    "name": "shoot2",
+    "fps": 70.0,
+    "frames": 24,
+    "events": []
+  },
+  {
+    "index": 3,
+    "name": "reload",
+    "fps": 60.0,
+    "frames": 157,
+    "events": [
+      {
+        "frame": 2,
+        "event": 5004,
+        "options": "weapons/valorant/iamonsherrif/reload.wav",
+        "sound": "ffcebd7ad2c949f276cc.wav"
+      }
+    ]
+  },
+  {
+    "index": 4,
+    "name": "reload_fast",
+    "fps": 71.0,
+    "frames": 157,
+    "events": [
+      {
+        "frame": 2,
+        "event": 5004,
+        "options": "weapons/valorant/iamonsherrif/reload.wav",
+        "sound": "ffcebd7ad2c949f276cc.wav"
+      }
+    ]
+  },
+  {
+    "index": 5,
+    "name": "draw",
+    "fps": 60.0,
+    "frames": 165,
+    "events": [
+      {
+        "frame": 2,
+        "event": 5004,
+        "options": "weapons/valorant/iamonsherrif/draw.wav",
+        "sound": "a39e2f15b7d7d53fb945.wav"
+      }
+    ]
+  },
+  {
+    "index": 6,
+    "name": "draw_fast",
+    "fps": 70.0,
+    "frames": 165,
+    "events": [
+      {
+        "frame": 2,
+        "event": 5004,
+        "options": "weapons/valorant/iamonsherrif/draw.wav",
+        "sound": "a39e2f15b7d7d53fb945.wav"
+      }
+    ]
+  },
+  {
+    "index": 7,
+    "name": "inspect",
+    "fps": 60.0,
+    "frames": 197,
+    "events": [
+      {
+        "frame": 2,
+        "event": 5004,
+        "options": "weapons/valorant/iamonsherrif/ins.wav",
+        "sound": "79dcc76603eb68ea6f7c.wav"
+      }
+    ]
+  },
+  {
+    "index": 8,
+    "name": "inspect_fast",
+    "fps": 60.0,
+    "frames": 197,
+    "events": [
+      {
+        "frame": 2,
+        "event": 5004,
+        "options": "weapons/valorant/iamonsherrif/ins.wav",
+        "sound": "79dcc76603eb68ea6f7c.wav"
+      }
+    ]
+  }
+]

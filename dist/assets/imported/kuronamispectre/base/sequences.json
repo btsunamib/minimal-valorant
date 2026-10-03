@@ -1,0 +1,168 @@
+[
+  {
+    "index": 0,
+    "name": "Shezo_1",
+    "fps": 60.0,
+    "frames": 2,
+    "events": []
+  },
+  {
+    "index": 1,
+    "name": "reload_1",
+    "fps": 60.0,
+    "frames": 151,
+    "events": []
+  },
+  {
+    "index": 2,
+    "name": "reload_2",
+    "fps": 60.0,
+    "frames": 151,
+    "events": [
+      {
+        "frame": 6,
+        "event": 5004,
+        "options": "weapons/valorant/kuronamispectre/mag_rels_button.wav",
+        "sound": "ee773383d0fb9f8e6945.wav"
+      },
+      {
+        "frame": 14,
+        "event": 5004,
+        "options": "weapons/valorant/kuronamispectre/reload_elmt_a.wav",
+        "sound": "0ca9c6ffb9b5bf963b21.wav"
+      },
+      {
+        "frame": 14,
+        "event": 5004,
+        "options": "weapons/valorant/kuronamispectre/mag_out.wav",
+        "sound": "4e251c822eabd0c34096.wav"
+      },
+      {
+        "frame": 38,
+        "event": 5004,
+        "options": "weapons/valorant/kuronamispectre/magdrop.wav",
+        "sound": "3ac66c00fa6f9acb7437.wav"
+      },
+      {
+        "frame": 55,
+        "event": 5004,
+        "options": "weapons/valorant/kuronamispectre/mag_in_a.wav",
+        "sound": "e5a029420633c7976130.wav"
+      },
+      {
+        "frame": 70,
+        "event": 5004,
+        "options": "weapons/valorant/kuronamispectre/mag_in_b.wav",
+        "sound": "97f4b94df335ae818172.wav"
+      },
+      {
+        "frame": 70,
+        "event": 5004,
+        "options": "weapons/valorant/kuronamispectre/reload_elmt_b.wav",
+        "sound": "cea9f5ec4ee46bb5d7e1.wav"
+      },
+      {
+        "frame": 95,
+        "event": 5004,
+        "options": "weapons/valorant/spectre/chg_handle_pull.wav",
+        "sound": "d12a6afa0b4f03a9e46c.wav"
+      },
+      {
+        "frame": 96,
+        "event": 5004,
+        "options": "weapons/valorant/rgxspectre/reload_elmt_c.wav",
+        "sound": "1510dbd52bb049ee8b86.wav"
+      },
+      {
+        "frame": 102,
+        "event": 5004,
+        "options": "weapons/valorant/rgxspectre/chg_handle_release.wav",
+        "sound": "f288962b830b209c07f6.wav"
+      }
+    ]
+  },
+  {
+    "index": 3,
+    "name": "draw_1",
+    "fps": 60.0,
+    "frames": 100,
+    "events": [
+      {
+        "frame": 1,
+        "event": 5004,
+        "options": "weapons/valorant/kuronamispectre/inspect.wav",
+        "sound": "0910d00ea6dbf543bfe5.wav"
+      }
+    ]
+  },
+  {
+    "index": 4,
+    "name": "draw_2",
+    "fps": 60.0,
+    "frames": 100,
+    "events": [
+      {
+        "frame": 1,
+        "event": 5004,
+        "options": "weapons/valorant/kuronamispectre/draw.wav",
+        "sound": "e37bf35e2eb5a062a29e.wav"
+      }
+    ]
+  },
+  {
+    "index": 5,
+    "name": "shoot1",
+    "fps": 60.0,
+    "frames": 21,
+    "events": []
+  },
+  {
+    "index": 6,
+    "name": "shoot3_1",
+    "fps": 60.0,
+    "frames": 21,
+    "events": []
+  },
+  {
+    "index": 7,
+    "name": "shoot3_2",
+    "fps": 60.0,
+    "frames": 21,
+    "events": []
+  },
+  {
+    "index": 8,
+    "name": "Shezo_2",
+    "fps": 60.0,
+    "frames": 2,
+    "events": []
+  },
+  {
+    "index": 9,
+    "name": "inspect_1",
+    "fps": 60.0,
+    "frames": 251,
+    "events": [
+      {
+        "frame": 1,
+        "event": 5004,
+        "options": "weapons/valorant/kuronamispectre/inspect.wav",
+        "sound": "0910d00ea6dbf543bfe5.wav"
+      }
+    ]
+  },
+  {
+    "index": 10,
+    "name": "inspect_2",
+    "fps": 60.0,
+    "frames": 251,
+    "events": [
+      {
+        "frame": 1,
+        "event": 5004,
+        "options": "weapons/valorant/kuronamispectre/inspect.wav",
+        "sound": "0910d00ea6dbf543bfe5.wav"
+      }
+    ]
+  }
+]

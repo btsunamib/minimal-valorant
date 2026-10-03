@@ -1,0 +1,353 @@
+[
+  {
+    "index": 0,
+    "name": "By MotH",
+    "fps": 60.0,
+    "frames": 2,
+    "events": []
+  },
+  {
+    "index": 1,
+    "name": "reload",
+    "fps": 60.0,
+    "frames": 151,
+    "events": [
+      {
+        "frame": 2,
+        "event": 5004,
+        "options": "weapons/valorant/sov_stinger/Reload_Gun_Raise.wav",
+        "sound": "5f9016b1a39670689dfb.wav"
+      },
+      {
+        "frame": 17,
+        "event": 5004,
+        "options": "weapons/valorant/sov_stinger/reload_mag_out.wav",
+        "sound": "40d808a704e3c9b39e07.wav"
+      },
+      {
+        "frame": 51,
+        "event": 5004,
+        "options": "weapons/valorant/sov_stinger/reload_magwell_hit.wav",
+        "sound": "8d1696bcf1dd5916533d.wav"
+      },
+      {
+        "frame": 55,
+        "event": 5004,
+        "options": "weapons/valorant/sov_stinger/reload_mag_in.wav",
+        "sound": "d88ed90f871aa19e972f.wav"
+      },
+      {
+        "frame": 56,
+        "event": 5004,
+        "options": "weapons/valorant/sov_stinger/reload_ele_b.wav",
+        "sound": "685adabd3c8435f3ae54.wav"
+      },
+      {
+        "frame": 86,
+        "event": 5004,
+        "options": "weapons/valorant/sov_stinger/reload_handle_fwd.wav",
+        "sound": "b1e87f180bd9184be597.wav"
+      },
+      {
+        "frame": 87,
+        "event": 5004,
+        "options": "weapons/valorant/sov_stinger/reload_ele_a.wav",
+        "sound": "4f9e2618922a6549480b.wav"
+      },
+      {
+        "frame": 122,
+        "event": 5004,
+        "options": "weapons/valorant/sov_stinger/reload_grab.wav",
+        "sound": "f8e04d53469e2e301e6c.wav"
+      }
+    ]
+  },
+  {
+    "index": 2,
+    "name": "reload_fast",
+    "fps": 70.0,
+    "frames": 151,
+    "events": [
+      {
+        "frame": 2,
+        "event": 5004,
+        "options": "weapons/valorant/sov_stinger/Reload_Gun_Raise.wav",
+        "sound": "5f9016b1a39670689dfb.wav"
+      },
+      {
+        "frame": 17,
+        "event": 5004,
+        "options": "weapons/valorant/sov_stinger/reload_mag_out.wav",
+        "sound": "40d808a704e3c9b39e07.wav"
+      },
+      {
+        "frame": 51,
+        "event": 5004,
+        "options": "weapons/valorant/sov_stinger/reload_magwell_hit.wav",
+        "sound": "8d1696bcf1dd5916533d.wav"
+      },
+      {
+        "frame": 55,
+        "event": 5004,
+        "options": "weapons/valorant/sov_stinger/reload_mag_in.wav",
+        "sound": "d88ed90f871aa19e972f.wav"
+      },
+      {
+        "frame": 56,
+        "event": 5004,
+        "options": "weapons/valorant/sov_stinger/reload_ele_b.wav",
+        "sound": "685adabd3c8435f3ae54.wav"
+      },
+      {
+        "frame": 86,
+        "event": 5004,
+        "options": "weapons/valorant/sov_stinger/reload_handle_fwd.wav",
+        "sound": "b1e87f180bd9184be597.wav"
+      },
+      {
+        "frame": 87,
+        "event": 5004,
+        "options": "weapons/valorant/sov_stinger/reload_ele_a.wav",
+        "sound": "4f9e2618922a6549480b.wav"
+      },
+      {
+        "frame": 122,
+        "event": 5004,
+        "options": "weapons/valorant/sov_stinger/reload_grab.wav",
+        "sound": "f8e04d53469e2e301e6c.wav"
+      }
+    ]
+  },
+  {
+    "index": 3,
+    "name": "draw",
+    "fps": 60.0,
+    "frames": 83,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5004,
+        "options": "weapons/valorant/sov_stinger/equip_grabstock.wav",
+        "sound": "7f9cf63c9c98e903a440.wav"
+      },
+      {
+        "frame": 4,
+        "event": 5004,
+        "options": "weapons/valorant/sov_stinger/equip_stockhinge.wav",
+        "sound": "dd0570fd89d1e2ec28dc.wav"
+      },
+      {
+        "frame": 22,
+        "event": 5004,
+        "options": "weapons/valorant/sov_stinger/equip_ele_a.wav",
+        "sound": "593a0197db66fd6adb8e.wav"
+      },
+      {
+        "frame": 22,
+        "event": 5004,
+        "options": "weapons/valorant/sov_stinger/equip_stocklock.wav",
+        "sound": "01b85fbf1306139d1b24.wav"
+      },
+      {
+        "frame": 45,
+        "event": 5004,
+        "options": "weapons/valorant/sov_stinger/equip_grapgrip.wav",
+        "sound": "8cfbb5175d63b7e1e95d.wav"
+      }
+    ]
+  },
+  {
+    "index": 4,
+    "name": "draw_fast",
+    "fps": 70.0,
+    "frames": 83,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5004,
+        "options": "weapons/valorant/sov_stinger/equip_grabstock.wav",
+        "sound": "7f9cf63c9c98e903a440.wav"
+      },
+      {
+        "frame": 4,
+        "event": 5004,
+        "options": "weapons/valorant/sov_stinger/equip_stockhinge.wav",
+        "sound": "dd0570fd89d1e2ec28dc.wav"
+      },
+      {
+        "frame": 22,
+        "event": 5004,
+        "options": "weapons/valorant/sov_stinger/equip_ele_a.wav",
+        "sound": "593a0197db66fd6adb8e.wav"
+      },
+      {
+        "frame": 22,
+        "event": 5004,
+        "options": "weapons/valorant/sov_stinger/equip_stocklock.wav",
+        "sound": "01b85fbf1306139d1b24.wav"
+      },
+      {
+        "frame": 45,
+        "event": 5004,
+        "options": "weapons/valorant/sov_stinger/equip_grapgrip.wav",
+        "sound": "8cfbb5175d63b7e1e95d.wav"
+      }
+    ]
+  },
+  {
+    "index": 5,
+    "name": "shoot1",
+    "fps": 60.0,
+    "frames": 9,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5001,
+        "options": "24",
+        "sound": null
+      }
+    ]
+  },
+  {
+    "index": 6,
+    "name": "shoot1_fast",
+    "fps": 60.0,
+    "frames": 9,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5001,
+        "options": "24",
+        "sound": null
+      }
+    ]
+  },
+  {
+    "index": 7,
+    "name": "shoot2",
+    "fps": 60.0,
+    "frames": 9,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5001,
+        "options": "24",
+        "sound": null
+      }
+    ]
+  },
+  {
+    "index": 8,
+    "name": "shoot3",
+    "fps": 60.0,
+    "frames": 9,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5001,
+        "options": "24",
+        "sound": null
+      }
+    ]
+  },
+  {
+    "index": 9,
+    "name": "inspect",
+    "fps": 65.0,
+    "frames": 271,
+    "events": [
+      {
+        "frame": 4,
+        "event": 5004,
+        "options": "weapons/valorant/sov_stinger/inspect_mvt_a.wav",
+        "sound": "e3621282ac4e33a71c27.wav"
+      },
+      {
+        "frame": 8,
+        "event": 5004,
+        "options": "weapons/valorant/sov_stinger/inspect_ele_a.wav",
+        "sound": "e890898b178d49a0e64a.wav"
+      },
+      {
+        "frame": 111,
+        "event": 5004,
+        "options": "weapons/valorant/sov_stinger/inspect_mvt_b.wav",
+        "sound": "1b205fe393ed074a3c15.wav"
+      },
+      {
+        "frame": 115,
+        "event": 5004,
+        "options": "weapons/valorant/sov_stinger/inspect_ele_b.wav",
+        "sound": "99f28902cdd7c80fbda7.wav"
+      },
+      {
+        "frame": 215,
+        "event": 5004,
+        "options": "weapons/valorant/sov_stinger/inspect_mvt_c.wav",
+        "sound": "0ad3569b7e1f7e7d3f25.wav"
+      },
+      {
+        "frame": 218,
+        "event": 5004,
+        "options": "weapons/valorant/sov_stinger/inspect_ele_c.wav",
+        "sound": "03789a093696664bd939.wav"
+      },
+      {
+        "frame": 243,
+        "event": 5004,
+        "options": "weapons/valorant/sov_stinger/inspect_mvt_d.wav",
+        "sound": "c9d3f8369a66289671a1.wav"
+      }
+    ]
+  },
+  {
+    "index": 10,
+    "name": "inspect_fast",
+    "fps": 65.0,
+    "frames": 271,
+    "events": [
+      {
+        "frame": 4,
+        "event": 5004,
+        "options": "weapons/valorant/sov_stinger/inspect_mvt_a.wav",
+        "sound": "e3621282ac4e33a71c27.wav"
+      },
+      {
+        "frame": 8,
+        "event": 5004,
+        "options": "weapons/valorant/sov_stinger/inspect_ele_a.wav",
+        "sound": "e890898b178d49a0e64a.wav"
+      },
+      {
+        "frame": 111,
+        "event": 5004,
+        "options": "weapons/valorant/sov_stinger/inspect_mvt_b.wav",
+        "sound": "1b205fe393ed074a3c15.wav"
+      },
+      {
+        "frame": 115,
+        "event": 5004,
+        "options": "weapons/valorant/sov_stinger/inspect_ele_b.wav",
+        "sound": "99f28902cdd7c80fbda7.wav"
+      },
+      {
+        "frame": 215,
+        "event": 5004,
+        "options": "weapons/valorant/sov_stinger/inspect_mvt_c.wav",
+        "sound": "0ad3569b7e1f7e7d3f25.wav"
+      },
+      {
+        "frame": 218,
+        "event": 5004,
+        "options": "weapons/valorant/sov_stinger/inspect_ele_c.wav",
+        "sound": "03789a093696664bd939.wav"
+      },
+      {
+        "frame": 243,
+        "event": 5004,
+        "options": "weapons/valorant/sov_stinger/inspect_mvt_d.wav",
+        "sound": "c9d3f8369a66289671a1.wav"
+      }
+    ]
+  }
+]

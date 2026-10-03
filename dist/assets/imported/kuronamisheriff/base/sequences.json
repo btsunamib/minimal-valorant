@@ -1,0 +1,167 @@
+[
+  {
+    "index": 0,
+    "name": "Shezo",
+    "fps": 60.0,
+    "frames": 165,
+    "events": []
+  },
+  {
+    "index": 1,
+    "name": "shoot_1",
+    "fps": 60.0,
+    "frames": 24,
+    "events": []
+  },
+  {
+    "index": 2,
+    "name": "shoot_2",
+    "fps": 60.0,
+    "frames": 24,
+    "events": []
+  },
+  {
+    "index": 3,
+    "name": "reload",
+    "fps": 60.0,
+    "frames": 157,
+    "events": [
+      {
+        "frame": 1,
+        "event": 5004,
+        "options": "weapons/valorant/kuronamisheriff/re1.wav",
+        "sound": "381fb9c7ee06b4f7d934.wav"
+      },
+      {
+        "frame": 30,
+        "event": 5004,
+        "options": "weapons/valorant/kuronamisheriff/re2.wav",
+        "sound": "75e73e84478f7fac9727.wav"
+      },
+      {
+        "frame": 70,
+        "event": 5004,
+        "options": "weapons/valorant/kuronamisheriff/re3.wav",
+        "sound": "5d56c4cbbad81fa33cf2.wav"
+      }
+    ]
+  },
+  {
+    "index": 4,
+    "name": "reload2",
+    "fps": 60.0,
+    "frames": 157,
+    "events": [
+      {
+        "frame": 1,
+        "event": 5004,
+        "options": "weapons/valorant/kuronamisheriff/re1.wav",
+        "sound": "381fb9c7ee06b4f7d934.wav"
+      },
+      {
+        "frame": 30,
+        "event": 5004,
+        "options": "weapons/valorant/kuronamisheriff/re2.wav",
+        "sound": "75e73e84478f7fac9727.wav"
+      },
+      {
+        "frame": 70,
+        "event": 5004,
+        "options": "weapons/valorant/kuronamisheriff/re3.wav",
+        "sound": "5d56c4cbbad81fa33cf2.wav"
+      }
+    ]
+  },
+  {
+    "index": 5,
+    "name": "draw",
+    "fps": 60.0,
+    "frames": 81,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5004,
+        "options": "weapons/valorant/kuronamisheriff/equip.wav",
+        "sound": "f99318c4ba68304ee525.wav"
+      },
+      {
+        "frame": 33,
+        "event": 5004,
+        "options": "weapons/valorant/kuronamisheriff/equip_elmt_a.wav",
+        "sound": "d09c63a2af0c43dd430e.wav"
+      }
+    ]
+  },
+  {
+    "index": 6,
+    "name": "draw2",
+    "fps": 60.0,
+    "frames": 81,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5004,
+        "options": "weapons/valorant/kuronamisheriff/equip.wav",
+        "sound": "f99318c4ba68304ee525.wav"
+      },
+      {
+        "frame": 33,
+        "event": 5004,
+        "options": "weapons/valorant/kuronamisheriff/equip_elmt_a.wav",
+        "sound": "d09c63a2af0c43dd430e.wav"
+      }
+    ]
+  },
+  {
+    "index": 7,
+    "name": "inspect",
+    "fps": 60.0,
+    "frames": 193,
+    "events": [
+      {
+        "frame": 1,
+        "event": 5004,
+        "options": "weapons/valorant/kuronamisheriff/inspect_mvt_a.wav",
+        "sound": "36ec45be624ab37e17c9.wav"
+      },
+      {
+        "frame": 58,
+        "event": 5004,
+        "options": "weapons/valorant/kuronamisheriff/inspect_mvt_b.wav",
+        "sound": "535cfb257bf1e3469c7b.wav"
+      },
+      {
+        "frame": 135,
+        "event": 5004,
+        "options": "weapons/valorant/kuronamisheriff/inspect_mvt_c.wav",
+        "sound": "25c1b807dbc78352dd33.wav"
+      }
+    ]
+  },
+  {
+    "index": 8,
+    "name": "inspect2",
+    "fps": 60.0,
+    "frames": 193,
+    "events": [
+      {
+        "frame": 1,
+        "event": 5004,
+        "options": "weapons/valorant/kuronamisheriff/inspect_mvt_a.wav",
+        "sound": "36ec45be624ab37e17c9.wav"
+      },
+      {
+        "frame": 58,
+        "event": 5004,
+        "options": "weapons/valorant/kuronamisheriff/inspect_mvt_b.wav",
+        "sound": "535cfb257bf1e3469c7b.wav"
+      },
+      {
+        "frame": 135,
+        "event": 5004,
+        "options": "weapons/valorant/kuronamisheriff/inspect_mvt_c.wav",
+        "sound": "25c1b807dbc78352dd33.wav"
+      }
+    ]
+  }
+]

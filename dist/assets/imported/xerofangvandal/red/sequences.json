@@ -1,0 +1,188 @@
+[
+  {
+    "index": 0,
+    "name": "Shezo",
+    "fps": 60.0,
+    "frames": 2,
+    "events": []
+  },
+  {
+    "index": 1,
+    "name": "zoom_idle",
+    "fps": 60.0,
+    "frames": 2,
+    "events": []
+  },
+  {
+    "index": 2,
+    "name": "reload_1",
+    "fps": 60.0,
+    "frames": 177,
+    "events": [
+      {
+        "frame": 1,
+        "event": 5004,
+        "options": "weapons/valorant/xerofangvandal/reload1.wav",
+        "sound": "d4465297f5f8e1af8368.wav"
+      },
+      {
+        "frame": 60,
+        "event": 5004,
+        "options": "weapons/valorant/xerofangvandal/reload2.wav",
+        "sound": "7609db4a2c2ac82fdd36.wav"
+      },
+      {
+        "frame": 100,
+        "event": 5004,
+        "options": "weapons/valorant/xerofangvandal/reload3.wav",
+        "sound": "ef0fead9bc33d7036359.wav"
+      }
+    ]
+  },
+  {
+    "index": 3,
+    "name": "reload_2",
+    "fps": 70.0,
+    "frames": 177,
+    "events": [
+      {
+        "frame": 1,
+        "event": 5004,
+        "options": "weapons/valorant/xerofangvandal/reload1.wav",
+        "sound": "d4465297f5f8e1af8368.wav"
+      },
+      {
+        "frame": 60,
+        "event": 5004,
+        "options": "weapons/valorant/xerofangvandal/reload2.wav",
+        "sound": "7609db4a2c2ac82fdd36.wav"
+      },
+      {
+        "frame": 100,
+        "event": 5004,
+        "options": "weapons/valorant/xerofangvandal/reload3.wav",
+        "sound": "ef0fead9bc33d7036359.wav"
+      }
+    ]
+  },
+  {
+    "index": 4,
+    "name": "draw_1",
+    "fps": 45.0,
+    "frames": 71,
+    "events": [
+      {
+        "frame": 1,
+        "event": 5004,
+        "options": "weapons/valorant/xerofangvandal/draw1.wav",
+        "sound": "08255977e513032218c6.wav"
+      },
+      {
+        "frame": 33,
+        "event": 5004,
+        "options": "weapons/valorant/xerofangvandal/draw2.wav",
+        "sound": "2216592f1d6c05786c01.wav"
+      }
+    ]
+  },
+  {
+    "index": 5,
+    "name": "draw_2",
+    "fps": 55.0,
+    "frames": 71,
+    "events": [
+      {
+        "frame": 1,
+        "event": 5004,
+        "options": "weapons/valorant/xerofangvandal/draw1.wav",
+        "sound": "08255977e513032218c6.wav"
+      },
+      {
+        "frame": 33,
+        "event": 5004,
+        "options": "weapons/valorant/xerofangvandal/draw2.wav",
+        "sound": "2216592f1d6c05786c01.wav"
+      }
+    ]
+  },
+  {
+    "index": 6,
+    "name": "shoot1",
+    "fps": 60.0,
+    "frames": 20,
+    "events": []
+  },
+  {
+    "index": 7,
+    "name": "shoot2",
+    "fps": 60.0,
+    "frames": 20,
+    "events": []
+  },
+  {
+    "index": 8,
+    "name": "zoom_shoot",
+    "fps": 60.0,
+    "frames": 20,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5001,
+        "options": "25",
+        "sound": null
+      }
+    ]
+  },
+  {
+    "index": 9,
+    "name": "inspect_1",
+    "fps": 60.0,
+    "frames": 251,
+    "events": [
+      {
+        "frame": 1,
+        "event": 5004,
+        "options": "weapons/valorant/xerofangvandal/ins1.wav",
+        "sound": "1a978714188d370367c8.wav"
+      },
+      {
+        "frame": 115,
+        "event": 5004,
+        "options": "weapons/valorant/xerofangvandal/ins2.wav",
+        "sound": "88af18be0c9a660757ac.wav"
+      },
+      {
+        "frame": 199,
+        "event": 5004,
+        "options": "weapons/valorant/xerofangvandal/ins3.wav",
+        "sound": "f2ac9a553f6ee422d995.wav"
+      }
+    ]
+  },
+  {
+    "index": 10,
+    "name": "inspect_2",
+    "fps": 60.0,
+    "frames": 251,
+    "events": [
+      {
+        "frame": 1,
+        "event": 5004,
+        "options": "weapons/valorant/xerofangvandal/ins1.wav",
+        "sound": "1a978714188d370367c8.wav"
+      },
+      {
+        "frame": 115,
+        "event": 5004,
+        "options": "weapons/valorant/xerofangvandal/ins2.wav",
+        "sound": "88af18be0c9a660757ac.wav"
+      },
+      {
+        "frame": 199,
+        "event": 5004,
+        "options": "weapons/valorant/xerofangvandal/ins3.wav",
+        "sound": "f2ac9a553f6ee422d995.wav"
+      }
+    ]
+  }
+]

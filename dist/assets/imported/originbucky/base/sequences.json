@@ -1,0 +1,361 @@
+[
+  {
+    "index": 0,
+    "name": "By MotH",
+    "fps": 60.0,
+    "frames": 2,
+    "events": []
+  },
+  {
+    "index": 1,
+    "name": "shoot1_1",
+    "fps": 60.0,
+    "frames": 82,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5001,
+        "options": "24",
+        "sound": null
+      },
+      {
+        "frame": 21,
+        "event": 5004,
+        "options": "weapons/valorant/originbucky/stockback.wav",
+        "sound": "297bc28ce1ca1b30208c.wav"
+      },
+      {
+        "frame": 35,
+        "event": 5004,
+        "options": "weapons/valorant/originbucky/stockfw.wav",
+        "sound": "ef4f35eaf0d4e358d6a6.wav"
+      }
+    ]
+  },
+  {
+    "index": 2,
+    "name": "shoot1_2",
+    "fps": 70.0,
+    "frames": 82,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5001,
+        "options": "24",
+        "sound": null
+      },
+      {
+        "frame": 21,
+        "event": 5004,
+        "options": "weapons/valorant/originbucky/stockback.wav",
+        "sound": "297bc28ce1ca1b30208c.wav"
+      },
+      {
+        "frame": 35,
+        "event": 5004,
+        "options": "weapons/valorant/originbucky/stockfw.wav",
+        "sound": "ef4f35eaf0d4e358d6a6.wav"
+      }
+    ]
+  },
+  {
+    "index": 3,
+    "name": "shoot2_1",
+    "fps": 60.0,
+    "frames": 82,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5001,
+        "options": "24",
+        "sound": null
+      },
+      {
+        "frame": 21,
+        "event": 5004,
+        "options": "weapons/valorant/originbucky/stockback.wav",
+        "sound": "297bc28ce1ca1b30208c.wav"
+      },
+      {
+        "frame": 35,
+        "event": 5004,
+        "options": "weapons/valorant/originbucky/stockfw.wav",
+        "sound": "ef4f35eaf0d4e358d6a6.wav"
+      }
+    ]
+  },
+  {
+    "index": 4,
+    "name": "shoot2_2",
+    "fps": 70.0,
+    "frames": 82,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5001,
+        "options": "24",
+        "sound": null
+      },
+      {
+        "frame": 21,
+        "event": 5004,
+        "options": "weapons/valorant/originbucky/stockback.wav",
+        "sound": "297bc28ce1ca1b30208c.wav"
+      },
+      {
+        "frame": 35,
+        "event": 5004,
+        "options": "weapons/valorant/originbucky/stockfw.wav",
+        "sound": "ef4f35eaf0d4e358d6a6.wav"
+      }
+    ]
+  },
+  {
+    "index": 5,
+    "name": "insert_1",
+    "fps": 60.0,
+    "frames": 29,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5004,
+        "options": "weapons/valorant/originbucky/insert2.wav",
+        "sound": "45568e745baaba8bc2f8.wav"
+      },
+      {
+        "frame": 1,
+        "event": 5004,
+        "options": "weapons/valorant/originbucky/insert.wav",
+        "sound": "21de5d7613005c8cd0e0.wav"
+      }
+    ]
+  },
+  {
+    "index": 6,
+    "name": "insert_2",
+    "fps": 70.0,
+    "frames": 29,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5004,
+        "options": "weapons/valorant/originbucky/insert2.wav",
+        "sound": "45568e745baaba8bc2f8.wav"
+      },
+      {
+        "frame": 1,
+        "event": 5004,
+        "options": "weapons/valorant/originbucky/insert.wav",
+        "sound": "21de5d7613005c8cd0e0.wav"
+      }
+    ]
+  },
+  {
+    "index": 7,
+    "name": "after_reload_1",
+    "fps": 60.0,
+    "frames": 87,
+    "events": [
+      {
+        "frame": 1,
+        "event": 5004,
+        "options": "weapons/valorant/originbucky/after_reload2.wav",
+        "sound": "9b8926b892f4dbba9fdd.wav"
+      },
+      {
+        "frame": 15,
+        "event": 5004,
+        "options": "weapons/valorant/originbucky/reload_b.wav",
+        "sound": null
+      },
+      {
+        "frame": 20,
+        "event": 5004,
+        "options": "weapons/valorant/originbucky/stockback.wav",
+        "sound": "297bc28ce1ca1b30208c.wav"
+      },
+      {
+        "frame": 41,
+        "event": 5004,
+        "options": "weapons/valorant/originbucky/stockfw.wav",
+        "sound": "ef4f35eaf0d4e358d6a6.wav"
+      }
+    ]
+  },
+  {
+    "index": 8,
+    "name": "after_reload_2",
+    "fps": 70.0,
+    "frames": 87,
+    "events": [
+      {
+        "frame": 1,
+        "event": 5004,
+        "options": "weapons/valorant/originbucky/after_reload2.wav",
+        "sound": "9b8926b892f4dbba9fdd.wav"
+      },
+      {
+        "frame": 15,
+        "event": 5004,
+        "options": "weapons/valorant/originbucky/reload_b.wav",
+        "sound": null
+      },
+      {
+        "frame": 20,
+        "event": 5004,
+        "options": "weapons/valorant/originbucky/stockback.wav",
+        "sound": "297bc28ce1ca1b30208c.wav"
+      },
+      {
+        "frame": 41,
+        "event": 5004,
+        "options": "weapons/valorant/originbucky/stockfw.wav",
+        "sound": "ef4f35eaf0d4e358d6a6.wav"
+      }
+    ]
+  },
+  {
+    "index": 9,
+    "name": "start_reload_1",
+    "fps": 60.0,
+    "frames": 15,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5004,
+        "options": "weapons/valorant/originbucky/reload1.wav",
+        "sound": "ec1a19daaa833f192d2e.wav"
+      },
+      {
+        "frame": 1,
+        "event": 5004,
+        "options": "weapons/valorant/originbucky/start_reload.wav",
+        "sound": null
+      }
+    ]
+  },
+  {
+    "index": 10,
+    "name": "start_reload_2",
+    "fps": 70.0,
+    "frames": 15,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5004,
+        "options": "weapons/valorant/originbucky/reload1.wav",
+        "sound": "ec1a19daaa833f192d2e.wav"
+      },
+      {
+        "frame": 1,
+        "event": 5004,
+        "options": "weapons/valorant/originbucky/start_reload.wav",
+        "sound": null
+      }
+    ]
+  },
+  {
+    "index": 11,
+    "name": "draw_1",
+    "fps": 60.0,
+    "frames": 81,
+    "events": [
+      {
+        "frame": 1,
+        "event": 5004,
+        "options": "weapons/valorant/originbucky/draw1-1.wav",
+        "sound": "e2ce82b5dc734aa47a36.wav"
+      },
+      {
+        "frame": 6,
+        "event": 5004,
+        "options": "weapons/valorant/originbucky/draw1.wav",
+        "sound": "13428dc0c34814aa98fa.wav"
+      },
+      {
+        "frame": 10,
+        "event": 5004,
+        "options": "weapons/valorant/originbucky/stockback.wav",
+        "sound": "297bc28ce1ca1b30208c.wav"
+      },
+      {
+        "frame": 29,
+        "event": 5004,
+        "options": "weapons/valorant/originbucky/stockfw.wav",
+        "sound": "ef4f35eaf0d4e358d6a6.wav"
+      }
+    ]
+  },
+  {
+    "index": 12,
+    "name": "draw_2",
+    "fps": 70.0,
+    "frames": 81,
+    "events": [
+      {
+        "frame": 1,
+        "event": 5004,
+        "options": "weapons/valorant/originbucky/draw1-1.wav",
+        "sound": "e2ce82b5dc734aa47a36.wav"
+      },
+      {
+        "frame": 6,
+        "event": 5004,
+        "options": "weapons/valorant/originbucky/draw1.wav",
+        "sound": "13428dc0c34814aa98fa.wav"
+      },
+      {
+        "frame": 10,
+        "event": 5004,
+        "options": "weapons/valorant/originbucky/stockback.wav",
+        "sound": "297bc28ce1ca1b30208c.wav"
+      },
+      {
+        "frame": 29,
+        "event": 5004,
+        "options": "weapons/valorant/originbucky/stockfw.wav",
+        "sound": "ef4f35eaf0d4e358d6a6.wav"
+      }
+    ]
+  },
+  {
+    "index": 13,
+    "name": "inspect_1",
+    "fps": 60.0,
+    "frames": 301,
+    "events": [
+      {
+        "frame": 1,
+        "event": 5004,
+        "options": "weapons/valorant/originbucky/inspect1.wav",
+        "sound": "17e131e56ba9f9a24070.wav"
+      },
+      {
+        "frame": 22,
+        "event": 5004,
+        "options": "weapons/valorant/originbucky/inspect2.wav",
+        "sound": "cb958436ff41d65c3640.wav"
+      }
+    ]
+  },
+  {
+    "index": 14,
+    "name": "inspect_2",
+    "fps": 70.0,
+    "frames": 301,
+    "events": [
+      {
+        "frame": 1,
+        "event": 5004,
+        "options": "weapons/valorant/originbucky/inspect1.wav",
+        "sound": "17e131e56ba9f9a24070.wav"
+      },
+      {
+        "frame": 22,
+        "event": 5004,
+        "options": "weapons/valorant/originbucky/inspect2.wav",
+        "sound": "cb958436ff41d65c3640.wav"
+      }
+    ]
+  }
+]

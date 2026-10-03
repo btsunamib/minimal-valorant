@@ -1,0 +1,241 @@
+[
+  {
+    "index": 0,
+    "name": "idle",
+    "fps": 60.0,
+    "frames": 3,
+    "events": []
+  },
+  {
+    "index": 1,
+    "name": "shoot1",
+    "fps": 60.0,
+    "frames": 41,
+    "events": [
+      {
+        "frame": 15,
+        "event": 5004,
+        "options": "weapons/valorant/sovmarshall/lever_out_fast.wav",
+        "sound": "cf550fa42b66aa7c44e5.wav"
+      },
+      {
+        "frame": 23,
+        "event": 5004,
+        "options": "weapons/valorant/sovmarshall/lever_in_fast.wav",
+        "sound": "b32ffef5fc034088c605.wav"
+      }
+    ]
+  },
+  {
+    "index": 2,
+    "name": "shoot1_fast",
+    "fps": 90.0,
+    "frames": 41,
+    "events": [
+      {
+        "frame": 15,
+        "event": 5004,
+        "options": "weapons/valorant/sovmarshall/lever_out_fast.wav",
+        "sound": "cf550fa42b66aa7c44e5.wav"
+      },
+      {
+        "frame": 23,
+        "event": 5004,
+        "options": "weapons/valorant/sovmarshall/lever_in_fast.wav",
+        "sound": "b32ffef5fc034088c605.wav"
+      }
+    ]
+  },
+  {
+    "index": 3,
+    "name": "shoot2",
+    "fps": 60.0,
+    "frames": 41,
+    "events": [
+      {
+        "frame": 15,
+        "event": 5004,
+        "options": "weapons/valorant/sovmarshall/lever_out_fast.wav",
+        "sound": "cf550fa42b66aa7c44e5.wav"
+      },
+      {
+        "frame": 23,
+        "event": 5004,
+        "options": "weapons/valorant/sovmarshall/lever_in_fast.wav",
+        "sound": "b32ffef5fc034088c605.wav"
+      }
+    ]
+  },
+  {
+    "index": 4,
+    "name": "reload_start",
+    "fps": 60.0,
+    "frames": 16,
+    "events": [
+      {
+        "frame": 1,
+        "event": 5004,
+        "options": "weapons/valorant/sovmarshall/reload_mvt_a.wav",
+        "sound": "d377e957d8eed652a13a.wav"
+      }
+    ]
+  },
+  {
+    "index": 5,
+    "name": "reload_start_fast",
+    "fps": 90.0,
+    "frames": 16,
+    "events": [
+      {
+        "frame": 1,
+        "event": 5004,
+        "options": "weapons/valorant/sovmarshall/reload_mvt_a.wav",
+        "sound": "d377e957d8eed652a13a.wav"
+      }
+    ]
+  },
+  {
+    "index": 6,
+    "name": "reload",
+    "fps": 60.0,
+    "frames": 125,
+    "events": [
+      {
+        "frame": 27,
+        "event": 5004,
+        "options": "weapons/valorant/sovmarshall/reload_shellinsert.wav",
+        "sound": "63275f7c08201ca496ca.wav"
+      },
+      {
+        "frame": 28,
+        "event": 5004,
+        "options": "weapons/valorant/sovmarshall/reload_portclick.wav",
+        "sound": "5c12eeb89a0ab0ddcff7.wav"
+      },
+      {
+        "frame": 73,
+        "event": 5004,
+        "options": "weapons/valorant/sovmarshall/lever_out.wav",
+        "sound": "fb79425e6f9470c3c009.wav"
+      },
+      {
+        "frame": 87,
+        "event": 5004,
+        "options": "weapons/valorant/sovmarshall/lever_in.wav",
+        "sound": "1ea9b1361f2d7b9a2eb1.wav"
+      },
+      {
+        "frame": 97,
+        "event": 5004,
+        "options": "weapons/valorant/sovmarshall/reload_mvt_b.wav",
+        "sound": "cd18bb71b18d8907160e.wav"
+      },
+      {
+        "frame": 124,
+        "event": 5004,
+        "options": "weapons/valorant/sovmarshall/reload_grab.wav",
+        "sound": "459d200b31a88d10b926.wav"
+      }
+    ]
+  },
+  {
+    "index": 7,
+    "name": "reload_fast",
+    "fps": 90.0,
+    "frames": 125,
+    "events": [
+      {
+        "frame": 27,
+        "event": 5004,
+        "options": "weapons/valorant/sovmarshall/reload_shellinsert.wav",
+        "sound": "63275f7c08201ca496ca.wav"
+      },
+      {
+        "frame": 28,
+        "event": 5004,
+        "options": "weapons/valorant/sovmarshall/reload_portclick.wav",
+        "sound": "5c12eeb89a0ab0ddcff7.wav"
+      },
+      {
+        "frame": 73,
+        "event": 5004,
+        "options": "weapons/valorant/sovmarshall/lever_out.wav",
+        "sound": "fb79425e6f9470c3c009.wav"
+      },
+      {
+        "frame": 87,
+        "event": 5004,
+        "options": "weapons/valorant/sovmarshall/lever_in.wav",
+        "sound": "1ea9b1361f2d7b9a2eb1.wav"
+      },
+      {
+        "frame": 97,
+        "event": 5004,
+        "options": "weapons/valorant/sovmarshall/reload_mvt_b.wav",
+        "sound": "cd18bb71b18d8907160e.wav"
+      },
+      {
+        "frame": 124,
+        "event": 5004,
+        "options": "weapons/valorant/sovmarshall/reload_grab.wav",
+        "sound": "459d200b31a88d10b926.wav"
+      }
+    ]
+  },
+  {
+    "index": 8,
+    "name": "draw",
+    "fps": 60.0,
+    "frames": 131,
+    "events": [
+      {
+        "frame": 1,
+        "event": 5004,
+        "options": "weapons/valorant/sovmarshall/draw.wav",
+        "sound": "06f0f8bb151fe05386c5.wav"
+      }
+    ]
+  },
+  {
+    "index": 9,
+    "name": "draw_fast",
+    "fps": 90.0,
+    "frames": 131,
+    "events": [
+      {
+        "frame": 1,
+        "event": 5004,
+        "options": "weapons/valorant/sovmarshall/draw.wav",
+        "sound": "06f0f8bb151fe05386c5.wav"
+      }
+    ]
+  },
+  {
+    "index": 10,
+    "name": "inspect",
+    "fps": 60.0,
+    "frames": 261,
+    "events": [
+      {
+        "frame": 1,
+        "event": 5004,
+        "options": "weapons/valorant/sovmarshall/ins.wav",
+        "sound": "000c04774ff786144f4e.wav"
+      }
+    ]
+  },
+  {
+    "index": 11,
+    "name": "inspect_fast",
+    "fps": 90.0,
+    "frames": 261,
+    "events": [
+      {
+        "frame": 1,
+        "event": 5004,
+        "options": "weapons/valorant/sovmarshall/draw.wav",
+        "sound": "06f0f8bb151fe05386c5.wav"
+      }
+    ]
+  }
+]

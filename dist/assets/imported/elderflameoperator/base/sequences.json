@@ -1,0 +1,325 @@
+[
+  {
+    "index": 0,
+    "name": "idle",
+    "fps": 60.0,
+    "frames": 329,
+    "events": []
+  },
+  {
+    "index": 1,
+    "name": "shoot_1",
+    "fps": 60.0,
+    "frames": 109,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5001,
+        "options": "31",
+        "sound": null
+      },
+      {
+        "frame": 30,
+        "event": 5004,
+        "options": "weapons/valorant/elderflameoperator/recoil.wav",
+        "sound": "82f5fef2b4179a038fdb.wav"
+      }
+    ]
+  },
+  {
+    "index": 2,
+    "name": "shoot_2",
+    "fps": 60.0,
+    "frames": 109,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5001,
+        "options": "31",
+        "sound": null
+      },
+      {
+        "frame": 30,
+        "event": 5004,
+        "options": "weapons/valorant/elderflameoperator/recoil.wav",
+        "sound": "82f5fef2b4179a038fdb.wav"
+      }
+    ]
+  },
+  {
+    "index": 3,
+    "name": "reload",
+    "fps": 45.0,
+    "frames": 131,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5004,
+        "options": "weapons/valorant/elderflameoperator/reload_mvt_a.wav",
+        "sound": "f2bf86af291409dab6de.wav"
+      },
+      {
+        "frame": 0,
+        "event": 5004,
+        "options": "weapons/valorant/elderflameoperator/reload_flame_start.wav",
+        "sound": "f0dc322c80c92892c3b1.wav"
+      },
+      {
+        "frame": 16,
+        "event": 5004,
+        "options": "weapons/valorant/elderflameoperator/reload_roar_a.wav",
+        "sound": "7ed95d8182580a6f6f0c.wav"
+      },
+      {
+        "frame": 62,
+        "event": 5004,
+        "options": "weapons/valorant/elderflameoperator/reload_mvt_b.wav",
+        "sound": "9fbd60e320d5a5c472e3.wav"
+      },
+      {
+        "frame": 81,
+        "event": 5004,
+        "options": "weapons/valorant/elderflameoperator/reload_roar_c.wav",
+        "sound": "eda1bc271c21759e6c57.wav"
+      },
+      {
+        "frame": 85,
+        "event": 5004,
+        "options": "weapons/valorant/elderflameoperator/reload_roar_d.wav",
+        "sound": "6cd81eda5622fec310d2.wav"
+      },
+      {
+        "frame": 109,
+        "event": 5004,
+        "options": "weapons/valorant/elderflameoperator/reload_mvt_c.wav",
+        "sound": "f0babc52cc45c1362d65.wav"
+      },
+      {
+        "frame": 119,
+        "event": 5004,
+        "options": "weapons/valorant/elderflameoperator/reload_mvt_d.wav",
+        "sound": "0521a417d3b2bcaa80dd.wav"
+      }
+    ]
+  },
+  {
+    "index": 4,
+    "name": "reload2",
+    "fps": 45.0,
+    "frames": 131,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5004,
+        "options": "weapons/valorant/elderflameoperator/reload_mvt_a.wav",
+        "sound": "f2bf86af291409dab6de.wav"
+      },
+      {
+        "frame": 0,
+        "event": 5004,
+        "options": "weapons/valorant/elderflameoperator/reload_flame_start.wav",
+        "sound": "f0dc322c80c92892c3b1.wav"
+      },
+      {
+        "frame": 16,
+        "event": 5004,
+        "options": "weapons/valorant/elderflameoperator/reload_roar_a.wav",
+        "sound": "7ed95d8182580a6f6f0c.wav"
+      },
+      {
+        "frame": 62,
+        "event": 5004,
+        "options": "weapons/valorant/elderflameoperator/reload_mvt_b.wav",
+        "sound": "9fbd60e320d5a5c472e3.wav"
+      },
+      {
+        "frame": 81,
+        "event": 5004,
+        "options": "weapons/valorant/elderflameoperator/reload_roar_c.wav",
+        "sound": "eda1bc271c21759e6c57.wav"
+      },
+      {
+        "frame": 85,
+        "event": 5004,
+        "options": "weapons/valorant/elderflameoperator/reload_roar_d.wav",
+        "sound": "6cd81eda5622fec310d2.wav"
+      },
+      {
+        "frame": 109,
+        "event": 5004,
+        "options": "weapons/valorant/elderflameoperator/reload_mvt_c.wav",
+        "sound": "f0babc52cc45c1362d65.wav"
+      },
+      {
+        "frame": 119,
+        "event": 5004,
+        "options": "weapons/valorant/elderflameoperator/reload_mvt_d.wav",
+        "sound": "0521a417d3b2bcaa80dd.wav"
+      }
+    ]
+  },
+  {
+    "index": 5,
+    "name": "draw",
+    "fps": 70.0,
+    "frames": 141,
+    "events": [
+      {
+        "frame": 1,
+        "event": 5004,
+        "options": "weapons/valorant/elderflameoperator/equip_mvt_a.wav",
+        "sound": "e9ac7976a860712cda3b.wav"
+      },
+      {
+        "frame": 1,
+        "event": 5004,
+        "options": "weapons/valorant/elderflameoperator/equip_roar.wav",
+        "sound": "3e8998c7664293cb90c1.wav"
+      },
+      {
+        "frame": 1,
+        "event": 5004,
+        "options": "weapons/valorant/elderflameoperator/equip_flame_start.wav",
+        "sound": "9f63d2fe648a9cd825ca.wav"
+      },
+      {
+        "frame": 1,
+        "event": 5004,
+        "options": "weapons/valorant/elderflameoperator/equip_whoosh.wav",
+        "sound": null
+      },
+      {
+        "frame": 55,
+        "event": 5004,
+        "options": "weapons/valorant/elderflameoperator/equip_mvt_c.wav",
+        "sound": "82f5fef2b4179a038fdb.wav"
+      },
+      {
+        "frame": 71,
+        "event": 5004,
+        "options": "weapons/valorant/elderflameoperator/equip_mvt_b.wav",
+        "sound": "5fcd8144c76152344b5b.wav"
+      },
+      {
+        "frame": 97,
+        "event": 5004,
+        "options": "weapons/valorant/elderflameoperator/equip_grab.wav",
+        "sound": "4e8ad17975d9dc7aa945.wav"
+      }
+    ]
+  },
+  {
+    "index": 6,
+    "name": "draw2",
+    "fps": 70.0,
+    "frames": 141,
+    "events": [
+      {
+        "frame": 1,
+        "event": 5004,
+        "options": "weapons/valorant/elderflameoperator/equip_mvt_a.wav",
+        "sound": "e9ac7976a860712cda3b.wav"
+      },
+      {
+        "frame": 1,
+        "event": 5004,
+        "options": "weapons/valorant/elderflameoperator/equip_roar.wav",
+        "sound": "3e8998c7664293cb90c1.wav"
+      },
+      {
+        "frame": 1,
+        "event": 5004,
+        "options": "weapons/valorant/elderflameoperator/equip_flame_start.wav",
+        "sound": "9f63d2fe648a9cd825ca.wav"
+      },
+      {
+        "frame": 1,
+        "event": 5004,
+        "options": "weapons/valorant/elderflameoperator/equip_whoosh.wav",
+        "sound": null
+      },
+      {
+        "frame": 55,
+        "event": 5004,
+        "options": "weapons/valorant/elderflameoperator/equip_mvt_c.wav",
+        "sound": "82f5fef2b4179a038fdb.wav"
+      },
+      {
+        "frame": 71,
+        "event": 5004,
+        "options": "weapons/valorant/elderflameoperator/equip_mvt_b.wav",
+        "sound": "5fcd8144c76152344b5b.wav"
+      },
+      {
+        "frame": 97,
+        "event": 5004,
+        "options": "weapons/valorant/elderflameoperator/equip_grab.wav",
+        "sound": "4e8ad17975d9dc7aa945.wav"
+      }
+    ]
+  },
+  {
+    "index": 7,
+    "name": "inspect",
+    "fps": 40.0,
+    "frames": 131,
+    "events": [
+      {
+        "frame": 1,
+        "event": 5004,
+        "options": "weapons/valorant/elderflameoperator/inspect_mvt_a.wav",
+        "sound": "07a1d3539ead6d4b7220.wav"
+      },
+      {
+        "frame": 41,
+        "event": 5004,
+        "options": "weapons/valorant/elderflameoperator/inspect_mvt_b.wav",
+        "sound": "49d46d9feb4e17ff2a69.wav"
+      },
+      {
+        "frame": 104,
+        "event": 5004,
+        "options": "weapons/valorant/elderflameoperator/inspect_mvt_c.wav",
+        "sound": "1ad09d01f54786d18c1e.wav"
+      },
+      {
+        "frame": 124,
+        "event": 5004,
+        "options": "weapons/valorant/elderflameoperator/inspect_shoulder.wav",
+        "sound": "351bced32ade8a028060.wav"
+      }
+    ]
+  },
+  {
+    "index": 8,
+    "name": "inspect2",
+    "fps": 30.0,
+    "frames": 131,
+    "events": [
+      {
+        "frame": 1,
+        "event": 5004,
+        "options": "weapons/valorant/elderflameoperator/inspect_mvt_a.wav",
+        "sound": "07a1d3539ead6d4b7220.wav"
+      },
+      {
+        "frame": 41,
+        "event": 5004,
+        "options": "weapons/valorant/elderflameoperator/inspect_mvt_b.wav",
+        "sound": "49d46d9feb4e17ff2a69.wav"
+      },
+      {
+        "frame": 104,
+        "event": 5004,
+        "options": "weapons/valorant/elderflameoperator/inspect_mvt_c.wav",
+        "sound": "1ad09d01f54786d18c1e.wav"
+      },
+      {
+        "frame": 124,
+        "event": 5004,
+        "options": "weapons/valorant/elderflameoperator/inspect_shoulder.wav",
+        "sound": "351bced32ade8a028060.wav"
+      }
+    ]
+  }
+]

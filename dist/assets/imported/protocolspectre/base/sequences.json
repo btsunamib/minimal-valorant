@@ -1,0 +1,365 @@
+[
+  {
+    "index": 0,
+    "name": "idle",
+    "fps": 60.0,
+    "frames": 2,
+    "events": []
+  },
+  {
+    "index": 1,
+    "name": "reload",
+    "fps": 60.0,
+    "frames": 150,
+    "events": [
+      {
+        "frame": 6,
+        "event": 5004,
+        "options": "weapons/valorant/protocolspectre/mag_rels_button.wav",
+        "sound": "e33fd1d64a65eecc2153.wav"
+      },
+      {
+        "frame": 14,
+        "event": 5004,
+        "options": "weapons/valorant/protocolspectre/mag_out.wav",
+        "sound": "54ddb42c750da93d5c93.wav"
+      },
+      {
+        "frame": 55,
+        "event": 5004,
+        "options": "weapons/valorant/protocolspectre/mag_in_a.wav",
+        "sound": "a7a975510952aae1fde6.wav"
+      },
+      {
+        "frame": 70,
+        "event": 5004,
+        "options": "weapons/valorant/protocolspectre/mag_in_b.wav",
+        "sound": "4a3af0cf1c9a837d6ede.wav"
+      },
+      {
+        "frame": 95,
+        "event": 5004,
+        "options": "weapons/valorant/protocolspectre/chg_handle_pull.wav",
+        "sound": "ef098d349b2f1499aabe.wav"
+      },
+      {
+        "frame": 102,
+        "event": 5004,
+        "options": "weapons/valorant/protocolspectre/chg_handle_release.wav",
+        "sound": "b3a81d153de273021b4b.wav"
+      }
+    ]
+  },
+  {
+    "index": 2,
+    "name": "reload_fast",
+    "fps": 70.0,
+    "frames": 150,
+    "events": [
+      {
+        "frame": 6,
+        "event": 5004,
+        "options": "weapons/valorant/protocolspectre/mag_rels_button.wav",
+        "sound": "e33fd1d64a65eecc2153.wav"
+      },
+      {
+        "frame": 14,
+        "event": 5004,
+        "options": "weapons/valorant/protocolspectre/mag_out.wav",
+        "sound": "54ddb42c750da93d5c93.wav"
+      },
+      {
+        "frame": 55,
+        "event": 5004,
+        "options": "weapons/valorant/protocolspectre/mag_in_a.wav",
+        "sound": "a7a975510952aae1fde6.wav"
+      },
+      {
+        "frame": 70,
+        "event": 5004,
+        "options": "weapons/valorant/protocolspectre/mag_in_b.wav",
+        "sound": "4a3af0cf1c9a837d6ede.wav"
+      },
+      {
+        "frame": 95,
+        "event": 5004,
+        "options": "weapons/valorant/protocolspectre/chg_handle_pull.wav",
+        "sound": "ef098d349b2f1499aabe.wav"
+      },
+      {
+        "frame": 102,
+        "event": 5004,
+        "options": "weapons/valorant/protocolspectre/chg_handle_release.wav",
+        "sound": "b3a81d153de273021b4b.wav"
+      }
+    ]
+  },
+  {
+    "index": 3,
+    "name": "draw",
+    "fps": 60.0,
+    "frames": 100,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5004,
+        "options": "weapons/valorant/protocolspectre/equip_elmt_1.wav",
+        "sound": "e751da2e5633a8abd79b.wav"
+      },
+      {
+        "frame": 1,
+        "event": 5004,
+        "options": "weapons/valorant/protocolspectre/equip_elmt_2.wav",
+        "sound": "891c0c6b772a42eb118c.wav"
+      },
+      {
+        "frame": 1,
+        "event": 5004,
+        "options": "weapons/valorant/protocolspectre/equip_elmt.wav",
+        "sound": "d84fcd9d56cf9189668a.wav"
+      },
+      {
+        "frame": 12,
+        "event": 5004,
+        "options": "weapons/valorant/protocolspectre/stock_extend.wav",
+        "sound": "194cf5bc230bbe9c0fdf.wav"
+      },
+      {
+        "frame": 15,
+        "event": 5004,
+        "options": "weapons/valorant/protocolspectre/equip_grab.wav",
+        "sound": "c7b9b2f86cd7eac05841.wav"
+      }
+    ]
+  },
+  {
+    "index": 4,
+    "name": "draw_fast",
+    "fps": 70.0,
+    "frames": 100,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5004,
+        "options": "weapons/valorant/protocolspectre/equip_elmt_1.wav",
+        "sound": "e751da2e5633a8abd79b.wav"
+      },
+      {
+        "frame": 1,
+        "event": 5004,
+        "options": "weapons/valorant/protocolspectre/equip_elmt_2.wav",
+        "sound": "891c0c6b772a42eb118c.wav"
+      },
+      {
+        "frame": 1,
+        "event": 5004,
+        "options": "weapons/valorant/protocolspectre/equip_elmt.wav",
+        "sound": "d84fcd9d56cf9189668a.wav"
+      },
+      {
+        "frame": 12,
+        "event": 5004,
+        "options": "weapons/valorant/protocolspectre/stock_extend.wav",
+        "sound": "194cf5bc230bbe9c0fdf.wav"
+      },
+      {
+        "frame": 15,
+        "event": 5004,
+        "options": "weapons/valorant/protocolspectre/equip_grab.wav",
+        "sound": "c7b9b2f86cd7eac05841.wav"
+      }
+    ]
+  },
+  {
+    "index": 5,
+    "name": "shoot1",
+    "fps": 60.0,
+    "frames": 20,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5001,
+        "options": "11",
+        "sound": null
+      },
+      {
+        "frame": 3,
+        "event": 5004,
+        "options": "weapons/valorant/protocolspectre/shoot1.wav",
+        "sound": "25617694fe5608e1a286.wav"
+      }
+    ]
+  },
+  {
+    "index": 6,
+    "name": "shoot_fast",
+    "fps": 60.0,
+    "frames": 20,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5001,
+        "options": "11",
+        "sound": null
+      },
+      {
+        "frame": 3,
+        "event": 5004,
+        "options": "weapons/valorant/protocolspectre/shoot1.wav",
+        "sound": "25617694fe5608e1a286.wav"
+      }
+    ]
+  },
+  {
+    "index": 7,
+    "name": "shoot2",
+    "fps": 60.0,
+    "frames": 20,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5001,
+        "options": "11",
+        "sound": null
+      },
+      {
+        "frame": 3,
+        "event": 5004,
+        "options": "weapons/valorant/protocolspectre/shoot1.wav",
+        "sound": "25617694fe5608e1a286.wav"
+      }
+    ]
+  },
+  {
+    "index": 8,
+    "name": "shoot3",
+    "fps": 60.0,
+    "frames": 20,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5001,
+        "options": "11",
+        "sound": null
+      },
+      {
+        "frame": 3,
+        "event": 5004,
+        "options": "weapons/valorant/protocolspectre/shoot1.wav",
+        "sound": "25617694fe5608e1a286.wav"
+      }
+    ]
+  },
+  {
+    "index": 9,
+    "name": "inspect",
+    "fps": 60.0,
+    "frames": 251,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5004,
+        "options": "weapons/valorant/protocolspectre/inspect_mvt_a.wav",
+        "sound": "40a1c66d4d6b529ed4ac.wav"
+      },
+      {
+        "frame": 1,
+        "event": 5004,
+        "options": "weapons/valorant/protocolspectre/voice_inspect.wav",
+        "sound": "ed53e7441e10913c2ce6.wav"
+      },
+      {
+        "frame": 2,
+        "event": 5004,
+        "options": "weapons/valorant/protocolspectre/inspect_elmt_a.wav",
+        "sound": "bd2d41cf98918889fd1d.wav"
+      },
+      {
+        "frame": 50,
+        "event": 5004,
+        "options": "weapons/valorant/protocolspectre/inspect_elmt_1.wav",
+        "sound": "2f70b821a950bbfc24ce.wav"
+      },
+      {
+        "frame": 105,
+        "event": 5004,
+        "options": "weapons/valorant/protocolspectre/inspect_mvt_b.wav",
+        "sound": "b4a9dc8a8943fc04ca2f.wav"
+      },
+      {
+        "frame": 106,
+        "event": 5004,
+        "options": "weapons/valorant/protocolspectre/inspect_elmt_b.wav",
+        "sound": "2fde51ec6a84899ba0f9.wav"
+      },
+      {
+        "frame": 160,
+        "event": 5004,
+        "options": "weapons/valorant/protocolspectre/inspect_elmt_1.wav",
+        "sound": "2f70b821a950bbfc24ce.wav"
+      },
+      {
+        "frame": 205,
+        "event": 5004,
+        "options": "weapons/valorant/protocolspectre/inspect_mvt_c.wav",
+        "sound": "eed773104b8688d6c8fa.wav"
+      }
+    ]
+  },
+  {
+    "index": 10,
+    "name": "inspect_fast",
+    "fps": 70.0,
+    "frames": 251,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5004,
+        "options": "weapons/valorant/protocolspectre/inspect_mvt_a.wav",
+        "sound": "40a1c66d4d6b529ed4ac.wav"
+      },
+      {
+        "frame": 1,
+        "event": 5004,
+        "options": "weapons/valorant/protocolspectre/voice_inspect.wav",
+        "sound": "ed53e7441e10913c2ce6.wav"
+      },
+      {
+        "frame": 2,
+        "event": 5004,
+        "options": "weapons/valorant/protocolspectre/inspect_elmt_a.wav",
+        "sound": "bd2d41cf98918889fd1d.wav"
+      },
+      {
+        "frame": 50,
+        "event": 5004,
+        "options": "weapons/valorant/protocolspectre/inspect_elmt_1.wav",
+        "sound": "2f70b821a950bbfc24ce.wav"
+      },
+      {
+        "frame": 105,
+        "event": 5004,
+        "options": "weapons/valorant/protocolspectre/inspect_mvt_b.wav",
+        "sound": "b4a9dc8a8943fc04ca2f.wav"
+      },
+      {
+        "frame": 106,
+        "event": 5004,
+        "options": "weapons/valorant/protocolspectre/inspect_elmt_b.wav",
+        "sound": "2fde51ec6a84899ba0f9.wav"
+      },
+      {
+        "frame": 160,
+        "event": 5004,
+        "options": "weapons/valorant/protocolspectre/inspect_elmt_1.wav",
+        "sound": "2f70b821a950bbfc24ce.wav"
+      },
+      {
+        "frame": 205,
+        "event": 5004,
+        "options": "weapons/valorant/protocolspectre/inspect_mvt_c.wav",
+        "sound": "eed773104b8688d6c8fa.wav"
+      }
+    ]
+  }
+]

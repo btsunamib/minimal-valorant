@@ -1,0 +1,365 @@
+[
+  {
+    "index": 0,
+    "name": "By MotH",
+    "fps": 60.0,
+    "frames": 2,
+    "events": []
+  },
+  {
+    "index": 1,
+    "name": "reload",
+    "fps": 30.0,
+    "frames": 126,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5004,
+        "options": "weapons/valorant/solares/reload_mvt_a.wav",
+        "sound": "459ac4e30ed06348d474.wav"
+      },
+      {
+        "frame": 16,
+        "event": 5004,
+        "options": "weapons/valorant/solares/reload_ele_a.wav",
+        "sound": "412e248987ae134bb1f0.wav"
+      },
+      {
+        "frame": 16,
+        "event": 5004,
+        "options": "weapons/valorant/solares/magout.wav",
+        "sound": "a4a007765b77d8bb4d7e.wav"
+      },
+      {
+        "frame": 39,
+        "event": 5004,
+        "options": "weapons/valorant/solares/reload_ele_b.wav",
+        "sound": "ed5ec65fa08d62b777ce.wav"
+      },
+      {
+        "frame": 53,
+        "event": 5004,
+        "options": "weapons/valorant/solares/magin.wav",
+        "sound": "f46e9ddc9212a4c99b56.wav"
+      },
+      {
+        "frame": 67,
+        "event": 5004,
+        "options": "weapons/valorant/solares/reload_ele_c.wav",
+        "sound": "defb913009b10767311c.wav"
+      },
+      {
+        "frame": 67,
+        "event": 5004,
+        "options": "weapons/valorant/solares/handleback.wav",
+        "sound": "1fb9ae7a13ed43be5180.wav"
+      },
+      {
+        "frame": 73,
+        "event": 5004,
+        "options": "weapons/valorant/solares/reload_ele_e.wav",
+        "sound": "087dd10a24095739ae5b.wav"
+      },
+      {
+        "frame": 84,
+        "event": 5004,
+        "options": "weapons/valorant/solares/reload_ele_d.wav",
+        "sound": "f95815c0835de8c494cd.wav"
+      },
+      {
+        "frame": 84,
+        "event": 5004,
+        "options": "weapons/valorant/solares/handlefw.wav",
+        "sound": "21fd2cb1a9409e7fa682.wav"
+      }
+    ]
+  },
+  {
+    "index": 2,
+    "name": "reload_fast",
+    "fps": 30.0,
+    "frames": 126,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5004,
+        "options": "weapons/valorant/solares/reload_mvt_a.wav",
+        "sound": "459ac4e30ed06348d474.wav"
+      },
+      {
+        "frame": 16,
+        "event": 5004,
+        "options": "weapons/valorant/solares/reload_ele_a.wav",
+        "sound": "412e248987ae134bb1f0.wav"
+      },
+      {
+        "frame": 16,
+        "event": 5004,
+        "options": "weapons/valorant/solares/magout.wav",
+        "sound": "a4a007765b77d8bb4d7e.wav"
+      },
+      {
+        "frame": 39,
+        "event": 5004,
+        "options": "weapons/valorant/solares/reload_ele_b.wav",
+        "sound": "ed5ec65fa08d62b777ce.wav"
+      },
+      {
+        "frame": 53,
+        "event": 5004,
+        "options": "weapons/valorant/solares/magin.wav",
+        "sound": "f46e9ddc9212a4c99b56.wav"
+      },
+      {
+        "frame": 67,
+        "event": 5004,
+        "options": "weapons/valorant/solares/reload_ele_c.wav",
+        "sound": "defb913009b10767311c.wav"
+      },
+      {
+        "frame": 67,
+        "event": 5004,
+        "options": "weapons/valorant/solares/handleback.wav",
+        "sound": "1fb9ae7a13ed43be5180.wav"
+      },
+      {
+        "frame": 73,
+        "event": 5004,
+        "options": "weapons/valorant/solares/reload_ele_e.wav",
+        "sound": "087dd10a24095739ae5b.wav"
+      },
+      {
+        "frame": 84,
+        "event": 5004,
+        "options": "weapons/valorant/solares/reload_ele_d.wav",
+        "sound": "f95815c0835de8c494cd.wav"
+      },
+      {
+        "frame": 84,
+        "event": 5004,
+        "options": "weapons/valorant/solares/handlefw.wav",
+        "sound": "21fd2cb1a9409e7fa682.wav"
+      }
+    ]
+  },
+  {
+    "index": 3,
+    "name": "draw",
+    "fps": 60.0,
+    "frames": 111,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5004,
+        "options": "weapons/valorant/solares/equip_ele_a.wav",
+        "sound": "02fff40707d8ad8a979f.wav"
+      },
+      {
+        "frame": 0,
+        "event": 5004,
+        "options": "weapons/valorant/solares/equip_ele_b.wav",
+        "sound": "b670bd22ac32e5e784d9.wav"
+      },
+      {
+        "frame": 0,
+        "event": 5004,
+        "options": "weapons/valorant/solares/equip_mvt_a.wav",
+        "sound": "3262e1641f41d0ad6d8e.wav"
+      },
+      {
+        "frame": 0,
+        "event": 5004,
+        "options": "weapons/valorant/solares/equip_mvt_b.wav",
+        "sound": "0daaaaf258d0bd0ae7d2.wav"
+      },
+      {
+        "frame": 31,
+        "event": 5004,
+        "options": "weapons/valorant/solares/equip_mvt_c.wav",
+        "sound": "92bb3f497d7fb3b58f46.wav"
+      }
+    ]
+  },
+  {
+    "index": 4,
+    "name": "draw_fast",
+    "fps": 60.0,
+    "frames": 111,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5004,
+        "options": "weapons/valorant/solares/equip_ele_a.wav",
+        "sound": "02fff40707d8ad8a979f.wav"
+      },
+      {
+        "frame": 0,
+        "event": 5004,
+        "options": "weapons/valorant/solares/equip_ele_b.wav",
+        "sound": "b670bd22ac32e5e784d9.wav"
+      },
+      {
+        "frame": 0,
+        "event": 5004,
+        "options": "weapons/valorant/solares/equip_mvt_a.wav",
+        "sound": "3262e1641f41d0ad6d8e.wav"
+      },
+      {
+        "frame": 0,
+        "event": 5004,
+        "options": "weapons/valorant/solares/equip_mvt_b.wav",
+        "sound": "0daaaaf258d0bd0ae7d2.wav"
+      },
+      {
+        "frame": 31,
+        "event": 5004,
+        "options": "weapons/valorant/solares/equip_mvt_c.wav",
+        "sound": "92bb3f497d7fb3b58f46.wav"
+      }
+    ]
+  },
+  {
+    "index": 5,
+    "name": "shoot1",
+    "fps": 60.0,
+    "frames": 21,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5001,
+        "options": "24",
+        "sound": null
+      }
+    ]
+  },
+  {
+    "index": 6,
+    "name": "shoot_fast",
+    "fps": 60.0,
+    "frames": 21,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5001,
+        "options": "24",
+        "sound": null
+      }
+    ]
+  },
+  {
+    "index": 7,
+    "name": "shoot2",
+    "fps": 60.0,
+    "frames": 21,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5001,
+        "options": "24",
+        "sound": null
+      }
+    ]
+  },
+  {
+    "index": 8,
+    "name": "shoot3",
+    "fps": 60.0,
+    "frames": 21,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5001,
+        "options": "24",
+        "sound": null
+      }
+    ]
+  },
+  {
+    "index": 9,
+    "name": "inspect",
+    "fps": 30.0,
+    "frames": 137,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5004,
+        "options": "weapons/valorant/solares/inspect1-1.wav",
+        "sound": "b4137ea69d73a8ca8e54.wav"
+      },
+      {
+        "frame": 1,
+        "event": 5004,
+        "options": "weapons/valorant/solares/inspect1.wav",
+        "sound": "a63090fcc6252b26afb0.wav"
+      },
+      {
+        "frame": 54,
+        "event": 5004,
+        "options": "weapons/valorant/solares/inspect2.wav",
+        "sound": "569c585a37dd1f5fbd1b.wav"
+      },
+      {
+        "frame": 56,
+        "event": 5004,
+        "options": "weapons/valorant/solares/inspect2-2.wav",
+        "sound": "ae3bec95e0b8880a6c77.wav"
+      },
+      {
+        "frame": 100,
+        "event": 5004,
+        "options": "weapons/valorant/solares/inspect3-3.wav",
+        "sound": "c4c20df44d255abedb44.wav"
+      },
+      {
+        "frame": 100,
+        "event": 5004,
+        "options": "weapons/valorant/solares/inspect3.wav",
+        "sound": "d36f80e3cb39488b527b.wav"
+      }
+    ]
+  },
+  {
+    "index": 10,
+    "name": "inspect_fast",
+    "fps": 30.0,
+    "frames": 137,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5004,
+        "options": "weapons/valorant/solares/inspect1-1.wav",
+        "sound": "b4137ea69d73a8ca8e54.wav"
+      },
+      {
+        "frame": 1,
+        "event": 5004,
+        "options": "weapons/valorant/solares/inspect1.wav",
+        "sound": "a63090fcc6252b26afb0.wav"
+      },
+      {
+        "frame": 54,
+        "event": 5004,
+        "options": "weapons/valorant/solares/inspect2.wav",
+        "sound": "569c585a37dd1f5fbd1b.wav"
+      },
+      {
+        "frame": 56,
+        "event": 5004,
+        "options": "weapons/valorant/solares/inspect2-2.wav",
+        "sound": "ae3bec95e0b8880a6c77.wav"
+      },
+      {
+        "frame": 100,
+        "event": 5004,
+        "options": "weapons/valorant/solares/inspect3-3.wav",
+        "sound": "c4c20df44d255abedb44.wav"
+      },
+      {
+        "frame": 100,
+        "event": 5004,
+        "options": "weapons/valorant/solares/inspect3.wav",
+        "sound": "d36f80e3cb39488b527b.wav"
+      }
+    ]
+  }
+]

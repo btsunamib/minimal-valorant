@@ -1,0 +1,334 @@
+[
+  {
+    "index": 0,
+    "name": "shezo",
+    "fps": 60.0,
+    "frames": 1,
+    "events": []
+  },
+  {
+    "index": 1,
+    "name": "zoom_idle",
+    "fps": 60.0,
+    "frames": 2,
+    "events": []
+  },
+  {
+    "index": 2,
+    "name": "reload",
+    "fps": 60.0,
+    "frames": 177,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5004,
+        "options": "weapons/valorant/orabyonetap/Reload_Mvt_A.wav",
+        "sound": null
+      },
+      {
+        "frame": 5,
+        "event": 5004,
+        "options": "weapons/valorant/orabyonetap/Reload_Raja.wav",
+        "sound": null
+      },
+      {
+        "frame": 25,
+        "event": 5004,
+        "options": "weapons/valorant/orabyonetap/MagOut.wav",
+        "sound": null
+      },
+      {
+        "frame": 35,
+        "event": 5004,
+        "options": "weapons/valorant/orabyonetap/Reload_MagSpin.wav",
+        "sound": null
+      },
+      {
+        "frame": 75,
+        "event": 5004,
+        "options": "weapons/valorant/orabyonetap/MagIn_Start.wav",
+        "sound": null
+      },
+      {
+        "frame": 80,
+        "event": 5004,
+        "options": "weapons/valorant/orabyonetap/MagIn_End.wav",
+        "sound": null
+      },
+      {
+        "frame": 105,
+        "event": 5004,
+        "options": "weapons/valorant/orabyonetap/Chg_Hndl_Back.wav",
+        "sound": null
+      },
+      {
+        "frame": 120,
+        "event": 5004,
+        "options": "weapons/valorant/orabyonetap/Chg_Hndl_Fwd.wav",
+        "sound": null
+      },
+      {
+        "frame": 160,
+        "event": 5004,
+        "options": "weapons/valorant/orabyonetap/Grab.wav",
+        "sound": null
+      }
+    ]
+  },
+  {
+    "index": 3,
+    "name": "reload2",
+    "fps": 60.0,
+    "frames": 177,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5004,
+        "options": "weapons/valorant/orabyonetap/Reload_Mvt_A.wav",
+        "sound": null
+      },
+      {
+        "frame": 5,
+        "event": 5004,
+        "options": "weapons/valorant/orabyonetap/Reload_Raja.wav",
+        "sound": null
+      },
+      {
+        "frame": 25,
+        "event": 5004,
+        "options": "weapons/valorant/orabyonetap/MagOut.wav",
+        "sound": null
+      },
+      {
+        "frame": 35,
+        "event": 5004,
+        "options": "weapons/valorant/orabyonetap/Reload_MagSpin.wav",
+        "sound": null
+      },
+      {
+        "frame": 75,
+        "event": 5004,
+        "options": "weapons/valorant/orabyonetap/MagIn_Start.wav",
+        "sound": null
+      },
+      {
+        "frame": 80,
+        "event": 5004,
+        "options": "weapons/valorant/orabyonetap/MagIn_End.wav",
+        "sound": null
+      },
+      {
+        "frame": 105,
+        "event": 5004,
+        "options": "weapons/valorant/orabyonetap/Chg_Hndl_Back.wav",
+        "sound": null
+      },
+      {
+        "frame": 120,
+        "event": 5004,
+        "options": "weapons/valorant/orabyonetap/Chg_Hndl_Fwd.wav",
+        "sound": null
+      },
+      {
+        "frame": 160,
+        "event": 5004,
+        "options": "weapons/valorant/orabyonetap/Grab.wav",
+        "sound": null
+      }
+    ]
+  },
+  {
+    "index": 4,
+    "name": "draw",
+    "fps": 60.0,
+    "frames": 100,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5004,
+        "options": "weapons/valorant/orabyonetap/Equip_Raja.wav",
+        "sound": null
+      },
+      {
+        "frame": 0,
+        "event": 5004,
+        "options": "weapons/valorant/orabyonetap/Reload_Mvt_A.wav",
+        "sound": null
+      },
+      {
+        "frame": 20,
+        "event": 5004,
+        "options": "weapons/valorant/orabyonetap/Chg_Hndl_Back.wav",
+        "sound": null
+      },
+      {
+        "frame": 35,
+        "event": 5004,
+        "options": "weapons/valorant/orabyonetap/Chg_Hndl_Fwd.wav",
+        "sound": null
+      },
+      {
+        "frame": 60,
+        "event": 5004,
+        "options": "weapons/valorant/orabyonetap/Grab.wav",
+        "sound": null
+      }
+    ]
+  },
+  {
+    "index": 5,
+    "name": "draw2",
+    "fps": 60.0,
+    "frames": 100,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5004,
+        "options": "weapons/valorant/orabyonetap/Equip_Raja.wav",
+        "sound": null
+      },
+      {
+        "frame": 0,
+        "event": 5004,
+        "options": "weapons/valorant/orabyonetap/Reload_Mvt_A.wav",
+        "sound": null
+      },
+      {
+        "frame": 20,
+        "event": 5004,
+        "options": "weapons/valorant/orabyonetap/Chg_Hndl_Back.wav",
+        "sound": null
+      },
+      {
+        "frame": 35,
+        "event": 5004,
+        "options": "weapons/valorant/orabyonetap/Chg_Hndl_Fwd.wav",
+        "sound": null
+      },
+      {
+        "frame": 60,
+        "event": 5004,
+        "options": "weapons/valorant/orabyonetap/Grab.wav",
+        "sound": null
+      }
+    ]
+  },
+  {
+    "index": 6,
+    "name": "shoot_1",
+    "fps": 60.0,
+    "frames": 21,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5001,
+        "options": "31",
+        "sound": null
+      }
+    ]
+  },
+  {
+    "index": 7,
+    "name": "shoot_2",
+    "fps": 60.0,
+    "frames": 21,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5001,
+        "options": "31",
+        "sound": null
+      }
+    ]
+  },
+  {
+    "index": 8,
+    "name": "zoom_shoot",
+    "fps": 60.0,
+    "frames": 20,
+    "events": []
+  },
+  {
+    "index": 9,
+    "name": "zoom_shoot_fast",
+    "fps": 90.0,
+    "frames": 20,
+    "events": []
+  },
+  {
+    "index": 10,
+    "name": "inspect",
+    "fps": 30.0,
+    "frames": 126,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5004,
+        "options": "weapons/valorant/orabyonetap/Inspect_Mvt_A.wav",
+        "sound": null
+      },
+      {
+        "frame": 4,
+        "event": 5004,
+        "options": "weapons/valorant/orabyonetap/Inspect_Raja.wav",
+        "sound": null
+      },
+      {
+        "frame": 45,
+        "event": 5004,
+        "options": "weapons/valorant/orabyonetap/Inspect_Mvt_B.wav",
+        "sound": null
+      },
+      {
+        "frame": 100,
+        "event": 5004,
+        "options": "weapons/valorant/orabyonetap/Inspect_Mvt_C.wav",
+        "sound": null
+      },
+      {
+        "frame": 110,
+        "event": 5004,
+        "options": "weapons/valorant/orabyonetap/Inspect_Mvt_D.wav",
+        "sound": null
+      }
+    ]
+  },
+  {
+    "index": 11,
+    "name": "inspect2",
+    "fps": 30.0,
+    "frames": 126,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5004,
+        "options": "weapons/valorant/orabyonetap/Inspect_Mvt_A.wav",
+        "sound": null
+      },
+      {
+        "frame": 4,
+        "event": 5004,
+        "options": "weapons/valorant/orabyonetap/Inspect_Raja.wav",
+        "sound": null
+      },
+      {
+        "frame": 45,
+        "event": 5004,
+        "options": "weapons/valorant/orabyonetap/Inspect_Mvt_B.wav",
+        "sound": null
+      },
+      {
+        "frame": 100,
+        "event": 5004,
+        "options": "weapons/valorant/orabyonetap/Inspect_Mvt_C.wav",
+        "sound": null
+      },
+      {
+        "frame": 110,
+        "event": 5004,
+        "options": "weapons/valorant/orabyonetap/Inspect_Mvt_D.wav",
+        "sound": null
+      }
+    ]
+  }
+]
