@@ -44,8 +44,19 @@ export class GoldSrcModel {
 // Some servers transparently decode Content-Encoding; inspect actual bytes.
 export async function decodeGoldSrcAsset(buffer,{useNative=true}={}){
  const bytes=new Uint8Array(buffer);if(bytes[0]!==31||bytes[1]!==139)return buffer;
- if(useNative&&typeof DecompressionStream!=='undefined')return new Response(new Blob([buffer]).stream().pipeThrough(new DecompressionStream('gzip'))).arrayBuffer();
+ if(useNative&&typeof DecompressionStream!=='undefined'){try{return await new Response(new Blob([buffer]).stream().pipeThrough(new DecompressionStream('gzip'))).arrayBuffer();}catch{/* Some WebViews expose the API but cannot decode gzip. */}}
  const {gunzipSync}=await import('./fflate.module.js'),plain=gunzipSync(bytes);return plain.buffer.slice(plain.byteOffset,plain.byteOffset+plain.byteLength);
 }
 const cache=new Map();
-export async function loadGoldSrc(url){if(!cache.has(url)){if(cache.size>=4)cache.delete(cache.keys().next().value);cache.set(url,fetch(url).then(r=>{if(!r.ok)throw Error('Weapon resource '+r.status);return r.arrayBuffer();}).then(decodeGoldSrcAsset).then(b=>new GoldSrcModel(b)).catch(e=>{cache.delete(url);throw e;}));}return cache.get(url);}
+export async function loadGoldSrc(url,{onProgress=()=>{},force=false}={}){
+ if(force)cache.delete(url);
+ if(!cache.has(url)){
+  if(cache.size>=4)cache.delete(cache.keys().next().value);
+  const entry={listeners:new Set(),progress:null,promise:null};
+  const progress=p=>{entry.progress=p;for(const listener of entry.listeners)listener(p);};
+  entry.promise=import('./weapon-assets.js').then(({fetchWeaponAsset})=>fetchWeaponAsset(url,{kind:'model',onProgress:progress})).then(async b=>{progress({phase:'decode',loaded:b.byteLength,total:b.byteLength});return decodeGoldSrcAsset(b);}).then(b=>{progress({phase:'parse',loaded:b.byteLength,total:b.byteLength});return new GoldSrcModel(b);}).catch(e=>{if(cache.get(url)===entry)cache.delete(url);throw e;});
+  cache.set(url,entry);
+ }
+ const entry=cache.get(url);entry.listeners.add(onProgress);if(entry.progress)onProgress(entry.progress);
+ try{return await entry.promise;}finally{entry.listeners.delete(onProgress);}
+}
