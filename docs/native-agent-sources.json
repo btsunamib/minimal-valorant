@@ -1,0 +1,102 @@
+{
+  "input": "val原版人物模型.zip",
+  "method": "Lossless gzip of original IDST v10 character model bytes; embedded textures and all animation blends preserved.",
+  "files": [
+    {
+      "agent": "wushu",
+      "team": "ct",
+      "source": "player/jett_ct/jett_ct.mdl",
+      "output": "dist/assets/agent-models/wushu/ct.mdl.gz",
+      "bytes": 2134520,
+      "sha256": "3e4c4b22dd77f1c9b8c49a10dad76f1c86636e3ccb50e32a9cd658c18cb15f40"
+    },
+    {
+      "agent": "wushu",
+      "team": "t",
+      "source": "player/jett_t/jett_t.mdl",
+      "output": "dist/assets/agent-models/wushu/t.mdl.gz",
+      "bytes": 2134520,
+      "sha256": "3e4c4b22dd77f1c9b8c49a10dad76f1c86636e3ccb50e32a9cd658c18cb15f40"
+    },
+    {
+      "agent": "thorne",
+      "team": "ct",
+      "source": "player/sage_ct/sage_ct.mdl",
+      "output": "dist/assets/agent-models/thorne/ct.mdl.gz",
+      "bytes": 1941016,
+      "sha256": "75a098b01a15f668b497f18e5e083fee4d495240b6e12317336ae4e8776887e6"
+    },
+    {
+      "agent": "thorne",
+      "team": "t",
+      "source": "player/sage_t/sage_t.mdl",
+      "output": "dist/assets/agent-models/thorne/t.mdl.gz",
+      "bytes": 1941016,
+      "sha256": "75a098b01a15f668b497f18e5e083fee4d495240b6e12317336ae4e8776887e6"
+    },
+    {
+      "agent": "hunter",
+      "team": "ct",
+      "source": "player/sova_ct/sova_ct.mdl",
+      "output": "dist/assets/agent-models/hunter/ct.mdl.gz",
+      "bytes": 3508524,
+      "sha256": "4b029487ca2f163cf8db36e0dba5c7b20a937799ba02410beb7ab1146aea14f5"
+    },
+    {
+      "agent": "hunter",
+      "team": "t",
+      "source": "player/sova_t/sova_t.mdl",
+      "output": "dist/assets/agent-models/hunter/t.mdl.gz",
+      "bytes": 3508524,
+      "sha256": "4b029487ca2f163cf8db36e0dba5c7b20a937799ba02410beb7ab1146aea14f5"
+    },
+    {
+      "agent": "phoenix",
+      "team": "ct",
+      "source": "player/phoenix_ct/phoenix_ct.mdl",
+      "output": "dist/assets/agent-models/phoenix/ct.mdl.gz",
+      "bytes": 2250240,
+      "sha256": "d692f4c495c82de0686d6f8df6714946fbd79c21f45fe00f18f661d1aa491beb"
+    },
+    {
+      "agent": "phoenix",
+      "team": "t",
+      "source": "player/phoenix_t/phoenix_t.mdl",
+      "output": "dist/assets/agent-models/phoenix/t.mdl.gz",
+      "bytes": 2250240,
+      "sha256": "d692f4c495c82de0686d6f8df6714946fbd79c21f45fe00f18f661d1aa491beb"
+    },
+    {
+      "agent": "sarge",
+      "team": "ct",
+      "source": "player/brimstone_ct/brimstone_ct.mdl",
+      "output": "dist/assets/agent-models/sarge/ct.mdl.gz",
+      "bytes": 2772196,
+      "sha256": "ba734e4fc69e002a98f03d185ff7602e9d5ca403430a44c1960a8e183d7c5d4c"
+    },
+    {
+      "agent": "sarge",
+      "team": "t",
+      "source": "player/brimstone_t/brimstone_t.mdl",
+      "output": "dist/assets/agent-models/sarge/t.mdl.gz",
+      "bytes": 2772196,
+      "sha256": "ba734e4fc69e002a98f03d185ff7602e9d5ca403430a44c1960a8e183d7c5d4c"
+    },
+    {
+      "agent": "guide",
+      "team": "ct",
+      "source": "player/skye_ct/Skye_ct.mdl",
+      "output": "dist/assets/agent-models/guide/ct.mdl.gz",
+      "bytes": 2108536,
+      "sha256": "29fc0061648e030fbbceda7d2dbaf73812f7df8f20ccbe094762f2010d86a1e5"
+    },
+    {
+      "agent": "guide",
+      "team": "t",
+      "source": "player/skye_t/Skye_t.mdl",
+      "output": "dist/assets/agent-models/guide/t.mdl.gz",
+      "bytes": 2108536,
+      "sha256": "29fc0061648e030fbbceda7d2dbaf73812f7df8f20ccbe094762f2010d86a1e5"
+    }
+  ]
+}

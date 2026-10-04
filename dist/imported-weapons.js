@@ -1,8 +1,8 @@
 import * as THREE from './three.module.js';
-import {loadGoldSrc} from './goldsrc-model.js?v=20261003-world3';
-import {loadSourceModel} from './source-model.js?v=20261003-world3';
-import {COLLECTION_IMPORTS} from './imported-catalog.js?v=20261003-world3';
-import {weaponAssetURL,fetchWeaponAsset} from './weapon-assets.js?v=20261003-world3';
+import {loadGoldSrc} from './goldsrc-model.js?v=20261004-native4';
+import {loadSourceModel} from './source-model.js?v=20261004-native4';
+import {COLLECTION_IMPORTS} from './imported-catalog.js?v=20261004-native4';
+import {weaponAssetURL,fetchWeaponAsset} from './weapon-assets.js?v=20261004-native4';
 export const IMPORTED_WEAPONS={
  champions21vandal:{weapon:'vandal',name:'2021 冠军 · 狂徒',variants:{base:'重置材质'}},
  champions21knife:{weapon:'knife',name:'2021 冠军 · 爪刀',variants:{base:'冠军气息'}},
@@ -11,7 +11,13 @@ export const IMPORTED_WEAPONS={
  kuronamivandal:{weapon:'vandal',name:'塑水宗 · 狂徒',variants:{base:'蓝色',purple:'紫色',white:'白色',black:'红黑'}}
 };
 Object.assign(IMPORTED_WEAPONS,COLLECTION_IMPORTS);
-export function importedSelection(id,prefs){let key=id==='knife'?prefs.knife:prefs.weaponSkins?.[id]??prefs.skin;if(prefs.nativeDefaults&&key==='standard'&&IMPORTED_WEAPONS['valstrike'+id])key='valstrike'+id;const spec=IMPORTED_WEAPONS[key];if(!spec||spec.weapon!==id)return null;const variant=key==='kuronami'?prefs.kuronamiVariant:prefs.importedVariants?.[key];return {key,variant:Object.hasOwn(spec.variants,variant)?variant:Object.hasOwn(spec.variants,'base')?'base':Object.keys(spec.variants)[0]};}
+export function importedSelection(id,prefs){
+ let key=id==='knife'?prefs.knife:prefs.weaponSkins?.[id]??prefs.skin;
+ if(!IMPORTED_WEAPONS[key]||IMPORTED_WEAPONS[key].weapon!==id)key='valstrike'+id;
+ const spec=IMPORTED_WEAPONS[key];if(!spec||spec.weapon!==id)return null;
+ const variant=key==='kuronami'?prefs.kuronamiVariant:prefs.importedVariants?.[key];
+ return {key,variant:Object.hasOwn(spec.variants,variant)?variant:Object.hasOwn(spec.variants,'base')?'base':Object.keys(spec.variants)[0]};
+}
 const root=(key,variant)=>`./assets/imported/${key}/${variant}`;
 const audioCache=new WeakMap();
 export function importedFeedbackFamily(key){if(IMPORTED_WEAPONS[key]?.weapon==='knife')return null;return key?.startsWith('kuronami')?'kuronami':key?.startsWith('xerofang')?'xerofang':null;}

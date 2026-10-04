@@ -8,9 +8,9 @@ import {GoldSrcModel} from '../dist/goldsrc-model.js';
 import {prepareNativeShowroom,showNativeShowroom,restoreNativeViewmodel} from '../dist/native-showroom.js';
 const load=key=>{const b=fs.readFileSync(new URL(`../dist/assets/imported/${key}/base/model.mdl`,import.meta.url));return new GoldSrcModel(b.buffer.slice(b.byteOffset,b.byteOffset+b.byteLength));};
 test('Preview drafts never equip skins; confirmed gun skins persist independently and reject wrong gun families',()=>{
- const p={skin:'standard',knife:'kuronami',weaponSkins:{vandal:'chaos',phantom:'champions26',classic:'standard'},importedVariants:{kuronamivandal:'white'}};
+ const p={skin:'standard',knife:'kuronami',weaponSkins:{vandal:'champions21vandal',phantom:'reconphantom',classic:'standard'},importedVariants:{kuronamivandal:'white'}};
  const d=collectionDraft('classic',p);d.skin='vctclassic';d.importedVariants.vctclassic='edg';assert.equal(equippedSkin('classic',p),'standard');assert.equal(p.importedVariants.vctclassic,undefined);
- equipCollection('classic',d,p);assert.equal(equippedSkin('classic',p),'vctclassic');assert.equal(equippedSkin('vandal',p),'chaos');assert.equal(equippedSkin('phantom',p),'champions26');assert.equal(p.importedVariants.vctclassic,'edg');
+ equipCollection('classic',d,p);assert.equal(equippedSkin('classic',p),'vctclassic');assert.equal(equippedSkin('vandal',p),'champions21vandal');assert.equal(equippedSkin('phantom',p),'reconphantom');assert.equal(p.importedVariants.vctclassic,'edg');
  const restored=JSON.parse(JSON.stringify(p));assert.equal(equippedSkin('classic',restored),'vctclassic');assert.equal(equippedSkin('operator',{skin:'xerofangvandal'}),'standard');
  const knife=collectionDraft('knife',p);knife.knife='igniteknife';assert.equal(p.knife,'kuronami');equipCollection('knife',knife,p);assert.equal(p.knife,'igniteknife');assert.equal(equippedSkin('classic',p),'vctclassic');
 });

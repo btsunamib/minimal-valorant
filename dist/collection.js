@@ -1,9 +1,9 @@
 import {SKINS,KNIVES} from './rules.js';
-import {IMPORTED_WEAPONS} from './imported-weapons.js?v=20261003-world3';
+import {IMPORTED_WEAPONS} from './imported-weapons.js?v=20261004-native4';
 
 export function equippedSkin(id,prefs){
  const key=prefs.weaponSkins?.[id]??prefs.skin??'standard',s=SKINS[key];
- return s&&(!s.weapon||s.weapon===id)?key:'standard';
+ return s&&(!s.weapon||s.weapon===id)&&(key==='standard'||IMPORTED_WEAPONS[key])?key:'standard';
 }
 export function collectionDraft(id,prefs){return {...prefs,skin:equippedSkin(id,prefs),importedVariants:{...prefs.importedVariants}};}
 export function equipCollection(id,draft,prefs){
@@ -14,7 +14,7 @@ export function equipCollection(id,draft,prefs){
  for(const field of ['kuronamiVariant','chaosVariant','mercyVariant','naruVariant','naruForm'])if(field in draft)prefs[field]=draft[field];
 }
 export function skinItems(id){
- const entries=id==='knife'?Object.entries(KNIVES).map(([key,name])=>({key,name,color:IMPORTED_WEAPONS[key]?.color||'#b0d7e1'})):Object.entries(SKINS).filter(([,s])=>!s.weapon||s.weapon===id).map(([key,s])=>({key,name:s.name,color:s.css}));
+ const entries=id==='knife'?Object.entries(KNIVES).filter(([key])=>IMPORTED_WEAPONS[key]).map(([key,name])=>({key,name,color:IMPORTED_WEAPONS[key]?.color||'#b0d7e1'})):Object.entries(SKINS).filter(([key,s])=>(key==='standard'||IMPORTED_WEAPONS[key])&&(!s.weapon||s.weapon===id)).map(([key,s])=>({key,name:s.name,color:s.css}));
  return entries.flatMap(item=>item.key==='vctclassic'?Object.entries(IMPORTED_WEAPONS.vctclassic.variants).map(([variant,label])=>({...item,variant,name:label+' · 标配'})):[item]);
 }
 export function skinThumbnail(id,key,variant='base'){

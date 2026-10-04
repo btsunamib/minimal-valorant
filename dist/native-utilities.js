@@ -1,6 +1,6 @@
 import * as T from './three.module.js';
-import {loadGoldSrc} from './goldsrc-model.js?v=20261003-world3';
-import {sequenceFor} from './imported-weapons.js?v=20261003-world3';
+import {loadGoldSrc} from './goldsrc-model.js?v=20261004-native4';
+import {sequenceFor} from './imported-weapons.js?v=20261004-native4';
 import {prepareNativeShowroom,showNativeShowroom} from './native-showroom.js';
 export class NativeUtilities {
  constructor(scene){this.scene=scene;this.kind=null;this.rig=null;this.serial=0;this.seconds=0;}

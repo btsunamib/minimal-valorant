@@ -10,7 +10,8 @@ export function stylizeMaterial(material){
 export function nativeMaterial(texture,flags=0,{world=false}={}){
  const effect=!!(flags&48);
  if(effect)return new T.MeshBasicMaterial({map:texture,side:T.DoubleSide,transparent:true,depthWrite:false,blending:flags&32?T.AdditiveBlending:T.NormalBlending,toneMapped:false});
- const m=new T.MeshStandardMaterial({map:texture,roughness:world?.93:.55,metalness:world?0:.16,side:T.DoubleSide,alphaTest:flags&64?.5:0,emissive:0xffffff,emissiveMap:texture,emissiveIntensity:world?.08:.12});return stylizeMaterial(m);
+ if(flags&4)return new T.MeshBasicMaterial({map:texture,side:T.DoubleSide,alphaTest:flags&64?.5:0,toneMapped:false});
+ const m=new T.MeshStandardMaterial({map:texture,roughness:world?.93:.68,metalness:world?0:.08,side:T.DoubleSide,alphaTest:flags&64?.5:0,emissive:0xffffff,emissiveMap:texture,emissiveIntensity:world?.04:.06});return stylizeMaterial(m);
 }
 export function configureValorantRender(renderer,scene,viewScene){
  renderer.toneMapping=T.ACESFilmicToneMapping;renderer.toneMappingExposure=.88;

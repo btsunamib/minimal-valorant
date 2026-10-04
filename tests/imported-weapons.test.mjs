@@ -35,7 +35,7 @@ test('Native pose clock and action recovery remain identical at 30 / 60 / 120 / 
  for(const t of clocks){assert.equal(t.index,0);assert(Math.abs(t.seconds-clocks[0].seconds)<1e-10);}
 });
 test('Selection respects weapon slots and validates native variants',()=>{
- assert.equal(importedSelection('classic',{skin:'kuronamivandal'}),null);assert.deepEqual(importedSelection('vandal',{skin:'kuronamivandal',importedVariants:{kuronamivandal:'white'}}),{key:'kuronamivandal',variant:'white'});assert.equal(importedSelection('knife',{knife:'narukami'}),null);assert.equal(importedSelection('knife',{knife:'kuronami',kuronamiVariant:'invalid'}).variant,'base');
+ assert.deepEqual(importedSelection('classic',{skin:'kuronamivandal'}),{key:'valstrikeclassic',variant:'base'});assert.deepEqual(importedSelection('vandal',{skin:'kuronamivandal',importedVariants:{kuronamivandal:'white'}}),{key:'kuronamivandal',variant:'white'});assert.deepEqual(importedSelection('knife',{knife:'narukami'}),{key:'valstrikeknife',variant:'base'});assert.equal(importedSelection('knife',{knife:'kuronami',kuronamiVariant:'invalid'}).variant,'base');
 });
 test('Malformed / truncated native resources fail clearly',()=>{assert.throws(()=>new GoldSrcModel(new ArrayBuffer(3)),/Truncated/);const b=readFileSync(new URL('kuronami/base/model.mdl',base));b[0]=0;assert.throws(()=>new GoldSrcModel(b.buffer.slice(b.byteOffset,b.byteOffset+b.byteLength)),/IDST/);});
 
