@@ -1,10 +1,10 @@
 import * as T from './three.module.js';
-import {fetchWeaponAsset,weaponAssetURL} from './weapon-assets.js?v=20261004-native4';
-import {decodeGoldSrcAsset,loadGoldSrc} from './goldsrc-model.js?v=20261004-native4';
-import {MapNavigation} from './map-navigation.js?v=20261004-native4';
+import {fetchWeaponAsset,weaponAssetURL} from './weapon-assets.js?v=20261005-palette5';
+import {decodeGoldSrcAsset,loadGoldSrc} from './goldsrc-model.js?v=20261005-palette5';
+import {MapNavigation} from './map-navigation.js?v=20261005-palette5';
 export const MAPS=[{key:'ascent',name:'亚海悬城',en:'ASCENT',color:'#c7b9a0'},{key:'pearl',name:'深海遗珠',en:'PEARL',color:'#91b8ce'},{key:'lotus',name:'莲华古城',en:'LOTUS',color:'#b4bf96'},{key:'sunset',name:'日落之城',en:'SUNSET',color:'#deb2a5'},{key:'fracture',name:'裂变峡谷',en:'FRACTURE',color:'#b8c5a1'},{key:'breeze',name:'微风岛屿',en:'BREEZE',color:'#90cad1'},{key:'training',name:'空岛街区',en:'TRAINING',color:'#c0baa7'}];
 export async function loadNativeMap(key,{onProgress=()=>{},renderer}={}){
- const base='./assets/maps/'+key+'/',buffer=await fetchWeaponAsset(base+'map.json.gz?v=20261004-native4',{onProgress,timeout:60000}),plain=await decodeGoldSrcAsset(buffer),data=JSON.parse(new TextDecoder().decode(plain)),group=new T.Group(),meshes=[],textures=[],materials=[],geometries=[];group.name='native-map-'+key;
+ const base='./assets/maps/'+key+'/',buffer=await fetchWeaponAsset(base+'map.json.gz?v=20261005-palette5',{onProgress,timeout:60000}),plain=await decodeGoldSrcAsset(buffer),data=JSON.parse(new TextDecoder().decode(plain)),group=new T.Group(),meshes=[],textures=[],materials=[],geometries=[];group.name='native-map-'+key;
  try {
  const maps=await Promise.all(data.textures.map(async t=>{if(!t.file)return null;const tex=await new T.TextureLoader().loadAsync(weaponAssetURL(base+t.file));tex.colorSpace=T.SRGBColorSpace;tex.flipY=false;tex.wrapS=tex.wrapT=T.RepeatWrapping;tex.anisotropy=Math.min(8,renderer?.capabilities?.getMaxAnisotropy?.()||1);textures.push(tex);return tex;}));
  for(const m of data.meshes){const g=new T.BufferGeometry();for(const[name,values,n]of [['position',m.positions,3],['normal',m.normals,3],['uv',m.uv,2],['color',m.colors,3]])g.setAttribute(name,new T.Float32BufferAttribute(values,n));g.computeBoundingSphere();const t=data.textures[m.texture],material=new T.MeshBasicMaterial({map:maps[m.texture],vertexColors:true,color:maps[m.texture]?0xffffff:0xb8b5ae,side:T.DoubleSide,alphaTest:t.alpha?.5:0,toneMapped:false});const mesh=new T.Mesh(g,material);group.add(mesh);meshes.push(mesh);materials.push(material);geometries.push(g);}

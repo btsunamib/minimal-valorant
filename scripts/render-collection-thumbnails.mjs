@@ -18,7 +18,7 @@ for(const [key,spec]of Object.entries(IMPORTED_WEAPONS)){
   const meshes=[],textures={},point=new T.Vector3();
   for(const m of rig.meshes){if(!m.visible)continue;const tex=p.textures.find(t=>t.name===m.name);if(!tex)continue;
    const remap=new Map(),vertices=[],uv=[],triangles=[];for(const i of m.userData.collectionIndices){if(!remap.has(i)){remap.set(i,vertices.length/3);m.getVertexPosition(i,point).applyMatrix4(m.matrixWorld);vertices.push(point.x,point.y,point.z);uv.push(m.geometry.attributes.uv.getX(i),m.geometry.attributes.uv.getY(i));}triangles.push(remap.get(i));}
-   meshes.push({vertices,uv,triangles,texture:m.name,additive:!!(tex.flags&32)});
+   meshes.push({vertices,uv,triangles,texture:m.name,additive:!!(tex.flags&32),side:m.material.side});
    textures[m.name]={width:tex.width,height:tex.height,rgba:Buffer.from(tex.rgba).toString('base64')};
   }
   const result=spawnSync('python',['scripts/render-native-thumbnail.py',folder+'/thumb.webp'],{input:JSON.stringify({meshes,textures}),maxBuffer:1024*1024*20,encoding:'utf8'});

@@ -1,0 +1,358 @@
+[
+  {
+    "index": 0,
+    "name": "xeiv & shezo",
+    "fps": 60.0,
+    "frames": 1,
+    "events": []
+  },
+  {
+    "index": 1,
+    "name": "zoom_idle",
+    "fps": 60.0,
+    "frames": 2,
+    "events": []
+  },
+  {
+    "index": 2,
+    "name": "reload",
+    "fps": 60.0,
+    "frames": 177,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5004,
+        "options": "weapons\\valorant\\dolmirevenge/Reload_Mvt_A_Ele.wav",
+        "sound": null
+      },
+      {
+        "frame": 25,
+        "event": 5004,
+        "options": "weapons\\valorant\\dolmirevenge/MagOut_Element.wav",
+        "sound": null
+      },
+      {
+        "frame": 28,
+        "event": 5004,
+        "options": "weapons\\valorant\\dolmirevenge/MagOut.wav",
+        "sound": null
+      },
+      {
+        "frame": 72,
+        "event": 5004,
+        "options": "weapons\\valorant\\dolmirevenge/MagIn_Start.wav",
+        "sound": null
+      },
+      {
+        "frame": 80,
+        "event": 5004,
+        "options": "weapons\\valorant\\dolmirevenge/MagIn_End_Ele.wav",
+        "sound": null
+      },
+      {
+        "frame": 80,
+        "event": 5004,
+        "options": "weapons\\valorant\\dolmirevenge/MagIn_End.wav",
+        "sound": null
+      },
+      {
+        "frame": 100,
+        "event": 5004,
+        "options": "weapons\\valorant\\dolmirevenge/Back.wav",
+        "sound": null
+      },
+      {
+        "frame": 120,
+        "event": 5004,
+        "options": "weapons\\valorant\\dolmirevenge/Fwd.wav",
+        "sound": null
+      },
+      {
+        "frame": 150,
+        "event": 5004,
+        "options": "weapons\\valorant\\dolmirevenge/Grab.wav",
+        "sound": null
+      }
+    ]
+  },
+  {
+    "index": 3,
+    "name": "reload_fast",
+    "fps": 90.0,
+    "frames": 177,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5004,
+        "options": "weapons\\valorant\\dolmirevenge/Reload_Mvt_A_Ele.wav",
+        "sound": null
+      },
+      {
+        "frame": 25,
+        "event": 5004,
+        "options": "weapons\\valorant\\dolmirevenge/MagOut_Element.wav",
+        "sound": null
+      },
+      {
+        "frame": 28,
+        "event": 5004,
+        "options": "weapons\\valorant\\dolmirevenge/MagOut.wav",
+        "sound": null
+      },
+      {
+        "frame": 72,
+        "event": 5004,
+        "options": "weapons\\valorant\\dolmirevenge/MagIn_Start.wav",
+        "sound": null
+      },
+      {
+        "frame": 80,
+        "event": 5004,
+        "options": "weapons\\valorant\\dolmirevenge/MagIn_End_Ele.wav",
+        "sound": null
+      },
+      {
+        "frame": 80,
+        "event": 5004,
+        "options": "weapons\\valorant\\dolmirevenge/MagIn_End.wav",
+        "sound": null
+      },
+      {
+        "frame": 100,
+        "event": 5004,
+        "options": "weapons\\valorant\\dolmirevenge/Back.wav",
+        "sound": null
+      },
+      {
+        "frame": 120,
+        "event": 5004,
+        "options": "weapons\\valorant\\dolmirevenge/Fwd.wav",
+        "sound": null
+      },
+      {
+        "frame": 150,
+        "event": 5004,
+        "options": "weapons\\valorant\\dolmirevenge/Grab.wav",
+        "sound": null
+      }
+    ]
+  },
+  {
+    "index": 4,
+    "name": "draw",
+    "fps": 60.0,
+    "frames": 100,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5004,
+        "options": "weapons\\valorant\\dolmirevenge/Equip.wav",
+        "sound": null
+      },
+      {
+        "frame": 10,
+        "event": 5004,
+        "options": "weapons\\valorant\\dolmirevenge/Chg_Hndl_Back.wav",
+        "sound": null
+      },
+      {
+        "frame": 30,
+        "event": 5004,
+        "options": "weapons\\valorant\\dolmirevenge/Chg_Hndl_Fwd.wav",
+        "sound": null
+      },
+      {
+        "frame": 62,
+        "event": 5004,
+        "options": "weapons\\valorant\\dolmirevenge/Grab.wav",
+        "sound": null
+      }
+    ]
+  },
+  {
+    "index": 5,
+    "name": "draw_fast",
+    "fps": 90.0,
+    "frames": 100,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5004,
+        "options": "weapons\\valorant\\dolmirevenge/Equip.wav",
+        "sound": null
+      },
+      {
+        "frame": 10,
+        "event": 5004,
+        "options": "weapons\\valorant\\dolmirevenge/Chg_Hndl_Back.wav",
+        "sound": null
+      },
+      {
+        "frame": 30,
+        "event": 5004,
+        "options": "weapons\\valorant\\dolmirevenge/Chg_Hndl_Fwd.wav",
+        "sound": null
+      },
+      {
+        "frame": 62,
+        "event": 5004,
+        "options": "weapons\\valorant\\dolmirevenge/Grab.wav",
+        "sound": null
+      }
+    ]
+  },
+  {
+    "index": 6,
+    "name": "shoot1",
+    "fps": 60.0,
+    "frames": 20,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5001,
+        "options": "5",
+        "sound": null
+      }
+    ]
+  },
+  {
+    "index": 7,
+    "name": "shoot_fast",
+    "fps": 90.0,
+    "frames": 20,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5001,
+        "options": "5",
+        "sound": null
+      }
+    ]
+  },
+  {
+    "index": 8,
+    "name": "zoom_shoot",
+    "fps": 60.0,
+    "frames": 20,
+    "events": []
+  },
+  {
+    "index": 9,
+    "name": "zoom_shoot_fast",
+    "fps": 90.0,
+    "frames": 20,
+    "events": []
+  },
+  {
+    "index": 10,
+    "name": "inspect",
+    "fps": 8.0,
+    "frames": 68,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5004,
+        "options": "weapons\\valorant\\dolmirevenge/Inspect_Mvt_A.wav",
+        "sound": null
+      },
+      {
+        "frame": 0,
+        "event": 5004,
+        "options": "weapons\\valorant\\dolmirevenge/Inspect_Elem_A.wav",
+        "sound": null
+      },
+      {
+        "frame": 10,
+        "event": 5004,
+        "options": "weapons\\valorant\\dolmirevenge/Inspect_Elem_B.wav",
+        "sound": null
+      },
+      {
+        "frame": 14,
+        "event": 5004,
+        "options": "weapons\\valorant\\dolmirevenge/Inspect_Elem_C.wav",
+        "sound": null
+      },
+      {
+        "frame": 16,
+        "event": 5004,
+        "options": "weapons\\valorant\\dolmirevenge/Inspect_Elem_D.wav",
+        "sound": null
+      },
+      {
+        "frame": 30,
+        "event": 5004,
+        "options": "weapons\\valorant\\dolmirevenge/Grab.wav",
+        "sound": null
+      },
+      {
+        "frame": 48,
+        "event": 5004,
+        "options": "weapons\\valorant\\dolmirevenge/Inspect_Elem_E.wav",
+        "sound": null
+      },
+      {
+        "frame": 55,
+        "event": 5004,
+        "options": "weapons\\valorant\\dolmirevenge/Inspect_Elem_F.wav",
+        "sound": null
+      }
+    ]
+  },
+  {
+    "index": 11,
+    "name": "inspect_fast",
+    "fps": 8.0,
+    "frames": 68,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5004,
+        "options": "weapons\\valorant\\dolmirevenge/Inspect_Mvt_A.wav",
+        "sound": null
+      },
+      {
+        "frame": 0,
+        "event": 5004,
+        "options": "weapons\\valorant\\dolmirevenge/Inspect_Elem_A.wav",
+        "sound": null
+      },
+      {
+        "frame": 10,
+        "event": 5004,
+        "options": "weapons\\valorant\\dolmirevenge/Inspect_Elem_B.wav",
+        "sound": null
+      },
+      {
+        "frame": 14,
+        "event": 5004,
+        "options": "weapons\\valorant\\dolmirevenge/Inspect_Elem_C.wav",
+        "sound": null
+      },
+      {
+        "frame": 16,
+        "event": 5004,
+        "options": "weapons\\valorant\\dolmirevenge/Inspect_Elem_D.wav",
+        "sound": null
+      },
+      {
+        "frame": 30,
+        "event": 5004,
+        "options": "weapons\\valorant\\dolmirevenge/Grab.wav",
+        "sound": null
+      },
+      {
+        "frame": 48,
+        "event": 5004,
+        "options": "weapons\\valorant\\dolmirevenge/Inspect_Elem_E.wav",
+        "sound": null
+      },
+      {
+        "frame": 55,
+        "event": 5004,
+        "options": "weapons\\valorant\\dolmirevenge/Inspect_Elem_F.wav",
+        "sound": null
+      }
+    ]
+  }
+]

@@ -1,0 +1,1796 @@
+{
+  "files": [
+    {
+      "archive": "高清修复奇点蝴蝶",
+      "source": "v_knife.mdl",
+      "output": "dist/assets/imported/singularitybutterfly/base/model.mdl.gz",
+      "bytes": 5508360,
+      "sha256": "8992ec079fab6ede253c1e73f41312a8844ca074cda6815b46b97b262d16b076",
+      "outputSHA256": "ae15c1988a0d9384ff9528258290c6e13c45a59aa79917a7527bc4c3db114a84",
+      "gzip": true
+    },
+    {
+      "archive": "高清修复多弥尔ak",
+      "source": "v_vandal.mdl",
+      "output": "dist/assets/imported/dolmirvandal/base/model.mdl.gz",
+      "bytes": 11558872,
+      "sha256": "87b5d11d742ff6342541ee190b96ea818021fc84b4bc7e6bb451cbdef4e09e6a",
+      "outputSHA256": "0e522b539b3f14863b79c601d5597272354c669dc29e0a11a38ea46a390f582f",
+      "gzip": true
+    },
+    {
+      "archive": "高清修复781幻影",
+      "source": "粉色/v_phantom.mdl",
+      "output": "dist/assets/imported/protocol781phantom/base/model.mdl.gz",
+      "bytes": 12150672,
+      "sha256": "34ee8918fcad4bab4cce71ac2a04d71759b5ec8012edec1b746bde3c533928b6",
+      "outputSHA256": "7eaf13ff6f262c3caad7e56eab228510454df763d6bfe834db77de55d41d0f8b",
+      "gzip": true
+    },
+    {
+      "archive": "高清修复781幻影",
+      "source": "红色/v_phantom.mdl",
+      "output": "dist/assets/imported/protocol781phantom/red/model.mdl.gz",
+      "bytes": 12150672,
+      "sha256": "dd2235632c30e2f70f20cd3477952cb1d553c40edf5f7fbaaffe2db8cab194c5",
+      "outputSHA256": "618f067cf18bb962bf7360de9850e46be3197fe543a3055acbfb589866d059ac",
+      "gzip": true
+    },
+    {
+      "archive": "24冠军组合包",
+      "source": "24冠军/sound/weapons/phantom/phantom1.wav",
+      "output": "dist/assets/imported/champions24phantom/sound/bee39a3551645a20d931.wav",
+      "bytes": 16838,
+      "sha256": "bee39a3551645a20d931a31cf71b57209548dd5f8bbe289f23f2dca9834c1c61",
+      "outputSHA256": "bee39a3551645a20d931a31cf71b57209548dd5f8bbe289f23f2dca9834c1c61",
+      "gzip": false
+    },
+    {
+      "archive": "24冠军组合包",
+      "source": "24冠军/sound/weapons/valorant/2024champ/draw1.wav",
+      "output": "dist/assets/imported/champions24phantom/sound/f83f6ca47990eb104f62.wav",
+      "bytes": 34118,
+      "sha256": "f83f6ca47990eb104f62e1bdb2ed5a34637e68ba8a74fa19cf4b8c7494c6995d",
+      "outputSHA256": "f83f6ca47990eb104f62e1bdb2ed5a34637e68ba8a74fa19cf4b8c7494c6995d",
+      "gzip": false
+    },
+    {
+      "archive": "24冠军组合包",
+      "source": "24冠军/sound/weapons/valorant/2024champ/draw2.wav",
+      "output": "dist/assets/imported/champions24phantom/sound/d0dbdabb965be12af5cb.wav",
+      "bytes": 37574,
+      "sha256": "d0dbdabb965be12af5cb466fac16e719a340d1f9245c94a265e3a66e123bf497",
+      "outputSHA256": "d0dbdabb965be12af5cb466fac16e719a340d1f9245c94a265e3a66e123bf497",
+      "gzip": false
+    },
+    {
+      "archive": "24冠军组合包",
+      "source": "24冠军/sound/weapons/valorant/2024champ/ins1.wav",
+      "output": "dist/assets/imported/champions24phantom/sound/f5877fb29774758a1e4c.wav",
+      "bytes": 30660,
+      "sha256": "f5877fb29774758a1e4c571b552ccc976582fb758f8098fc4e8fb0d4b8be46dd",
+      "outputSHA256": "f5877fb29774758a1e4c571b552ccc976582fb758f8098fc4e8fb0d4b8be46dd",
+      "gzip": false
+    },
+    {
+      "archive": "24冠军组合包",
+      "source": "24冠军/sound/weapons/valorant/2024champ/ins2.wav",
+      "output": "dist/assets/imported/champions24phantom/sound/e2d0d309de210c1049bf.wav",
+      "bytes": 428102,
+      "sha256": "e2d0d309de210c1049bf865fe7043bb260084512e435f5a737ea60faf680204c",
+      "outputSHA256": "e2d0d309de210c1049bf865fe7043bb260084512e435f5a737ea60faf680204c",
+      "gzip": false
+    },
+    {
+      "archive": "24冠军组合包",
+      "source": "24冠军/sound/weapons/valorant/2024champ/re1.wav",
+      "output": "dist/assets/imported/champions24phantom/sound/12cf9937df05403f0661.wav",
+      "bytes": 49094,
+      "sha256": "12cf9937df05403f06615869d4d6988aa38949e185566d9e938e12e9cddbb7cc",
+      "outputSHA256": "12cf9937df05403f06615869d4d6988aa38949e185566d9e938e12e9cddbb7cc",
+      "gzip": false
+    },
+    {
+      "archive": "24冠军组合包",
+      "source": "24冠军/sound/weapons/valorant/2024champ/re2.wav",
+      "output": "dist/assets/imported/champions24phantom/sound/2c8e486c39b96d01d61e.wav",
+      "bytes": 22598,
+      "sha256": "2c8e486c39b96d01d61e11bfbd1cdfb8e60b4501885a5d392dc021e081828b3f",
+      "outputSHA256": "2c8e486c39b96d01d61e11bfbd1cdfb8e60b4501885a5d392dc021e081828b3f",
+      "gzip": false
+    },
+    {
+      "archive": "24冠军组合包",
+      "source": "24冠军/sound/weapons/valorant/2024champ/re3.wav",
+      "output": "dist/assets/imported/champions24phantom/sound/9b065a5669cd67692533.wav",
+      "bytes": 67526,
+      "sha256": "9b065a5669cd67692533f81ca0b0ab3474d1dafc33209685d33dd18173046a99",
+      "outputSHA256": "9b065a5669cd67692533f81ca0b0ab3474d1dafc33209685d33dd18173046a99",
+      "gzip": false
+    },
+    {
+      "archive": "24冠军组合包",
+      "source": "幻影/1.wav",
+      "output": "dist/assets/imported/champions24phantom/sound/131cf5817c23a18f8756.wav",
+      "bytes": 269706,
+      "sha256": "131cf5817c23a18f8756e112ad22cbd6b2b02cce79dd854ad1badfd671998fa3",
+      "outputSHA256": "131cf5817c23a18f8756e112ad22cbd6b2b02cce79dd854ad1badfd671998fa3",
+      "gzip": false
+    },
+    {
+      "archive": "24冠军组合包",
+      "source": "幻影/2.wav",
+      "output": "dist/assets/imported/champions24phantom/sound/b7ed93075828dc03723d.wav",
+      "bytes": 269706,
+      "sha256": "b7ed93075828dc03723d7dc7c65f1316595e274a5475b4eb1f21ddcb6829a51c",
+      "outputSHA256": "b7ed93075828dc03723d7dc7c65f1316595e274a5475b4eb1f21ddcb6829a51c",
+      "gzip": false
+    },
+    {
+      "archive": "24冠军组合包",
+      "source": "幻影/3.wav",
+      "output": "dist/assets/imported/champions24phantom/sound/ae470bb382a70f6e3e11.wav",
+      "bytes": 269706,
+      "sha256": "ae470bb382a70f6e3e11b842b283a0c58e581f48602e2f0359a4d0b54aa60da5",
+      "outputSHA256": "ae470bb382a70f6e3e11b842b283a0c58e581f48602e2f0359a4d0b54aa60da5",
+      "gzip": false
+    },
+    {
+      "archive": "24冠军组合包",
+      "source": "幻影/4.wav",
+      "output": "dist/assets/imported/champions24phantom/sound/77d5dc170df1a9b5d4b1.wav",
+      "bytes": 269706,
+      "sha256": "77d5dc170df1a9b5d4b193d5dc6371d02bec12262f1c8ea38a5220ed9682ede4",
+      "outputSHA256": "77d5dc170df1a9b5d4b193d5dc6371d02bec12262f1c8ea38a5220ed9682ede4",
+      "gzip": false
+    },
+    {
+      "archive": "24冠军组合包",
+      "source": "幻影/5.wav",
+      "output": "dist/assets/imported/champions24phantom/sound/48b0d02a79f6c4c93585.wav",
+      "bytes": 542670,
+      "sha256": "48b0d02a79f6c4c935852a5e83db1d2c002fba4c2568390fead8cf0f2077c5fa",
+      "outputSHA256": "48b0d02a79f6c4c935852a5e83db1d2c002fba4c2568390fead8cf0f2077c5fa",
+      "gzip": false
+    },
+    {
+      "archive": "24冠军组合包",
+      "source": "24冠军/冠军logo加冠军光环/Jett/v_phantom.mdl",
+      "output": "dist/assets/imported/champions24phantom/base/model.mdl.gz",
+      "bytes": 3471476,
+      "sha256": "16e49966dfef3a5bfc8cb51cb8ad6af2cbadc797fa79ee73abdf712493c60ddd",
+      "outputSHA256": "cb3f3538d5b940b29e0017cf6c17acb497c7c5f39b5a9043448cc4f8b9d06aae",
+      "gzip": true
+    },
+    {
+      "archive": "24冠军组合包",
+      "source": "24冠军/冠军Logo和没有冠军光环/Jett/v_phantom.mdl",
+      "output": "dist/assets/imported/champions24phantom/logo/model.mdl.gz",
+      "bytes": 10549108,
+      "sha256": "ac174b840167a1f2e6925f196238a4c872e41806886c616b24663a2390669498",
+      "outputSHA256": "584801c28c3236c1353240979ce21e8bdab03a4d9dafdb05aa999fdec1200c7a",
+      "gzip": true
+    },
+    {
+      "archive": "24冠军组合包",
+      "source": "24冠军/冠军光环/Jett/v_phantom.mdl",
+      "output": "dist/assets/imported/champions24phantom/aura/model.mdl.gz",
+      "bytes": 3471476,
+      "sha256": "6cae7df53282b0302f6457731b90c088927c8c2d9b260686916bdd2a3efd93d4",
+      "outputSHA256": "b34ac3684cd33d975bfbd459e25eb9d65b4d1d26772e979705bb672d720cc2cb",
+      "gzip": true
+    },
+    {
+      "archive": "24冠军组合包",
+      "source": "24冠军/没有冠军光环/Jett/v_phantom.mdl",
+      "output": "dist/assets/imported/champions24phantom/plain/model.mdl.gz",
+      "bytes": 3471476,
+      "sha256": "bfe8ef6a7362ab6c3dfcfd2714ae9ac572db11c49b50a87a5853085738add250",
+      "outputSHA256": "c8a4620b9281edc32e4d66954c246259f97d98eb01939ec89a6e314388dcdf83",
+      "gzip": true
+    },
+    {
+      "archive": "24冠军组合包",
+      "source": "24冠军/金色破碎/Jett/v_phantom.mdl",
+      "output": "dist/assets/imported/champions24phantom/shatter/model.mdl.gz",
+      "bytes": 82905640,
+      "sha256": "db30e91fffd9a6994f409076246504d32e0c7497f87f936dc219b3388bc55ac7",
+      "outputSHA256": "efa1b7f46857f6107c175068104f2206261fca5f6911638a60106749f1f67758",
+      "gzip": true
+    },
+    {
+      "archive": "24冠军组合包",
+      "source": "v_vandal_sight.mdl",
+      "output": "source-assets/october5/champions24-accessories/v_vandal_sight.mdl.gz",
+      "bytes": 790004,
+      "sha256": "d3931a684477b0f6c75b7a20e63cb03e7c70ad94b2de5c34aff94e8ccc2b588b",
+      "outputSHA256": "562b6890c7968e91616f1a748cc2448038a77802f9923e20a99062b15e0067c8",
+      "gzip": true
+    },
+    {
+      "archive": "24冠军组合包",
+      "source": "v_vandal_sight_dummy.mdl",
+      "output": "source-assets/october5/champions24-accessories/v_vandal_sight_dummy.mdl.gz",
+      "bytes": 61136,
+      "sha256": "9195ae73e7ee5a5035287ca68a910bf55d6fc546cdc64afffa83a998f5b7873f",
+      "outputSHA256": "e063b1b26f5913dc05d30410925a2d05309dbbda20fd7aa9501cf1b114be0cd7",
+      "gzip": true
+    },
+    {
+      "archive": "24冠军组合包",
+      "source": "幻影/1.wav",
+      "output": "dist/assets/feedback/champions24phantom/1.wav",
+      "bytes": 269706,
+      "sha256": "131cf5817c23a18f8756e112ad22cbd6b2b02cce79dd854ad1badfd671998fa3",
+      "outputSHA256": "131cf5817c23a18f8756e112ad22cbd6b2b02cce79dd854ad1badfd671998fa3",
+      "gzip": false
+    },
+    {
+      "archive": "24冠军组合包",
+      "source": "幻影/2.wav",
+      "output": "dist/assets/feedback/champions24phantom/2.wav",
+      "bytes": 269706,
+      "sha256": "b7ed93075828dc03723d7dc7c65f1316595e274a5475b4eb1f21ddcb6829a51c",
+      "outputSHA256": "b7ed93075828dc03723d7dc7c65f1316595e274a5475b4eb1f21ddcb6829a51c",
+      "gzip": false
+    },
+    {
+      "archive": "24冠军组合包",
+      "source": "幻影/3.wav",
+      "output": "dist/assets/feedback/champions24phantom/3.wav",
+      "bytes": 269706,
+      "sha256": "ae470bb382a70f6e3e11b842b283a0c58e581f48602e2f0359a4d0b54aa60da5",
+      "outputSHA256": "ae470bb382a70f6e3e11b842b283a0c58e581f48602e2f0359a4d0b54aa60da5",
+      "gzip": false
+    },
+    {
+      "archive": "24冠军组合包",
+      "source": "幻影/4.wav",
+      "output": "dist/assets/feedback/champions24phantom/4.wav",
+      "bytes": 269706,
+      "sha256": "77d5dc170df1a9b5d4b193d5dc6371d02bec12262f1c8ea38a5220ed9682ede4",
+      "outputSHA256": "77d5dc170df1a9b5d4b193d5dc6371d02bec12262f1c8ea38a5220ed9682ede4",
+      "gzip": false
+    },
+    {
+      "archive": "24冠军组合包",
+      "source": "幻影/5.wav",
+      "output": "dist/assets/feedback/champions24phantom/5.wav",
+      "bytes": 542670,
+      "sha256": "48b0d02a79f6c4c935852a5e83db1d2c002fba4c2568390fead8cf0f2077c5fa",
+      "outputSHA256": "48b0d02a79f6c4c935852a5e83db1d2c002fba4c2568390fead8cf0f2077c5fa",
+      "gzip": false
+    },
+    {
+      "archive": "24冠军组合包",
+      "source": "幻影/bg/1.tga",
+      "output": "dist/assets/feedback/champions24phantom/bg/1.png",
+      "bytes": 22,
+      "sha256": "495af5ecb310f9172f4ebeba09f29ee68546e75fa04441cb2d2a47d131193b9b",
+      "outputSHA256": "e497ca2f599a68685b917011c3b77b12b5d5da7fc2b6dcbd43d49517cf409706",
+      "converted": "TGA to RGBA PNG"
+    },
+    {
+      "archive": "24冠军组合包",
+      "source": "幻影/frame1/1.tga",
+      "output": "dist/assets/feedback/champions24phantom/frame1/1.png",
+      "bytes": 180876,
+      "sha256": "040c0d3983059470e1f8b5657c6885a1c4933cf61c304887c0aaf4acbcac5f73",
+      "outputSHA256": "278dae7e5111690ead5ef4cdd963929251a33bdc657ee0efd41be74d94804208",
+      "converted": "TGA to RGBA PNG"
+    },
+    {
+      "archive": "24冠军组合包",
+      "source": "幻影/frame1/2.tga",
+      "output": "dist/assets/feedback/champions24phantom/frame1/2.png",
+      "bytes": 111329,
+      "sha256": "1596722051278d3eeccd1b6973621604bd6093068dd7b913831d8bce209db4f3",
+      "outputSHA256": "aa475898285aacecbebea4f015ff6022b9796d402bac7a697526e1c4638d0d74",
+      "converted": "TGA to RGBA PNG"
+    },
+    {
+      "archive": "24冠军组合包",
+      "source": "幻影/frame1/3.tga",
+      "output": "dist/assets/feedback/champions24phantom/frame1/3.png",
+      "bytes": 141748,
+      "sha256": "e3bdb375021876342552a4f5fda0c0df44f011868ee340a4e5165c7c6da72c04",
+      "outputSHA256": "ea353136eee99baa54b77d2e2d759017afb7928d5aff7c3976b8579ca1c160af",
+      "converted": "TGA to RGBA PNG"
+    },
+    {
+      "archive": "24冠军组合包",
+      "source": "幻影/frame1/4.tga",
+      "output": "dist/assets/feedback/champions24phantom/frame1/4.png",
+      "bytes": 250018,
+      "sha256": "307bcb99e9e3268e423828e63f6e2c571927c33ee668003805d9ac684a13003f",
+      "outputSHA256": "cb30ad1737cee0ae644232c36dc31613ccf699c87ccb43c22c9dc6e487815048",
+      "converted": "TGA to RGBA PNG"
+    },
+    {
+      "archive": "24冠军组合包",
+      "source": "幻影/frame1/5.tga",
+      "output": "dist/assets/feedback/champions24phantom/frame1/5.png",
+      "bytes": 11528,
+      "sha256": "79d4c4c64e4fff72b39fb689a9b6728e5793e392c26e6613fdfb4995bf94545e",
+      "outputSHA256": "58fe9f056f14e399dfe238b8bc435e5c6ffa07828705f77106c4cabe53896238",
+      "converted": "TGA to RGBA PNG"
+    },
+    {
+      "archive": "24冠军组合包",
+      "source": "幻影/icons/headshot.tga",
+      "output": "dist/assets/feedback/champions24phantom/icons/headshot.png",
+      "bytes": 84771,
+      "sha256": "a464352e5eb468e606881eb54418684f4c21e86185f4f3e7d03a99233eca11d5",
+      "outputSHA256": "a2535592741fd0844c42d2b510b8bf3aa29a72505c5b853bc86a0e43df794b1c",
+      "converted": "TGA to RGBA PNG"
+    },
+    {
+      "archive": "24冠军组合包",
+      "source": "幻影/icons/skull.tga",
+      "output": "dist/assets/feedback/champions24phantom/icons/skull.png",
+      "bytes": 22864,
+      "sha256": "2c4a11737afb9cb2b0a28284881490fac00ac2509035b4f874271618f6e50baf",
+      "outputSHA256": "b4fcafd616dbccc9b86ba635c9f9f84febda274968072aba5c70814b445ad27f",
+      "converted": "TGA to RGBA PNG"
+    },
+    {
+      "archive": "24冠军组合包",
+      "source": "幻影/kill/1.tga",
+      "output": "dist/assets/feedback/champions24phantom/kill/1.png",
+      "bytes": 94536,
+      "sha256": "085be88f0cf21c61b32642c0714199f560e2158c9b53ed8d285381a0e577c489",
+      "outputSHA256": "5c7b22f03cb7caba3c152e2fd1af7ddb200ee279e05b21e6d0a58d69b70d04de",
+      "converted": "TGA to RGBA PNG"
+    },
+    {
+      "archive": "24冠军组合包",
+      "source": "幻影/kill/2.tga",
+      "output": "dist/assets/feedback/champions24phantom/kill/2.png",
+      "bytes": 157248,
+      "sha256": "1ac30990877af700309423ccc51c60f303f220d39afb98b493a5e20ad9c3d717",
+      "outputSHA256": "16f2f6b2b0091b4d7d98194319cbf0eec473859ece77d8ade3bf67c92bd99501",
+      "converted": "TGA to RGBA PNG"
+    },
+    {
+      "archive": "24冠军组合包",
+      "source": "幻影/kill/3.tga",
+      "output": "dist/assets/feedback/champions24phantom/kill/3.png",
+      "bytes": 205849,
+      "sha256": "ac8bb832520443f7a555607d3a8cc4512abdc6c88f557e49dd7d2d2817533087",
+      "outputSHA256": "ceffc5bea57930306f45c7cec6424b4a68c6a12a52363cd9bd53c7bb4757867e",
+      "converted": "TGA to RGBA PNG"
+    },
+    {
+      "archive": "24冠军组合包",
+      "source": "幻影/kill/4.tga",
+      "output": "dist/assets/feedback/champions24phantom/kill/4.png",
+      "bytes": 272266,
+      "sha256": "5750657784675676ff5195882d94e0b981f95b8ae2d17371159cc814a3f88447",
+      "outputSHA256": "e491b538b9c5e668336216ee52c41a30e8ae0aa4c9cccf6ce750e0e266b8890b",
+      "converted": "TGA to RGBA PNG"
+    },
+    {
+      "archive": "24冠军组合包",
+      "source": "幻影/kill/5.tga",
+      "output": "dist/assets/feedback/champions24phantom/kill/5.png",
+      "bytes": 340885,
+      "sha256": "693a83a0e80dc21159651543dec5c4b11e94408dc32d6a4219a629746cac3967",
+      "outputSHA256": "ba206bedfad58c49e6dfdd5e8a415087cc7fde79a89991cdcf6ebfab87fc8194",
+      "converted": "TGA to RGBA PNG"
+    },
+    {
+      "archive": "24冠军组合包",
+      "source": "幻影/particles1/1.tga",
+      "output": "dist/assets/feedback/champions24phantom/particles1/1.png",
+      "bytes": 250018,
+      "sha256": "04e5c2a9d731f558c67eab69a78ff765f29dd8663a5e8a2ca21ae22a08d40bad",
+      "outputSHA256": "d33335405f19df7c2bdf915507fa0da2f24d054ea2eea56e8e5753d5433ed0af",
+      "converted": "TGA to RGBA PNG"
+    },
+    {
+      "archive": "24冠军组合包",
+      "source": "幻影/particles1/2.tga",
+      "output": "dist/assets/feedback/champions24phantom/particles1/2.png",
+      "bytes": 250018,
+      "sha256": "13a8222867e7b07ba745c1617e23a64e1f68acd883cc733b8229b02c70b6428d",
+      "outputSHA256": "6b16666d97ae1717588c7450728ac9ceb3f33843c24ed02a86cfe584477237ad",
+      "converted": "TGA to RGBA PNG"
+    },
+    {
+      "archive": "24冠军组合包",
+      "source": "幻影/particles1/3.tga",
+      "output": "dist/assets/feedback/champions24phantom/particles1/3.png",
+      "bytes": 5602,
+      "sha256": "d773f78ec93e4ca194801a5db6c9359037308ee73c08cea6e532f18cd92efd00",
+      "outputSHA256": "6abe5d3f1686edc3df0b0f964728c03d2cd9d0c7f3b48df4dfd53631b7a9a033",
+      "converted": "TGA to RGBA PNG"
+    },
+    {
+      "archive": "24冠军组合包",
+      "source": "幻影/particles1/4.tga",
+      "output": "dist/assets/feedback/champions24phantom/particles1/4.png",
+      "bytes": 250018,
+      "sha256": "307bcb99e9e3268e423828e63f6e2c571927c33ee668003805d9ac684a13003f",
+      "outputSHA256": "cb30ad1737cee0ae644232c36dc31613ccf699c87ccb43c22c9dc6e487815048",
+      "converted": "TGA to RGBA PNG"
+    },
+    {
+      "archive": "24冠军组合包",
+      "source": "幻影/particles1/5.tga",
+      "output": "dist/assets/feedback/champions24phantom/particles1/5.png",
+      "bytes": 11528,
+      "sha256": "79d4c4c64e4fff72b39fb689a9b6728e5793e392c26e6613fdfb4995bf94545e",
+      "outputSHA256": "58fe9f056f14e399dfe238b8bc435e5c6ffa07828705f77106c4cabe53896238",
+      "converted": "TGA to RGBA PNG"
+    },
+    {
+      "archive": "24冠军组合包",
+      "source": "幻影/particles1/6.tga",
+      "output": "dist/assets/feedback/champions24phantom/particles1/6.png",
+      "bytes": 2951,
+      "sha256": "c67081121c8522ae4a473b3426a82b2e53b70a6f59bd4e3c38d46df7f886f11d",
+      "outputSHA256": "487c1ba6173827f721468ee3c49e2a03790dfe8ac786e4d966934a24aaae0de6",
+      "converted": "TGA to RGBA PNG"
+    },
+    {
+      "archive": "24冠军组合包",
+      "source": "幻影/particles2/1.tga",
+      "output": "dist/assets/feedback/champions24phantom/particles2/1.png",
+      "bytes": 115618,
+      "sha256": "05f6ddb6b0b6ea69d407e0ddf6df7ee07af6f2b208c959cb4e107338490fd405",
+      "outputSHA256": "65e0e677117fedf5db37bfd53e22887bf23a0dd8dbbdfc3b77cce2bdb004b544",
+      "converted": "TGA to RGBA PNG"
+    },
+    {
+      "archive": "24冠军组合包",
+      "source": "幻影/particles2/10.tga",
+      "output": "dist/assets/feedback/champions24phantom/particles2/10.png",
+      "bytes": 115618,
+      "sha256": "0cf81831a211a586c4e0a2ed822af6a0263a1aced7b80a123f82ea4b6fe200e2",
+      "outputSHA256": "2347f52edf2f06f09304694a4fbd90ac9cf92a63e9167b0326471865300bc085",
+      "converted": "TGA to RGBA PNG"
+    },
+    {
+      "archive": "24冠军组合包",
+      "source": "幻影/particles2/11.tga",
+      "output": "dist/assets/feedback/champions24phantom/particles2/11.png",
+      "bytes": 115618,
+      "sha256": "a1f4169e86c5069118b19bc06eaf2331e1acc7f0a6977c9d26c7a3453f2afa35",
+      "outputSHA256": "18a7f3ab40ce7362c650f65e354cb35051aa9b3b416b9b4a8f57086ef78eecb7",
+      "converted": "TGA to RGBA PNG"
+    },
+    {
+      "archive": "24冠军组合包",
+      "source": "幻影/particles2/12.tga",
+      "output": "dist/assets/feedback/champions24phantom/particles2/12.png",
+      "bytes": 115618,
+      "sha256": "fd4bc93461ca204216f479dccbfd3779c02ae4a96abf764dc386c01f15986831",
+      "outputSHA256": "176780f46eb4095df452aaf498c60319c06ed4ff55a29dda203b88c68fb07354",
+      "converted": "TGA to RGBA PNG"
+    },
+    {
+      "archive": "24冠军组合包",
+      "source": "幻影/particles2/13.tga",
+      "output": "dist/assets/feedback/champions24phantom/particles2/13.png",
+      "bytes": 22,
+      "sha256": "495af5ecb310f9172f4ebeba09f29ee68546e75fa04441cb2d2a47d131193b9b",
+      "outputSHA256": "e497ca2f599a68685b917011c3b77b12b5d5da7fc2b6dcbd43d49517cf409706",
+      "converted": "TGA to RGBA PNG"
+    },
+    {
+      "archive": "24冠军组合包",
+      "source": "幻影/particles2/2.tga",
+      "output": "dist/assets/feedback/champions24phantom/particles2/2.png",
+      "bytes": 115618,
+      "sha256": "b095913b8924b5037eb8cc0134326d384aea3b04bd9dd5a38377f282e82e91f7",
+      "outputSHA256": "fcbc5a1db700ba1aa3a1b20f2b504d949e4f3c4f8045aacb7b3b2e220da48d23",
+      "converted": "TGA to RGBA PNG"
+    },
+    {
+      "archive": "24冠军组合包",
+      "source": "幻影/particles2/3.tga",
+      "output": "dist/assets/feedback/champions24phantom/particles2/3.png",
+      "bytes": 115618,
+      "sha256": "e8a9108ecf2d965644107a428fe0bd4c2b1061adab5d21345e00b2ca3ab8be6a",
+      "outputSHA256": "bfa071f624eb8a2842ee3a641f39a3ac424d6f35b3ac85925fe5b33f81267668",
+      "converted": "TGA to RGBA PNG"
+    },
+    {
+      "archive": "24冠军组合包",
+      "source": "幻影/particles2/4.tga",
+      "output": "dist/assets/feedback/champions24phantom/particles2/4.png",
+      "bytes": 115618,
+      "sha256": "0e5d844a04de20f6d21b760c666ae12868f5cabba2a1623c87f8129b01035a9f",
+      "outputSHA256": "c12cb3bc787d5a65243e12f4840f837bbdb2b05890dcc684b4db68ec6f8a907b",
+      "converted": "TGA to RGBA PNG"
+    },
+    {
+      "archive": "24冠军组合包",
+      "source": "幻影/particles2/5.tga",
+      "output": "dist/assets/feedback/champions24phantom/particles2/5.png",
+      "bytes": 115618,
+      "sha256": "33ee3afcbe3264715f4294c0f447eb15cb1341bc3fd87e24f79c92fd3f6c233d",
+      "outputSHA256": "15d27bdeda8c27858a3fa4e3334fcec6966da2d424fdac88435155adcbd28902",
+      "converted": "TGA to RGBA PNG"
+    },
+    {
+      "archive": "24冠军组合包",
+      "source": "幻影/particles2/6.tga",
+      "output": "dist/assets/feedback/champions24phantom/particles2/6.png",
+      "bytes": 115618,
+      "sha256": "d063063a64e52473ce964f959c347f8fec35304d7fd5c877c5152f2b4bb77820",
+      "outputSHA256": "4e34dc3998adfa7a024d532b620e86547b36bf856d7caa28a6f91c3044ce4494",
+      "converted": "TGA to RGBA PNG"
+    },
+    {
+      "archive": "24冠军组合包",
+      "source": "幻影/particles2/7.tga",
+      "output": "dist/assets/feedback/champions24phantom/particles2/7.png",
+      "bytes": 115618,
+      "sha256": "ae2c12d1e23bbee9ff046aeedd9b27e88d43fc5669075d1629dfe2062574d02f",
+      "outputSHA256": "2b1c98cc8d812239289a61a9352529aa3b1b65b53942d1a3c9a16ca0da02ba95",
+      "converted": "TGA to RGBA PNG"
+    },
+    {
+      "archive": "24冠军组合包",
+      "source": "幻影/particles2/8.tga",
+      "output": "dist/assets/feedback/champions24phantom/particles2/8.png",
+      "bytes": 115618,
+      "sha256": "d7c3f102d5818b3b3fed2739a0c54eb008b46d0ecbf625db4f13ac33a1438ab2",
+      "outputSHA256": "8ee85a34a9f14f5a023185050d9938b926e93a1c046a6599d7012bcb2da1a368",
+      "converted": "TGA to RGBA PNG"
+    },
+    {
+      "archive": "24冠军组合包",
+      "source": "幻影/particles2/9.tga",
+      "output": "dist/assets/feedback/champions24phantom/particles2/9.png",
+      "bytes": 115618,
+      "sha256": "5912c0e0bb8cdc45bec4e5abab9d83141e6471a750c4e777ceb33356e9e9512f",
+      "outputSHA256": "c34ac9a6de73a7a79e7ccecff0a69ad5f5318c6535c3ea2327de984d5ddbec0c",
+      "converted": "TGA to RGBA PNG"
+    },
+    {
+      "archive": "VAL暗域界碑幻影",
+      "source": "VAL暗域界碑幻影/VAL暗域界碑幻影/models/白色/v_phantom.mdl",
+      "output": "source-assets/october5/abyssal-invalid/gign-eb553da5dcf2f41b.mdl.gz",
+      "bytes": 1154028,
+      "sha256": "eb553da5dcf2f41b18a42df679cb81ef363a84b48c3d62cd2448581522703cc2",
+      "outputSHA256": "f88168576b56a72706316e6d489061ac729dd34fc46e6192ee93f8bdcfce2949",
+      "gzip": true
+    },
+    {
+      "archive": "VAL暗域界碑幻影",
+      "source": "VAL暗域界碑幻影/VAL暗域界碑幻影/models/紫色/v_phantom.mdl",
+      "output": "source-assets/october5/abyssal-invalid/gign-eb553da5dcf2f41b.mdl.gz",
+      "bytes": 1154028,
+      "sha256": "eb553da5dcf2f41b18a42df679cb81ef363a84b48c3d62cd2448581522703cc2",
+      "outputSHA256": "f88168576b56a72706316e6d489061ac729dd34fc46e6192ee93f8bdcfce2949",
+      "gzip": true
+    },
+    {
+      "archive": "VAL暗域界碑幻影",
+      "source": "VAL暗域界碑幻影/VAL暗域界碑幻影/models/红色/v_phantom.mdl",
+      "output": "source-assets/october5/abyssal-invalid/gign-eb553da5dcf2f41b.mdl.gz",
+      "bytes": 1154028,
+      "sha256": "eb553da5dcf2f41b18a42df679cb81ef363a84b48c3d62cd2448581522703cc2",
+      "outputSHA256": "f88168576b56a72706316e6d489061ac729dd34fc46e6192ee93f8bdcfce2949",
+      "gzip": true
+    },
+    {
+      "archive": "VAL暗域界碑幻影",
+      "source": "VAL暗域界碑幻影/VAL暗域界碑幻影/models/黄色/v_phantom.mdl",
+      "output": "source-assets/october5/abyssal-invalid/gign-eb553da5dcf2f41b.mdl.gz",
+      "bytes": 1154028,
+      "sha256": "eb553da5dcf2f41b18a42df679cb81ef363a84b48c3d62cd2448581522703cc2",
+      "outputSHA256": "f88168576b56a72706316e6d489061ac729dd34fc46e6192ee93f8bdcfce2949",
+      "gzip": true
+    },
+    {
+      "archive": "VAL暗域界碑幻影",
+      "source": "VAL暗域界碑幻影/VAL暗域界碑幻影/sound/weapons/valorant/Abyssal Obelisk/driaw1.wav",
+      "output": "dist/assets/feedback/abyssal-audio/driaw1.wav",
+      "bytes": 51346,
+      "sha256": "9d8c5f3ed670308e49cac4803a1c42f4c41b5341e55d36cfd04ce28c41e41398",
+      "outputSHA256": "9d8c5f3ed670308e49cac4803a1c42f4c41b5341e55d36cfd04ce28c41e41398",
+      "gzip": false
+    },
+    {
+      "archive": "VAL暗域界碑幻影",
+      "source": "VAL暗域界碑幻影/VAL暗域界碑幻影/sound/weapons/valorant/Abyssal Obelisk/driaw2.wav",
+      "output": "dist/assets/feedback/abyssal-audio/driaw2.wav",
+      "bytes": 83682,
+      "sha256": "30798b0edd522569f43d8f3dc7832cfdae0ac372303502e9a88d8d1d52f86f72",
+      "outputSHA256": "30798b0edd522569f43d8f3dc7832cfdae0ac372303502e9a88d8d1d52f86f72",
+      "gzip": false
+    },
+    {
+      "archive": "VAL暗域界碑幻影",
+      "source": "VAL暗域界碑幻影/VAL暗域界碑幻影/sound/weapons/valorant/Abyssal Obelisk/insipect_2.wav",
+      "output": "dist/assets/feedback/abyssal-audio/insipect_2.wav",
+      "bytes": 298692,
+      "sha256": "af35b3d7e6c5e79cc1047a5ec4fcbb8d481d645194f995b772b557fa861baccb",
+      "outputSHA256": "af35b3d7e6c5e79cc1047a5ec4fcbb8d481d645194f995b772b557fa861baccb",
+      "gzip": false
+    },
+    {
+      "archive": "VAL暗域界碑幻影",
+      "source": "VAL暗域界碑幻影/VAL暗域界碑幻影/sound/weapons/valorant/Abyssal Obelisk/inspeict_1.wav",
+      "output": "dist/assets/feedback/abyssal-audio/inspeict_1.wav",
+      "bytes": 216446,
+      "sha256": "090e8ee6fd86d2c1754a09607e8d97a4e5066198e14b1d67e62804cd754eef87",
+      "outputSHA256": "090e8ee6fd86d2c1754a09607e8d97a4e5066198e14b1d67e62804cd754eef87",
+      "gzip": false
+    },
+    {
+      "archive": "VAL暗域界碑幻影",
+      "source": "VAL暗域界碑幻影/VAL暗域界碑幻影/sound/weapons/valorant/Abyssal Obelisk/relioad_in.wav",
+      "output": "dist/assets/feedback/abyssal-audio/relioad_in.wav",
+      "bytes": 112836,
+      "sha256": "825a5cf9040ef754bd72d5a131ae936b7bf8d9129cf09fe248c3a14c02469e3f",
+      "outputSHA256": "825a5cf9040ef754bd72d5a131ae936b7bf8d9129cf09fe248c3a14c02469e3f",
+      "gzip": false
+    },
+    {
+      "archive": "VAL暗域界碑幻影",
+      "source": "VAL暗域界碑幻影/VAL暗域界碑幻影/sound/weapons/valorant/Abyssal Obelisk/rieload_out.wav",
+      "output": "dist/assets/feedback/abyssal-audio/rieload_out.wav",
+      "bytes": 99486,
+      "sha256": "e91b6163f2b4d01f9405a1e445f56133c686d9c73a65dea8b2ab4072c44b59ba",
+      "outputSHA256": "e91b6163f2b4d01f9405a1e445f56133c686d9c73a65dea8b2ab4072c44b59ba",
+      "gzip": false
+    }
+  ],
+  "actions": [
+    {
+      "key": "singularitybutterfly",
+      "variant": "base",
+      "name": "Shezo",
+      "frames": 2,
+      "fps": 60.0,
+      "origin": "original IDST frames",
+      "missingAudio": []
+    },
+    {
+      "key": "singularitybutterfly",
+      "variant": "base",
+      "name": "slash1",
+      "frames": 141,
+      "fps": 60.0,
+      "origin": "original IDST frames",
+      "missingAudio": [
+        "weapons\\valorant\\singknife/left.wav",
+        "weapons\\valorant\\singknife/left1.wav",
+        "weapons\\valorant\\singknife/left2.wav"
+      ]
+    },
+    {
+      "key": "singularitybutterfly",
+      "variant": "base",
+      "name": "slash1_fast",
+      "frames": 141,
+      "fps": 70.0,
+      "origin": "original IDST frames",
+      "missingAudio": [
+        "weapons\\valorant\\singknife/left.wav",
+        "weapons\\valorant\\singknife/left1.wav",
+        "weapons\\valorant\\singknife/left2.wav"
+      ]
+    },
+    {
+      "key": "singularitybutterfly",
+      "variant": "base",
+      "name": "slash2",
+      "frames": 141,
+      "fps": 60.0,
+      "origin": "original IDST frames",
+      "missingAudio": [
+        "weapons\\valorant\\singknife/right.wav",
+        "weapons\\valorant\\singknife/right1.wav",
+        "weapons\\valorant\\singknife/right2.wav"
+      ]
+    },
+    {
+      "key": "singularitybutterfly",
+      "variant": "base",
+      "name": "slash2_fast",
+      "frames": 141,
+      "fps": 70.0,
+      "origin": "original IDST frames",
+      "missingAudio": [
+        "weapons\\valorant\\singknife/right.wav",
+        "weapons\\valorant\\singknife/right1.wav",
+        "weapons\\valorant\\singknife/right2.wav"
+      ]
+    },
+    {
+      "key": "singularitybutterfly",
+      "variant": "base",
+      "name": "draw",
+      "frames": 93,
+      "fps": 60.0,
+      "origin": "original IDST frames",
+      "missingAudio": [
+        "weapons\\valorant\\singknife/draw1.wav",
+        "weapons\\valorant\\singknife/draw2.wav"
+      ]
+    },
+    {
+      "key": "singularitybutterfly",
+      "variant": "base",
+      "name": "draw_fast",
+      "frames": 93,
+      "fps": 70.0,
+      "origin": "original IDST frames",
+      "missingAudio": [
+        "weapons\\valorant\\singknife/draw1.wav",
+        "weapons\\valorant\\singknife/draw2.wav"
+      ]
+    },
+    {
+      "key": "singularitybutterfly",
+      "variant": "base",
+      "name": "stab",
+      "frames": 93,
+      "fps": 30.0,
+      "origin": "original IDST frames",
+      "missingAudio": [
+        "weapons\\valorant\\singknife/1.wav",
+        "weapons\\valorant\\singknife/2.wav",
+        "weapons\\valorant\\singknife/3.wav",
+        "weapons\\valorant\\singknife/4.wav"
+      ]
+    },
+    {
+      "key": "singularitybutterfly",
+      "variant": "base",
+      "name": "stab_fast",
+      "frames": 93,
+      "fps": 35.0,
+      "origin": "original IDST frames",
+      "missingAudio": [
+        "weapons\\valorant\\singknife/1.wav",
+        "weapons\\valorant\\singknife/2.wav",
+        "weapons\\valorant\\singknife/3.wav",
+        "weapons\\valorant\\singknife/4.wav"
+      ]
+    },
+    {
+      "key": "singularitybutterfly",
+      "variant": "base",
+      "name": "inspect_1",
+      "frames": 168,
+      "fps": 30.0,
+      "origin": "original IDST frames",
+      "missingAudio": [
+        "weapons\\valorant\\singknife/ins1.wav",
+        "weapons\\valorant\\singknife/ins2.wav",
+        "weapons\\valorant\\singknife/ins3.wav"
+      ]
+    },
+    {
+      "key": "singularitybutterfly",
+      "variant": "base",
+      "name": "inspect_2",
+      "frames": 168,
+      "fps": 30.0,
+      "origin": "original IDST frames",
+      "missingAudio": [
+        "weapons\\valorant\\singknife/ins1.wav",
+        "weapons\\valorant\\singknife/ins2.wav",
+        "weapons\\valorant\\singknife/ins3.wav"
+      ]
+    },
+    {
+      "key": "dolmirvandal",
+      "variant": "base",
+      "name": "xeiv & shezo",
+      "frames": 1,
+      "fps": 60.0,
+      "origin": "original IDST frames",
+      "missingAudio": []
+    },
+    {
+      "key": "dolmirvandal",
+      "variant": "base",
+      "name": "zoom_idle",
+      "frames": 2,
+      "fps": 60.0,
+      "origin": "original IDST frames",
+      "missingAudio": []
+    },
+    {
+      "key": "dolmirvandal",
+      "variant": "base",
+      "name": "reload",
+      "frames": 177,
+      "fps": 60.0,
+      "origin": "original IDST frames",
+      "missingAudio": [
+        "weapons\\valorant\\dolmirevenge/Reload_Mvt_A_Ele.wav",
+        "weapons\\valorant\\dolmirevenge/MagOut_Element.wav",
+        "weapons\\valorant\\dolmirevenge/MagOut.wav",
+        "weapons\\valorant\\dolmirevenge/MagIn_Start.wav",
+        "weapons\\valorant\\dolmirevenge/MagIn_End_Ele.wav",
+        "weapons\\valorant\\dolmirevenge/MagIn_End.wav",
+        "weapons\\valorant\\dolmirevenge/Back.wav",
+        "weapons\\valorant\\dolmirevenge/Fwd.wav",
+        "weapons\\valorant\\dolmirevenge/Grab.wav"
+      ]
+    },
+    {
+      "key": "dolmirvandal",
+      "variant": "base",
+      "name": "reload_fast",
+      "frames": 177,
+      "fps": 90.0,
+      "origin": "original IDST frames",
+      "missingAudio": [
+        "weapons\\valorant\\dolmirevenge/Reload_Mvt_A_Ele.wav",
+        "weapons\\valorant\\dolmirevenge/MagOut_Element.wav",
+        "weapons\\valorant\\dolmirevenge/MagOut.wav",
+        "weapons\\valorant\\dolmirevenge/MagIn_Start.wav",
+        "weapons\\valorant\\dolmirevenge/MagIn_End_Ele.wav",
+        "weapons\\valorant\\dolmirevenge/MagIn_End.wav",
+        "weapons\\valorant\\dolmirevenge/Back.wav",
+        "weapons\\valorant\\dolmirevenge/Fwd.wav",
+        "weapons\\valorant\\dolmirevenge/Grab.wav"
+      ]
+    },
+    {
+      "key": "dolmirvandal",
+      "variant": "base",
+      "name": "draw",
+      "frames": 100,
+      "fps": 60.0,
+      "origin": "original IDST frames",
+      "missingAudio": [
+        "weapons\\valorant\\dolmirevenge/Equip.wav",
+        "weapons\\valorant\\dolmirevenge/Chg_Hndl_Back.wav",
+        "weapons\\valorant\\dolmirevenge/Chg_Hndl_Fwd.wav",
+        "weapons\\valorant\\dolmirevenge/Grab.wav"
+      ]
+    },
+    {
+      "key": "dolmirvandal",
+      "variant": "base",
+      "name": "draw_fast",
+      "frames": 100,
+      "fps": 90.0,
+      "origin": "original IDST frames",
+      "missingAudio": [
+        "weapons\\valorant\\dolmirevenge/Equip.wav",
+        "weapons\\valorant\\dolmirevenge/Chg_Hndl_Back.wav",
+        "weapons\\valorant\\dolmirevenge/Chg_Hndl_Fwd.wav",
+        "weapons\\valorant\\dolmirevenge/Grab.wav"
+      ]
+    },
+    {
+      "key": "dolmirvandal",
+      "variant": "base",
+      "name": "shoot1",
+      "frames": 20,
+      "fps": 60.0,
+      "origin": "original IDST frames",
+      "missingAudio": []
+    },
+    {
+      "key": "dolmirvandal",
+      "variant": "base",
+      "name": "shoot_fast",
+      "frames": 20,
+      "fps": 90.0,
+      "origin": "original IDST frames",
+      "missingAudio": []
+    },
+    {
+      "key": "dolmirvandal",
+      "variant": "base",
+      "name": "zoom_shoot",
+      "frames": 20,
+      "fps": 60.0,
+      "origin": "original IDST frames",
+      "missingAudio": []
+    },
+    {
+      "key": "dolmirvandal",
+      "variant": "base",
+      "name": "zoom_shoot_fast",
+      "frames": 20,
+      "fps": 90.0,
+      "origin": "original IDST frames",
+      "missingAudio": []
+    },
+    {
+      "key": "dolmirvandal",
+      "variant": "base",
+      "name": "inspect",
+      "frames": 68,
+      "fps": 8.0,
+      "origin": "original IDST frames",
+      "missingAudio": [
+        "weapons\\valorant\\dolmirevenge/Inspect_Mvt_A.wav",
+        "weapons\\valorant\\dolmirevenge/Inspect_Elem_A.wav",
+        "weapons\\valorant\\dolmirevenge/Inspect_Elem_B.wav",
+        "weapons\\valorant\\dolmirevenge/Inspect_Elem_C.wav",
+        "weapons\\valorant\\dolmirevenge/Inspect_Elem_D.wav",
+        "weapons\\valorant\\dolmirevenge/Grab.wav",
+        "weapons\\valorant\\dolmirevenge/Inspect_Elem_E.wav",
+        "weapons\\valorant\\dolmirevenge/Inspect_Elem_F.wav"
+      ]
+    },
+    {
+      "key": "dolmirvandal",
+      "variant": "base",
+      "name": "inspect_fast",
+      "frames": 68,
+      "fps": 8.0,
+      "origin": "original IDST frames",
+      "missingAudio": [
+        "weapons\\valorant\\dolmirevenge/Inspect_Mvt_A.wav",
+        "weapons\\valorant\\dolmirevenge/Inspect_Elem_A.wav",
+        "weapons\\valorant\\dolmirevenge/Inspect_Elem_B.wav",
+        "weapons\\valorant\\dolmirevenge/Inspect_Elem_C.wav",
+        "weapons\\valorant\\dolmirevenge/Inspect_Elem_D.wav",
+        "weapons\\valorant\\dolmirevenge/Grab.wav",
+        "weapons\\valorant\\dolmirevenge/Inspect_Elem_E.wav",
+        "weapons\\valorant\\dolmirevenge/Inspect_Elem_F.wav"
+      ]
+    },
+    {
+      "key": "protocol781phantom",
+      "variant": "base",
+      "name": "CJPZIP",
+      "frames": 2,
+      "fps": 60.0,
+      "origin": "original IDST frames",
+      "missingAudio": []
+    },
+    {
+      "key": "protocol781phantom",
+      "variant": "base",
+      "name": "zoom_idle",
+      "frames": 2,
+      "fps": 60.0,
+      "origin": "original IDST frames",
+      "missingAudio": []
+    },
+    {
+      "key": "protocol781phantom",
+      "variant": "base",
+      "name": "shoot1",
+      "frames": 20,
+      "fps": 60.0,
+      "origin": "original IDST frames",
+      "missingAudio": []
+    },
+    {
+      "key": "protocol781phantom",
+      "variant": "base",
+      "name": "shoot2",
+      "frames": 20,
+      "fps": 60.0,
+      "origin": "original IDST frames",
+      "missingAudio": []
+    },
+    {
+      "key": "protocol781phantom",
+      "variant": "base",
+      "name": "zoom_shoot",
+      "frames": 20,
+      "fps": 60.0,
+      "origin": "original IDST frames",
+      "missingAudio": []
+    },
+    {
+      "key": "protocol781phantom",
+      "variant": "base",
+      "name": "zoom_shoot_fast",
+      "frames": 20,
+      "fps": 90.0,
+      "origin": "original IDST frames",
+      "missingAudio": []
+    },
+    {
+      "key": "protocol781phantom",
+      "variant": "base",
+      "name": "reload",
+      "frames": 176,
+      "fps": 57.0,
+      "origin": "original IDST frames",
+      "missingAudio": [
+        "weapons/valorant/protocolphantom/reload_mvt_a.wav",
+        "weapons/valorant/protocolphantom/reload_elmt_a.wav",
+        "weapons/valorant/protocolphantom/mag_out.wav",
+        "weapons/valorant/protocolphantom/mag_in.wav",
+        "weapons/valorant/protocolphantom/reload_elmt_b.wav",
+        "weapons/valorant/protocolphantom/chg_hnd_back.wav",
+        "weapons/valorant/protocolphantom/equip.wav",
+        "weapons/valorant/protocolphantom/chg_hnd_fwd.wav",
+        "weapons/valorant/protocolphantom/reload_mvt_grab.wav"
+      ]
+    },
+    {
+      "key": "protocol781phantom",
+      "variant": "base",
+      "name": "reload2",
+      "frames": 176,
+      "fps": 57.0,
+      "origin": "original IDST frames",
+      "missingAudio": [
+        "weapons/valorant/protocolphantom/reload_mvt_a.wav",
+        "weapons/valorant/protocolphantom/reload_elmt_a.wav",
+        "weapons/valorant/protocolphantom/mag_out.wav",
+        "weapons/valorant/protocolphantom/mag_in.wav",
+        "weapons/valorant/protocolphantom/reload_elmt_b.wav",
+        "weapons/valorant/protocolphantom/chg_hnd_back.wav",
+        "weapons/valorant/protocolphantom/equip.wav",
+        "weapons/valorant/protocolphantom/chg_hnd_fwd.wav",
+        "weapons/valorant/protocolphantom/reload_mvt_grab.wav"
+      ]
+    },
+    {
+      "key": "protocol781phantom",
+      "variant": "base",
+      "name": "draw",
+      "frames": 100,
+      "fps": 60.0,
+      "origin": "original IDST frames",
+      "missingAudio": [
+        "weapons/valorant/protocolphantom/equip_mvt_a.wav",
+        "weapons/valorant/protocolphantom/equip_elmt.wav",
+        "weapons/valorant/protocolphantom/chg_hnd_back.wav",
+        "weapons/valorant/protocolphantom/chg_hnd_fwd.wav",
+        "weapons/valorant/protocolphantom/grab.wav"
+      ]
+    },
+    {
+      "key": "protocol781phantom",
+      "variant": "base",
+      "name": "draw2",
+      "frames": 100,
+      "fps": 60.0,
+      "origin": "original IDST frames",
+      "missingAudio": [
+        "weapons/valorant/protocolphantom/equip_mvt_a.wav",
+        "weapons/valorant/protocolphantom/equip_elmt.wav",
+        "weapons/valorant/protocolphantom/chg_hnd_back.wav",
+        "weapons/valorant/protocolphantom/chg_hnd_fwd.wav",
+        "weapons/valorant/protocolphantom/grab.wav"
+      ]
+    },
+    {
+      "key": "protocol781phantom",
+      "variant": "base",
+      "name": "inspect",
+      "frames": 250,
+      "fps": 60.0,
+      "origin": "original IDST frames",
+      "missingAudio": [
+        "weapons/valorant/protocolphantom/protinspect.wav"
+      ]
+    },
+    {
+      "key": "protocol781phantom",
+      "variant": "base",
+      "name": "inspect2",
+      "frames": 250,
+      "fps": 60.0,
+      "origin": "original IDST frames",
+      "missingAudio": [
+        "weapons/valorant/protocolphantom/protinspect.wav"
+      ]
+    },
+    {
+      "key": "protocol781phantom",
+      "variant": "red",
+      "name": "CJPZIP",
+      "frames": 2,
+      "fps": 60.0,
+      "origin": "original IDST frames",
+      "missingAudio": []
+    },
+    {
+      "key": "protocol781phantom",
+      "variant": "red",
+      "name": "zoom_idle",
+      "frames": 2,
+      "fps": 60.0,
+      "origin": "original IDST frames",
+      "missingAudio": []
+    },
+    {
+      "key": "protocol781phantom",
+      "variant": "red",
+      "name": "shoot1",
+      "frames": 20,
+      "fps": 60.0,
+      "origin": "original IDST frames",
+      "missingAudio": []
+    },
+    {
+      "key": "protocol781phantom",
+      "variant": "red",
+      "name": "shoot2",
+      "frames": 20,
+      "fps": 60.0,
+      "origin": "original IDST frames",
+      "missingAudio": []
+    },
+    {
+      "key": "protocol781phantom",
+      "variant": "red",
+      "name": "zoom_shoot",
+      "frames": 20,
+      "fps": 60.0,
+      "origin": "original IDST frames",
+      "missingAudio": []
+    },
+    {
+      "key": "protocol781phantom",
+      "variant": "red",
+      "name": "zoom_shoot_fast",
+      "frames": 20,
+      "fps": 90.0,
+      "origin": "original IDST frames",
+      "missingAudio": []
+    },
+    {
+      "key": "protocol781phantom",
+      "variant": "red",
+      "name": "reload",
+      "frames": 176,
+      "fps": 57.0,
+      "origin": "original IDST frames",
+      "missingAudio": [
+        "weapons/valorant/protocolphantom/reload_mvt_a.wav",
+        "weapons/valorant/protocolphantom/reload_elmt_a.wav",
+        "weapons/valorant/protocolphantom/mag_out.wav",
+        "weapons/valorant/protocolphantom/mag_in.wav",
+        "weapons/valorant/protocolphantom/reload_elmt_b.wav",
+        "weapons/valorant/protocolphantom/chg_hnd_back.wav",
+        "weapons/valorant/protocolphantom/equip.wav",
+        "weapons/valorant/protocolphantom/chg_hnd_fwd.wav",
+        "weapons/valorant/protocolphantom/reload_mvt_grab.wav"
+      ]
+    },
+    {
+      "key": "protocol781phantom",
+      "variant": "red",
+      "name": "reload2",
+      "frames": 176,
+      "fps": 57.0,
+      "origin": "original IDST frames",
+      "missingAudio": [
+        "weapons/valorant/protocolphantom/reload_mvt_a.wav",
+        "weapons/valorant/protocolphantom/reload_elmt_a.wav",
+        "weapons/valorant/protocolphantom/mag_out.wav",
+        "weapons/valorant/protocolphantom/mag_in.wav",
+        "weapons/valorant/protocolphantom/reload_elmt_b.wav",
+        "weapons/valorant/protocolphantom/chg_hnd_back.wav",
+        "weapons/valorant/protocolphantom/equip.wav",
+        "weapons/valorant/protocolphantom/chg_hnd_fwd.wav",
+        "weapons/valorant/protocolphantom/reload_mvt_grab.wav"
+      ]
+    },
+    {
+      "key": "protocol781phantom",
+      "variant": "red",
+      "name": "draw",
+      "frames": 100,
+      "fps": 60.0,
+      "origin": "original IDST frames",
+      "missingAudio": [
+        "weapons/valorant/protocolphantom/equip_mvt_a.wav",
+        "weapons/valorant/protocolphantom/equip_elmt.wav",
+        "weapons/valorant/protocolphantom/chg_hnd_back.wav",
+        "weapons/valorant/protocolphantom/chg_hnd_fwd.wav",
+        "weapons/valorant/protocolphantom/grab.wav"
+      ]
+    },
+    {
+      "key": "protocol781phantom",
+      "variant": "red",
+      "name": "draw2",
+      "frames": 100,
+      "fps": 60.0,
+      "origin": "original IDST frames",
+      "missingAudio": [
+        "weapons/valorant/protocolphantom/equip_mvt_a.wav",
+        "weapons/valorant/protocolphantom/equip_elmt.wav",
+        "weapons/valorant/protocolphantom/chg_hnd_back.wav",
+        "weapons/valorant/protocolphantom/chg_hnd_fwd.wav",
+        "weapons/valorant/protocolphantom/grab.wav"
+      ]
+    },
+    {
+      "key": "protocol781phantom",
+      "variant": "red",
+      "name": "inspect",
+      "frames": 250,
+      "fps": 60.0,
+      "origin": "original IDST frames",
+      "missingAudio": [
+        "weapons/valorant/protocolphantom/protinspect.wav"
+      ]
+    },
+    {
+      "key": "protocol781phantom",
+      "variant": "red",
+      "name": "inspect2",
+      "frames": 250,
+      "fps": 60.0,
+      "origin": "original IDST frames",
+      "missingAudio": [
+        "weapons/valorant/protocolphantom/protinspect.wav"
+      ]
+    },
+    {
+      "key": "champions24phantom",
+      "variant": "base",
+      "name": "Shezo_1",
+      "frames": 83,
+      "fps": 60.0,
+      "origin": "original IDST frames",
+      "missingAudio": []
+    },
+    {
+      "key": "champions24phantom",
+      "variant": "base",
+      "name": "zoom_idle",
+      "frames": 83,
+      "fps": 60.0,
+      "origin": "original IDST frames",
+      "missingAudio": []
+    },
+    {
+      "key": "champions24phantom",
+      "variant": "base",
+      "name": "shoot_1",
+      "frames": 20,
+      "fps": 60.0,
+      "origin": "original IDST frames",
+      "missingAudio": []
+    },
+    {
+      "key": "champions24phantom",
+      "variant": "base",
+      "name": "shoot_2",
+      "frames": 20,
+      "fps": 60.0,
+      "origin": "original IDST frames",
+      "missingAudio": []
+    },
+    {
+      "key": "champions24phantom",
+      "variant": "base",
+      "name": "zoom_shoot",
+      "frames": 20,
+      "fps": 60.0,
+      "origin": "original IDST frames",
+      "missingAudio": []
+    },
+    {
+      "key": "champions24phantom",
+      "variant": "base",
+      "name": "zoom_shoot_fast",
+      "frames": 20,
+      "fps": 90.0,
+      "origin": "original IDST frames",
+      "missingAudio": []
+    },
+    {
+      "key": "champions24phantom",
+      "variant": "base",
+      "name": "reload_1",
+      "frames": 177,
+      "fps": 60.0,
+      "origin": "original IDST frames",
+      "missingAudio": []
+    },
+    {
+      "key": "champions24phantom",
+      "variant": "base",
+      "name": "reload_2",
+      "frames": 177,
+      "fps": 60.0,
+      "origin": "original IDST frames",
+      "missingAudio": []
+    },
+    {
+      "key": "champions24phantom",
+      "variant": "base",
+      "name": "draw_1",
+      "frames": 100,
+      "fps": 60.0,
+      "origin": "original IDST frames",
+      "missingAudio": []
+    },
+    {
+      "key": "champions24phantom",
+      "variant": "base",
+      "name": "draw_2",
+      "frames": 100,
+      "fps": 60.0,
+      "origin": "original IDST frames",
+      "missingAudio": []
+    },
+    {
+      "key": "champions24phantom",
+      "variant": "base",
+      "name": "inspect_1",
+      "frames": 168,
+      "fps": 15.0,
+      "origin": "original IDST frames",
+      "missingAudio": []
+    },
+    {
+      "key": "champions24phantom",
+      "variant": "base",
+      "name": "inspect_2",
+      "frames": 168,
+      "fps": 15.0,
+      "origin": "original IDST frames",
+      "missingAudio": []
+    },
+    {
+      "key": "champions24phantom",
+      "variant": "logo",
+      "name": "Shezo_1",
+      "frames": 83,
+      "fps": 60.0,
+      "origin": "original IDST frames",
+      "missingAudio": []
+    },
+    {
+      "key": "champions24phantom",
+      "variant": "logo",
+      "name": "zoom_idle",
+      "frames": 83,
+      "fps": 60.0,
+      "origin": "original IDST frames",
+      "missingAudio": []
+    },
+    {
+      "key": "champions24phantom",
+      "variant": "logo",
+      "name": "shoot_1",
+      "frames": 20,
+      "fps": 60.0,
+      "origin": "original IDST frames",
+      "missingAudio": []
+    },
+    {
+      "key": "champions24phantom",
+      "variant": "logo",
+      "name": "shoot_2",
+      "frames": 20,
+      "fps": 60.0,
+      "origin": "original IDST frames",
+      "missingAudio": []
+    },
+    {
+      "key": "champions24phantom",
+      "variant": "logo",
+      "name": "zoom_shoot",
+      "frames": 20,
+      "fps": 60.0,
+      "origin": "original IDST frames",
+      "missingAudio": []
+    },
+    {
+      "key": "champions24phantom",
+      "variant": "logo",
+      "name": "zoom_shoot_fast",
+      "frames": 20,
+      "fps": 90.0,
+      "origin": "original IDST frames",
+      "missingAudio": []
+    },
+    {
+      "key": "champions24phantom",
+      "variant": "logo",
+      "name": "reload_1",
+      "frames": 177,
+      "fps": 60.0,
+      "origin": "original IDST frames",
+      "missingAudio": []
+    },
+    {
+      "key": "champions24phantom",
+      "variant": "logo",
+      "name": "reload_2",
+      "frames": 177,
+      "fps": 60.0,
+      "origin": "original IDST frames",
+      "missingAudio": []
+    },
+    {
+      "key": "champions24phantom",
+      "variant": "logo",
+      "name": "draw_1",
+      "frames": 100,
+      "fps": 60.0,
+      "origin": "original IDST frames",
+      "missingAudio": []
+    },
+    {
+      "key": "champions24phantom",
+      "variant": "logo",
+      "name": "draw_2",
+      "frames": 100,
+      "fps": 60.0,
+      "origin": "original IDST frames",
+      "missingAudio": []
+    },
+    {
+      "key": "champions24phantom",
+      "variant": "logo",
+      "name": "inspect_1",
+      "frames": 168,
+      "fps": 15.0,
+      "origin": "original IDST frames",
+      "missingAudio": []
+    },
+    {
+      "key": "champions24phantom",
+      "variant": "logo",
+      "name": "inspect_2",
+      "frames": 168,
+      "fps": 15.0,
+      "origin": "original IDST frames",
+      "missingAudio": []
+    },
+    {
+      "key": "champions24phantom",
+      "variant": "aura",
+      "name": "Shezo_1",
+      "frames": 83,
+      "fps": 60.0,
+      "origin": "original IDST frames",
+      "missingAudio": []
+    },
+    {
+      "key": "champions24phantom",
+      "variant": "aura",
+      "name": "zoom_idle",
+      "frames": 83,
+      "fps": 60.0,
+      "origin": "original IDST frames",
+      "missingAudio": []
+    },
+    {
+      "key": "champions24phantom",
+      "variant": "aura",
+      "name": "shoot_1",
+      "frames": 20,
+      "fps": 60.0,
+      "origin": "original IDST frames",
+      "missingAudio": []
+    },
+    {
+      "key": "champions24phantom",
+      "variant": "aura",
+      "name": "shoot_2",
+      "frames": 20,
+      "fps": 60.0,
+      "origin": "original IDST frames",
+      "missingAudio": []
+    },
+    {
+      "key": "champions24phantom",
+      "variant": "aura",
+      "name": "zoom_shoot",
+      "frames": 20,
+      "fps": 60.0,
+      "origin": "original IDST frames",
+      "missingAudio": []
+    },
+    {
+      "key": "champions24phantom",
+      "variant": "aura",
+      "name": "zoom_shoot_fast",
+      "frames": 20,
+      "fps": 90.0,
+      "origin": "original IDST frames",
+      "missingAudio": []
+    },
+    {
+      "key": "champions24phantom",
+      "variant": "aura",
+      "name": "reload_1",
+      "frames": 177,
+      "fps": 60.0,
+      "origin": "original IDST frames",
+      "missingAudio": []
+    },
+    {
+      "key": "champions24phantom",
+      "variant": "aura",
+      "name": "reload_2",
+      "frames": 177,
+      "fps": 60.0,
+      "origin": "original IDST frames",
+      "missingAudio": []
+    },
+    {
+      "key": "champions24phantom",
+      "variant": "aura",
+      "name": "draw_1",
+      "frames": 100,
+      "fps": 60.0,
+      "origin": "original IDST frames",
+      "missingAudio": []
+    },
+    {
+      "key": "champions24phantom",
+      "variant": "aura",
+      "name": "draw_2",
+      "frames": 100,
+      "fps": 60.0,
+      "origin": "original IDST frames",
+      "missingAudio": []
+    },
+    {
+      "key": "champions24phantom",
+      "variant": "aura",
+      "name": "inspect_1",
+      "frames": 168,
+      "fps": 15.0,
+      "origin": "original IDST frames",
+      "missingAudio": []
+    },
+    {
+      "key": "champions24phantom",
+      "variant": "aura",
+      "name": "inspect_2",
+      "frames": 168,
+      "fps": 15.0,
+      "origin": "original IDST frames",
+      "missingAudio": []
+    },
+    {
+      "key": "champions24phantom",
+      "variant": "plain",
+      "name": "Shezo_1",
+      "frames": 83,
+      "fps": 60.0,
+      "origin": "original IDST frames",
+      "missingAudio": []
+    },
+    {
+      "key": "champions24phantom",
+      "variant": "plain",
+      "name": "zoom_idle",
+      "frames": 83,
+      "fps": 60.0,
+      "origin": "original IDST frames",
+      "missingAudio": []
+    },
+    {
+      "key": "champions24phantom",
+      "variant": "plain",
+      "name": "shoot_1",
+      "frames": 20,
+      "fps": 60.0,
+      "origin": "original IDST frames",
+      "missingAudio": []
+    },
+    {
+      "key": "champions24phantom",
+      "variant": "plain",
+      "name": "shoot_2",
+      "frames": 20,
+      "fps": 60.0,
+      "origin": "original IDST frames",
+      "missingAudio": []
+    },
+    {
+      "key": "champions24phantom",
+      "variant": "plain",
+      "name": "zoom_shoot",
+      "frames": 20,
+      "fps": 60.0,
+      "origin": "original IDST frames",
+      "missingAudio": []
+    },
+    {
+      "key": "champions24phantom",
+      "variant": "plain",
+      "name": "zoom_shoot_fast",
+      "frames": 20,
+      "fps": 90.0,
+      "origin": "original IDST frames",
+      "missingAudio": []
+    },
+    {
+      "key": "champions24phantom",
+      "variant": "plain",
+      "name": "reload_1",
+      "frames": 177,
+      "fps": 60.0,
+      "origin": "original IDST frames",
+      "missingAudio": []
+    },
+    {
+      "key": "champions24phantom",
+      "variant": "plain",
+      "name": "reload_2",
+      "frames": 177,
+      "fps": 60.0,
+      "origin": "original IDST frames",
+      "missingAudio": []
+    },
+    {
+      "key": "champions24phantom",
+      "variant": "plain",
+      "name": "draw_1",
+      "frames": 100,
+      "fps": 60.0,
+      "origin": "original IDST frames",
+      "missingAudio": []
+    },
+    {
+      "key": "champions24phantom",
+      "variant": "plain",
+      "name": "draw_2",
+      "frames": 100,
+      "fps": 60.0,
+      "origin": "original IDST frames",
+      "missingAudio": []
+    },
+    {
+      "key": "champions24phantom",
+      "variant": "plain",
+      "name": "inspect_1",
+      "frames": 168,
+      "fps": 15.0,
+      "origin": "original IDST frames",
+      "missingAudio": []
+    },
+    {
+      "key": "champions24phantom",
+      "variant": "plain",
+      "name": "inspect_2",
+      "frames": 168,
+      "fps": 15.0,
+      "origin": "original IDST frames",
+      "missingAudio": []
+    },
+    {
+      "key": "champions24phantom",
+      "variant": "shatter",
+      "name": "Shezo_1",
+      "frames": 83,
+      "fps": 60.0,
+      "origin": "original IDST frames",
+      "missingAudio": []
+    },
+    {
+      "key": "champions24phantom",
+      "variant": "shatter",
+      "name": "zoom_idle",
+      "frames": 83,
+      "fps": 60.0,
+      "origin": "original IDST frames",
+      "missingAudio": []
+    },
+    {
+      "key": "champions24phantom",
+      "variant": "shatter",
+      "name": "shoot_1",
+      "frames": 20,
+      "fps": 60.0,
+      "origin": "original IDST frames",
+      "missingAudio": []
+    },
+    {
+      "key": "champions24phantom",
+      "variant": "shatter",
+      "name": "shoot_2",
+      "frames": 20,
+      "fps": 60.0,
+      "origin": "original IDST frames",
+      "missingAudio": []
+    },
+    {
+      "key": "champions24phantom",
+      "variant": "shatter",
+      "name": "zoom_shoot",
+      "frames": 20,
+      "fps": 60.0,
+      "origin": "original IDST frames",
+      "missingAudio": []
+    },
+    {
+      "key": "champions24phantom",
+      "variant": "shatter",
+      "name": "zoom_shoot_fast",
+      "frames": 20,
+      "fps": 90.0,
+      "origin": "original IDST frames",
+      "missingAudio": []
+    },
+    {
+      "key": "champions24phantom",
+      "variant": "shatter",
+      "name": "reload_1",
+      "frames": 177,
+      "fps": 60.0,
+      "origin": "original IDST frames",
+      "missingAudio": []
+    },
+    {
+      "key": "champions24phantom",
+      "variant": "shatter",
+      "name": "reload_2",
+      "frames": 177,
+      "fps": 60.0,
+      "origin": "original IDST frames",
+      "missingAudio": []
+    },
+    {
+      "key": "champions24phantom",
+      "variant": "shatter",
+      "name": "draw_1",
+      "frames": 100,
+      "fps": 60.0,
+      "origin": "original IDST frames",
+      "missingAudio": []
+    },
+    {
+      "key": "champions24phantom",
+      "variant": "shatter",
+      "name": "draw_2",
+      "frames": 100,
+      "fps": 60.0,
+      "origin": "original IDST frames",
+      "missingAudio": []
+    },
+    {
+      "key": "champions24phantom",
+      "variant": "shatter",
+      "name": "inspect_1",
+      "frames": 168,
+      "fps": 15.0,
+      "origin": "original IDST frames",
+      "missingAudio": []
+    },
+    {
+      "key": "champions24phantom",
+      "variant": "shatter",
+      "name": "inspect_2",
+      "frames": 168,
+      "fps": 15.0,
+      "origin": "original IDST frames",
+      "missingAudio": []
+    }
+  ],
+  "rejectedModels": [
+    {
+      "source": "VAL暗域界碑幻影/VAL暗域界碑幻影/models/白色/v_phantom.mdl",
+      "internalName": "gign.mdl",
+      "sha256": "eb553da5dcf2f41b18a42df679cb81ef363a84b48c3d62cd2448581522703cc2",
+      "reason": "GIGN character, not a Phantom view model; no weapon draw/reload/inspect actions"
+    },
+    {
+      "source": "VAL暗域界碑幻影/VAL暗域界碑幻影/models/紫色/v_phantom.mdl",
+      "internalName": "gign.mdl",
+      "sha256": "eb553da5dcf2f41b18a42df679cb81ef363a84b48c3d62cd2448581522703cc2",
+      "reason": "GIGN character, not a Phantom view model; no weapon draw/reload/inspect actions"
+    },
+    {
+      "source": "VAL暗域界碑幻影/VAL暗域界碑幻影/models/红色/v_phantom.mdl",
+      "internalName": "gign.mdl",
+      "sha256": "eb553da5dcf2f41b18a42df679cb81ef363a84b48c3d62cd2448581522703cc2",
+      "reason": "GIGN character, not a Phantom view model; no weapon draw/reload/inspect actions"
+    },
+    {
+      "source": "VAL暗域界碑幻影/VAL暗域界碑幻影/models/黄色/v_phantom.mdl",
+      "internalName": "gign.mdl",
+      "sha256": "eb553da5dcf2f41b18a42df679cb81ef363a84b48c3d62cd2448581522703cc2",
+      "reason": "GIGN character, not a Phantom view model; no weapon draw/reload/inspect actions"
+    }
+  ],
+  "weaponFamilies": 4,
+  "variants": 9
+}

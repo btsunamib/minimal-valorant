@@ -1,0 +1,176 @@
+[
+  {
+    "index": 0,
+    "name": "Shezo_1",
+    "fps": 60.0,
+    "frames": 83,
+    "events": []
+  },
+  {
+    "index": 1,
+    "name": "zoom_idle",
+    "fps": 60.0,
+    "frames": 83,
+    "events": []
+  },
+  {
+    "index": 2,
+    "name": "shoot_1",
+    "fps": 60.0,
+    "frames": 20,
+    "events": []
+  },
+  {
+    "index": 3,
+    "name": "shoot_2",
+    "fps": 60.0,
+    "frames": 20,
+    "events": []
+  },
+  {
+    "index": 4,
+    "name": "zoom_shoot",
+    "fps": 60.0,
+    "frames": 20,
+    "events": []
+  },
+  {
+    "index": 5,
+    "name": "zoom_shoot_fast",
+    "fps": 90.0,
+    "frames": 20,
+    "events": []
+  },
+  {
+    "index": 6,
+    "name": "reload_1",
+    "fps": 60.0,
+    "frames": 177,
+    "events": [
+      {
+        "frame": 1,
+        "event": 5004,
+        "options": "weapons\\valorant\\2024champ/re1.wav",
+        "sound": "12cf9937df05403f0661.wav"
+      },
+      {
+        "frame": 66,
+        "event": 5004,
+        "options": "weapons\\valorant\\2024champ/re2.wav",
+        "sound": "2c8e486c39b96d01d61e.wav"
+      },
+      {
+        "frame": 90,
+        "event": 5004,
+        "options": "weapons\\valorant\\2024champ/re3.wav",
+        "sound": "9b065a5669cd67692533.wav"
+      }
+    ]
+  },
+  {
+    "index": 7,
+    "name": "reload_2",
+    "fps": 60.0,
+    "frames": 177,
+    "events": [
+      {
+        "frame": 1,
+        "event": 5004,
+        "options": "weapons\\valorant\\2024champ/re1.wav",
+        "sound": "12cf9937df05403f0661.wav"
+      },
+      {
+        "frame": 66,
+        "event": 5004,
+        "options": "weapons\\valorant\\2024champ/re2.wav",
+        "sound": "2c8e486c39b96d01d61e.wav"
+      },
+      {
+        "frame": 90,
+        "event": 5004,
+        "options": "weapons\\valorant\\2024champ/re3.wav",
+        "sound": "9b065a5669cd67692533.wav"
+      }
+    ]
+  },
+  {
+    "index": 8,
+    "name": "draw_1",
+    "fps": 60.0,
+    "frames": 100,
+    "events": [
+      {
+        "frame": 1,
+        "event": 5004,
+        "options": "weapons\\valorant\\2024champ/draw1.wav",
+        "sound": "f83f6ca47990eb104f62.wav"
+      },
+      {
+        "frame": 26,
+        "event": 5004,
+        "options": "weapons\\valorant\\2024champ/draw2.wav",
+        "sound": "d0dbdabb965be12af5cb.wav"
+      }
+    ]
+  },
+  {
+    "index": 9,
+    "name": "draw_2",
+    "fps": 60.0,
+    "frames": 100,
+    "events": [
+      {
+        "frame": 1,
+        "event": 5004,
+        "options": "weapons\\valorant\\2024champ/draw1.wav",
+        "sound": "f83f6ca47990eb104f62.wav"
+      },
+      {
+        "frame": 26,
+        "event": 5004,
+        "options": "weapons\\valorant\\2024champ/draw2.wav",
+        "sound": "d0dbdabb965be12af5cb.wav"
+      }
+    ]
+  },
+  {
+    "index": 10,
+    "name": "inspect_1",
+    "fps": 15.0,
+    "frames": 168,
+    "events": [
+      {
+        "frame": 1,
+        "event": 5004,
+        "options": "weapons\\valorant\\2024champ/ins1.wav",
+        "sound": "f5877fb29774758a1e4c.wav"
+      },
+      {
+        "frame": 10,
+        "event": 5004,
+        "options": "weapons\\valorant\\2024champ/ins2.wav",
+        "sound": "e2d0d309de210c1049bf.wav"
+      }
+    ]
+  },
+  {
+    "index": 11,
+    "name": "inspect_2",
+    "fps": 15.0,
+    "frames": 168,
+    "events": [
+      {
+        "frame": 1,
+        "event": 5004,
+        "options": "weapons\\valorant\\2024champ/ins1.wav",
+        "sound": "f5877fb29774758a1e4c.wav"
+      },
+      {
+        "frame": 10,
+        "event": 5004,
+        "options": "weapons\\valorant\\2024champ/ins2.wav",
+        "sound": "e2d0d309de210c1049bf.wav"
+      }
+    ]
+  }
+]

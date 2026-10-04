@@ -19,6 +19,10 @@ for m in d['meshes']:
         if x0>x1 or y0>y1:continue
         denom=(b[1]-c[1])*(a[0]-c[0])+(c[0]-b[0])*(a[1]-c[1])
         if abs(denom)<1e-8:continue
+        # Projection flips Y: front-facing CCW model triangles have negative
+        # screen winding. Keep the same culling as the runtime material.
+        if m.get('side',2)==0 and denom>=0:continue
+        if m.get('side',2)==1 and denom<=0:continue
         yy,xx=np.mgrid[y0:y1+1,x0:x1+1];xx=xx+.5;yy=yy+.5
         wa=((b[1]-c[1])*(xx-c[0])+(c[0]-b[0])*(yy-c[1]))/denom
         wb=((c[1]-a[1])*(xx-c[0])+(a[0]-c[0])*(yy-c[1]))/denom;wc=1-wa-wb

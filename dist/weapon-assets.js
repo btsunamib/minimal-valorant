@@ -4,7 +4,7 @@ export const WEAPON_ASSET_ROOT=`https://raw.githubusercontent.com/btsunamib/mini
 export const NEW_ASSET_ROOT='./';
 export function weaponAssetURL(path){
  const clean=String(path).replace(/^\.\//,'').replace(/^\//,'');
- if(/^assets\/(maps|native-ui|feedback)\//.test(clean)||/^assets\/imported\/(valstrike|phaseguard|sovereign|eternal|forsaken|neofrontier|kuronamivfx|champions25source|champions22knifev2|originbuckyv2|utilities)/.test(clean))return NEW_ASSET_ROOT+clean;
+ if(/^assets\/(maps|native-ui|feedback)\//.test(clean)||/^assets\/imported\/(singularitybutterfly|dolmirvandal|protocol781phantom|champions24phantom|valstrike|phaseguard|sovereign|eternal|forsaken|neofrontier|kuronamivfx|champions25source|champions22knifev2|originbuckyv2|utilities)/.test(clean))return NEW_ASSET_ROOT+clean;
  if(clean.startsWith('assets/imported/')&&!clean.split('/').includes('..'))return WEAPON_ASSET_ROOT+clean;
  return String(path);
 }

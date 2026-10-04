@@ -1,7 +1,7 @@
-import {NATIVE_UI} from './ui-catalog.js?v=20261004-native4';
-import {FEEDBACK_PACKS} from './feedback-catalog.js?v=20261004-native4';
-import {fetchWeaponAsset,weaponAssetURL} from './weapon-assets.js?v=20261004-native4';
-export const FEEDBACK_NAMES={auto:'随皮肤',sovereign:'天界神兵',phaseguard:'超时空护卫队',singularity:'奇点 · 白色',neo:'新边疆',additional:'资源包击杀徽章'};
+import {NATIVE_UI} from './ui-catalog.js?v=20261005-palette5';
+import {FEEDBACK_PACKS} from './feedback-catalog.js?v=20261005-palette5';
+import {fetchWeaponAsset,weaponAssetURL} from './weapon-assets.js?v=20261005-palette5';
+export const FEEDBACK_NAMES={auto:'随皮肤',champions24phantom:'2024 冠军 · 幻影',sovereign:'天界神兵',phaseguard:'超时空护卫队',singularity:'奇点 · 白色',neo:'新边疆',additional:'资源包击杀徽章'};
 export function setupNativeUI(doc){
  const mappings={touchFire:'attack',touchAim:'attack2',touchReload:'reload',touchJump:'jump',touchCrouch:'duck',touchSwitch:'lastinv',touchBuy:'buy',touchPlant:'use',touchPrimary:'1',touchPistol:'2',pauseBtn:'pause'};
  for(const[id,name]of Object.entries(mappings)){const file=NATIVE_UI.find(p=>p.endsWith('/buttons/'+name+'.png'));const el=doc.getElementById(id);if(el&&file){const img=doc.createElement('img');img.className='native-touch-icon';img.src=weaponAssetURL(file);img.alt='';el.prepend(img);}}

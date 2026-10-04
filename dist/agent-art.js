@@ -1,5 +1,5 @@
 import * as T from './three.module.js';
-import {loadGoldSrc} from './goldsrc-model.js?v=20261004-native4';
+import {loadGoldSrc} from './goldsrc-model.js?v=20261005-palette5';
 import {prepareNativeShowroom,showNativeShowroom} from './native-showroom.js';
 export const HUMAN_PROPORTIONS=Object.freeze({height:1.86,headHeight:.24,headWidth:.18,eye:1.73,shoulder:1.51,hip:.93});
 export const NATIVE_AGENT_IDS=Object.freeze(['wushu','thorne','hunter','phoenix','sarge','guide']);

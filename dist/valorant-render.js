@@ -9,9 +9,14 @@ export function stylizeMaterial(material){
 }
 export function nativeMaterial(texture,flags=0,{world=false}={}){
  const effect=!!(flags&48);
- if(effect)return new T.MeshBasicMaterial({map:texture,side:T.DoubleSide,transparent:true,depthWrite:false,blending:flags&32?T.AdditiveBlending:T.NormalBlending,toneMapped:false});
- if(flags&4)return new T.MeshBasicMaterial({map:texture,side:T.DoubleSide,alphaTest:flags&64?.5:0,toneMapped:false});
- const m=new T.MeshStandardMaterial({map:texture,roughness:world?.93:.68,metalness:world?0:.08,side:T.DoubleSide,alphaTest:flags&64?.5:0,emissive:0xffffff,emissiveMap:texture,emissiveIntensity:world?.04:.06});return stylizeMaterial(m);
+ // Native effect geometry can contain inward-facing glow shells. Rendering
+ // both sides adds the whole shell over the gun instead of just its edge.
+ if(effect)return new T.MeshBasicMaterial({map:texture,side:T.FrontSide,transparent:true,depthWrite:false,blending:flags&32?T.AdditiveBlending:T.NormalBlending,toneMapped:false});
+ // These indexed palettes already contain their surface shading. Feeding them
+ // through the map's strong PBR lights and ACES loses their original colors.
+ // Use the same texture color on WebGL and the software fallback; effects keep
+ // their original additive/alpha mode above.
+ return new T.MeshBasicMaterial({map:texture,side:T.DoubleSide,alphaTest:flags&64?.5:0,toneMapped:false});
 }
 export function configureValorantRender(renderer,scene,viewScene){
  renderer.toneMapping=T.ACESFilmicToneMapping;renderer.toneMappingExposure=.88;

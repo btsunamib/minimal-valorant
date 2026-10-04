@@ -1,0 +1,168 @@
+{
+  "renderer": "llvmpipe (LLVM 20.1.2, 256 bits)",
+  "scope": "Real EGL/OpenGL raster with Three-sampled original geometry; not a device WebGL certification",
+  "samples": [
+    {
+      "paletteMatchFraction": 1.0,
+      "agent": "wushu",
+      "angle": 0,
+      "bodyPixels": 19868,
+      "coloredFraction": 0.3566035836521039,
+      "oldYellowCoverage": 0.9774511777733038,
+      "fixedYellowCoverage": 0.0
+    },
+    {
+      "paletteMatchFraction": 1.0,
+      "agent": "wushu",
+      "angle": 1.5707963267948966,
+      "bodyPixels": 27058,
+      "coloredFraction": 0.3615196984256043,
+      "oldYellowCoverage": 0.9729100450883288,
+      "fixedYellowCoverage": 0.0
+    },
+    {
+      "paletteMatchFraction": 1.0,
+      "agent": "wushu",
+      "angle": 3.141592653589793,
+      "bodyPixels": 21427,
+      "coloredFraction": 0.35282587389741915,
+      "oldYellowCoverage": 0.9703644933961824,
+      "fixedYellowCoverage": 0.0
+    },
+    {
+      "paletteMatchFraction": 1.0,
+      "agent": "thorne",
+      "angle": 0,
+      "bodyPixels": 21136,
+      "coloredFraction": 0.32508516275548827,
+      "oldYellowCoverage": 0.9858062074186222,
+      "fixedYellowCoverage": 0.0
+    },
+    {
+      "paletteMatchFraction": 1.0,
+      "agent": "thorne",
+      "angle": 1.5707963267948966,
+      "bodyPixels": 29961,
+      "coloredFraction": 0.21821701545342279,
+      "oldYellowCoverage": 0.9914555588932279,
+      "fixedYellowCoverage": 0.0
+    },
+    {
+      "paletteMatchFraction": 1.0,
+      "agent": "thorne",
+      "angle": 3.141592653589793,
+      "bodyPixels": 22213,
+      "coloredFraction": 0.25048395083959846,
+      "oldYellowCoverage": 0.9950479448971323,
+      "fixedYellowCoverage": 0.0
+    },
+    {
+      "paletteMatchFraction": 1.0,
+      "agent": "hunter",
+      "angle": 0,
+      "bodyPixels": 31575,
+      "coloredFraction": 0.45406175771971496,
+      "oldYellowCoverage": 0.9166112430720507,
+      "fixedYellowCoverage": 0.0
+    },
+    {
+      "paletteMatchFraction": 1.0,
+      "agent": "hunter",
+      "angle": 1.5707963267948966,
+      "bodyPixels": 37471,
+      "coloredFraction": 0.261455525606469,
+      "oldYellowCoverage": 0.964105574977983,
+      "fixedYellowCoverage": 0.0
+    },
+    {
+      "paletteMatchFraction": 1.0,
+      "agent": "hunter",
+      "angle": 3.141592653589793,
+      "bodyPixels": 34385,
+      "coloredFraction": 0.26779118801803115,
+      "oldYellowCoverage": 0.9588774174785517,
+      "fixedYellowCoverage": 0.0
+    },
+    {
+      "paletteMatchFraction": 1.0,
+      "agent": "phoenix",
+      "angle": 0,
+      "bodyPixels": 24812,
+      "coloredFraction": 0.0389730775431243,
+      "oldYellowCoverage": 0.9341044655811704,
+      "fixedYellowCoverage": 0.0
+    },
+    {
+      "paletteMatchFraction": 1.0,
+      "agent": "phoenix",
+      "angle": 1.5707963267948966,
+      "bodyPixels": 31791,
+      "coloredFraction": 0.11179264571734139,
+      "oldYellowCoverage": 0.9385989745525464,
+      "fixedYellowCoverage": 0.0
+    },
+    {
+      "paletteMatchFraction": 1.0,
+      "agent": "phoenix",
+      "angle": 3.141592653589793,
+      "bodyPixels": 26394,
+      "coloredFraction": 0.1333257558536031,
+      "oldYellowCoverage": 0.9472607410775176,
+      "fixedYellowCoverage": 0.0
+    },
+    {
+      "paletteMatchFraction": 1.0,
+      "agent": "sarge",
+      "angle": 0,
+      "bodyPixels": 32881,
+      "coloredFraction": 0.08789270399318755,
+      "oldYellowCoverage": 0.935555487971777,
+      "fixedYellowCoverage": 0.0
+    },
+    {
+      "paletteMatchFraction": 1.0,
+      "agent": "sarge",
+      "angle": 1.5707963267948966,
+      "bodyPixels": 39369,
+      "coloredFraction": 0.17521400086362365,
+      "oldYellowCoverage": 0.970535192664279,
+      "fixedYellowCoverage": 0.0
+    },
+    {
+      "paletteMatchFraction": 1.0,
+      "agent": "sarge",
+      "angle": 3.141592653589793,
+      "bodyPixels": 36085,
+      "coloredFraction": 0.11015657475405292,
+      "oldYellowCoverage": 0.9856450048496606,
+      "fixedYellowCoverage": 0.0
+    },
+    {
+      "paletteMatchFraction": 1.0,
+      "agent": "guide",
+      "angle": 0,
+      "bodyPixels": 23127,
+      "coloredFraction": 0.24880010377480866,
+      "oldYellowCoverage": 0.9988757729061271,
+      "fixedYellowCoverage": 0.0
+    },
+    {
+      "paletteMatchFraction": 1.0,
+      "agent": "guide",
+      "angle": 1.5707963267948966,
+      "bodyPixels": 30625,
+      "coloredFraction": 0.3517061224489796,
+      "oldYellowCoverage": 0.9984,
+      "fixedYellowCoverage": 0.0
+    },
+    {
+      "paletteMatchFraction": 1.0,
+      "agent": "guide",
+      "angle": 3.141592653589793,
+      "bodyPixels": 25405,
+      "coloredFraction": 0.3511119858295611,
+      "oldYellowCoverage": 0.9978744341665027,
+      "fixedYellowCoverage": 0.0
+    }
+  ]
+}

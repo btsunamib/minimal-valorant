@@ -29,3 +29,5 @@ body[data-menu-tab=collection]:has(.arsenal-detail) #vignette{background:none}
 #weaponLoadNotice{position:fixed;z-index:30;top:105px;left:50%;transform:translateX(-50%);max-width:min(560px,85vw);display:flex;align-items:center;gap:12px;padding:10px 14px;background:#081c2eed;border:1px solid #799eb56b;color:#d5e9ec;font-size:13px;box-shadow:0 4px 15px #0005;pointer-events:none}
 #weaponLoadRetry{pointer-events:auto;flex:none;border:1px solid #86cbbd;color:#c5ece6;background:#143e46;padding:8px;min-height:38px}
 @media(max-height:500px){#weaponLoadNotice{top:70px;font-size:12px;padding:6px 9px}}
+
+.pending-pack summary{cursor:pointer;padding:10px 0;font-size:14px}.pending-pack audio{max-width:100%;width:100%;margin-top:8px}.variant-tile[data-color=logo]{width:72px;font-size:14px;background:#284454}
