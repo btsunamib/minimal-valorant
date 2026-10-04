@@ -1,10 +1,10 @@
-import {createChampions26} from './champions26.js';
-import {createChampion} from './champions24.js';
-import {createArsenalGun} from './arsenal-art.js';
-import {createNarukami} from './narukami.js';
-import {createChaos} from './chaos.js';
-import {createMercy} from './mercy.js';
-import {createKuronami} from './kuronami.js';
+import {createChampions26} from './champions26.js?v=20261005-palette6';
+import {createChampion} from './champions24.js?v=20261005-palette6';
+import {createArsenalGun} from './arsenal-art.js?v=20261005-palette6';
+import {createNarukami} from './narukami.js?v=20261005-palette6';
+import {createChaos} from './chaos.js?v=20261005-palette6';
+import {createMercy} from './mercy.js?v=20261005-palette6';
+import {createKuronami} from './kuronami.js?v=20261005-palette6';
 import * as T from './three.module.js';
 const cube=new T.BoxGeometry(1,1,1),cache=new Map();
 function material(color,metal=.6,emission=0){const key=[color,metal,emission].join();if(!cache.has(key))cache.set(key,new T.MeshStandardMaterial({color,metalness:metal,roughness:metal>.5?.28:.72,emissive:emission?color:0,emissiveIntensity:emission}));return cache.get(key)}

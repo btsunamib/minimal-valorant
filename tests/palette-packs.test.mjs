@@ -9,6 +9,14 @@ import {weaponAssetURL} from '../dist/weapon-assets.js';
 const read=p=>fs.readFileSync(new URL('../'+p,import.meta.url)),sha=b=>createHash('sha256').update(b).digest('hex');
 const parse=p=>{const b=gunzipSync(read(p));return new GoldSrcModel(b.buffer.slice(b.byteOffset,b.byteOffset+b.length));};
 
+test('The browser entry and every mutable app import share one cache version',()=>{
+ const version='?v=20261005-palette6',vendors=new Set(['./three.module.js','./fflate.module.js']);
+ for(const filename of fs.readdirSync(new URL('../dist/',import.meta.url)).filter(f=>f.endsWith('.js')&&!['three.module.js','fflate.module.js'].includes(f))){
+  const source=read('dist/'+filename).toString();for(const match of source.matchAll(/(['"])(\.\/[a-zA-Z0-9_.-]+\.js)(\?[^'"]*)?\1/g))if(!vendors.has(match[2]))assert.equal(match[3],version,filename+' -> '+match[2]);
+ }
+ const html=read('dist/index.html').toString();assert(html.includes('src="main.js'+version+'"'));assert(html.includes('href="collection.css'+version+'"'));
+});
+
 test('Opaque native palettes bypass PBR light saturation; additive and cutout maps retain their flags',()=>{
  const texture=new T.DataTexture(new Uint8Array([32,154,81,255]),1,1);
  for(const flags of [0,2,4,8,64]){const m=nativeMaterial(texture,flags);assert(m.isMeshBasicMaterial);assert.equal(m.map,texture);assert.equal(m.toneMapped,false);assert.equal(m.depthWrite,true);assert.equal(m.alphaTest,flags&64?.5:0);m.dispose();}
@@ -25,7 +33,7 @@ test('Five uploads retain source hashes; nine valid variants equip in compatible
  const ledger=JSON.parse(read('docs/october5-resource-sources.json'));assert.equal(ledger.weaponFamilies,4);assert.equal(ledger.variants,9);
  for(const f of ledger.files){const packed=read(f.output);assert.equal(sha(packed),f.outputSHA256,f.output);if(f.gzip)assert.equal(sha(gunzipSync(packed)),f.sha256);}
  for(const [key,s]of Object.entries(OCTOBER5_IMPORTS)){
-  assert.equal(IMPORTED_WEAPONS[key],s);assert(skinItems(s.weapon).some(v=>v.key===key));
+  assert.deepEqual(IMPORTED_WEAPONS[key],s);assert(skinItems(s.weapon).some(v=>v.key===key));
   for(const variant of Object.keys(s.variants)){
    const path=`dist/assets/imported/${key}/${variant}`,p=parse(path+'/model.mdl.gz');
    for(const action of s.weapon==='knife'?['draw','inspect','slash1','stab']:['draw','reload','shoot','inspect']){

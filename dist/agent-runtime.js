@@ -1,5 +1,5 @@
 import * as T from './three.module.js';
-import {getAgent} from './agents-data.js?v=20261005-palette5';
+import {getAgent} from './agents-data.js?v=20261005-palette6';
 const distance=(a,b)=>Math.hypot(a.x-b.x,a.z-b.z),clamp=(x,a,b)=>Math.max(a,Math.min(b,x));
 const V=(x=0,y=0,z=0)=>new T.Vector3(x,y,z);
 export class AgentRuntime{

@@ -1,5 +1,5 @@
-import {SKINS,KNIVES} from './rules.js';
-import {IMPORTED_WEAPONS} from './imported-weapons.js?v=20261005-palette5';
+import {SKINS,KNIVES} from './rules.js?v=20261005-palette6';
+import {IMPORTED_WEAPONS} from './imported-weapons.js?v=20261005-palette6';
 
 export function equippedSkin(id,prefs){
  const key=prefs.weaponSkins?.[id]??prefs.skin??'standard',s=SKINS[key];
