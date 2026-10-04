@@ -34,3 +34,21 @@ ground, textured near clipping, additive rendering and native equipment
 resolution. Match, imported equipment and collection integration checks pass;
 movement checks cover six maps and 26 physical routes. Cloud-browser GPU/WebGL
 is disabled, so its browser visual verification uses the software fallback.
+
+## Published verification
+
+The game release source is `bd8cb013ca6d2ac181c9eb54b37e5358910a5907`.
+GitHub `main` was verified at this exact commit after an authenticated Git push.
+GitHub Pages workflow run
+[`37208947927`](https://github.com/btsunamib/minimal-valorant/actions/runs/37208947927)
+completed successfully on 2026-10-04 at 14:21:59 UTC.
+
+The deployed `index.html`, `main.js`, `agent-art.js`, `software-renderer.js` and
+all six downloaded CT model assets were compared byte-for-byte with this source.
+The public game loaded `main.js?v=20261004-native4` and started a team match.
+The screenshot below shows actual character meshes and colored native weapon
+textures in the deployed software fallback. No application runtime error was
+observed; the cloud browser reports WebGL disabled. Browser performance in this
+CPU fallback is limited and does not validate GPU or real-device performance.
+
+![Deployed game with native models](verification/native-models-online-20261004.jpg)
