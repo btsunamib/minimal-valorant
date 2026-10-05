@@ -1,5 +1,5 @@
 import * as T from './three.module.js';
-import {sampleChampion,CHAMPION_DURATION} from './champions24-motion.js?v=20261005-palette6';
+import {sampleChampion,CHAMPION_DURATION} from './champions24-motion.js?v=20261004-tactical1';
 export function createChampion(showcase=false){
  const model=new T.Group(),rig=new T.Group(),blade=new T.Group(),hand=new T.Group(),left=new T.Group();model.name='Champions 2024 Blade';model.add(rig,hand,left);rig.add(blade);const mats=[],geos=[],boxgeo=new T.BoxGeometry(1,1,1);geos.push(boxgeo);
  const mat=(color,metal=.7,emission=0)=>{const m=new T.MeshStandardMaterial({color,metalness:metal,roughness:metal>.5?.28:.76,emissive:emission?color:0,emissiveIntensity:emission});mats.push(m);return m;};const black=mat(0x171b22),gray=mat(0x393e43),steel=mat(0xbfc6cb,.92),white=mat(0xf3efe1,.9),gold=mat(0xecb533,.88),light=mat(0xffba27,.4,1.2),glove=mat(0x263a40,.06),panel=mat(0x5f777c,.1),skin=mat(0xb18d79,.03);

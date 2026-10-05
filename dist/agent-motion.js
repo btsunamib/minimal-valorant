@@ -1,16 +1,18 @@
 import * as T from './three.module.js';
 export const GUN_DRAW_RATE=1.3;
-export function castTiming(kind){return {duration:['beam','rocket','revive'].includes(kind)?1.05:.78,release:['dash','updraft','satchel'].includes(kind)?.22:.42};}
+export function castTiming(kind){const profile={dash:[.65,.08],updraft:[.7,.08],satchel:[.55,.08],smoke:[.6,.08],shock:[1,.4],reveal:[1,.4],drone:[.9,.45],hound:[.9,.45],heal:[.85,.35],wall:[.85,.35],teamheal:[1,.4],beam:[1.2,.75],rocket:[1.15,.5],knives:[.85,.3],revive:[1.1,.45],rebirth:[.8,.08]}[kind]||[.8,.35];return {duration:profile[0],release:profile[1]};}
 export function castPose(kind,seconds){const {duration,release}=castTiming(kind),t=Math.max(0,Math.min(1,seconds/duration)),rise=Math.sin(Math.PI*t),throwing=['smoke','slow','molly','grenade','flash','satchel'].includes(kind),bow=['shock','reveal','beam'].includes(kind);return{t,release:seconds>=release,left:[-.26-rise*.07,-.62+rise*.31,-.6-rise*.15],right:[.25-rise*.05,-.63+rise*.34,-.55-(throwing&&seconds>=release?.30*rise:0)],rotation:throwing?-rise*1.8:bow?-rise*.5:-rise*.9,orb:seconds<release||['heal','revive','wall','rebirth'].includes(kind),bow};}
 // Skill casting reuses the imported viewmodel hand meshes and bone rig.
 // No procedural palms, fingers, gun or device geometry is displayed.
 export class AgentHands{
- constructor(getArt=()=>null){this.getArt=typeof getArt==='function'?getArt:()=>null;this.rig=null;this.visible=new Map();this.ready=false;this.position=null;this.rotation=null;}
+ constructor(getArt=()=>null){this.getArt=typeof getArt==='function'?getArt:()=>null;this.rig=null;this.visible=new Map();this.ready=false;this.position=null;this.rotation=null;this.joints=new Map();}
  update(agent,kind,seconds){const rig=this.getArt()?.rig;if(rig!==this.rig){this.hide();this.rig=rig;this.position=rig?.model.position.clone();this.rotation=rig?.model.quaternion.clone();}this.ready=!!rig?.meshes.some(m=>m.userData.nativeHand);if(!this.ready)return;
   for(const mesh of rig.meshes){if(!this.visible.has(mesh))this.visible.set(mesh,mesh.visible);mesh.visible=!!mesh.userData.nativeHand;}
   // Adapt the existing cast timing to the actual mesh. This movement is an
   // adaptation, rather than an original agent ability animation in the package.
-  const p=castPose(kind,seconds),rise=Math.sin(p.t*Math.PI);rig.model.position.copy(this.position).add(new T.Vector3(0,rise*.14,-rise*.08));rig.model.quaternion.copy(this.rotation).premultiply(new T.Quaternion().setFromEuler(new T.Euler(rise*-.18,0,0)));
+  for(const [bone,quaternion]of this.joints)bone.quaternion.copy(quaternion);this.joints.clear();const p=castPose(kind,seconds),rise=Math.sin(p.t*Math.PI),bow=['shock','reveal','beam'].includes(kind),orb=['heal','wall','slow','revive','teamheal'].includes(kind),throwing=['smoke','molly','flash','grenade','satchel','firewall'].includes(kind);
+  for(const bone of rig.bones){if(!/^[LR]_/.test(bone.name))continue;const left=bone.name[0]==='L',hand=/Hand/.test(bone.name),arm=/Elbow|Shoulder/.test(bone.name),finger=/Index|Middle|Ring|Pinky/.test(bone.name);if(!hand&&!arm&&!finger)continue;this.joints.set(bone,bone.quaternion.clone());let x=0,y=0,z=0;if(bow){z=(left?-.16:.22)*rise;if(hand)x=(left?-.15:.25)*rise;}else if(orb){z=(left?-.2:.15)*rise;if(hand)x=-.28*rise;if(finger)z=.2*rise;}else if(throwing){if(!left){z=arm?-.38*rise:.4*rise;x=hand?-.45*rise:0;}else z=.12*rise;}else if(kind==='updraft'||kind==='dash'){z=(left?-.22:.22)*rise;if(hand)y=(left?-1:1)*.25*rise;}bone.quaternion.multiply(new T.Quaternion().setFromEuler(new T.Euler(x,y,z)));}
+  rig.model.updateMatrixWorld(true);rig.skeleton.update();rig.model.position.copy(this.position).add(new T.Vector3(0,rise*.14,-rise*.08));rig.model.quaternion.copy(this.rotation).premultiply(new T.Quaternion().setFromEuler(new T.Euler(rise*-.18,0,0)));
  }
- hide(){for(const [mesh,visible]of this.visible)mesh.visible=visible;if(this.rig&&this.position){this.rig.model.position.copy(this.position);this.rig.model.quaternion.copy(this.rotation);}this.visible.clear();this.rig=null;this.ready=false;this.position=null;this.rotation=null;}
+ hide(){for(const [bone,quaternion]of this.joints)bone.quaternion.copy(quaternion);this.joints.clear();for(const [mesh,visible]of this.visible)mesh.visible=visible;if(this.rig&&this.position){this.rig.model.position.copy(this.position);this.rig.model.quaternion.copy(this.rotation);}this.visible.clear();this.rig=null;this.ready=false;this.position=null;this.rotation=null;this.joints=new Map();}
 }

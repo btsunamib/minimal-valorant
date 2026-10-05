@@ -1,0 +1,8 @@
+#abilityHint{position:fixed;left:50%;bottom:160px;transform:translateX(-50%);max-width:90vw;padding:9px 15px;color:#ddfff8;background:#071c2cc9;font-size:14px;text-align:center;pointer-events:none;border-radius:3px;z-index:8}
+#abilityHint:empty{display:none}
+#tacticalUI{position:fixed;z-index:24;left:50%;top:50%;transform:translate(-50%,-50%);width:min(390px,78vw,75vh);padding:15px;background:#0a2634ed;border:1px solid #8ec9c7;color:#dbf7ee;pointer-events:auto;text-align:center}
+#tacticalMap{display:block;background:#07131e;width:100%;height:auto;margin:12px 0;touch-action:none}
+#tacticalConfirm{width:100%;min-height:40px;color:#10252c;background:#b8eee1;border:0;font-size:15px}
+@media(max-height:500px){#abilityHint{bottom:92px;font-size:12px;padding:5px 9px}#tacticalUI{padding:8px;width:min(300px,65vh)}#tacticalMap{margin:5px 0}}
+
+#killBadge.default-kill{background:none;border:0;box-shadow:none}#killBadge.default-kill>*:not(.default-kill-video):not(#killText):not(#killCount){display:none!important}#killBadge .default-kill-video{display:none}#killBadge.default-kill .default-kill-video{display:block;width:250px;height:150px;object-fit:contain;position:absolute;left:50%;bottom:13px;transform:translateX(-50%);pointer-events:none}#killBadge.default-kill #killText{color:#e8fff9}#killBadge.default-kill #killCount{color:#9cdac6}

@@ -1,0 +1,374 @@
+[
+  {
+    "agent": "jett",
+    "url": "https://playvalorant.com/en-us/agents/jett/",
+    "abilities": [
+      {
+        "title": "Drift",
+        "description": "HOLD JUMP while falling to glide.",
+        "url": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/news_live/afb5ba5a6a13e70dbaa52703c5a4f63066bf3bfb.webm?accountingTag=VAL",
+        "sha256": "6a591074f222571fe164eb863c7858742ead9ea22127d1862e7cc070010db6b1",
+        "fps": "60/1",
+        "width": 1280,
+        "height": 720,
+        "duration": null,
+        "status": "reference-inspected; motion not frame-verified"
+      },
+      {
+        "title": "UPDRAFT",
+        "description": "INSTANTLY propel Jett high into the air.",
+        "url": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/4cbc968f05713579aae9464c5a16dc3f6863f943.mp4?accountingTag=VAL",
+        "sha256": "f1ffccc759459ec2004d63b43ac4320c370dc1619cecdbf4c34669353dcda379",
+        "fps": "30/1",
+        "width": 1280,
+        "height": 720,
+        "duration": "2.433333",
+        "status": "reference-inspected; motion not frame-verified"
+      },
+      {
+        "title": "TAILWIND",
+        "description": "ACTIVATE to prepare a gust of wind for a limited time. RE-USE the wind to propel Jett in the direction she is moving. If Jett is standing still, she propels forward. Tailwind charge resets every two kills.",
+        "url": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/ec6b3cf1f8ac09d597b0193de1d7bb81335b40e4.mp4?accountingTag=VAL",
+        "sha256": "f2defd3305052b74a7a30d8efbdbf7351cb0889be16f848963749cae7bac80a5",
+        "fps": "60/1",
+        "width": 1920,
+        "height": 1080,
+        "duration": "9.383333",
+        "status": "reference-inspected; motion not frame-verified"
+      },
+      {
+        "title": "CLOUDBURST",
+        "description": "INSTANTLY throw a projectile that expands into a brief vision-blocking cloud on impact with a surface. HOLD the ability key to curve the smoke in the direction of your crosshair.",
+        "url": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/3353597819f0c032d56ff947d9762368b4ee6c6b.mp4?accountingTag=VAL",
+        "sha256": "54acf733cc88af35e934a25dd1e6542510333f21dc02bdf2405a9d0e88e4355d",
+        "fps": "30/1",
+        "width": 1280,
+        "height": 720,
+        "duration": "10.400000",
+        "status": "reference-inspected; motion not frame-verified"
+      },
+      {
+        "title": "BLADE STORM",
+        "description": "EQUIP a set of highly accurate throwing knives. FIRE to throw a single knife and recharge knives on a kill. ALT FIRE to throw all remaining daggers but does not recharge on a kill.",
+        "url": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/667770571300e065b332617e5c8f2e009ed88928.mp4?accountingTag=VAL",
+        "sha256": "82678c98c0de6854c7b2950b3425445782571a590f2cb3031ae3bbaff78aecc5",
+        "fps": "30/1",
+        "width": 1280,
+        "height": 720,
+        "duration": "8.166667",
+        "status": "reference-inspected; motion not frame-verified"
+      }
+    ]
+  },
+  {
+    "agent": "sage",
+    "url": "https://playvalorant.com/en-us/agents/sage/",
+    "abilities": [
+      {
+        "title": "SLOW ORB",
+        "description": "EQUIP a slowing orb. FIRE to throw a slowing orb forward that detonates upon landing, creating a lingering field that slows players caught inside of it.",
+        "url": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/45053483528b96cbe003ac39e6b53c9866d5fea6.mp4?accountingTag=VAL",
+        "sha256": "e4f0b8b9de138213505856af3f7579f03729aaf0f243a65215a9944911a784a4",
+        "fps": "30/1",
+        "width": 1280,
+        "height": 720,
+        "duration": "10.633333",
+        "status": "reference-inspected; motion not frame-verified"
+      },
+      {
+        "title": "HEALING ORB",
+        "description": "EQUIP a healing orb. FIRE with your crosshairs over a damaged ally to activate a heal-over-time on them. ALT FIRE while Sage is damaged to activate a self heal-over-time.",
+        "url": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/a247d196383136d3de15b4d6d9c816e3c8054ba0.mp4?accountingTag=VAL",
+        "sha256": "9412bd4bc6a7bb575af3144a8721ffdee52a66f3ae2ddba85a682b86ca10c71c",
+        "fps": "30/1",
+        "width": 1280,
+        "height": 720,
+        "duration": "5.033333",
+        "status": "reference-inspected; motion not frame-verified"
+      },
+      {
+        "title": "BARRIER ORB",
+        "description": "EQUIP a barrier orb. FIRE places a solid wall. ALT FIRE rotates the targeter.",
+        "url": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/a79b1d6838cee5572b428babd74a2db0c07f4ea5.mp4?accountingTag=VAL",
+        "sha256": "6da546c93bfba9ea0c5b7e1284e47ebf5cb6abb7c1556eff88f41fa4facf3d1c",
+        "fps": "30/1",
+        "width": 1280,
+        "height": 720,
+        "duration": "17.833333",
+        "status": "reference-inspected; motion not frame-verified"
+      },
+      {
+        "title": "RESURRECTION",
+        "description": "EQUIP a resurrection ability. FIRE with your crosshairs placed over a dead ally to begin resurrecting them. After a brief channel, the ally will be brought back to life with full health.",
+        "url": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/df83929ed5da349c37a5bf4600c2b55010c72402.mp4?accountingTag=VAL",
+        "sha256": "e2714f63f06d8b362b27bbe29fbf17918d080a1d7ece3e59254ee72ccac29cce",
+        "fps": "30/1",
+        "width": 1280,
+        "height": 720,
+        "duration": "6.933333",
+        "status": "reference-inspected; motion not frame-verified"
+      }
+    ]
+  },
+  {
+    "agent": "sova",
+    "url": "https://playvalorant.com/en-us/agents/sova/",
+    "abilities": [
+      {
+        "title": "SHOCK BOLT",
+        "description": "EQUIP a bow with a shock bolt. FIRE to send the explosive bolt forward, detonating upon collision and damaging players nearby. HOLD FIRE to extend the range of the projectile. ALT FIRE to add up to two bounces to this arrow.",
+        "url": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/7776fa677e90c72da94ec7d188d2d4618116c41b.mp4?accountingTag=VAL",
+        "sha256": "4df3868f45904f15139c0d170740d88bba958a4095144dec9b882ea550e9878b",
+        "fps": "30/1",
+        "width": 1280,
+        "height": 720,
+        "duration": "11.466667",
+        "status": "reference-inspected; motion not frame-verified"
+      },
+      {
+        "title": "RECON BOLT",
+        "description": "EQUIP a bow with recon bolt. FIRE to send the recon bolt forward, activating upon collision and Revealing the location of nearby enemies caught in the line of sight of the bolt. Enemies can destroy this bolt. HOLD FIRE to extend the range of the projectile. ALT FIRE to add up to two bounces to this arrow.",
+        "url": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/50f9d870fa2a9b9ba38408eb718ffc06879c11a8.mp4?accountingTag=VAL",
+        "sha256": "e89a34e3781a5c18a24a3602a39b0bd8dc41b0e490d394686cab8637baf573c0",
+        "fps": "30/1",
+        "width": 1280,
+        "height": 720,
+        "duration": "15.333333",
+        "status": "reference-inspected; motion not frame-verified"
+      },
+      {
+        "title": "OWL DRONE",
+        "description": "EQUIP an owl drone. FIRE to deploy and take control of movement of the drone. While in control of the drone, FIRE to shoot a marking dart. This dart will Reveal the location of any player struck by the dart. Enemies can destroy the Owl Drone.",
+        "url": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/6c6f036376c18ddf4ed0c589b506b8889d86a29a.mp4?accountingTag=VAL",
+        "sha256": "849a291cf597894a96a3d8c1dee894ae418ea432f372cad6f4cc9855e5e96689",
+        "fps": "30/1",
+        "width": 1280,
+        "height": 720,
+        "duration": "11.466667",
+        "status": "reference-inspected; motion not frame-verified"
+      },
+      {
+        "title": "HUNTER'S FURY",
+        "description": "EQUIP a bow with three long-range wall-piercing energy blasts. FIRE to release an energy blast in a line in front of Sova, dealing damage and revealing the location of enemies caught in the line. This ability can be RE-USED up to two more times while the ability timer is active.",
+        "url": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/df9ce34c3d2a7f527929cac123501e1473e0da0e.mp4?accountingTag=VAL",
+        "sha256": "1531e6e72a6b529f5a9df2969a7ce88a8cfe380d44439d88c1d23290471bfa65",
+        "fps": "30/1",
+        "width": 1280,
+        "height": 720,
+        "duration": "18.566667",
+        "status": "reference-inspected; motion not frame-verified"
+      }
+    ]
+  },
+  {
+    "agent": "phoenix",
+    "url": "https://playvalorant.com/en-us/agents/phoenix/",
+    "abilities": [
+      {
+        "title": "Inner Fire",
+        "description": "Phoenix heals while standing in his own fire instead of taking damage.",
+        "url": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/news_live/e10d4ce2480ed1f811c47686d690c59fa4b8d8f4.webm?accountingTag=VAL",
+        "sha256": "14783f02f3b40cd609e5461b464fc5ab189488500b92a2d5e155dd5143621c16",
+        "fps": "60/1",
+        "width": 1280,
+        "height": 720,
+        "duration": null,
+        "status": "reference-inspected; motion not frame-verified"
+      },
+      {
+        "title": "CURVEBALL",
+        "description": "EQUIP a flare orb that takes a curving path and detonates shortly after throwing. FIRE to curve the flare orb to the left, detonating and blinding any player who sees the orb. ALTERNATE FIRE to curve the flare orb to the right.",
+        "url": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/c62125b1b5637b7b0e0881348502f7e8b8e93572.mp4?accountingTag=VAL",
+        "sha256": "0f11faaa7a611149fec212863e528e6837d1a69f0ef22141a578a781838df7cd",
+        "fps": "30/1",
+        "width": 1280,
+        "height": 720,
+        "duration": "11.700000",
+        "status": "reference-inspected; motion not frame-verified"
+      },
+      {
+        "title": "HOT HANDS",
+        "description": "EQUIP a fireball. FIRE to throw a fireball that explodes after a set amount of time or upon hitting the ground, creating a lingering fire zone that damages enemies.",
+        "url": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/b702ed368fd050e7cb77adf26bc55bb63c5936fb.mp4?accountingTag=VAL",
+        "sha256": "6c9ff903e260ca03648915f089390fd06a8cda2e10fbdfdd3ea81239424c6bda",
+        "fps": "30/1",
+        "width": 1280,
+        "height": 720,
+        "duration": "9.300000",
+        "status": "reference-inspected; motion not frame-verified"
+      },
+      {
+        "title": "BLAZE",
+        "description": "EQUIP a flame wall. FIRE to create a line of flame that moves forward, creating a wall of fire that blocks vision and damages players passing through it. HOLD FIRE to bend the wall in the direction of your crosshair.",
+        "url": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/8c5b0e23be0814583ad4601b4297d04dbaff79f7.mp4?accountingTag=VAL",
+        "sha256": "4f26e154c7227e6aec45f888497f305fd55fc7ad286bc106c4db81d439f9852a",
+        "fps": "30/1",
+        "width": 1280,
+        "height": 720,
+        "duration": "18.666667",
+        "status": "reference-inspected; motion not frame-verified"
+      },
+      {
+        "title": "RUN IT BACK",
+        "description": "INSTANTLY place a marker at Phoenix’s location. While this ability is active, dying or allowing the timer to expire will end this ability and bring Phoenix back to this location with full health.",
+        "url": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/aa122a33b1ef0320174991b8ddee4e82dbc2b937.mp4?accountingTag=VAL",
+        "sha256": "5634fd3dc9d53fa712a14e3536451c993b280fcbed3f85f2a9be267d09523dbe",
+        "fps": "30/1",
+        "width": 1280,
+        "height": 720,
+        "duration": "6.500000",
+        "status": "reference-inspected; motion not frame-verified"
+      }
+    ]
+  },
+  {
+    "agent": "raze",
+    "url": "https://playvalorant.com/en-us/agents/raze/",
+    "abilities": [
+      {
+        "title": "BLAST PACK",
+        "description": "INSTANTLY throw a Blast Pack that will stick to surfaces. RE-USE the ability after deployment to detonate, damaging and moving anything hit. Raze isn't damaged by this ability, but will still take fall damage if launched up far enough.",
+        "url": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/82028c5e9ae38b59660dbf9f57f341f1c20c5480.mp4?accountingTag=VAL",
+        "sha256": "307e9d0bf4a7fe9847d7a68102157bb1d4a95b0e68cf4447bd7d0458dfda44a4",
+        "fps": "30/1",
+        "width": 1280,
+        "height": 720,
+        "duration": "11.533333",
+        "status": "reference-inspected; motion not frame-verified"
+      },
+      {
+        "title": "PAINT SHELLS",
+        "description": "EQUIP a cluster grenade. FIRE to throw the grenade, which does damage and creates sub-munitions, each doing damage to anyone in their range. ALT FIRE to lob. Paint Shells charge resets every two kills.",
+        "url": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/d75fd65435a84906bb3e8ad0b97c505e7359697b.mp4?accountingTag=VAL",
+        "sha256": "1f691095b3c2fef90f9dd449bbc358be0633b65c0456866087054940825c0c86",
+        "fps": "30/1",
+        "width": 1280,
+        "height": 720,
+        "duration": "8.266667",
+        "status": "reference-inspected; motion not frame-verified"
+      },
+      {
+        "title": "BOOM BOT",
+        "description": "EQUIP a Boom Bot. FIRE will deploy the bot, causing it to travel in a straight line on the ground, bouncing off walls. The Boom Bot will lock on to any enemies in its frontal cone and chase them, exploding for heavy damage if it reaches them.",
+        "url": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/c824fe8e08a4f36be2273aa456819d2c2b6cd6b0.mp4?accountingTag=VAL",
+        "sha256": "b890e2912e825aeff622f569a62d0c6eedae4e5c15d0f82d496ab83043e11f90",
+        "fps": "30/1",
+        "width": 1280,
+        "height": 720,
+        "duration": "11.333333",
+        "status": "reference-inspected; motion not frame-verified"
+      },
+      {
+        "title": "SHOWSTOPPER",
+        "description": "EQUIP a rocket launcher. FIRE to shoot a rocket that does massive area damage on contact with anything.",
+        "url": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/7281a34566f12d202dee3d43e0fa0bf0b4271d60.mp4?accountingTag=VAL",
+        "sha256": "51e4c99338f13c05ad33b8f2fa557bffc2467fc6f185b15c802256401f5e3f0c",
+        "fps": "30/1",
+        "width": 1280,
+        "height": 720,
+        "duration": "11.600000",
+        "status": "reference-inspected; motion not frame-verified"
+      }
+    ]
+  },
+  {
+    "agent": "skye",
+    "url": "https://playvalorant.com/en-us/agents/skye/",
+    "abilities": [
+      {
+        "title": "Q - Trailblazer",
+        "description": "EQUIP a Tasmanian tiger trinket. FIRE to send out and take control of the predator. While in control, FIRE to leap forward, exploding in a concussive blast and damaging directly hit enemies.",
+        "url": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/3256cb83ad3563516497864209ea585c595cd8df.mp4?accountingTag=VAL",
+        "sha256": "13cecd76d09088362064dbde6e6c2d09ce22057382429366a4ae11d78db65ac9",
+        "fps": "30/1",
+        "width": 1280,
+        "height": 720,
+        "duration": "6.333333",
+        "status": "reference-inspected; motion not frame-verified"
+      },
+      {
+        "title": "E - Guiding Light",
+        "description": "EQUIP a hawk trinket. FIRE to send it forward. HOLD FIRE to guide the hawk in the direction of your crosshair. RE-USE while the hawk is in flight to transform it into a flash that plays a hit confirm if an enemy was within range and line of sight.",
+        "url": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/64edfd7af8a7125dd9c981c52fdc60f9560b821b.mp4?accountingTag=VAL",
+        "sha256": "2db4781f24790bf062ca77973fa5940d625c0199727a4c95103b43dbdcea5194",
+        "fps": "30/1",
+        "width": 1280,
+        "height": 720,
+        "duration": "5.300000",
+        "status": "reference-inspected; motion not frame-verified"
+      },
+      {
+        "title": "C - Regrowth",
+        "description": "EQUIP a healing trinket. HOLD FIRE to channel, healing allies in range and line of sight. Can be reused until her healing pool is depleted. Skye cannot heal herself.",
+        "url": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/d64273e31bf2c4d16c52acc2f461e9accdb7c7f9.mp4?accountingTag=VAL",
+        "sha256": "932cfd35b7e5e9e42504033c43f0058636ad13486623e9982592eeeefcf27302",
+        "fps": "30/1",
+        "width": 1280,
+        "height": 720,
+        "duration": "7.800000",
+        "status": "reference-inspected; motion not frame-verified"
+      },
+      {
+        "title": "X - Seekers",
+        "description": "EQUIP a Seeker trinket.  FIRE to send out three Seekers to track down the three closest enemies.  If a Seeker reaches its target, it Nearsights them. Enemies can destroy the Seekers.",
+        "url": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/82ab63d9255f9fbbea7c13e00cd46b09ff90d25b.mp4?accountingTag=VAL",
+        "sha256": "29ed51b4b9f880ac71f2777ccc51ba8383d0b55744400d524d8009592eb96196",
+        "fps": "30/1",
+        "width": 1280,
+        "height": 720,
+        "duration": "6.033333",
+        "status": "reference-inspected; motion not frame-verified"
+      }
+    ]
+  },
+  {
+    "agent": "brimstone",
+    "url": "https://playvalorant.com/en-us/agents/brimstone/",
+    "abilities": [
+      {
+        "title": "INCENDIARY",
+        "description": "EQUIP an incendiary grenade launcher. FIRE to launch a grenade that detonates as it comes to a rest on the floor, creating a lingering fire zone that damages players within the zone.",
+        "url": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/9df59d490062acceb7c6ca32a3650b55718381f7.mp4?accountingTag=VAL",
+        "sha256": "fe495f9d6a6b57b30c2b6193b9c19e8c14ac806441015a9a56e43782eff818ba",
+        "fps": "30/1",
+        "width": 1280,
+        "height": 720,
+        "duration": "7.233333",
+        "status": "reference-inspected; motion not frame-verified"
+      },
+      {
+        "title": "SKY SMOKE",
+        "description": "EQUIP a tactical map. FIRE to set locations where Brimstone's smoke clouds will land. ALT FIRE to confirm, launching long-lasting smoke clouds that block vision in the selected area.",
+        "url": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/8e0b72295747346b60c354765944f5233fb208f2.mp4?accountingTag=VAL",
+        "sha256": "2f97ceab647e00714bca405bf1100587866b5b0729f95952729cb92fd0424937",
+        "fps": "30/1",
+        "width": 1280,
+        "height": 720,
+        "duration": "13.000000",
+        "status": "reference-inspected; motion not frame-verified"
+      },
+      {
+        "title": "STIM BEACON",
+        "description": "EQUIP a stim beacon. FIRE to toss the stim beacon in front of Brimstone. Upon landing, the stim beacon will create a field that grants players RapidFire.",
+        "url": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/da2d65e4abc2129e284cf5248fd70925f093a0b3.mp4?accountingTag=VAL",
+        "sha256": "108d196b6e3da68e383e9a40834790360af69819f736ac8c82c686deddede794",
+        "fps": "30/1",
+        "width": 1280,
+        "height": 720,
+        "duration": "5.866667",
+        "status": "reference-inspected; motion not frame-verified"
+      },
+      {
+        "title": "ORBITAL STRIKE",
+        "description": "EQUIP a tactical map. FIRE to launch a lingering orbital strike laser at the selected location, dealing high damage-over-time to players caught in the selected area.",
+        "url": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/ccd8e6c574b7017a2681e5d37c744f5a654327e3.mp4?accountingTag=VAL",
+        "sha256": "8bc16de82c5ec00662f89750684b7aadfa539b71f06227beabe60a5ee7f0f0d7",
+        "fps": "30/1",
+        "width": 1280,
+        "height": 720,
+        "duration": "17.333333",
+        "status": "reference-inspected; motion not frame-verified"
+      }
+    ]
+  }
+]

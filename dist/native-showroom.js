@@ -9,7 +9,12 @@ export function prepareNativeShowroom(rig,knife=false){
   const hidden=mesh.userData.nativeHand||/^(?:vfx|stab|deniste|mvp|aura|trail)/i.test(mesh.name);
   mesh.userData.showroomHidden=hidden;
   const positions=new Map();for(const i of mesh.userData.showroomIndices){if(!positions.has(i)){mesh.getVertexPosition(i,p).applyMatrix4(mesh.matrixWorld);positions.set(i,p.clone());}}
-  const indices=[];for(let i=0;i<mesh.userData.showroomIndices.length;i+=3){const tri=mesh.userData.showroomIndices.slice(i,i+3);if(tri.some(v=>Math.abs(positions.get(v).y)>2.5||Math.abs(positions.get(v).z)>10))continue;indices.push(...tri);}
+  const skin=mesh.geometry.attributes.skinIndex,weights=mesh.geometry.attributes.skinWeight;
+  const attachedTo=(v,pattern)=>{let score=0;for(let k=0;k<4;k++){const weight=weights?.array[v*4+k]??(k===0?1:0);if(!weight)continue;let bone=rig.bones[skin?.array[v*4+k]];while(bone?.isBone){if(pattern.test(bone.name)){score+=weight;break;}bone=bone.parent;}}return score>.5;};
+  // A material can contain both hands and weapon triangles. Filtering whole
+  // meshes leaves fingers, spare magazines and alternate attachments on top
+  // of the gun. Filter the bone attachments without changing the FPS index.
+  const indices=[];for(let i=0;i<mesh.userData.showroomIndices.length;i+=3){const tri=mesh.userData.showroomIndices.slice(i,i+3);if(tri.some(v=>Math.abs(positions.get(v).y)>2.5||Math.abs(positions.get(v).z)>10)||tri.every(v=>attachedTo(v,/^(?:[LR]_(?:Clavicle|Shoulder|Elbow|Hand|Thumb|Index|Middle|Ring|Pinky|Twist|Forearm|Upperarm|Palm)|ValveBiped.*(?:Hand|Finger))/i))||tri.some(v=>attachedTo(v,/^(?:(?:GN_)?Magazine2|Bullet2|mag2|b_mag)$/i)))continue;indices.push(...tri);}
   mesh.userData.collectionIndices=indices;
   if(!hidden&&!mesh.userData.nativeEffect)for(const i of new Set(indices))points.push(positions.get(i));
  }

@@ -1,0 +1,117 @@
+{
+  "source": "Anxxity/valo_kill_banner; original VALORANT footage and ValoFandom sound excerpts per upstream README",
+  "files": [
+    {
+      "file": "dist/assets/feedback/default/1.webm",
+      "url": "https://raw.githubusercontent.com/Anxxity/valo_kill_banner/main/web/vids/defult/1-kill-notif.webm",
+      "sha256": "a5fe460ead6ba0dc74ca5146f40ae6120e6a54acb4675969dacc8d2185b05785"
+    },
+    {
+      "file": "dist/assets/feedback/default/1.mp3",
+      "url": "https://raw.githubusercontent.com/Anxxity/valo_kill_banner/main/web/sounds/defult/1-kill-notif.mp3",
+      "sha256": "59fe336707be0991f75d1af81ee84164c1a091182ac414a717d030a41929cfdc"
+    },
+    {
+      "file": "dist/assets/feedback/default/2.webm",
+      "url": "https://raw.githubusercontent.com/Anxxity/valo_kill_banner/main/web/vids/defult/2-kill-notif.webm",
+      "sha256": "3a506c55948ed9e64eebaa9466a06d595118016edd17af711b4aa8c4c82670aa"
+    },
+    {
+      "file": "dist/assets/feedback/default/2.mp3",
+      "url": "https://raw.githubusercontent.com/Anxxity/valo_kill_banner/main/web/sounds/defult/2-kill-notif.mp3",
+      "sha256": "181dfbd1a61ea4efd157d1163a85222fbdede004f582b106b62c2fab0d0585f2"
+    },
+    {
+      "file": "dist/assets/feedback/default/3.webm",
+      "url": "https://raw.githubusercontent.com/Anxxity/valo_kill_banner/main/web/vids/defult/3-kill-notif.webm",
+      "sha256": "113803946a9790160e9deb4f9e2d747ecf99e757ff453d609fc41c2a988b5a57"
+    },
+    {
+      "file": "dist/assets/feedback/default/3.mp3",
+      "url": "https://raw.githubusercontent.com/Anxxity/valo_kill_banner/main/web/sounds/defult/3-kill-notif.mp3",
+      "sha256": "1e3bd15ebe446fc5511163bd9a01bbfb7afa122cd21bb6fbab31233e938b54bc"
+    },
+    {
+      "file": "dist/assets/feedback/default/4.webm",
+      "url": "https://raw.githubusercontent.com/Anxxity/valo_kill_banner/main/web/vids/defult/4-kill-notif.webm",
+      "sha256": "deb23fe744bd413ad2a916052e9fb8234139845f3097059694b9590b713153e5"
+    },
+    {
+      "file": "dist/assets/feedback/default/4.mp3",
+      "url": "https://raw.githubusercontent.com/Anxxity/valo_kill_banner/main/web/sounds/defult/4-kill-notif.mp3",
+      "sha256": "68268a38d812a175c07a2c367249ba8b11db6abb9763cec721163130e4cc76e4"
+    },
+    {
+      "file": "dist/assets/feedback/default/5.webm",
+      "url": "https://raw.githubusercontent.com/Anxxity/valo_kill_banner/main/web/vids/defult/5-kill-notif.webm",
+      "sha256": "94f9fb176c4efec30bae8b6fd1edf092ce467a64b77d654441857155429bb99d"
+    },
+    {
+      "file": "dist/assets/feedback/default/5.mp3",
+      "url": "https://raw.githubusercontent.com/Anxxity/valo_kill_banner/main/web/sounds/defult/5-kill-notif.mp3",
+      "sha256": "35ead503e623e4755f8a60623a4293433995d76f207721504a14974fe635b6cf"
+    }
+  ],
+  "browserSprites": [
+    {
+      "file": "dist/assets/feedback/default/1.webp",
+      "source": "dist/assets/feedback/default/1.webm",
+      "sha256": "7bf75ffca8723899440818b89aba872fe35c053a8a5441b417aeef77cc048ffd",
+      "frames": 60,
+      "fps": 30,
+      "columns": 8,
+      "rows": 8,
+      "frameWidth": 250,
+      "frameHeight": 150,
+      "conversion": "libvpx-vp9 alpha decode, 250x150 scale, lossless WebP atlas; no invented frames"
+    },
+    {
+      "file": "dist/assets/feedback/default/2.webp",
+      "source": "dist/assets/feedback/default/2.webm",
+      "sha256": "db72a9eb8719e9d6d3a995def953f99dde2e7771365f4446d566a99cbc56ad72",
+      "frames": 60,
+      "fps": 30,
+      "columns": 8,
+      "rows": 8,
+      "frameWidth": 250,
+      "frameHeight": 150,
+      "conversion": "libvpx-vp9 alpha decode, 250x150 scale, lossless WebP atlas; no invented frames"
+    },
+    {
+      "file": "dist/assets/feedback/default/3.webp",
+      "source": "dist/assets/feedback/default/3.webm",
+      "sha256": "6dd03ef556c4d208fce5477c2633f1ef459dbc772a8742273c88b899e982496d",
+      "frames": 60,
+      "fps": 30,
+      "columns": 8,
+      "rows": 8,
+      "frameWidth": 250,
+      "frameHeight": 150,
+      "conversion": "libvpx-vp9 alpha decode, 250x150 scale, lossless WebP atlas; no invented frames"
+    },
+    {
+      "file": "dist/assets/feedback/default/4.webp",
+      "source": "dist/assets/feedback/default/4.webm",
+      "sha256": "7983e8a97181c49e84cb6f8b9cede957814482f6f84da677b8b5ccf1df1a4d22",
+      "frames": 60,
+      "fps": 30,
+      "columns": 8,
+      "rows": 8,
+      "frameWidth": 250,
+      "frameHeight": 150,
+      "conversion": "libvpx-vp9 alpha decode, 250x150 scale, lossless WebP atlas; no invented frames"
+    },
+    {
+      "file": "dist/assets/feedback/default/5.webp",
+      "source": "dist/assets/feedback/default/5.webm",
+      "sha256": "e8475e955b96191366b4b25a54c52af7dd8c5d8061fa948565edf103496bbcd0",
+      "frames": 60,
+      "fps": 30,
+      "columns": 8,
+      "rows": 8,
+      "frameWidth": 250,
+      "frameHeight": 150,
+      "conversion": "libvpx-vp9 alpha decode, 250x150 scale, lossless WebP atlas; no invented frames"
+    }
+  ]
+}
