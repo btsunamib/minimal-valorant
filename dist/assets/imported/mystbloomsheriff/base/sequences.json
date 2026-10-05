@@ -1,0 +1,107 @@
+[
+  {
+    "index": 0,
+    "name": "dihid",
+    "fps": 60.0,
+    "frames": 5,
+    "events": []
+  },
+  {
+    "index": 1,
+    "name": "shoot1",
+    "fps": 60.0,
+    "frames": 197,
+    "events": []
+  },
+  {
+    "index": 2,
+    "name": "shoot_fast",
+    "fps": 90.0,
+    "frames": 197,
+    "events": []
+  },
+  {
+    "index": 3,
+    "name": "reload",
+    "fps": 60.0,
+    "frames": 157,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5004,
+        "options": "weapons/valorant/mystbloomsherrif/reload.wav",
+        "sound": "90102a7caaca29bd5d0d.wav"
+      }
+    ]
+  },
+  {
+    "index": 4,
+    "name": "reload_fast",
+    "fps": 90.0,
+    "frames": 157,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5004,
+        "options": "weapons/valorant/mystbloomsherrif/reload.wav",
+        "sound": "90102a7caaca29bd5d0d.wav"
+      }
+    ]
+  },
+  {
+    "index": 5,
+    "name": "draw",
+    "fps": 60.0,
+    "frames": 81,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5004,
+        "options": "weapons/valorant/mystbloomsherrif/draw.wav",
+        "sound": "0373594d63ea3db5f64c.wav"
+      }
+    ]
+  },
+  {
+    "index": 6,
+    "name": "draw_fast",
+    "fps": 90.0,
+    "frames": 81,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5004,
+        "options": "weapons/valorant/mystbloomsherrif/draw.wav",
+        "sound": "0373594d63ea3db5f64c.wav"
+      }
+    ]
+  },
+  {
+    "index": 7,
+    "name": "inspect",
+    "fps": 20.0,
+    "frames": 126,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5004,
+        "options": "weapons/valorant/mystbloomsherrif/inspect_check.wav",
+        "sound": "c7e514fc18d4d8ab6f66.wav"
+      }
+    ]
+  },
+  {
+    "index": 8,
+    "name": "inspect_fast",
+    "fps": 20.0,
+    "frames": 126,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5004,
+        "options": "weapons/valorant/mystbloomsherrif/inspect_check.wav",
+        "sound": "c7e514fc18d4d8ab6f66.wav"
+      }
+    ]
+  }
+]

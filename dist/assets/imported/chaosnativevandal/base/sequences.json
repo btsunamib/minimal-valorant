@@ -1,0 +1,142 @@
+[
+  {
+    "index": 0,
+    "name": "idle",
+    "fps": 60.0,
+    "frames": 88,
+    "events": []
+  },
+  {
+    "index": 1,
+    "name": "zoom_idle",
+    "fps": 60.0,
+    "frames": 2,
+    "events": []
+  },
+  {
+    "index": 2,
+    "name": "reload",
+    "fps": 60.0,
+    "frames": 178,
+    "events": [
+      {
+        "frame": 1,
+        "event": 5004,
+        "options": "weapons/valorant/kaosvandaie/re.wav",
+        "sound": "6daa31e4ea6c79d75202.wav"
+      }
+    ]
+  },
+  {
+    "index": 3,
+    "name": "reload_fast",
+    "fps": 60.0,
+    "frames": 178,
+    "events": [
+      {
+        "frame": 1,
+        "event": 5004,
+        "options": "weapons/valorant/kaosvandaie/re.wav",
+        "sound": "6daa31e4ea6c79d75202.wav"
+      }
+    ]
+  },
+  {
+    "index": 4,
+    "name": "draw",
+    "fps": 60.0,
+    "frames": 100,
+    "events": [
+      {
+        "frame": 1,
+        "event": 5004,
+        "options": "weapons/valorant/kaosvandaie/draw.wav",
+        "sound": "0dda6d8acade0dd930ef.wav"
+      }
+    ]
+  },
+  {
+    "index": 5,
+    "name": "draw_fast",
+    "fps": 60.0,
+    "frames": 100,
+    "events": [
+      {
+        "frame": 1,
+        "event": 5004,
+        "options": "weapons/valorant/kaosvandaie/draw.wav",
+        "sound": "0dda6d8acade0dd930ef.wav"
+      }
+    ]
+  },
+  {
+    "index": 6,
+    "name": "shoot1",
+    "fps": 90.0,
+    "frames": 30,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5001,
+        "options": "1",
+        "sound": null
+      }
+    ]
+  },
+  {
+    "index": 7,
+    "name": "shoot2",
+    "fps": 120.0,
+    "frames": 30,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5001,
+        "options": "1",
+        "sound": null
+      }
+    ]
+  },
+  {
+    "index": 8,
+    "name": "zoom_shoot",
+    "fps": 60.0,
+    "frames": 20,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5001,
+        "options": "1",
+        "sound": null
+      }
+    ]
+  },
+  {
+    "index": 9,
+    "name": "inspect",
+    "fps": 60.0,
+    "frames": 262,
+    "events": [
+      {
+        "frame": 1,
+        "event": 5004,
+        "options": "weapons/valorant/kaosvandaie/ins.wav",
+        "sound": "873ba43a3183252d55e0.wav"
+      }
+    ]
+  },
+  {
+    "index": 10,
+    "name": "inspect_fast",
+    "fps": 60.0,
+    "frames": 262,
+    "events": [
+      {
+        "frame": 1,
+        "event": 5004,
+        "options": "weapons/valorant/kaosvandaie/ins.wav",
+        "sound": "873ba43a3183252d55e0.wav"
+      }
+    ]
+  }
+]

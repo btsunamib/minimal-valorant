@@ -1,0 +1,296 @@
+[
+  {
+    "index": 0,
+    "name": "shezo",
+    "fps": 60.0,
+    "frames": 1,
+    "events": []
+  },
+  {
+    "index": 1,
+    "name": "dummy_idle_1",
+    "fps": 60.0,
+    "frames": 1,
+    "events": []
+  },
+  {
+    "index": 2,
+    "name": "reload",
+    "fps": 30.0,
+    "frames": 89,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5004,
+        "options": "weapons\\valorant\\mystbloomvandal/Reload_Mvt_A.wav",
+        "sound": "0f198c747f05f5daff35.wav"
+      },
+      {
+        "frame": 15,
+        "event": 5004,
+        "options": "weapons\\valorant\\mystbloomvandal/MagOut.wav",
+        "sound": "caaaf9d0a18ef085b417.wav"
+      },
+      {
+        "frame": 19,
+        "event": 5004,
+        "options": "weapons\\valorant\\mystbloomvandal/Reload_Ele_A.wav",
+        "sound": "9e66ae74a6198bb58283.wav"
+      },
+      {
+        "frame": 38,
+        "event": 5004,
+        "options": "weapons\\valorant\\mystbloomvandal/MagIn_Start.wav",
+        "sound": "a9906f60deb1fbcc1f7f.wav"
+      },
+      {
+        "frame": 40,
+        "event": 5004,
+        "options": "weapons\\valorant\\mystbloomvandal/Reload_Ele_B.wav",
+        "sound": "075fb5603b23d7cd7cc4.wav"
+      },
+      {
+        "frame": 41,
+        "event": 5004,
+        "options": "weapons\\valorant\\mystbloomvandal/MagIn_End.wav",
+        "sound": "1b4d3f2c9aa4af813663.wav"
+      },
+      {
+        "frame": 52,
+        "event": 5004,
+        "options": "weapons\\valorant\\mystbloomvandal/Chg_Hndl_Back.wav",
+        "sound": "58b7510d2e056425353d.wav"
+      },
+      {
+        "frame": 53,
+        "event": 5004,
+        "options": "weapons\\valorant\\mystbloomvandal/Reload_Ele_C.wav",
+        "sound": "77bc26053055b8a4d8b7.wav"
+      },
+      {
+        "frame": 62,
+        "event": 5004,
+        "options": "weapons\\valorant\\mystbloomvandal/Chg_Hndl_Fwd.wav",
+        "sound": "cfe3185070379260bb32.wav"
+      }
+    ]
+  },
+  {
+    "index": 3,
+    "name": "reload_dup_2",
+    "fps": 30.0,
+    "frames": 89,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5004,
+        "options": "weapons\\valorant\\mystbloomvandal/Reload_Mvt_A.wav",
+        "sound": "0f198c747f05f5daff35.wav"
+      },
+      {
+        "frame": 15,
+        "event": 5004,
+        "options": "weapons\\valorant\\mystbloomvandal/MagOut.wav",
+        "sound": "caaaf9d0a18ef085b417.wav"
+      },
+      {
+        "frame": 19,
+        "event": 5004,
+        "options": "weapons\\valorant\\mystbloomvandal/Reload_Ele_A.wav",
+        "sound": "9e66ae74a6198bb58283.wav"
+      },
+      {
+        "frame": 38,
+        "event": 5004,
+        "options": "weapons\\valorant\\mystbloomvandal/MagIn_Start.wav",
+        "sound": "a9906f60deb1fbcc1f7f.wav"
+      },
+      {
+        "frame": 40,
+        "event": 5004,
+        "options": "weapons\\valorant\\mystbloomvandal/Reload_Ele_B.wav",
+        "sound": "075fb5603b23d7cd7cc4.wav"
+      },
+      {
+        "frame": 41,
+        "event": 5004,
+        "options": "weapons\\valorant\\mystbloomvandal/MagIn_End.wav",
+        "sound": "1b4d3f2c9aa4af813663.wav"
+      },
+      {
+        "frame": 52,
+        "event": 5004,
+        "options": "weapons\\valorant\\mystbloomvandal/Chg_Hndl_Back.wav",
+        "sound": "58b7510d2e056425353d.wav"
+      },
+      {
+        "frame": 53,
+        "event": 5004,
+        "options": "weapons\\valorant\\mystbloomvandal/Reload_Ele_C.wav",
+        "sound": "77bc26053055b8a4d8b7.wav"
+      },
+      {
+        "frame": 62,
+        "event": 5004,
+        "options": "weapons\\valorant\\mystbloomvandal/Chg_Hndl_Fwd.wav",
+        "sound": "cfe3185070379260bb32.wav"
+      }
+    ]
+  },
+  {
+    "index": 4,
+    "name": "draw",
+    "fps": 60.0,
+    "frames": 100,
+    "events": [
+      {
+        "frame": 2,
+        "event": 5004,
+        "options": "weapons\\valorant\\mystbloomvandal/Reload_Mvt_A.wav",
+        "sound": "0f198c747f05f5daff35.wav"
+      },
+      {
+        "frame": 18,
+        "event": 5004,
+        "options": "weapons\\valorant\\mystbloomvandal/Equip_Ele.wav",
+        "sound": "59d5fb78f7260ae71c9f.wav"
+      },
+      {
+        "frame": 24,
+        "event": 5004,
+        "options": "weapons\\valorant\\mystbloomvandal/Chg_Hndl_Back.wav",
+        "sound": "58b7510d2e056425353d.wav"
+      },
+      {
+        "frame": 39,
+        "event": 5004,
+        "options": "weapons\\valorant\\mystbloomvandal/Chg_Hndl_Fwd.wav",
+        "sound": "cfe3185070379260bb32.wav"
+      },
+      {
+        "frame": 60,
+        "event": 5004,
+        "options": "weapons\\valorant\\mystbloomvandal/Grab.wav",
+        "sound": "f8ecf00c625107917fd0.wav"
+      }
+    ]
+  },
+  {
+    "index": 5,
+    "name": "draw_dup_3",
+    "fps": 60.0,
+    "frames": 100,
+    "events": [
+      {
+        "frame": 2,
+        "event": 5004,
+        "options": "weapons\\valorant\\mystbloomvandal/Reload_Mvt_A.wav",
+        "sound": "0f198c747f05f5daff35.wav"
+      },
+      {
+        "frame": 18,
+        "event": 5004,
+        "options": "weapons\\valorant\\mystbloomvandal/Equip_Ele.wav",
+        "sound": "59d5fb78f7260ae71c9f.wav"
+      },
+      {
+        "frame": 24,
+        "event": 5004,
+        "options": "weapons\\valorant\\mystbloomvandal/Chg_Hndl_Back.wav",
+        "sound": "58b7510d2e056425353d.wav"
+      },
+      {
+        "frame": 39,
+        "event": 5004,
+        "options": "weapons\\valorant\\mystbloomvandal/Chg_Hndl_Fwd.wav",
+        "sound": "cfe3185070379260bb32.wav"
+      },
+      {
+        "frame": 60,
+        "event": 5004,
+        "options": "weapons\\valorant\\mystbloomvandal/Grab.wav",
+        "sound": "f8ecf00c625107917fd0.wav"
+      }
+    ]
+  },
+  {
+    "index": 6,
+    "name": "shoot_1",
+    "fps": 60.0,
+    "frames": 21,
+    "events": []
+  },
+  {
+    "index": 7,
+    "name": "shoot_2",
+    "fps": 60.0,
+    "frames": 21,
+    "events": []
+  },
+  {
+    "index": 8,
+    "name": "shoot_3",
+    "fps": 60.0,
+    "frames": 21,
+    "events": []
+  },
+  {
+    "index": 9,
+    "name": "shoot_1_dup_4",
+    "fps": 60.0,
+    "frames": 21,
+    "events": []
+  },
+  {
+    "index": 10,
+    "name": "inspect",
+    "fps": 15.0,
+    "frames": 66,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5004,
+        "options": "weapons\\valorant\\mystbloomvandal/Inspect_Mvt.wav",
+        "sound": "5f7e13d95109db2cd576.wav"
+      },
+      {
+        "frame": 5,
+        "event": 5004,
+        "options": "weapons\\valorant\\mystbloomvandal/Inspect_Intro.wav",
+        "sound": "f5dcebf9035712483073.wav"
+      },
+      {
+        "frame": 45,
+        "event": 5004,
+        "options": "weapons\\valorant\\mystbloomvandal/Loop.wav",
+        "sound": "fa986832da94c4a252ed.wav"
+      }
+    ]
+  },
+  {
+    "index": 11,
+    "name": "inspect_dup_5",
+    "fps": 15.0,
+    "frames": 66,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5004,
+        "options": "weapons\\valorant\\mystbloomvandal/Inspect_Mvt.wav",
+        "sound": "5f7e13d95109db2cd576.wav"
+      },
+      {
+        "frame": 5,
+        "event": 5004,
+        "options": "weapons\\valorant\\mystbloomvandal/Inspect_Intro.wav",
+        "sound": "f5dcebf9035712483073.wav"
+      },
+      {
+        "frame": 45,
+        "event": 5004,
+        "options": "weapons\\valorant\\mystbloomvandal/Loop.wav",
+        "sound": "fa986832da94c4a252ed.wav"
+      }
+    ]
+  }
+]

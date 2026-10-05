@@ -1,5 +1,12 @@
 /* Collection references: UX is Fine / Riot PC and mobile weapon detail galleries.
    Original game UI, responsive arrangement; no store/payment affordances. */
+#arsenalGrid{align-items:start;grid-auto-rows:max-content;touch-action:pan-y}
+.arsenal-column{height:max-content;min-height:max-content}
+.arsenal-category,.arsenal-column:nth-child(3)>.arsenal-category:first-child{flex:none}
+.arsenal-category>div{flex:none;gap:8px;background:transparent;border:0}
+.arsenal-tile{flex:none;height:clamp(80px,14vh,126px);min-height:clamp(80px,14vh,126px);border:1px solid #9fbac140;background:#10263880;display:grid;grid-template-rows:minmax(0,1fr) auto;gap:6px;padding:10px}
+.arsenal-tile img{min-height:0;align-self:center}
+.arsenal-tile>span{position:static;background:#102638e6;padding:2px 5px;max-width:100%;line-height:1.35;min-width:0;overflow-wrap:anywhere}
 body[data-menu-tab=collection]:has(.arsenal-detail) #menu{background:transparent}
 body[data-menu-tab=collection]:has(.arsenal-detail) #vignette{background:none}
 #collectionPanel.arsenal-detail{padding:0 3.3%;--collection-accent:#86cddd}
@@ -8,7 +15,7 @@ body[data-menu-tab=collection]:has(.arsenal-detail) #vignette{background:none}
 .collection-skin-tabs{display:flex;justify-content:space-between;align-items:center;padding:12px 2px;border-bottom:2px solid #5eded0;color:#e4eeee;font-size:16px}
 .collection-skin-tabs>span{font-size:13px;color:#a3bbc3}
 .collection-gun-picker{display:block;margin:14px 0 12px}.collection-gun-picker select{width:100%;min-height:42px;border:1px solid #afc6ca65;background:#091d2b;color:#dfeaf1;padding:6px 10px;font-size:14px}
-.arsenal-detail #skinList{display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px;overflow:auto;min-height:0;align-content:start;padding:0 5px 10px 0;scrollbar-width:thin;scrollbar-color:#82c5c7 #163345;touch-action:pan-y}
+.arsenal-detail #skinList{display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;overflow:auto;min-height:0;align-content:start;padding:0 5px 10px 0;scrollbar-width:thin;scrollbar-color:#82c5c7 #163345;touch-action:pan-y}
 .skin-card{position:relative;padding:10px 5px 0;min-width:0;min-height:109px;border:1px solid #9fbac147;background:linear-gradient(135deg,#b9d1d218,#112e3e55);display:flex;flex-direction:column;justify-content:end;overflow:hidden;color:#dde7e8;transition:background .15s,border-color .15s}
 .skin-card img{display:block;width:100%;height:67px;object-fit:contain;filter:drop-shadow(0 5px 4px #0008)}.skin-card>span{display:block;width:100%;min-height:28px;margin-top:3px;padding:4px 0;font-size:13px;line-height:1.4;text-align:center;overflow-wrap:anywhere}
 .skin-card.active{border:2px solid #69e5d7;padding:9px 4px 0;background:linear-gradient(150deg,#29545899,#429b8c85)}.skin-card:hover{background-color:#80bdc22c}.skin-card.active>span{background:#60cbbf35;color:#fff}.equipped-mark{position:absolute;right:5px;top:4px;color:#8becd6;font-size:16px;font-style:normal}

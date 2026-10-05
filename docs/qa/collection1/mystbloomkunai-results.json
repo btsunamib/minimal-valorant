@@ -1,0 +1,105 @@
+{
+  "results": [
+    {
+      "width": 1280,
+      "height": 720,
+      "key": "mystbloomkunai",
+      "variant": "base",
+      "vertices": 5914,
+      "bounds": {
+        "minX": 425.91866971091395,
+        "maxX": 1142.4813060174433,
+        "minY": 262.78869828847195,
+        "maxY": 573.099686158931
+      },
+      "panels": [],
+      "gap": null,
+      "rect": {
+        "left": 332.234375,
+        "right": 1237.765625,
+        "top": 239.375,
+        "bottom": 596,
+        "width": 905.53125,
+        "height": 356.625
+      },
+      "software": false,
+      "failedShaders": 0
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "key": "mystbloomkunai",
+      "variant": "base",
+      "vertices": 5914,
+      "bounds": {
+        "minX": 388.61362734552984,
+        "maxX": 676.8847952830538,
+        "minY": 177.83881928414488,
+        "maxY": 302.7355004611784
+      },
+      "panels": [],
+      "gap": null,
+      "rect": {
+        "left": 249.84375,
+        "right": 816.15625,
+        "top": 168.4375,
+        "bottom": 312,
+        "width": 566.3125,
+        "height": 143.5625
+      },
+      "software": false,
+      "failedShaders": 0
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "key": "mystbloomkunai",
+      "variant": "base",
+      "vertices": 5914,
+      "bounds": {
+        "minX": 37.26751289609939,
+        "maxX": 352.4060693982273,
+        "minY": 354.3223093568499,
+        "maxY": 490.95252482147447
+      },
+      "panels": [],
+      "gap": null,
+      "rect": {
+        "left": 14,
+        "right": 376,
+        "top": 224.234375,
+        "bottom": 621,
+        "width": 362,
+        "height": 396.765625
+      },
+      "software": false,
+      "failedShaders": 0
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "key": "mystbloomkunai",
+      "variant": "base",
+      "vertices": 5914,
+      "bounds": {
+        "minX": 366.12035032345284,
+        "maxX": 946.850201115017,
+        "minY": 311.18638184532495,
+        "maxY": 562.7860779849783
+      },
+      "panels": [],
+      "gap": null,
+      "rect": {
+        "left": 323.78125,
+        "right": 990.21875,
+        "top": 229.6875,
+        "bottom": 644,
+        "width": 666.4375,
+        "height": 414.3125
+      },
+      "software": false,
+      "failedShaders": 0
+    }
+  ],
+  "errors": []
+}

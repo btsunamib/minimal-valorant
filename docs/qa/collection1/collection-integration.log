@@ -1,0 +1,7 @@
+THREE.WebGLRenderer: Error creating WebGL context.
+GitHub 皮肤加载失败 Error: GitHub HTTP 503
+    at fetchWeaponAsset (file:///workspace/scratch/2cec8d8cb4c8/minival-ai-work/dist/weapon-assets.js?v=20261006-collection1:22:26)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async loadGoldSrc (file:///workspace/scratch/2cec8d8cb4c8/minival-ai-work/dist/goldsrc-model.js?v=20261006-collection1:63:13)
+    at async file:///workspace/scratch/2cec8d8cb4c8/minival-ai-work/scripts/check-collection.mjs:39:84
+PASS real collection integration: all supplied native families enter gameplay, real equip/lobby/pistol/shop/knife route, GitHub failure and same-match retry without ammo loss or fire lock, inspect/fire/attack/reload; VCT team preview vs equip, per-gun saved skins; phone, landscape, tablet and desktop model framing; action/model switch restores hands. DOM/Canvas and viewport rectangles mocked; no real-device or browser visual claim.

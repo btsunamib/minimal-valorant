@@ -1,5 +1,5 @@
 import * as T from './three.module.js';
-import {sampleNaru} from './narukami-motion.js?v=20261005-ai-packs1';
+import {sampleNaru} from './narukami-motion.js?v=20261006-collection1';
 export const NARU_VARIANTS={base:{name:'原色 · 碧蓝',edge:0x39c9ff,body:0x263c53,grip:0x503d41},purple:{name:'紫色 · 霆紫',edge:0xb398ff,body:0x383443,grip:0x343140},white:{name:'白色 · 清流',edge:0x8ff7ec,body:0xb8c2c6,grip:0x56636b},black:{name:'黑色 · 墨浪',edge:0xee596b,body:0x252730,grip:0x32232a}};
 export function createNarukami(showcase=false,variant='base'){
  const c=NARU_VARIANTS[variant]||NARU_VARIANTS.base,model=new T.Group(),rig=new T.Group(),water=new T.Group(),hands=new T.Group();model.name='Kuronami Naru-Kami';model.add(rig,hands);rig.name='naru-knife';water.name='naru-water-blade';rig.add(water);

@@ -1,8 +1,8 @@
-import {NATIVE_UI} from './ui-catalog.js?v=20261005-ai-packs1';
-import {FEEDBACK_PACKS} from './feedback-catalog.js?v=20261005-ai-packs1';
-import {fetchWeaponAsset,weaponAssetURL} from './weapon-assets.js?v=20261005-ai-packs1';
-import {MOBILE2_UI,MOBILE2_VOICES} from './october5-extra-catalog.js?v=20261005-ai-packs1';
-export const FEEDBACK_NAMES={auto:'随皮肤',champions21:'2021 冠军',champions24phantom:'2024 冠军 · 幻影',sovereign:'天界神兵',phaseguard:'超时空护卫队',singularity:'奇点 · 白色',neo:'新边疆',additional:'资源包击杀徽章'};
+import {NATIVE_UI} from './ui-catalog.js?v=20261006-collection1';
+import {FEEDBACK_PACKS} from './feedback-catalog.js?v=20261006-collection1';
+import {fetchWeaponAsset,weaponAssetURL} from './weapon-assets.js?v=20261006-collection1';
+import {MOBILE2_UI,MOBILE2_VOICES} from './october5-extra-catalog.js?v=20261006-collection1';
+export const FEEDBACK_NAMES={auto:'随皮肤',chaosnative:'混沌序曲',mystbloom:'莲花 2.0',champions21:'2021 冠军',champions24phantom:'2024 冠军 · 幻影',sovereign:'天界神兵',phaseguard:'超时空护卫队',singularity:'奇点 · 白色',neo:'新边疆',additional:'资源包击杀徽章'};
 export function setNativeButtonLabel(el,text){
  if(!el)return;const icon=el.querySelector('.native-touch-icon');
  if(!icon){el.textContent=text;return;}

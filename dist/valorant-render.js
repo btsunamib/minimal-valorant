@@ -1,5 +1,5 @@
 import * as T from './three.module.js';
-import {MAP_LIGHTING} from './map-lighting-profiles.js?v=20261005-ai-packs1';
+import {MAP_LIGHTING} from './map-lighting-profiles.js?v=20261006-collection1';
 const worldUniforms={
  worldSunDirection:{value:new T.Vector3(-28,55,12).normalize()},
  worldSunTint:{value:new T.Vector3(1.04,1.015,.965)},

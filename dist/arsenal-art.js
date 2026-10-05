@@ -1,5 +1,5 @@
 import * as T from './three.module.js';
-import {WEAPONS} from './rules.js?v=20261005-ai-packs1';
+import {WEAPONS} from './rules.js?v=20261006-collection1';
 // Individual proportions: barrel end, receiver end, stock end, receiver height, width.
 export const GUN_SHAPES={classic:[-.25,-.15,.12,.09,.095],shorty:[-.35,-.14,.08,.10,.11],frenzy:[-.26,-.13,.10,.12,.095],ghost:[-.48,-.21,.13,.078,.083],bandit:[-.27,-.16,.10,.10,.097],sheriff:[-.39,-.24,.12,.11,.115],stinger:[-.47,-.34,.30,.12,.105],spectre:[-.71,-.39,.35,.11,.11],bucky:[-.81,-.38,.42,.09,.12],judge:[-.61,-.32,.36,.14,.145],bulldog:[-.62,-.34,.30,.16,.14],guardian:[-.87,-.44,.39,.11,.11],phantom:[-.86,-.49,.40,.12,.12],vandal:[-.80,-.44,.40,.12,.13],marshal:[-1.02,-.52,.45,.08,.095],outlaw:[-.91,-.38,.44,.105,.14],operator:[-1.12,-.52,.46,.15,.16],ares:[-.92,-.47,.40,.16,.16],odin:[-1.00,-.47,.46,.19,.20]};
 const smooth=(a,b,t)=>{t=T.MathUtils.clamp((t-a)/(b-a),0,1);return t*t*(3-2*t)};

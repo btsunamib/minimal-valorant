@@ -1,8 +1,8 @@
 import * as THREE from './three.module.js';
-import {loadGoldSrc} from './goldsrc-model.js?v=20261005-ai-packs1';
-import {loadSourceModel} from './source-model.js?v=20261005-ai-packs1';
-import {COLLECTION_IMPORTS} from './imported-catalog.js?v=20261005-ai-packs1';
-import {weaponAssetURL,fetchWeaponAsset} from './weapon-assets.js?v=20261005-ai-packs1';
+import {loadGoldSrc} from './goldsrc-model.js?v=20261006-collection1';
+import {loadSourceModel} from './source-model.js?v=20261006-collection1';
+import {COLLECTION_IMPORTS} from './imported-catalog.js?v=20261006-collection1';
+import {weaponAssetURL,fetchWeaponAsset} from './weapon-assets.js?v=20261006-collection1';
 export const IMPORTED_WEAPONS={
  champions21vandal:{weapon:'vandal',name:'2021 冠军 · 狂徒',variants:{base:'重置材质'},feedback:'champions21'},
  champions21knife:{weapon:'knife',name:'2021 冠军 · 爪刀',variants:{base:'冠军气息'}},

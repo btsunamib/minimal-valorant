@@ -1,53 +1,54 @@
-import {BotTactics,resetBotMind,inBotView,chooseBotTarget,chooseBotSkill,BOT_ACTIONS} from './bot-tactics.js?v=20261005-ai-packs1';
-import {resetBotNavigation,stepBotNavigation} from './bot-navigation.js?v=20261005-ai-packs1';
-import {MapInteractions} from './map-interactions.js?v=20261005-ai-packs1';
-import {DefaultFeedback,killFeedbackStyle} from './default-feedback.js?v=20261005-ai-packs1';
-import {NativeUtilities,createNativeSpike} from './native-utilities.js?v=20261005-ai-packs1';
-import {MAPS,loadNativeMap} from './native-maps.js?v=20261005-ai-packs1';
-import {configureValorantRender,configureMapLighting,configureSun,followSun} from './valorant-render.js?v=20261005-ai-packs1';
-import {setupNativeUI,setNativeButtonLabel,NativeVoice,NativeFeedback,FEEDBACK_NAMES} from './native-ui.js?v=20261005-ai-packs1';
-import {prepareNativeShowroom,showNativeShowroom,restoreNativeViewmodel} from './native-showroom.js?v=20261005-ai-packs1';
-import {equippedSkin,collectionDraft,equipCollection,skinItems,skinThumbnail,variantColor} from './collection.js?v=20261005-ai-packs1';
-import {ImportedKillAudio,importedFeedbackFamily,IMPORTED_WEAPONS,importedSelection,createImportedWeapon,createImportedFinisher,importedBadgeMarkup,updateImportedBadge,sequenceFor} from './imported-weapons.js?v=20261005-ai-packs1';
-import {C26_CLIPS,sampleC26,championSide} from './champions26.js?v=20261005-ai-packs1';
-import {C26Audio,c26BadgeMarkup,updateC26Badge,createC26Finisher,C26_BADGE_DURATION} from './champions26-feedback.js?v=20261005-ai-packs1';
-import {HitEffects} from './hit-effects.js?v=20261005-ai-packs1';
-import {CHAMPION_DURATION,CHAMPION_FPS,CHAMPION_FRAMES,sampleChampion} from './champions24-motion.js?v=20261005-ai-packs1';
-import {ChampionAudio} from './champions24.js?v=20261005-ai-packs1';
-import {sampleGunDraw} from './arsenal-art.js?v=20261005-ai-packs1';
-import {roundEquipment,purchaseLedger,shopAction,ARMOR_SHOP,BUY_GUNS,SIDEARMS,PRIMARY_GUNS,damageArmor,tickRegen} from './match-economy.js?v=20261005-ai-packs1';
-import {MovementAccuracy,shotSpread,ScopedRelease,spectatorTarget} from './combat-control.js?v=20261005-ai-packs1';
-import {RELOAD_RATE,reloadRemaining,reloadResumeClock,addEnemyOutline} from './combat-presentation.js?v=20261005-ai-packs1';
-import {AGENTS,getAgent,ABILITY_PRICES} from './agents-data.js?v=20261005-ai-packs1';
-import {createAgentModel,preloadAgentModels,NATIVE_AGENT_IDS} from './agent-art.js?v=20261005-ai-packs1';
-import {TacticalAbilities as AgentRuntime} from './tactical-abilities.js?v=20261005-ai-packs1';
-import {AbilityController} from './ability-controller.js?v=20261005-ai-packs1';
-import {AbilityView} from './ability-effects.js?v=20261005-ai-packs1';
-import {AgentHands,castTiming,GUN_DRAW_RATE} from './agent-motion.js?v=20261005-ai-packs1';
-import {NARU_CLIPS,NaruMotion,sampleNaru} from './narukami-motion.js?v=20261005-ai-packs1';
-import {NARU_VARIANTS} from './narukami.js?v=20261005-ai-packs1';
-import {NaruAudio} from './narukami-audio.js?v=20261005-ai-packs1';
-import {CombatAudio,combatKillCount} from './combat-audio.js?v=20261005-ai-packs1';
-import {CHAOS_RELOAD_DURATION,CHAOS_RELOAD_FRAMES,CHAOS_RELOAD_FPS,sampleChaosReload} from './chaos-reload.js?v=20261005-ai-packs1';
-import {CHAOS_DURATION,CHAOS_FRAMES,CHAOS_FPS} from './chaos-equip.js?v=20261005-ai-packs1';
-import {CHAOS_VARIANTS} from './chaos.js?v=20261005-ai-packs1';
-import {ChaosAudio,chaosBadgeMarkup,updateChaosBadge,CHAOS_BADGE_DURATION} from './chaos-feedback.js?v=20261005-ai-packs1';
-import {shopMarkup} from './shop-ui.js?v=20261005-ai-packs1';
-import {MERCY_DURATION,MERCY_FRAMES,MERCY_FPS} from './mercy-equip.js?v=20261005-ai-packs1';
-import {MERCY_VARIANTS} from './mercy.js?v=20261005-ai-packs1';
-import {bindTouchAction} from './touch-actions.js?v=20261005-ai-packs1';
-import {buyBarrierBlocks} from './buy-barriers.js?v=20261005-ai-packs1';
-import {MobileLayout} from './mobile-layout.js?v=20261005-ai-packs1';
-import {FramePacer,toggleKnifeSlot} from './frame-pacing.js?v=20261005-ai-packs1';
-import {EQUIP_DURATION,EQUIP_FRAMES,EQUIP_FPS} from './kuronami-equip.js?v=20261005-ai-packs1';
-import {KURONAMI_VARIANTS} from './kuronami.js?v=20261005-ai-packs1';
-import './browser-input.js?v=20261005-ai-packs1';
+import {BotTactics,resetBotMind,inBotView,chooseBotTarget,chooseBotSkill,BOT_ACTIONS} from './bot-tactics.js?v=20261006-collection1';
+import {resetBotNavigation,stepBotNavigation} from './bot-navigation.js?v=20261006-collection1';
+import {MapInteractions} from './map-interactions.js?v=20261006-collection1';
+import {DefaultFeedback,killFeedbackStyle} from './default-feedback.js?v=20261006-collection1';
+import {NativeUtilities,createNativeSpike} from './native-utilities.js?v=20261006-collection1';
+import {MAPS,loadNativeMap} from './native-maps.js?v=20261006-collection1';
+import {configureValorantRender,configureMapLighting,configureSun,followSun} from './valorant-render.js?v=20261006-collection1';
+import {setupNativeUI,setNativeButtonLabel,NativeVoice,NativeFeedback,FEEDBACK_NAMES} from './native-ui.js?v=20261006-collection1';
+import {prepareNativeShowroom,showNativeShowroom,restoreNativeViewmodel} from './native-showroom.js?v=20261006-collection1';
+import {weaponAssetURL} from './weapon-assets.js?v=20261006-collection1';
+import {equippedSkin,collectionDraft,equipCollection,skinItems,skinThumbnail,variantColor} from './collection.js?v=20261006-collection1';
+import {ImportedKillAudio,importedFeedbackFamily,IMPORTED_WEAPONS,importedSelection,createImportedWeapon,createImportedFinisher,importedBadgeMarkup,updateImportedBadge,sequenceFor} from './imported-weapons.js?v=20261006-collection1';
+import {C26_CLIPS,sampleC26,championSide} from './champions26.js?v=20261006-collection1';
+import {C26Audio,c26BadgeMarkup,updateC26Badge,createC26Finisher,C26_BADGE_DURATION} from './champions26-feedback.js?v=20261006-collection1';
+import {HitEffects} from './hit-effects.js?v=20261006-collection1';
+import {CHAMPION_DURATION,CHAMPION_FPS,CHAMPION_FRAMES,sampleChampion} from './champions24-motion.js?v=20261006-collection1';
+import {ChampionAudio} from './champions24.js?v=20261006-collection1';
+import {sampleGunDraw} from './arsenal-art.js?v=20261006-collection1';
+import {roundEquipment,purchaseLedger,shopAction,ARMOR_SHOP,BUY_GUNS,SIDEARMS,PRIMARY_GUNS,damageArmor,tickRegen} from './match-economy.js?v=20261006-collection1';
+import {MovementAccuracy,shotSpread,ScopedRelease,spectatorTarget} from './combat-control.js?v=20261006-collection1';
+import {RELOAD_RATE,reloadRemaining,reloadResumeClock,addEnemyOutline} from './combat-presentation.js?v=20261006-collection1';
+import {AGENTS,getAgent,ABILITY_PRICES} from './agents-data.js?v=20261006-collection1';
+import {createAgentModel,preloadAgentModels,NATIVE_AGENT_IDS} from './agent-art.js?v=20261006-collection1';
+import {TacticalAbilities as AgentRuntime} from './tactical-abilities.js?v=20261006-collection1';
+import {AbilityController} from './ability-controller.js?v=20261006-collection1';
+import {AbilityView} from './ability-effects.js?v=20261006-collection1';
+import {AgentHands,castTiming,GUN_DRAW_RATE} from './agent-motion.js?v=20261006-collection1';
+import {NARU_CLIPS,NaruMotion,sampleNaru} from './narukami-motion.js?v=20261006-collection1';
+import {NARU_VARIANTS} from './narukami.js?v=20261006-collection1';
+import {NaruAudio} from './narukami-audio.js?v=20261006-collection1';
+import {CombatAudio,combatKillCount} from './combat-audio.js?v=20261006-collection1';
+import {CHAOS_RELOAD_DURATION,CHAOS_RELOAD_FRAMES,CHAOS_RELOAD_FPS,sampleChaosReload} from './chaos-reload.js?v=20261006-collection1';
+import {CHAOS_DURATION,CHAOS_FRAMES,CHAOS_FPS} from './chaos-equip.js?v=20261006-collection1';
+import {CHAOS_VARIANTS} from './chaos.js?v=20261006-collection1';
+import {ChaosAudio,chaosBadgeMarkup,updateChaosBadge,CHAOS_BADGE_DURATION} from './chaos-feedback.js?v=20261006-collection1';
+import {shopMarkup} from './shop-ui.js?v=20261006-collection1';
+import {MERCY_DURATION,MERCY_FRAMES,MERCY_FPS} from './mercy-equip.js?v=20261006-collection1';
+import {MERCY_VARIANTS} from './mercy.js?v=20261006-collection1';
+import {bindTouchAction} from './touch-actions.js?v=20261006-collection1';
+import {buyBarrierBlocks} from './buy-barriers.js?v=20261006-collection1';
+import {MobileLayout} from './mobile-layout.js?v=20261006-collection1';
+import {FramePacer,toggleKnifeSlot} from './frame-pacing.js?v=20261006-collection1';
+import {EQUIP_DURATION,EQUIP_FRAMES,EQUIP_FPS} from './kuronami-equip.js?v=20261006-collection1';
+import {KURONAMI_VARIANTS} from './kuronami.js?v=20261006-collection1';
+import './browser-input.js?v=20261006-collection1';
 import * as THREE from './three.module.js';
-import {GyroAim} from './gyro.js?v=20261005-ai-packs1';
-import {batchStaticWorld} from './static-batch.js?v=20261005-ai-packs1';
-import {detailedWorld} from './world-art.js?v=20261005-ai-packs1';
-import {SoftwareRenderer} from './software-renderer.js?v=20261005-ai-packs1';
-import {WEAPONS,SKINS,KNIVES,SOLIDS,SITES,collision,pathfind,absorbDamage,rankInfo,roundResult} from './rules.js?v=20261005-ai-packs1';
+import {GyroAim} from './gyro.js?v=20261006-collection1';
+import {batchStaticWorld} from './static-batch.js?v=20261006-collection1';
+import {detailedWorld} from './world-art.js?v=20261006-collection1';
+import {SoftwareRenderer} from './software-renderer.js?v=20261006-collection1';
+import {WEAPONS,SKINS,KNIVES,SOLIDS,SITES,collision,pathfind,absorbDamage,rankInfo,roundResult} from './rules.js?v=20261006-collection1';
 const $=id=>document.getElementById(id),clamp=(v,a,b)=>Math.max(a,Math.min(b,v)),rand=(a,b)=>a+Math.random()*(b-a),V=(x=0,y=0,z=0)=>new THREE.Vector3(x,y,z);
 const coarsePointer=matchMedia('(pointer:coarse)').matches;let touchDevice=coarsePointer;let storageOK=true;
 function readSave(){try{return JSON.parse(localStorage.getItem('voxel-strike-v1')||'{}')}catch{storageOK=false;return{}}}
@@ -118,7 +119,7 @@ function importedActionLabel(name){const key=name.toLowerCase();let label=/draw/
 function syncImportedControls(art){if(!$('importedFrame')||!art.timeline)return;const s=art.timeline.sequence;$('importedFrame').max=s.frames-1;$('importedFrame').value=art.timeline.frame;if($('importedStatus')&&art.audioWarning)$('importedStatus').textContent='模型已加载；部分音效配置下载失败';$('importedFrameLabel').textContent=`${Math.floor(art.timeline.frame)+1} / ${s.frames} 帧 · ${s.fps} FPS · ${importedActionLabel(s.name)}`;}
 function fitImportedCollection(){
  const art=weaponArt;if(!art.rig)return;
- weaponGroup.position.set(0,0,0);weaponGroup.scale.setScalar(1);if(!art.collectionRotation){weaponGroup.quaternion.identity();weaponGroup.updateMatrixWorld(true);}art.rig.sample(sequenceFor(art.rig.sequences,'idle'),0);art.collectionRotation??=prepareNativeShowroom(art.rig,selectedPreview==='knife');weaponGroup.quaternion.copy(art.collectionRotation);showNativeShowroom(art.rig);
+ weaponGroup.position.set(0,0,0);weaponGroup.scale.setScalar(1);weaponGroup.quaternion.identity();weaponGroup.updateMatrixWorld(true);art.rig.sample(sequenceFor(art.rig.sequences,'idle'),0);art.collectionRotation??=prepareNativeShowroom(art.rig,selectedPreview==='knife');weaponGroup.quaternion.copy(art.collectionRotation);showNativeShowroom(art.rig);
  if(!art.collectionBounds){weaponGroup.updateMatrixWorld(true);const bounds=new THREE.Box3(),p=new THREE.Vector3();for(const m of art.rig.meshes)if(m.visible){const indices=m.geometry.index.array;for(const i of new Set(indices)){m.getVertexPosition(i,p).applyMatrix4(m.matrixWorld);if(p.length()<100)bounds.expandByPoint(p);}}art.collectionBounds=bounds;}
  const bounds=art.collectionBounds,size=bounds.getSize(new THREE.Vector3()),center=bounds.getCenter(new THREE.Vector3()),rect=$('collectionStage')?.getBoundingClientRect?.();
  viewCamera.fov=42;viewCamera.updateProjectionMatrix();const z=4,halfHeight=z*Math.tan(42*Math.PI/360),availableWidth=(rect?.width||innerWidth*.62)/innerWidth*2*halfHeight*viewCamera.aspect,availableHeight=(rect?.height||innerHeight*.45)/innerHeight*2*halfHeight;
@@ -351,14 +352,14 @@ function updateHUD(){const viewed=!player.alive?getSpectated():null;const w=WEAP
 function drawMinimap(){const c=$('minimap'),ctx=c.getContext('2d'),bounds=activeMap?.data.bounds||[-30,-26,30,26],sx=c.width/(bounds[2]-bounds[0]+4),sz=c.height/(bounds[3]-bounds[1]+4),X=x=>(x-bounds[0]+2)*sx,Z=z=>(z-bounds[1]+2)*sz;ctx.clearRect(0,0,c.width,c.height);ctx.fillStyle='#223b3dc9';ctx.fillRect(X(-28),Z(-24),56*sx,48*sz);if(!activeMap&&phase==='buy'&&mode!=='team'){ctx.strokeStyle='#90faff';ctx.lineWidth=2;for(const z of Object.values(BUY_LINES)){ctx.beginPath();ctx.moveTo(X(-27),Z(z));ctx.lineTo(X(27),Z(z));ctx.stroke();}}ctx.fillStyle='#839588';if(activeMap){ctx.fillStyle='#8d9b9d';for(const a of activeMap.data.areas){const b=a.bounds;ctx.fillRect(X(b[0]),Z(b[1]),(b[2]-b[0])*sx,(b[3]-b[1])*sz);}}for(const[x,z,w,d]of(activeMap?[]:SOLIDS))ctx.fillRect(X(x-w/2),Z(z-d/2),w*sx,d*sz);for(const s of SITES){ctx.strokeStyle='#bed884';ctx.strokeRect(X(s.x-3.5),Z(s.z-3.5),7*sx,7*sz);ctx.fillStyle='#e5f6bf';ctx.font='bold 12px Arial';ctx.fillText(s.name,X(s.x)-4,Z(s.z)+4)}for(const b of entities){if(!b.alive)continue;if(b.team===1&&!agentRuntime.has(b,'revealed')&&(!player.alive||Math.hypot(b.x-player.x,b.z-player.z)>22||!hasLOS(V(player.x,(player.floor||0)+1.5,player.z),V(b.x,(b.floor||0)+1.5,b.z))))continue;ctx.fillStyle=b.team===0?'#c5f46b':'#ff7770';ctx.beginPath();ctx.arc(X(b.x),Z(b.z),3,0,Math.PI*2);ctx.fill()}if(player.alive){ctx.save();ctx.translate(X(player.x),Z(player.z));ctx.rotate(-player.yaw);ctx.fillStyle='#fff';ctx.beginPath();ctx.moveTo(0,-6);ctx.lineTo(-4,4);ctx.lineTo(0,2);ctx.lineTo(4,4);ctx.closePath();ctx.fill();ctx.restore()}if(bomb.planted){ctx.fillStyle=gameTime%1<.5?'#ff876a':'#fff';ctx.fillRect(X(bomb.x)-3,Z(bomb.z)-3,6,6)}}
 function setTab(tab){importedKillAudio.stop();weaponArt?.stopAudio?.();c26Request++;c26Audio.stop();clearC26Preview();championRequest++;championAudio.stop();chaosKillRequestId++;chaosAudio.stop('kill');document.body.dataset.menuTab=tab;$('collectionPanel').classList.remove('arsenal-detail');chaosAudio.stop('reload');document.body.classList.remove('equip-preview');currentTab=tab;for(const t of['play','collection','career'])$(t+'Panel').classList.toggle('hidden',t!==tab);document.querySelectorAll('.nav').forEach(b=>b.classList.toggle('active',b.dataset.tab===tab));if(tab==='collection'){renderArsenalGrid();selectedPreview=prefs.primary;collectionLook=collectionDraft(selectedPreview,prefs);renderCollection();buildWeapon(selectedPreview,true)}if(tab==='career')updateCareer();if(tab==='play')buildWeapon(prefs.primary,true)}
 function openWeaponDetail(id){selectedPreview=id;collectionLook=collectionDraft(id,prefs);nativePreviewMode='model';if(PRIMARY_GUNS.includes(id)){prefs.primary=id;primary=id;save();}else if(SIDEARMS.includes(id)){prefs.sidearm=id;save();}$('collectionPanel').classList.add('arsenal-detail');$('arsenalWeapons').classList.remove('active');$('arsenalSeries').classList.add('active');renderCollection();buildWeapon(id,true);}
-function renderArsenalGrid(){const groups=[['佩枪',SIDEARMS],['冲锋枪',['stinger','spectre']],['霰弹枪',['bucky','judge']],['步枪',['bulldog','guardian','phantom','vandal']],['近战武器',['knife']],['狙击枪',['marshal','outlaw','operator']],['机枪',['ares','odin']]],cols=[[0],[1,2],[3,4],[5,6]];$('arsenalGrid').innerHTML=cols.map(indices=>`<div class="arsenal-column">${indices.map(i=>{const [name,ids]=groups[i];return `<section class="arsenal-category"><h3><i></i>${name}<b></b></h3><div>${ids.map(id=>`<button class="arsenal-tile ${id===prefs.primary?'equipped':''}" data-arsenal="${id}"><img src="${skinThumbnail(id,id==='knife'?prefs.knife:equippedSkin(id,prefs),id==='knife'&&prefs.knife==='kuronami'?prefs.kuronamiVariant:prefs.importedVariants?.[id==='knife'?prefs.knife:equippedSkin(id,prefs)]||'base')}" alt="${WEAPONS[id].name}"><span>${id==='knife'?KNIVES[prefs.knife]:WEAPONS[id].name}</span>${id===prefs.primary?'<small>◆ 已装备</small>':''}</button>`).join('')}</div></section>`}).join('')}</div>`).join('');for(const b of $('arsenalGrid').querySelectorAll('[data-arsenal]'))b.onclick=()=>openWeaponDetail(b.dataset.arsenal);$('arsenalWeapons').classList.add('active');$('arsenalSeries').classList.remove('active');}
+function renderArsenalGrid(){const groups=[['佩枪',SIDEARMS],['冲锋枪',['stinger','spectre']],['霰弹枪',['bucky','judge']],['步枪',['bulldog','guardian','phantom','vandal']],['近战武器',['knife']],['狙击枪',['marshal','outlaw','operator']],['机枪',['ares','odin']]],cols=[[0],[1,2],[3,4],[5,6]];$('arsenalGrid').innerHTML=cols.map(indices=>`<div class="arsenal-column">${indices.map(i=>{const [name,ids]=groups[i];return `<section class="arsenal-category"><h3><i></i>${name}<b></b></h3><div>${ids.map(id=>`<button class="arsenal-tile ${id===prefs.primary?'equipped':''}" data-arsenal="${id}"><img src="${weaponAssetURL(skinThumbnail(id,id==='knife'?prefs.knife:equippedSkin(id,prefs),id==='knife'&&prefs.knife==='kuronami'?prefs.kuronamiVariant:prefs.importedVariants?.[id==='knife'?prefs.knife:equippedSkin(id,prefs)]||'base'))}" alt="${WEAPONS[id].name}"><span>${id==='knife'?KNIVES[prefs.knife]:WEAPONS[id].name}</span>${id===prefs.primary?'<small>◆ 已装备</small>':''}</button>`).join('')}</div></section>`}).join('')}</div>`).join('');for(const b of $('arsenalGrid').querySelectorAll('[data-arsenal]'))b.onclick=()=>openWeaponDetail(b.dataset.arsenal);$('arsenalWeapons').classList.add('active');$('arsenalSeries').classList.remove('active');}
 function renderCollection(){
  const id=selectedPreview,key=id==='knife'?collectionLook.knife:collectionLook.skin,items=skinItems(id),spec=IMPORTED_WEAPONS[key];
  const variant=key==='kuronami'?collectionLook.kuronamiVariant:collectionLook.importedVariants?.[key]||'base';
  const w=WEAPONS[id];$('collectionPanel').classList.toggle('knife-collection',id==='knife');
  $('weaponSelect').innerHTML=Object.entries(WEAPONS).map(([value,g])=>`<option value="${value}" ${value===id?'selected':''}>${g.name} / ${g.en}</option>`).join('');
  $('weaponSelect').value=id;$('weaponSelect').onchange=e=>openWeaponDetail(e.target.value);
- $('skinList').innerHTML=items.map(item=>`<button class="skin-card ${item.key===key&&(!item.variant||item.variant===variant)?'active':''}" data-skin="${item.key}" data-variant="${item.variant||''}" aria-pressed="${item.key===key&&(!item.variant||item.variant===variant)}" style="--skin-accent:${item.color}"><img src="${skinThumbnail(id,item.key,item.variant||(item.key==='kuronami'?collectionLook.kuronamiVariant:collectionLook.importedVariants?.[item.key])||'base')}" alt="${item.name}" loading="lazy"><span>${item.name}</span>${(id==='knife'?prefs.knife:equippedSkin(id,prefs))===item.key&&(!item.variant||item.variant===(prefs.importedVariants?.[item.key]||'base'))?'<i class="equipped-mark" aria-label="已装备">✓</i>':''}</button>`).join('');
+ $('skinList').innerHTML=items.map(item=>`<button class="skin-card ${item.key===key&&(!item.variant||item.variant===variant)?'active':''}" data-skin="${item.key}" data-variant="${item.variant||''}" aria-pressed="${item.key===key&&(!item.variant||item.variant===variant)}" style="--skin-accent:${item.color}"><img src="${weaponAssetURL(skinThumbnail(id,item.key,item.variant||(item.key==='kuronami'?collectionLook.kuronamiVariant:collectionLook.importedVariants?.[item.key])||'base'))}" alt="${item.name}" loading="lazy"><span>${item.name}</span>${(id==='knife'?prefs.knife:equippedSkin(id,prefs))===item.key&&(!item.variant||item.variant===(prefs.importedVariants?.[item.key]||'base'))?'<i class="equipped-mark" aria-label="已装备">✓</i>':''}</button>`).join('');
  $('skinCount').textContent=items.length+' 款';
  for(const card of $('skinList').querySelectorAll('[data-skin]'))card.onclick=()=>{if(id==='knife')collectionLook.knife=card.dataset.skin;else collectionLook.skin=card.dataset.skin;if(card.dataset.variant)collectionLook.importedVariants[card.dataset.skin]=card.dataset.variant;nativePreviewMode='model';renderCollection();buildWeapon(id,true);};
  $('previewLabel').textContent=id==='knife'?KNIVES[key]:SKINS[key]?.name||w.name;

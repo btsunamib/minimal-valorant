@@ -1,7 +1,7 @@
 import * as T from './three.module.js';
-import {loadGoldSrc} from './goldsrc-model.js?v=20261005-ai-packs1';
-import {sequenceFor} from './imported-weapons.js?v=20261005-ai-packs1';
-import {prepareNativeShowroom,showNativeShowroom} from './native-showroom.js?v=20261005-ai-packs1';
+import {loadGoldSrc} from './goldsrc-model.js?v=20261006-collection1';
+import {sequenceFor} from './imported-weapons.js?v=20261006-collection1';
+import {prepareNativeShowroom,showNativeShowroom} from './native-showroom.js?v=20261006-collection1';
 export class NativeUtilities {
  constructor(scene){this.scene=scene;this.kind=null;this.rig=null;this.serial=0;this.seconds=0;}
  set(kind){if(kind===this.kind)return;this.serial++;this.rig?.dispose();this.rig=null;this.kind=kind;this.seconds=0;if(!kind)return;const serial=this.serial;loadGoldSrc('./assets/imported/utilities/'+kind+'.mdl.gz').then(p=>{if(serial!==this.serial)return;this.rig=p.instantiate();this.scene.add(this.rig.model);}).catch(()=>{});}

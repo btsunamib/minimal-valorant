@@ -4,7 +4,8 @@ export const WEAPON_ASSET_ROOT=`https://raw.githubusercontent.com/btsunamib/mini
 export const NEW_ASSET_ROOT='./';
 export function weaponAssetURL(path){
  const clean=String(path).replace(/^\.\//,'').replace(/^\//,'');
- if(/^assets\/(maps|native-ui|feedback)\//.test(clean)||/^assets\/imported\/(gaia|nimingvandal|singularitybutterfly|dolmirvandal|protocol781phantom|champions24phantom|valstrike|phaseguard|sovereign|eternal|forsaken|neofrontier|kuronamivfx|champions25source|champions22knifev2|originbuckyv2|utilities)/.test(clean))return NEW_ASSET_ROOT+clean;
+ if(/^assets\/imported\/[^/]+\/[^/]+\/thumb\.webp$/.test(clean))return NEW_ASSET_ROOT+clean+'?v=20261006-collection1';
+ if(/^assets\/(maps|native-ui|feedback)\//.test(clean)||/^assets\/imported\/(chaosnativevandal|mystbloom|primekarambit|gaia|nimingvandal|singularitybutterfly|dolmirvandal|protocol781phantom|champions24phantom|valstrike|phaseguard|sovereign|eternal|forsaken|neofrontier|kuronamivfx|champions25source|champions22knifev2|originbuckyv2|utilities)/.test(clean))return NEW_ASSET_ROOT+clean;
  if(clean.startsWith('assets/imported/')&&!clean.split('/').includes('..'))return WEAPON_ASSET_ROOT+clean;
  return String(path);
 }
