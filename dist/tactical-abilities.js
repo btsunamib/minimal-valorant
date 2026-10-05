@@ -1,7 +1,7 @@
 import * as T from './three.module.js';
-import {AgentRuntime} from './agent-runtime.js?v=20261004-tactical1';
-import {getAgent} from './agents-data.js?v=20261004-tactical1';
-import {utilityArt,decorateField} from './ability-effects.js?v=20261004-tactical1';
+import {AgentRuntime} from './agent-runtime.js?v=20261005-lighting1';
+import {getAgent} from './agents-data.js?v=20261005-lighting1';
+import {utilityArt,decorateField} from './ability-effects.js?v=20261005-lighting1';
 const V=(x=0,y=0,z=0)=>new T.Vector3(x,y,z),distance=(a,b)=>Math.hypot(a.x-b.x,a.z-b.z),clamp=(x,a,b)=>Math.max(a,Math.min(b,x));
 export class TacticalAbilities extends AgentRuntime {
  reset(e,points=e.kit?.points||0){super.reset(e,points);e.kit.healPool=100;e.kit.healSpent=false;e.kit.signatureKills=0;}

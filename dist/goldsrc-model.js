@@ -1,5 +1,5 @@
 import * as THREE from './three.module.js';
-import {nativeMaterial} from './valorant-render.js?v=20261004-tactical1';
+import {nativeMaterial} from './valorant-render.js?v=20261005-lighting1';
 // Native Valve IDST v10 reader. Keeps geometry, palettes, RLE bone samples and
 // events intact. No guessed equip/reload keys or secondary hand rig.
 export class GoldSrcModel {
@@ -56,7 +56,7 @@ export async function loadGoldSrc(url,{onProgress=()=>{},force=false}={}){
   if(cache.size>=4)cache.delete(cache.keys().next().value);
   const entry={listeners:new Set(),progress:null,promise:null};
   const progress=p=>{entry.progress=p;for(const listener of entry.listeners)listener(p);};
-  entry.promise=import('./weapon-assets.js?v=20261004-tactical1').then(({fetchWeaponAsset})=>fetchWeaponAsset(url,{kind:'model',onProgress:progress})).then(async b=>{progress({phase:'decode',loaded:b.byteLength,total:b.byteLength});return decodeGoldSrcAsset(b);}).then(b=>{progress({phase:'parse',loaded:b.byteLength,total:b.byteLength});return new GoldSrcModel(b);}).catch(e=>{if(cache.get(url)===entry)cache.delete(url);throw e;});
+  entry.promise=import('./weapon-assets.js?v=20261005-lighting1').then(({fetchWeaponAsset})=>fetchWeaponAsset(url,{kind:'model',onProgress:progress})).then(async b=>{progress({phase:'decode',loaded:b.byteLength,total:b.byteLength});return decodeGoldSrcAsset(b);}).then(b=>{progress({phase:'parse',loaded:b.byteLength,total:b.byteLength});return new GoldSrcModel(b);}).catch(e=>{if(cache.get(url)===entry)cache.delete(url);throw e;});
   cache.set(url,entry);
  }
  const entry=cache.get(url);entry.listeners.add(onProgress);if(entry.progress)onProgress(entry.progress);
