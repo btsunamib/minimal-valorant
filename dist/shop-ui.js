@@ -1,6 +1,6 @@
-import {ABILITY_PRICES} from './agents-data.js?v=20261005-lighting1';
-import {WEAPONS} from './rules.js?v=20261005-lighting1';
-import {ARMOR_SHOP,shopAction,armorOwned} from './match-economy.js?v=20261005-lighting1';
+import {ABILITY_PRICES} from './agents-data.js?v=20261005-botnav1';
+import {WEAPONS} from './rules.js?v=20261005-botnav1';
+import {ARMOR_SHOP,shopAction,armorOwned} from './match-economy.js?v=20261005-botnav1';
 const shield=(heavy=false)=>`<svg viewBox="0 0 64 72" aria-hidden="true"><path d="M32 5 56 15 51 44 32 65 13 44 8 15Z" fill="none" stroke="currentColor" stroke-width="4"/><path d="${heavy?'M21 21h22v20L32 51 21 41Z':'m32 20 4 9 10 1-8 7 2 10-8-5-8 5 2-10-8-7 10-1Z'}" fill="currentColor"/></svg>`;
 export function shopMarkup({team=false,phase,money,primary,sidearm='classic',armor,armorType,armorPool=0,ledger,agent,kit,teammates=[],round=1}){
  const state={money,primary,sidearm,armor,armorType,armorPool};

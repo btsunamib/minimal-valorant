@@ -1,6 +1,6 @@
 import * as T from './three.module.js';
-import {MAP_FEATURES} from './map-features.js?v=20261005-lighting1';
-import {getAgent} from './agents-data.js?v=20261005-lighting1';
+import {MAP_FEATURES} from './map-features.js?v=20261005-botnav1';
+import {getAgent} from './agents-data.js?v=20261005-botnav1';
 const V=(x=0,y=0,z=0)=>new T.Vector3(x,y,z),distance=(a,b)=>Math.hypot(a.x-b.x,a.z-b.z);
 export class MapInteractions {
  constructor(api){this.api=api;this.objects=[];this.group=new T.Group();api.scene.add(this.group);this.active=null;this.t=0;this.held=null;}

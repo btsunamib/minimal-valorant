@@ -1,5 +1,5 @@
 import * as T from './three.module.js';
-import {sampleMercyEquip,MERCY_DURATION} from './mercy-equip.js?v=20261005-lighting1';
+import {sampleMercyEquip,MERCY_DURATION} from './mercy-equip.js?v=20261005-botnav1';
 export const MERCY_VARIANTS={red:{name:'原色 · VCT 红',color:0xf23558},purple:{name:'太平洋 · 紫',color:0xa764fa},green:{name:'美洲 · 绿',color:0x6aee66},blue:{name:'EMEA · 蓝',color:0x5ca6ff}};
 export function createMercy(showcase=false,variant='red'){
  const c=MERCY_VARIANTS[variant]||MERCY_VARIANTS.red,model=new T.Group(),rig=new T.Group(),hand=new T.Group(),left=new T.Group(),blade=new T.Group();model.name='VCT LOCK IN Misericordia';model.add(rig,hand,left);rig.add(blade);

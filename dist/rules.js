@@ -1,4 +1,4 @@
-import {COLLECTION_IMPORTS} from './imported-catalog.js?v=20261005-lighting1';
+import {COLLECTION_IMPORTS} from './imported-catalog.js?v=20261005-botnav1';
 export const WEAPONS={
  "classic": {
   "name": "标配",

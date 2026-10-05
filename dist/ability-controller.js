@@ -1,4 +1,4 @@
-import {getAgent} from './agents-data.js?v=20261005-lighting1';
+import {getAgent} from './agents-data.js?v=20261005-botnav1';
 // Input and release state are separate from gameplay effects. Charges are only
 // spent at a successful commit, so selecting/cancelling cannot waste utility.
 export const instantAbility=(agent,kind)=>kind==='updraft'||kind==='dash'||kind==='satchel'||kind==='rebirth'||agent==='wushu'&&kind==='smoke';

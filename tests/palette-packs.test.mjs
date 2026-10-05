@@ -10,7 +10,7 @@ const read=p=>fs.readFileSync(new URL('../'+p,import.meta.url)),sha=b=>createHas
 const parse=p=>{const b=gunzipSync(read(p));return new GoldSrcModel(b.buffer.slice(b.byteOffset,b.byteOffset+b.length));};
 
 test('The browser entry and every mutable app import share one cache version',()=>{
- const version='?v=20261005-lighting1',vendors=new Set(['./three.module.js','./fflate.module.js']);
+ const version='?v=20261005-botnav1',vendors=new Set(['./three.module.js','./fflate.module.js']);
  for(const filename of fs.readdirSync(new URL('../dist/',import.meta.url)).filter(f=>f.endsWith('.js')&&!['three.module.js','fflate.module.js'].includes(f))){
   const source=read('dist/'+filename).toString();for(const match of source.matchAll(/(['"])(\.\/[a-zA-Z0-9_.-]+\.js)(\?[^'"]*)?\1/g))if(!vendors.has(match[2]))assert.equal(match[3],version,filename+' -> '+match[2]);
  }

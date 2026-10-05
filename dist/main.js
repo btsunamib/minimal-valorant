@@ -1,51 +1,52 @@
-import {MapInteractions} from './map-interactions.js?v=20261005-lighting1';
-import {DefaultFeedback,killFeedbackStyle} from './default-feedback.js?v=20261005-lighting1';
-import {NativeUtilities,createNativeSpike} from './native-utilities.js?v=20261005-lighting1';
-import {MAPS,loadNativeMap} from './native-maps.js?v=20261005-lighting1';
-import {configureValorantRender,configureSun,followSun} from './valorant-render.js?v=20261005-lighting1';
-import {setupNativeUI,NativeFeedback,FEEDBACK_NAMES} from './native-ui.js?v=20261005-lighting1';
-import {prepareNativeShowroom,showNativeShowroom,restoreNativeViewmodel} from './native-showroom.js?v=20261005-lighting1';
-import {equippedSkin,collectionDraft,equipCollection,skinItems,skinThumbnail,variantColor} from './collection.js?v=20261005-lighting1';
-import {ImportedKillAudio,importedFeedbackFamily,IMPORTED_WEAPONS,importedSelection,createImportedWeapon,createImportedFinisher,importedBadgeMarkup,updateImportedBadge,sequenceFor} from './imported-weapons.js?v=20261005-lighting1';
-import {C26_CLIPS,sampleC26,championSide} from './champions26.js?v=20261005-lighting1';
-import {C26Audio,c26BadgeMarkup,updateC26Badge,createC26Finisher,C26_BADGE_DURATION} from './champions26-feedback.js?v=20261005-lighting1';
-import {HitEffects} from './hit-effects.js?v=20261005-lighting1';
-import {CHAMPION_DURATION,CHAMPION_FPS,CHAMPION_FRAMES,sampleChampion} from './champions24-motion.js?v=20261005-lighting1';
-import {ChampionAudio} from './champions24.js?v=20261005-lighting1';
-import {sampleGunDraw} from './arsenal-art.js?v=20261005-lighting1';
-import {roundEquipment,purchaseLedger,shopAction,ARMOR_SHOP,BUY_GUNS,SIDEARMS,PRIMARY_GUNS,damageArmor,tickRegen} from './match-economy.js?v=20261005-lighting1';
-import {MovementAccuracy,shotSpread,ScopedRelease,spectatorTarget} from './combat-control.js?v=20261005-lighting1';
-import {RELOAD_RATE,reloadRemaining,reloadResumeClock,addEnemyOutline} from './combat-presentation.js?v=20261005-lighting1';
-import {AGENTS,getAgent,ABILITY_PRICES} from './agents-data.js?v=20261005-lighting1';
-import {createAgentModel,preloadAgentModels,NATIVE_AGENT_IDS} from './agent-art.js?v=20261005-lighting1';
-import {TacticalAbilities as AgentRuntime} from './tactical-abilities.js?v=20261005-lighting1';
-import {AbilityController} from './ability-controller.js?v=20261005-lighting1';
-import {AbilityView} from './ability-effects.js?v=20261005-lighting1';
-import {AgentHands,castTiming,GUN_DRAW_RATE} from './agent-motion.js?v=20261005-lighting1';
-import {NARU_CLIPS,NaruMotion,sampleNaru} from './narukami-motion.js?v=20261005-lighting1';
-import {NARU_VARIANTS} from './narukami.js?v=20261005-lighting1';
-import {NaruAudio} from './narukami-audio.js?v=20261005-lighting1';
-import {CombatAudio,combatKillCount} from './combat-audio.js?v=20261005-lighting1';
-import {CHAOS_RELOAD_DURATION,CHAOS_RELOAD_FRAMES,CHAOS_RELOAD_FPS,sampleChaosReload} from './chaos-reload.js?v=20261005-lighting1';
-import {CHAOS_DURATION,CHAOS_FRAMES,CHAOS_FPS} from './chaos-equip.js?v=20261005-lighting1';
-import {CHAOS_VARIANTS} from './chaos.js?v=20261005-lighting1';
-import {ChaosAudio,chaosBadgeMarkup,updateChaosBadge,CHAOS_BADGE_DURATION} from './chaos-feedback.js?v=20261005-lighting1';
-import {shopMarkup} from './shop-ui.js?v=20261005-lighting1';
-import {MERCY_DURATION,MERCY_FRAMES,MERCY_FPS} from './mercy-equip.js?v=20261005-lighting1';
-import {MERCY_VARIANTS} from './mercy.js?v=20261005-lighting1';
-import {bindTouchAction} from './touch-actions.js?v=20261005-lighting1';
-import {buyBarrierBlocks} from './buy-barriers.js?v=20261005-lighting1';
-import {MobileLayout} from './mobile-layout.js?v=20261005-lighting1';
-import {FramePacer,toggleKnifeSlot} from './frame-pacing.js?v=20261005-lighting1';
-import {EQUIP_DURATION,EQUIP_FRAMES,EQUIP_FPS} from './kuronami-equip.js?v=20261005-lighting1';
-import {KURONAMI_VARIANTS} from './kuronami.js?v=20261005-lighting1';
-import './browser-input.js?v=20261005-lighting1';
+import {resetBotNavigation,stepBotNavigation} from './bot-navigation.js?v=20261005-botnav1';
+import {MapInteractions} from './map-interactions.js?v=20261005-botnav1';
+import {DefaultFeedback,killFeedbackStyle} from './default-feedback.js?v=20261005-botnav1';
+import {NativeUtilities,createNativeSpike} from './native-utilities.js?v=20261005-botnav1';
+import {MAPS,loadNativeMap} from './native-maps.js?v=20261005-botnav1';
+import {configureValorantRender,configureSun,followSun} from './valorant-render.js?v=20261005-botnav1';
+import {setupNativeUI,NativeFeedback,FEEDBACK_NAMES} from './native-ui.js?v=20261005-botnav1';
+import {prepareNativeShowroom,showNativeShowroom,restoreNativeViewmodel} from './native-showroom.js?v=20261005-botnav1';
+import {equippedSkin,collectionDraft,equipCollection,skinItems,skinThumbnail,variantColor} from './collection.js?v=20261005-botnav1';
+import {ImportedKillAudio,importedFeedbackFamily,IMPORTED_WEAPONS,importedSelection,createImportedWeapon,createImportedFinisher,importedBadgeMarkup,updateImportedBadge,sequenceFor} from './imported-weapons.js?v=20261005-botnav1';
+import {C26_CLIPS,sampleC26,championSide} from './champions26.js?v=20261005-botnav1';
+import {C26Audio,c26BadgeMarkup,updateC26Badge,createC26Finisher,C26_BADGE_DURATION} from './champions26-feedback.js?v=20261005-botnav1';
+import {HitEffects} from './hit-effects.js?v=20261005-botnav1';
+import {CHAMPION_DURATION,CHAMPION_FPS,CHAMPION_FRAMES,sampleChampion} from './champions24-motion.js?v=20261005-botnav1';
+import {ChampionAudio} from './champions24.js?v=20261005-botnav1';
+import {sampleGunDraw} from './arsenal-art.js?v=20261005-botnav1';
+import {roundEquipment,purchaseLedger,shopAction,ARMOR_SHOP,BUY_GUNS,SIDEARMS,PRIMARY_GUNS,damageArmor,tickRegen} from './match-economy.js?v=20261005-botnav1';
+import {MovementAccuracy,shotSpread,ScopedRelease,spectatorTarget} from './combat-control.js?v=20261005-botnav1';
+import {RELOAD_RATE,reloadRemaining,reloadResumeClock,addEnemyOutline} from './combat-presentation.js?v=20261005-botnav1';
+import {AGENTS,getAgent,ABILITY_PRICES} from './agents-data.js?v=20261005-botnav1';
+import {createAgentModel,preloadAgentModels,NATIVE_AGENT_IDS} from './agent-art.js?v=20261005-botnav1';
+import {TacticalAbilities as AgentRuntime} from './tactical-abilities.js?v=20261005-botnav1';
+import {AbilityController} from './ability-controller.js?v=20261005-botnav1';
+import {AbilityView} from './ability-effects.js?v=20261005-botnav1';
+import {AgentHands,castTiming,GUN_DRAW_RATE} from './agent-motion.js?v=20261005-botnav1';
+import {NARU_CLIPS,NaruMotion,sampleNaru} from './narukami-motion.js?v=20261005-botnav1';
+import {NARU_VARIANTS} from './narukami.js?v=20261005-botnav1';
+import {NaruAudio} from './narukami-audio.js?v=20261005-botnav1';
+import {CombatAudio,combatKillCount} from './combat-audio.js?v=20261005-botnav1';
+import {CHAOS_RELOAD_DURATION,CHAOS_RELOAD_FRAMES,CHAOS_RELOAD_FPS,sampleChaosReload} from './chaos-reload.js?v=20261005-botnav1';
+import {CHAOS_DURATION,CHAOS_FRAMES,CHAOS_FPS} from './chaos-equip.js?v=20261005-botnav1';
+import {CHAOS_VARIANTS} from './chaos.js?v=20261005-botnav1';
+import {ChaosAudio,chaosBadgeMarkup,updateChaosBadge,CHAOS_BADGE_DURATION} from './chaos-feedback.js?v=20261005-botnav1';
+import {shopMarkup} from './shop-ui.js?v=20261005-botnav1';
+import {MERCY_DURATION,MERCY_FRAMES,MERCY_FPS} from './mercy-equip.js?v=20261005-botnav1';
+import {MERCY_VARIANTS} from './mercy.js?v=20261005-botnav1';
+import {bindTouchAction} from './touch-actions.js?v=20261005-botnav1';
+import {buyBarrierBlocks} from './buy-barriers.js?v=20261005-botnav1';
+import {MobileLayout} from './mobile-layout.js?v=20261005-botnav1';
+import {FramePacer,toggleKnifeSlot} from './frame-pacing.js?v=20261005-botnav1';
+import {EQUIP_DURATION,EQUIP_FRAMES,EQUIP_FPS} from './kuronami-equip.js?v=20261005-botnav1';
+import {KURONAMI_VARIANTS} from './kuronami.js?v=20261005-botnav1';
+import './browser-input.js?v=20261005-botnav1';
 import * as THREE from './three.module.js';
-import {GyroAim} from './gyro.js?v=20261005-lighting1';
-import {batchStaticWorld} from './static-batch.js?v=20261005-lighting1';
-import {detailedWorld} from './world-art.js?v=20261005-lighting1';
-import {SoftwareRenderer} from './software-renderer.js?v=20261005-lighting1';
-import {WEAPONS,SKINS,KNIVES,SOLIDS,SITES,collision,pathfind,absorbDamage,rankInfo,roundResult} from './rules.js?v=20261005-lighting1';
+import {GyroAim} from './gyro.js?v=20261005-botnav1';
+import {batchStaticWorld} from './static-batch.js?v=20261005-botnav1';
+import {detailedWorld} from './world-art.js?v=20261005-botnav1';
+import {SoftwareRenderer} from './software-renderer.js?v=20261005-botnav1';
+import {WEAPONS,SKINS,KNIVES,SOLIDS,SITES,collision,pathfind,absorbDamage,rankInfo,roundResult} from './rules.js?v=20261005-botnav1';
 const $=id=>document.getElementById(id),clamp=(v,a,b)=>Math.max(a,Math.min(b,v)),rand=(a,b)=>a+Math.random()*(b-a),V=(x=0,y=0,z=0)=>new THREE.Vector3(x,y,z);
 const coarsePointer=matchMedia('(pointer:coarse)').matches;let touchDevice=coarsePointer;let storageOK=true;
 function readSave(){try{return JSON.parse(localStorage.getItem('voxel-strike-v1')||'{}')}catch{storageOK=false;return{}}}
@@ -186,7 +187,7 @@ function movementBlocked(e,x,z,r=.37){const feet=e===player?e.y-(keys.has('Contr
 
 // Purchase boundaries are enforced by movementBlocked; no visible blue panes.
 function moveEntity(e,dx,dz,r=.37){if(e.traversal)return;const steps=Math.max(1,Math.ceil(Math.hypot(dx,dz)/.3));for(let i=0;i<steps;i++){if(!movementBlocked(e,e.x+dx/steps,e.z,r))e.x+=dx/steps;if(!movementBlocked(e,e.x,e.z+dz/steps,r))e.z+=dz/steps}if(activeMap){const oldFloor=e.floor||0;e.floor=floorAt(e);if(e===player&&oldFloor-e.floor>.3&&e.vy===0)e.vy=-.1;if(e.mesh)e.y=e.floor+1.73;else if(e.vy===0)e.y=e.floor+(keys.has('ControlLeft')?1.12:1.65);}}
-function spawnEntity(e,i=0){e.traversal=null;if(e===player){importedKillAudio.stop();c26Audio.stop();c26InspectSeconds=null;chaosAudio.stop('kill');cancelScopeHold();movementAccuracy.reset();spectatedId=-1;$('spectatorControls').classList.add('hidden');}const oldKit=e.kit;agentRuntime.reset(e);if(mode!=='team'){const a=getAgent(e.agent);e.kit.charges=a.skills.slice(0,3).map((sk,i)=>i===2?1:oldKit?.charges?.[i]||0).concat([1]);}const p=teamSpawn(e.team,i);e.x=p.x;e.z=p.z;e.floor=p.floor||0;e.hp=100;e.armor=50;e.armorType='armor';e.armorPool=0;e.armorHitAt=-100;e.alive=true;if(e.mesh){e.mesh.visible=true;e.y=e.floor+1.73;e.mesh.position.set(e.x,e.floor,e.z);e.path=[];e.pathTimer=rand(0,.5);e.target=null;e.reaction=0;e.plantProgress=0;e.defuseProgress=0}else{e.y=e.floor+1.65;e.vy=0;e.pitch=0;e.yaw=p.yaw??(e.team===attackTeam?0:Math.PI);deadTime=0;$('spectator').classList.add('hidden')}}
+function spawnEntity(e,i=0){e.traversal=null;if(e===player){importedKillAudio.stop();c26Audio.stop();c26InspectSeconds=null;chaosAudio.stop('kill');cancelScopeHold();movementAccuracy.reset();spectatedId=-1;$('spectatorControls').classList.add('hidden');}const oldKit=e.kit;agentRuntime.reset(e);if(mode!=='team'){const a=getAgent(e.agent);e.kit.charges=a.skills.slice(0,3).map((sk,i)=>i===2?1:oldKit?.charges?.[i]||0).concat([1]);}const p=teamSpawn(e.team,i);e.x=p.x;e.z=p.z;e.floor=p.floor||0;e.hp=100;e.armor=50;e.armorType='armor';e.armorPool=0;e.armorHitAt=-100;e.alive=true;if(e.mesh){e.mesh.visible=true;e.y=e.floor+1.73;e.mesh.position.set(e.x,e.floor,e.z);resetBotNavigation(e,rand(0,.5));e.target=null;e.reaction=0;e.plantProgress=0;e.defuseProgress=0}else{e.y=e.floor+1.65;e.vy=0;e.pitch=0;e.yaw=p.yaw??(e.team===attackTeam?0:Math.PI);deadTime=0;$('spectator').classList.add('hidden')}}
 function clearEffects(){spikeSerial++;spikeArt?.dispose();spikeArt=null;nativeUtilities.reset();defaultFeedback.hide();nativeUtilityActive=false;weaponGroup.visible=true;clearImportedFinishers();clearC26Finishers();c26Audio.stop();hitEffects.clear();cancelCast();agentRuntime.clear();for(const e of effects){scene.remove(e.mesh);if(e.dispose)e.mesh.geometry.dispose();if(e.unique)e.mesh.material.dispose()}effects.length=0;for(const s of smokes){scene.remove(s.mesh);s.mesh.material.dispose()}smokes.length=0;if(bombMesh){scene.remove(bombMesh);bombMesh=null}}
 function startMatch(){nativeUtilities.reset();nativeFeedback.hide();defaultFeedback.hide();unlockAudio();resetTouchState();if(touchDevice&&prefs.gyro!=='off')gyro.enable();player.agent=getAgent(prefs.agent).id;player.kit=null;difficulty=$('difficulty').value;primary=prefs.primary;mode=document.querySelector('.mode-card.selected').dataset.mode;state='playing';overtime=false;paused=false;overlayType='';$('overlay').classList.add('hidden');$('menu').classList.add('hidden');$('hud').classList.remove('hidden');document.body.classList.add('playing');applyTouchPreferences();if(touchDevice)$('touch').classList.remove('hidden');currentSlot=0;lastGunSlot=0;score=[0,0];round=0;attackTeam=0;matchTime=360;matchKills=0;roundKills=0;streak=0;money=3900;meleeReadyAt=0;meleeMotion.started=-100;inspectLevel=0;player.kills=0;player.deaths=0;player.assists=0;headshots=0;hitShots=0;totalShots=0;gameTime=0;lastShot=-10;recoil=0;hitTime=0;damageFlash=0;lastKiller='';for(const b of entities){scene.remove(b.mesh);b.outline?.dispose();b.art?.dispose();}entities.length=0;botMeshes.length=0;for(let i=0;i<9;i++)createBot(i,i<4?0:1);clearEffects();$('killfeed').innerHTML='';newRound();requestLock();}
 function newRound(){delete $('roundBanner').dataset.nativeResult;const survived=player.alive,oldArmor=player.armor,oldArmorType=player.armorType,oldArmorPool=player.armorPool,oldSidearm=sidearm;round++;const swapped=mode!=='team'&&round===(mode==='ranked'?7:4);if(swapped){attackTeam=1-attackTeam;notify('攻守互换')}phase=mode==='team'?'live':'buy';phaseTime=mode==='team'?360:10;matchTime=mode==='team'?360:matchTime;const loadout=roundEquipment({mode,round,swapped,survived,primary,armor:oldArmor,money,preferred:prefs.primary});spawnEntity(player,2);primary=loadout.primary;money=loadout.money;player.armor=loadout.armor;player.armorType=mode==='team'?'armor':round===1||swapped||!survived?null:oldArmorType;player.armorPool=mode==='team'||round===1||swapped||!survived?0:oldArmorPool;sidearm=mode==='team'?(prefs.sidearm||'classic'):round===1||swapped||!survived?'classic':oldSidearm;currentSlot=primary==='classic'?1:0;lastGunSlot=currentSlot;for(let i=0;i<entities.length;i++){const bot=entities[i];spawnEntity(bot,bot.team===0?(i<2?i:i+1):i-4);bot.weapon=mode!=='team'&&(round===1||swapped)?'classic':i%3?'vandal':'phantom';bot.art.setWeapon(bot.weapon);bot.art.update();if(mode!=='team'&&(round===1||swapped))bot.armor=0;}shopLedger=purchaseLedger(shopState());resetAmmo();abilities={smoke:2,dash:2,heal:1};abilityCooldown={smoke:0,dash:0,heal:0};roundKills=0;reloadLeft=0;fireHeld=false;aimHeld=false;keys.delete('Digit4');bombBeep=0;badgeTime=0;$('killBadge').classList.add('hidden');$('hitmarker').classList.add('hidden');$('interactText').textContent='';$('interactTrack').style.display='none';switchTime=hasChaos()?CHAOS_DURATION:weaponId()==='knife'?knifeEquipDuration():.4;inspectTime=0;clearEffects();mapInteractions.reset();bomb={planted:false,x:0,z:0,timer:35,progress:0,carrier:attackTeam===0?player:entities.find(b=>b.team===attackTeam),defuse:0};buildWeapon();if(mode==='team'){showBanner('团队对战','率先取得 30 次击杀','自动复活 · B 免费切换武器');phaseTime=4}else showBanner('第 '+round+' 回合 · '+(attackTeam===0?'进攻方':'防守方'),'购买阶段','B 打开商店 · '+(attackTeam===0?'携带爆能器前往 A / B 包点':'守住 A / B 包点'));updateHUD();}
@@ -223,14 +224,24 @@ function objective(dt){if(phase!=='live')return;const mapPrompt=activeMap&&playe
  if(mapPrompt&&!bomb.progress&&!bomb.defuse)prompt=mapInteractions.held?'正在获取终极技能球':mapPrompt;$('interactText').textContent=prompt||mapPrompt;$('interactTrack').style.display=progress?'block':'none';$('interactTrack').firstElementChild.style.width=Math.min(100,progress*100)+'%';const aliveAttack=[player,...entities].filter(e=>e.alive&&e.team===attackTeam).length,aliveDef=[player,...entities].filter(e=>e.alive&&e.team!==attackTeam).length;const result=roundResult(aliveAttack,aliveDef,bomb.planted,phaseTime,bomb.timer);if(result){if(bomb.planted&&bomb.timer<=0){finisher(V(bomb.x,0,bomb.z));noise(.9,.6,1000)}finishRound(result.side==='attack'?attackTeam:1-attackTeam,result.reason)}}
 function updateBots(dt){for(const b of entities){if(!b.alive){if(mode==='team'){b.respawn-=dt;if(b.respawn<=0)spawnEntity(b,b.seed%5)}continue}if(phase!=='live')continue;const others=[player,...entities].filter(e=>e.alive&&e.team!==b.team);let visible=null,best=Infinity;const origin=V(b.x,(b.floor||0)+1.52,b.z);for(const e of others){const dist=Math.hypot(b.x-e.x,b.z-e.z);if(dist<best&&dist<38&&hasLOS(origin,V(e.x,e.y??1.3,e.z))){best=dist;visible=e}}
  if(visible!==b.target){b.target=visible;b.reaction=difficulty==='easy'?.85:difficulty==='hard'?.25:.55}b.reaction-=dt;b.shootTimer-=dt;
- let goal;const mySite=SITES[b.seed%SITES.length];if(mode==='team'){const target=others.sort((a,c)=>Math.hypot(a.x-b.x,a.z-b.z)-Math.hypot(c.x-b.x,c.z-b.z))[0];goal=target||mySite}else if(bomb.planted)goal={x:bomb.x+(b.team===attackTeam?(b.seed%2?4:-4):0),z:bomb.z+(b.team===attackTeam?4:0),floor:bomb.floor??0};else if(b.team===attackTeam)goal=mySite;else{const attack=others.find(e=>Math.hypot(e.x-b.x,e.z-b.z)<18);goal=attack||{x:mySite.x+(b.seed%3-1)*3,z:mySite.z+5+(b.seed%2)*3,floor:mySite.floor}}
+ let goal,goalFallback;const mySite=SITES[b.seed%SITES.length];if(mode==='team'){const target=others.sort((a,c)=>Math.hypot(a.x-b.x,a.z-b.z)-Math.hypot(c.x-b.x,c.z-b.z))[0];goal=target||mySite}else if(bomb.planted)goal={x:bomb.x+(b.team===attackTeam?(b.seed%2?4:-4):0),z:bomb.z+(b.team===attackTeam?4:0),floor:bomb.floor??0};else if(b.team===attackTeam)goal=mySite;else{const attack=others.find(e=>Math.hypot(e.x-b.x,e.z-b.z)<18);goal=attack||{x:mySite.x+(b.seed%3-1)*3,z:mySite.z+5+(b.seed%2)*3,floor:mySite.floor};if(!attack)goalFallback=mySite;}
  let busy=!!b.traversal;if(activeMap&&b.path?.length){const door=mapInteractions.nearby(b)?.object;if(door?.kind==='door'&&!door.target&&door.open<.1)mapInteractions.interact(b);}
  if(mode!=='team'&&!bomb.planted&&bomb.carrier===b&&SITES.some(s=>Math.hypot(s.x-b.x,s.z-b.z)<3.6)){if(!visible||best>15){busy=true;b.plantProgress+=dt;if(b.plantProgress>=4)plant(b)}else b.plantProgress=0}else b.plantProgress=0;
  if(mode!=='team'&&bomb.planted&&b.team!==attackTeam&&Math.hypot(b.x-bomb.x,b.z-bomb.z)<2.5){if(!visible||best>12){busy=true;b.defuseProgress+=dt;if(b.defuseProgress>=7)finishRound(b.team,'敌方爆能器被拆除')}else b.defuseProgress=b.defuseProgress>=3.5?3.5:0}
  if(visible&&!busy){const dx=visible.x-b.x,dz=visible.z-b.z;b.mesh.rotation.y=Math.atan2(-dx,-dz);if(b.reaction<=0&&b.shootTimer<=0&&agentRuntime.canFire(b)&&!agentRuntime.has(b,'flash')){b.shootTimer=rand(.23,.43)*(difficulty==='easy'?1.4:difficulty==='hard'?.7:1);const muzzle=origin.clone().add(V(-Math.sin(b.mesh.rotation.y)*.6,-.12,-Math.cos(b.mesh.rotation.y)*.6));const accuracy=(difficulty==='easy'?.19:difficulty==='hard'?.56:.34)*Math.min(1,16/Math.max(5,best));let hit=Math.random()<accuracy;if(visible===player&&Math.hypot(moveTouch.x,moveTouch.y)>.3)hit=hit&&Math.random()>.15;const end=V(visible.x+rand(-.4,.4),(visible.floor||0)+1.25,visible.z+rand(-.4,.4));addTracer(muzzle,end,b.team===0?0xc5f46b:0xffb484,.08);if(Math.hypot(b.x-player.x,b.z-player.z)<25)shotSound(b.weapon,true);if(hit)applyDamage(visible,(difficulty==='hard'?28:22)*(Math.random()<.08?2:1),b,false);}
- if(best>13&&mode!=='team'&&b.team===attackTeam)goal=visible;else if(best<6)goal={x:b.x-(visible.x-b.x)/best*3,z:b.z-(visible.z-b.z)/best*3,floor:b.floor};else if(mode==='team')goal=visible;
+ if(best>13&&mode!=='team'&&b.team===attackTeam)goal=visible;else if(best>0.001&&best<6)goal={x:b.x-(visible.x-b.x)/best*3,z:b.z-(visible.z-b.z)/best*3,floor:b.floor};else if(mode==='team')goal=visible;
  }
- b.moving=false;b.pathTimer-=dt;if(!busy){if(b.pathTimer<=0){b.path=activeMap?activeMap.navigation.path(b.x,b.z,goal.x,goal.z,b.floor||0,goal.floor??b.floor??0):pathfind(b.x,b.z,goal.x,goal.z);b.pathTimer=rand(.7,1.4)}let p=b.path[0];if(p){let dx=p.x-b.x,dz=p.z-b.z,d=Math.hypot(dx,dz);if(d<.002){b.path.shift();p=b.path[0]}if(p){dx=p.x-b.x;dz=p.z-b.z;d=Math.hypot(dx,dz);const speed=agentRuntime.speed(b)*(visible?1.8:3.4)*(difficulty==='hard'?1.1:1);moveEntity(b,dx/d*Math.min(d,speed*dt),dz/d*Math.min(d,speed*dt));if(!visible)b.mesh.rotation.y=Math.atan2(-dx,-dz);b.moving=true;}}else{b.moving=false;}}
+ b.moving=false;if(!busy){const n=activeMap?.navigation,heading=stepBotNavigation(b,goal,dt,{
+  plan:(actor,target)=>{
+   if(!n)return pathfind(actor.x,actor.z,target.x,target.z);
+   const p=n.safePoint(target),route=n.path(actor.x,actor.z,p.x,p.z,actor.floor||0,p.floor);
+   // Some offset defense posts lie outside the site's reachable component.
+   if(route.length||!goalFallback)return route;
+   return n.path(actor.x,actor.z,goalFallback.x,goalFallback.z,actor.floor||0,goalFallback.floor);
+  },
+  trace:n?(a,p)=>n.trace(a,p):null,move:moveEntity,
+  speed:agentRuntime.speed(b)*(visible?1.8:3.4)*(difficulty==='hard'?1.1:1)
+ });if(!visible&&b.moving&&heading)b.mesh.rotation.y=Math.atan2(-heading.dx,-heading.dz);}
  if(visible&&gameTime>b.skillAt){b.skillAt=gameTime+8+b.seed*.7;const i=b.hp<65&&b.agent==='thorne'?2:b.agent==='wushu'?2:b.agent==='hunter'?2:b.agent==='phoenix'?2:2;if(agentRuntime.cast(b,i))b.castUntil=gameTime+.8;}b.art.update({moving:!!b.moving,shooting:!!visible&&b.shootTimer>.18,casting:gameTime<(b.castUntil||0),dt});
  b.mesh.position.set(b.x,b.floor||0,b.z);
  }}
