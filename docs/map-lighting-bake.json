@@ -1,0 +1,90 @@
+{
+  "format": "MVL1 RGB8: bounded contact factor, sky visibility, static sun visibility",
+  "profileSHA256": "c20ce0c83061db8beecba515efb875220a20fffbb1577c59f11417b159e6f549",
+  "maps": [
+    {
+      "map": "ascent",
+      "sourceMapSHA256": "991636114a296434f80fef01c9b47928486d72083a8b242eac6ec6970899b178",
+      "vertices": 68109,
+      "samples": 31822,
+      "bytes": 47238,
+      "sha256": "19602b267317e33b55556362d21518471f9b34898308606acf1335e84e0d4ff3",
+      "aoRange": [
+        0.7803921568627451,
+        1.0
+      ],
+      "skyOpenFraction": 0.37937717482271066,
+      "sunOpenFraction": 0.3863512898442203
+    },
+    {
+      "map": "breeze",
+      "sourceMapSHA256": "08827a286c4e07d87d1a438a24160cd0d1ad968aa7c9960109ce76d62406ff7c",
+      "vertices": 63675,
+      "samples": 24677,
+      "bytes": 36452,
+      "sha256": "24c761f6a082e1d206a72d0fa1bdeb7e4660097fa86fe8755d7e39d605652de2",
+      "aoRange": [
+        0.7803921568627451,
+        1.0
+      ],
+      "skyOpenFraction": 0.3166234786022772,
+      "sunOpenFraction": 0.21882999607381234
+    },
+    {
+      "map": "sunset",
+      "sourceMapSHA256": "a42e47ac0bb80866f60508a4a36dedad9be78377b293e9937575e51d2a65f3f5",
+      "vertices": 88860,
+      "samples": 34345,
+      "bytes": 52215,
+      "sha256": "f74d35a70c0d40dc15ab23b2ea1bc0e44fb350563e082b12128a84427b93b526",
+      "aoRange": [
+        0.7803921568627451,
+        1.0
+      ],
+      "skyOpenFraction": 0.5771550753995048,
+      "sunOpenFraction": 0.2790907044789557
+    },
+    {
+      "map": "pearl",
+      "sourceMapSHA256": "0ef62550971d9322135acf94848b2da8a243689c01efe69c07f5be588ab9db34",
+      "vertices": 83310,
+      "samples": 35716,
+      "bytes": 54087,
+      "sha256": "7bb6a397ab2da2904e2aaab03484192176dfdf8e23870d1da6c231b4e8eb6085",
+      "aoRange": [
+        0.7803921568627451,
+        1.0
+      ],
+      "skyOpenFraction": 0.4076701476413396,
+      "sunOpenFraction": 0.3488416756691874
+    },
+    {
+      "map": "lotus",
+      "sourceMapSHA256": "7437b7011272bd9b5ee572b869623406a466ef5cb7951d49bf6494e190119e96",
+      "vertices": 96717,
+      "samples": 36808,
+      "bytes": 51421,
+      "sha256": "01017d606a4431fab1ac87b6469bd2fa6ab9b0dac443b1f5f84ce6a6c6c978c9",
+      "aoRange": [
+        0.7803921568627451,
+        1.0
+      ],
+      "skyOpenFraction": 0.4398709637395701,
+      "sunOpenFraction": 0.2586205113888975
+    },
+    {
+      "map": "fracture",
+      "sourceMapSHA256": "d9df9f6390a29cd7ea7089b8ea97c4752561bd5c28d4321b591151bee0d1b0af",
+      "vertices": 66840,
+      "samples": 26276,
+      "bytes": 45956,
+      "sha256": "bcf3e91b38f91ce790d243856abaf2fa71a14d08d64481b583b0a3ee41bd2bc2",
+      "aoRange": [
+        0.7803921568627451,
+        1.0
+      ],
+      "skyOpenFraction": 0.30429383602633153,
+      "sunOpenFraction": 0.22292040694195092
+    }
+  ]
+}

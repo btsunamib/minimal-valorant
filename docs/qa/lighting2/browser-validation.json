@@ -1,0 +1,98 @@
+{
+  "baselineSourceCommit": "839f612d4ad9a74f6744ea9ff76abaef1ca4d2af",
+  "cacheVersion": "20261005-lighting2",
+  "browser": "Chrome Headless Shell 151.0.7922.34 / SwiftShader WebGL",
+  "viewport": [
+    1280,
+    720
+  ],
+  "quality": "high",
+  "comparisons": [
+    {
+      "map": "ascent",
+      "files": [
+        {
+          "file": "docs/qa/lighting2/baseline-ascent-1.png",
+          "sha256": "81d15cfb65bea2f14d33ddaee23a85438bf4b185f40311ec7d98e8aa5b36d293",
+          "meanLuma": 83.49680912565104,
+          "darkPixelsBelow16": 0.002475043402777778,
+          "whitePixelsAbove245": 0.0
+        },
+        {
+          "file": "docs/qa/lighting2/refined-ascent-1.png",
+          "sha256": "41d4781b6098931e472160440ee499e7cf0cf23a0f4de8083f946f19f9fcd64a",
+          "meanLuma": 86.95187758420138,
+          "darkPixelsBelow16": 0.0013140190972222223,
+          "whitePixelsAbove245": 0.0
+        }
+      ],
+      "meanAbsoluteChannelDifference": 4.341961443865741,
+      "changedPixelFractionOver8": 0.24283203125
+    },
+    {
+      "map": "sunset",
+      "files": [
+        {
+          "file": "docs/qa/lighting2/baseline-sunset-0.png",
+          "sha256": "677810a45291a9f95be169d2db44891671f24dbf20b8ee8cf35cae6a20471a6b",
+          "meanLuma": 63.313135910590276,
+          "darkPixelsBelow16": 0.006808810763888889,
+          "whitePixelsAbove245": 0.0
+        },
+        {
+          "file": "docs/qa/lighting2/refined-sunset-0.png",
+          "sha256": "46f54b969112327cf5b1a55410bde4beff972d015833241ec63cc406438fd2b2",
+          "meanLuma": 68.9638053530816,
+          "darkPixelsBelow16": 0.005379774305555555,
+          "whitePixelsAbove245": 0.0
+        }
+      ],
+      "meanAbsoluteChannelDifference": 7.001571903935186,
+      "changedPixelFractionOver8": 0.38793836805555554
+    },
+    {
+      "map": "pearl",
+      "files": [
+        {
+          "file": "docs/qa/lighting2/baseline-pearl-1.png",
+          "sha256": "5ff7a2599c0ff851bec8fb34145cfc5bb437f1a25b909ad05bec2de784fa36c6",
+          "meanLuma": 76.43432475086806,
+          "darkPixelsBelow16": 0.0031922743055555554,
+          "whitePixelsAbove245": 0.0
+        },
+        {
+          "file": "docs/qa/lighting2/refined-pearl-1.png",
+          "sha256": "c276eca44366273ffcfca86e0e296612d3dc07a824f2ab9bc762c7346693b91b",
+          "meanLuma": 79.93063449869793,
+          "darkPixelsBelow16": 0.002302517361111111,
+          "whitePixelsAbove245": 0.0
+        }
+      ],
+      "meanAbsoluteChannelDifference": 5.500168547453704,
+      "changedPixelFractionOver8": 0.38226779513888887
+    }
+  ],
+  "nativeMapsChecked": [
+    "ascent",
+    "sunset",
+    "pearl",
+    "breeze",
+    "lotus",
+    "fracture"
+  ],
+  "shaderCompileErrors": [],
+  "qualityChecks": [
+    "performance: baked lighting active, shadow map disabled",
+    "balanced: baked lighting active, shadow map enabled",
+    "high: baked lighting active, shadow map enabled"
+  ],
+  "fallbackCheck": "A forced lighting.bin.gz HTTP 404 loads the map with original baked colors and without staticLight attributes.",
+  "landscapeViewport": [
+    844,
+    390
+  ],
+  "unitTestsPassed": 136,
+  "integration": "All existing match, weapon, collection, ability and movement suites; 130 formation routes and 108 real bot scenarios passed.",
+  "limitations": "Headless browser checks cover shader compilation and actual rendered pixels; they do not measure physical phone or high-refresh performance.",
+  "offlineBspRaySelfTest": "PASS exact plane splits, 2 cm occluder, clear rays and solid starts"
+}

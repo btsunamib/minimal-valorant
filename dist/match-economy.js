@@ -1,4 +1,4 @@
-import {WEAPONS} from './rules.js?v=20261005-botnav1';
+import {WEAPONS} from './rules.js?v=20261005-lighting2';
 export const ARMOR_SHOP={light:{name:'轻甲',armor:25,cost:400,pool:0},regen:{name:'再生甲',armor:25,cost:650,pool:50},armor:{name:'重甲',armor:50,cost:1000,pool:0}};
 export const SIDEARMS=Object.keys(WEAPONS).filter(id=>WEAPONS[id].slot==='sidearm');
 export const PRIMARY_GUNS=Object.keys(WEAPONS).filter(id=>WEAPONS[id].slot==='primary');
