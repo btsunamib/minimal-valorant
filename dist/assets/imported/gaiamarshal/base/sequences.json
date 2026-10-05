@@ -1,0 +1,199 @@
+[
+  {
+    "index": 0,
+    "name": "idle",
+    "fps": 30.0,
+    "frames": 166,
+    "events": []
+  },
+  {
+    "index": 1,
+    "name": "shoot1",
+    "fps": 75.0,
+    "frames": 41,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5001,
+        "options": "21",
+        "sound": null
+      },
+      {
+        "frame": 15,
+        "event": 5004,
+        "options": "weapons/valorant/gaiamarshal/lever_out_fast.wav",
+        "sound": "d9386f9349405202451b.wav"
+      },
+      {
+        "frame": 23,
+        "event": 5004,
+        "options": "weapons/valorant/gaiamarshal/lever_in_fast.wav",
+        "sound": "ae58e8b21f4b5a90242a.wav"
+      }
+    ]
+  },
+  {
+    "index": 2,
+    "name": "shoot2",
+    "fps": 75.0,
+    "frames": 41,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5001,
+        "options": "21",
+        "sound": null
+      },
+      {
+        "frame": 15,
+        "event": 5004,
+        "options": "weapons/valorant/gaiamarshal/lever_out_fast.wav",
+        "sound": "d9386f9349405202451b.wav"
+      },
+      {
+        "frame": 23,
+        "event": 5004,
+        "options": "weapons/valorant/gaiamarshal/lever_in_fast.wav",
+        "sound": "ae58e8b21f4b5a90242a.wav"
+      }
+    ]
+  },
+  {
+    "index": 3,
+    "name": "reload",
+    "fps": 70.5,
+    "frames": 141,
+    "events": [
+      {
+        "frame": 1,
+        "event": 5004,
+        "options": "weapons/valorant/gaiamarshal/reload_mvt_a.wav",
+        "sound": "d6339031e4889d8cad7f.wav"
+      },
+      {
+        "frame": 27,
+        "event": 5004,
+        "options": "weapons/valorant/gaiamarshal/reload_shellinsert.wav",
+        "sound": "b6929b7bf62ab330048b.wav"
+      },
+      {
+        "frame": 28,
+        "event": 5004,
+        "options": "weapons/valorant/gaiamarshal/reload_portclick.wav",
+        "sound": "20450abe8847861ede55.wav"
+      },
+      {
+        "frame": 73,
+        "event": 5004,
+        "options": "weapons/valorant/gaiamarshal/lever_out.wav",
+        "sound": "2f3345871cfbcb098ebd.wav"
+      },
+      {
+        "frame": 76,
+        "event": 5004,
+        "options": "weapons/valorant/gaiamarshal/reload_ele_b.wav",
+        "sound": "ff194692fe324038a6b0.wav"
+      },
+      {
+        "frame": 87,
+        "event": 5004,
+        "options": "weapons/valorant/gaiamarshal/lever_in.wav",
+        "sound": "481e6907f0895a73c7cb.wav"
+      },
+      {
+        "frame": 97,
+        "event": 5004,
+        "options": "weapons/valorant/gaiamarshal/reload_mvt_b.wav",
+        "sound": "a1bfb825e39108166db1.wav"
+      },
+      {
+        "frame": 130,
+        "event": 5004,
+        "options": "weapons/valorant/gaiamarshal/reload_grab.wav",
+        "sound": "ab3b67a7257a5425f51f.wav"
+      }
+    ]
+  },
+  {
+    "index": 4,
+    "name": "draw",
+    "fps": 60.0,
+    "frames": 107,
+    "events": [
+      {
+        "frame": 1,
+        "event": 5004,
+        "options": "weapons/valorant/gaiamarshal/equip_mvt_a.wav",
+        "sound": "d1ca5cfaf142a3cd79ac.wav"
+      },
+      {
+        "frame": 13,
+        "event": 5004,
+        "options": "weapons/valorant/gaiamarshal/lever_out.wav",
+        "sound": "2f3345871cfbcb098ebd.wav"
+      },
+      {
+        "frame": 30,
+        "event": 5004,
+        "options": "weapons/valorant/gaiamarshal/equip_ele_a.wav",
+        "sound": "68b36c62a21522821e7e.wav"
+      },
+      {
+        "frame": 31,
+        "event": 5004,
+        "options": "weapons/valorant/gaiamarshal/lever_in.wav",
+        "sound": "481e6907f0895a73c7cb.wav"
+      },
+      {
+        "frame": 55,
+        "event": 5004,
+        "options": "weapons/valorant/gaiamarshal/equip_mvt_b.wav",
+        "sound": "3128ee3e350720687eb3.wav"
+      }
+    ]
+  },
+  {
+    "index": 5,
+    "name": "inspect",
+    "fps": 65.0,
+    "frames": 261,
+    "events": [
+      {
+        "frame": 1,
+        "event": 5004,
+        "options": "weapons/valorant/gaiamarshal/inspect_mvt_a.wav",
+        "sound": "30cc87d103f5a34c59a1.wav"
+      },
+      {
+        "frame": 80,
+        "event": 5004,
+        "options": "weapons/valorant/gaiamarshal/inspect_mvt_b.wav",
+        "sound": "a9efb3474965daca9dc0.wav"
+      },
+      {
+        "frame": 109,
+        "event": 5004,
+        "options": "weapons/valorant/gaiamarshal/inspect_lo_start.wav",
+        "sound": "302ac1d8cbdc6778865a.wav"
+      },
+      {
+        "frame": 197,
+        "event": 5004,
+        "options": "weapons/valorant/gaiamarshal/inspect_lever_out.wav",
+        "sound": "4ea9710f74b810015d58.wav"
+      },
+      {
+        "frame": 197,
+        "event": 5004,
+        "options": "weapons/valorant/gaiamarshal/inspect_lever_in.wav",
+        "sound": "050b37e2630c57bcdf67.wav"
+      },
+      {
+        "frame": 205,
+        "event": 5004,
+        "options": "weapons/valorant/gaiamarshal/inspect_mvt_c.wav",
+        "sound": "5492b62d3ceb37ddd3e4.wav"
+      }
+    ]
+  }
+]

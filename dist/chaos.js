@@ -1,6 +1,6 @@
 import * as T from './three.module.js';
-import {sampleChaosReload,CHAOS_RELOAD_DURATION} from './chaos-reload.js?v=20261005-lighting2';
-import {sampleChaosEquip} from './chaos-equip.js?v=20261005-lighting2';
+import {sampleChaosReload,CHAOS_RELOAD_DURATION} from './chaos-reload.js?v=20261005-ai-packs1';
+import {sampleChaosEquip} from './chaos-equip.js?v=20261005-ai-packs1';
 export const CHAOS_VARIANTS={base:{name:'原色 · 蓝紫',shell:0x292832,trim:0xa98047,edge:0x793c91,energy:0x39cfff},green:{name:'绿色',shell:0x264735,trim:0xc3a873,edge:0x63915c,energy:0x77ffe0},white:{name:'白色',shell:0xc3c4c8,trim:0x9c7647,edge:0x938784,energy:0xffaa53},blue:{name:'蓝色',shell:0x283d58,trim:0xa7aebb,edge:0x397aca,energy:0x76b7ff}};
 export function createChaos(showcase=false,variant='base'){
  const c=CHAOS_VARIANTS[variant]||CHAOS_VARIANTS.base,model=new T.Group(),rig=new T.Group();model.name='Prelude to Chaos Vandal';model.add(rig);const resources=new Set(),materials=new Set();

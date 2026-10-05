@@ -1,5 +1,5 @@
 import * as T from './three.module.js';
-import {sampleEquip,EQUIP_DURATION} from './kuronami-equip.js?v=20261005-lighting2';
+import {sampleEquip,EQUIP_DURATION} from './kuronami-equip.js?v=20261005-ai-packs1';
 export const KURONAMI_VARIANTS={base:{name:'原色 · 蓝水',edge:0x68d8ff,core:0x27394c,metal:0x9eacba,grip:0x573941},purple:{name:'紫金',edge:0xc898ff,core:0x49335e,metal:0xb89b63,grip:0x282336},white:{name:'白银',edge:0x75dded,core:0xc5cdd1,metal:0xf1eee2,grip:0x637279},black:{name:'黑红',edge:0xfa5756,core:0x242932,metal:0x777b81,grip:0x32282b}};
 export function createKuronami(showcase=false,variant='base'){
  const c=KURONAMI_VARIANTS[variant]||KURONAMI_VARIANTS.base,model=new T.Group();model.name='Kuronami no Yaiba';

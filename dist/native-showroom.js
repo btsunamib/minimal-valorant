@@ -14,7 +14,7 @@ export function prepareNativeShowroom(rig,knife=false){
   // A material can contain both hands and weapon triangles. Filtering whole
   // meshes leaves fingers, spare magazines and alternate attachments on top
   // of the gun. Filter the bone attachments without changing the FPS index.
-  const indices=[];for(let i=0;i<mesh.userData.showroomIndices.length;i+=3){const tri=mesh.userData.showroomIndices.slice(i,i+3);if(tri.some(v=>Math.abs(positions.get(v).y)>2.5||Math.abs(positions.get(v).z)>10)||tri.every(v=>attachedTo(v,/^(?:[LR]_(?:Clavicle|Shoulder|Elbow|Hand|Thumb|Index|Middle|Ring|Pinky|Twist|Forearm|Upperarm|Palm)|ValveBiped.*(?:Hand|Finger))/i))||tri.some(v=>attachedTo(v,/^(?:(?:GN_)?Magazine2|Bullet2|mag2|b_mag)$/i)))continue;indices.push(...tri);}
+  const indices=[];for(let i=0;i<mesh.userData.showroomIndices.length;i+=3){const tri=mesh.userData.showroomIndices.slice(i,i+3);if(tri.some(v=>Math.abs(positions.get(v).y)>2.5||Math.abs(positions.get(v).z)>10)||tri.every(v=>attachedTo(v,/^(?:[LR]_(?:Clavicle|Shoulder|Elbow|Hand|Thumb|Index|Middle|Ring|Pinky|Twist|Forearm|Upperarm|Palm)|ValveBiped.*(?:Hand|Finger))/i))||tri.some(v=>attachedTo(v,/^(?:(?:GN_)?Magazine2|Magazine_Extra|Bullet2|mag2|b_mag)$|^Ashen_(?:VFX|Spline|Trail|Mag_|Blade_|Handle_)/i)))continue;indices.push(...tri);}
   mesh.userData.collectionIndices=indices;
   if(!hidden&&!mesh.userData.nativeEffect)for(const i of new Set(indices))points.push(positions.get(i));
  }

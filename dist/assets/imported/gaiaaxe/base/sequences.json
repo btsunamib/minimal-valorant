@@ -1,0 +1,117 @@
+[
+  {
+    "index": 0,
+    "name": "ByMotH",
+    "fps": 30.5,
+    "frames": 62,
+    "events": []
+  },
+  {
+    "index": 1,
+    "name": "slash1",
+    "fps": 60.638301849365234,
+    "frames": 96,
+    "events": []
+  },
+  {
+    "index": 2,
+    "name": "slash2",
+    "fps": 60.638301849365234,
+    "frames": 95,
+    "events": []
+  },
+  {
+    "index": 3,
+    "name": "draw",
+    "fps": 60.599998474121094,
+    "frames": 101,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5004,
+        "options": "weapons/valorant/gaiaaxe/equip.wav",
+        "sound": "a74fa931965b2244d54c.wav"
+      }
+    ]
+  },
+  {
+    "index": 4,
+    "name": "stab",
+    "fps": 60.638301849365234,
+    "frames": 96,
+    "events": []
+  },
+  {
+    "index": 5,
+    "name": "stab_miss",
+    "fps": 60.638301849365234,
+    "frames": 96,
+    "events": []
+  },
+  {
+    "index": 6,
+    "name": "midslash1",
+    "fps": 60.638301849365234,
+    "frames": 96,
+    "events": []
+  },
+  {
+    "index": 7,
+    "name": "midslash2",
+    "fps": 60.638301849365234,
+    "frames": 95,
+    "events": []
+  },
+  {
+    "index": 8,
+    "name": "inspect",
+    "fps": 60.3109016418457,
+    "frames": 195,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5004,
+        "options": "weapons/valorant/gaiaaxe/inspect_ele_a.wav",
+        "sound": "f32741ec8c2fec189cb8.wav"
+      },
+      {
+        "frame": 59,
+        "event": 5004,
+        "options": "weapons/valorant/gaiaaxe/inspect_ele_b.wav",
+        "sound": "f8b8dc577f77c4c7216d.wav"
+      },
+      {
+        "frame": 143,
+        "event": 5004,
+        "options": "weapons/valorant/gaiaaxe/inspect_ele_c.wav",
+        "sound": "0f20eefd2647a63306a5.wav"
+      }
+    ]
+  },
+  {
+    "index": 9,
+    "name": "inspect_2",
+    "fps": 60.3109016418457,
+    "frames": 195,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5004,
+        "options": "weapons/valorant/gaiaaxe/inspect_ele_a.wav",
+        "sound": "f32741ec8c2fec189cb8.wav"
+      },
+      {
+        "frame": 59,
+        "event": 5004,
+        "options": "weapons/valorant/gaiaaxe/inspect_ele_b.wav",
+        "sound": "f8b8dc577f77c4c7216d.wav"
+      },
+      {
+        "frame": 143,
+        "event": 5004,
+        "options": "weapons/valorant/gaiaaxe/inspect_ele_c.wav",
+        "sound": "0f20eefd2647a63306a5.wav"
+      }
+    ]
+  }
+]

@@ -1,4 +1,4 @@
-import {fetchWeaponAsset} from './weapon-assets.js?v=20261005-lighting2';
+import {fetchWeaponAsset} from './weapon-assets.js?v=20261005-ai-packs1';
 // Original standard VALORANT badge footage, with its native alpha channel.
 // The source and checksums are recorded in docs/default-kill-banner-sources.json.
 export function killFeedbackStyle(key,{weapons={},family=null,override='auto'}={}){

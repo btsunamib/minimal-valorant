@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "node preview.cjs",
-    "test": "node --test tests/*.test.mjs",
+    "test": "node --test --test-concurrency=2 tests/*.test.mjs",
     "check:integration": "node scripts/check-match-fixes.mjs && node scripts/check-imported-weapons.mjs && node scripts/check-collection.mjs && node scripts/check-map-movement.mjs && node scripts/check-tactical-abilities.mjs && node scripts/check-bot-navigation.mjs && node scripts/check-bot-gameplay.mjs"
   },
   "devDependencies": {

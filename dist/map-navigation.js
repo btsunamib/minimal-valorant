@@ -31,10 +31,19 @@ export class MapNavigation {
   if(pass&&via){(a.via??={})[b.id]=via;(b.via??={})[a.id]=via;}else{if(a.via)delete a.via[b.id];if(b.via)delete b.via[a.id];}
   if(!pass){a.links=a.links.filter(id=>id!==b.id);b.links=b.links.filter(id=>id!==a.id);}this.checkedTransitions.set(key,pass);return pass;
  }
- path(sx,sz,tx,tz,floor=0,targetFloor=floor){
+ path(sx,sz,tx,tz,floor=0,targetFloor=floor,edgeCost=null){
   const start=this.areaAt(sx,sz,floor)||this.nearest(sx,sz,floor),goal=this.areaAt(tx,tz,targetFloor)||this.nearest(tx,tz,targetFloor);if(!start||!goal)return[];
   for(let attempt=0;attempt<=this.areas.length;attempt++){
-   const queue=[start.id],from=new Map([[start.id,null]]);let found=false;for(let at=0;at<queue.length;at++){const id=queue[at];if(id===goal.id){found=true;break;}for(const next of this.byId.get(id).links)if(this.byId.has(next)&&this.byId.get(next).walkable!==false&&!from.has(next)){from.set(next,id);queue.push(next);}}
+   const queue=[start.id],from=new Map([[start.id,null]]);let found=false;
+   if(edgeCost){
+    const costs=new Map([[start.id,0]]),closed=new Set();
+    while(queue.length){queue.sort((a,b)=>costs.get(a)-costs.get(b));const id=queue.shift();if(closed.has(id))continue;closed.add(id);if(id===goal.id){found=true;break;}
+     const a=this.byId.get(id);for(const next of a.links){const b=this.byId.get(next);if(!b||b.walkable===false||closed.has(next))continue;
+      const cost=costs.get(id)+Math.max(.001,edgeCost(this.center(a),this.center(b)));
+      if(cost<(costs.get(next)??Infinity)){costs.set(next,cost);from.set(next,id);queue.push(next);}
+     }
+    }
+   }else for(let at=0;at<queue.length;at++){const id=queue[at];if(id===goal.id){found=true;break;}for(const next of this.byId.get(id).links)if(this.byId.has(next)&&this.byId.get(next).walkable!==false&&!from.has(next)){from.set(next,id);queue.push(next);}}
    if(!found)return[];const chain=[];let id=goal.id;while(id!==null){chain.unshift(this.byId.get(id));id=from.get(id);}let valid=true;for(let i=1;i<chain.length;i++)if(!this.transition(chain[i-1],chain[i]))valid=false;if(!valid)continue;
    const result=[this.center(start)];for(let i=1;i<chain.length;i++){const via=chain[i-1].via?.[chain[i].id];if(via)result.push(via);result.push(this.center(chain[i]));}const target={x:tx,z:tz,floor:targetFloor};if(this.trace(this.center(goal),target))result.push(target);return result;
   }return[];

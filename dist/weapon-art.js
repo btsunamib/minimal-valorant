@@ -1,10 +1,10 @@
-import {createChampions26} from './champions26.js?v=20261005-lighting2';
-import {createChampion} from './champions24.js?v=20261005-lighting2';
-import {createArsenalGun} from './arsenal-art.js?v=20261005-lighting2';
-import {createNarukami} from './narukami.js?v=20261005-lighting2';
-import {createChaos} from './chaos.js?v=20261005-lighting2';
-import {createMercy} from './mercy.js?v=20261005-lighting2';
-import {createKuronami} from './kuronami.js?v=20261005-lighting2';
+import {createChampions26} from './champions26.js?v=20261005-ai-packs1';
+import {createChampion} from './champions24.js?v=20261005-ai-packs1';
+import {createArsenalGun} from './arsenal-art.js?v=20261005-ai-packs1';
+import {createNarukami} from './narukami.js?v=20261005-ai-packs1';
+import {createChaos} from './chaos.js?v=20261005-ai-packs1';
+import {createMercy} from './mercy.js?v=20261005-ai-packs1';
+import {createKuronami} from './kuronami.js?v=20261005-ai-packs1';
 import * as T from './three.module.js';
 const cube=new T.BoxGeometry(1,1,1),cache=new Map();
 function material(color,metal=.6,emission=0){const key=[color,metal,emission].join();if(!cache.has(key))cache.set(key,new T.MeshStandardMaterial({color,metalness:metal,roughness:metal>.5?.28:.72,emissive:emission?color:0,emissiveIntensity:emission}));return cache.get(key)}

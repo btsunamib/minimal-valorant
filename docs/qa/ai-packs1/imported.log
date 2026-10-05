@@ -1,0 +1,2 @@
+THREE.WebGLRenderer: Error creating WebGL context.
+PASS real main-module integration: all five native weapons load, source hand geometry is visible, native draw/inspect/slash/stab/shoot/reload, pause/resume, ammo completion, switching to standard pistol, and stale asynchronous load cancellation. DOM/Canvas mocked.

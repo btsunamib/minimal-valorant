@@ -1,0 +1,46 @@
+{
+  "version": "20261005-ai-packs1",
+  "browser": "Headless Chrome / SwiftShader",
+  "simulationSeconds": 40,
+  "steps": 1200,
+  "timestep": 0.03333333333333333,
+  "results": [
+    {
+      "map": "ascent",
+      "movedBeyond10m": 8,
+      "shots": 39,
+      "phase": "live"
+    },
+    {
+      "map": "breeze",
+      "movedBeyond10m": 9,
+      "shots": 100,
+      "phase": "live"
+    },
+    {
+      "map": "sunset",
+      "movedBeyond10m": 9,
+      "shots": 48,
+      "phase": "live"
+    },
+    {
+      "map": "pearl",
+      "movedBeyond10m": 9,
+      "shots": 54,
+      "phase": "live"
+    },
+    {
+      "map": "lotus",
+      "movedBeyond10m": 9,
+      "shots": 75,
+      "phase": "live"
+    },
+    {
+      "map": "fracture",
+      "movedBeyond10m": 8,
+      "shots": 69,
+      "phase": "live"
+    }
+  ],
+  "note": "Completed six-map bot simulation phase; original assets and touch/feedback visuals are independently checked in assets-results.json. Does not measure phone frame rate."
+}

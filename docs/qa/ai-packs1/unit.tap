@@ -1,0 +1,958 @@
+TAP version 13
+# Subtest: five distinct agents have four deployable skills with round reset and buy locks
+ok 1 - five distinct agents have four deployable skills with round reset and buy locks
+  ---
+  duration_ms: 46.262353
+  type: 'test'
+  ...
+# Subtest: Sage wall blocks and breaks, healing and revive function, Phoenix returns without death
+ok 2 - Sage wall blocks and breaks, healing and revive function, Phoenix returns without death
+  ---
+  duration_ms: 1.141224
+  type: 'test'
+  ...
+# Subtest: ultimate ammo is finite and Jett kill refreshes knives
+ok 3 - ultimate ammo is finite and Jett kill refreshes knives
+  ---
+  duration_ms: 0.406456
+  type: 'test'
+  ...
+# Subtest: anatomical models and all cast poses have finite transforms with deterministic release
+ok 4 - anatomical models and all cast poses have finite transforms with deterministic release
+  ---
+  duration_ms: 1104.440224
+  type: 'test'
+  ...
+# Subtest: all 19 screenshot guns, three armor types and local icons are present
+ok 5 - all 19 screenshot guns, three armor types and local icons are present
+  ---
+  duration_ms: 21.840657
+  type: 'test'
+  ...
+# Subtest: every gun can be bought and refunded independently of the other slot
+ok 6 - every gun can be bought and refunded independently of the other slot
+  ---
+  duration_ms: 3.766079
+  type: 'test'
+  ...
+# Subtest: pistol/rifle/armor receipts do not leak money on mixed swaps, duplicate refunds or depleted carried regen
+ok 7 - pistol/rifle/armor receipts do not leak money on mixed swaps, duplicate refunds or depleted carried regen
+  ---
+  duration_ms: 0.342324
+  type: 'test'
+  ...
+# Subtest: regen absorbs full damage, delays after latest hit, drains finite pool equally at all frame rates
+ok 8 - regen absorbs full damage, delays after latest hit, drains finite pool equally at all frame rates
+  ---
+  duration_ms: 4.300113
+  type: 'test'
+  ...
+# Subtest: all new viewmodels support draw, reload, shot and reverse seek without stale transforms
+ok 9 - all new viewmodels support draw, reload, shot and reverse seek without stale transforms
+  ---
+  duration_ms: 163.727538
+  type: 'test'
+  ...
+# Subtest: champion native frame sampling is deterministic and interruptions remove trail
+ok 10 - champion native frame sampling is deterministic and interruptions remove trail
+  ---
+  duration_ms: 62.625337
+  type: 'test'
+  ...
+# Subtest: Stable goals retain unfinished routes across the old one-second replan interval
+ok 11 - Stable goals retain unfinished routes across the old one-second replan interval
+  ---
+  duration_ms: 6.064872
+  type: 'test'
+  ...
+# Subtest: Moving goals are snapshotted and replan without walking back through a visible old center
+ok 12 - Moving goals are snapshotted and replan without walking back through a visible old center
+  ---
+  duration_ms: 0.799854
+  type: 'test'
+  ...
+# Subtest: Blocked actors recover with bounded replanning and do not report running in place
+ok 13 - Blocked actors recover with bounded replanning and do not report running in place
+  ---
+  duration_ms: 3.100745
+  type: 'test'
+  ...
+# Subtest: Duplicate waypoints never divide by zero; missing routes retry without a per-frame search
+ok 14 - Duplicate waypoints never divide by zero; missing routes retry without a per-frame search
+  ---
+  duration_ms: 1.339112
+  type: 'test'
+  ...
+# Subtest: Respawn clears stale goals and stuck state; displacement after arrival finds a new route
+ok 15 - Respawn clears stale goals and stuck state; displacement after arrival finds a new route
+  ---
+  duration_ms: 0.436856
+  type: 'test'
+  ...
+# Subtest: Five stable personalities have different risk, range and cooperation preferences
+ok 16 - Five stable personalities have different risk, range and cooperation preferences
+  ---
+  duration_ms: 1.474404
+  type: 'test'
+  ...
+# Subtest: Perception requires facing beyond close range and retains a current threat
+ok 17 - Perception requires facing beyond close range and retains a current threat
+  ---
+  duration_ms: 0.359694
+  type: 'test'
+  ...
+# Subtest: Last seen memory snapshots coordinates, radio reports arrive after a delay and expire
+ok 18 - Last seen memory snapshots coordinates, radio reports arrive after a delay and expire
+  ---
+  duration_ms: 0.57453
+  type: 'test'
+  ...
+# Subtest: Continuous sightings do not postpone squad reports forever
+ok 19 - Continuous sightings do not postpone squad reports forever
+  ---
+  duration_ms: 0.265508
+  type: 'test'
+  ...
+# Subtest: Gunfire gives coarse locations, respects hearing range and fades
+ok 20 - Gunfire gives coarse locations, respects hearing range and fades
+  ---
+  duration_ms: 1.590336
+  type: 'test'
+  ...
+# Subtest: Team mode patrols without omniscient enemy goals and searches remembered positions
+ok 21 - Team mode patrols without omniscient enemy goals and searches remembered positions
+  ---
+  duration_ms: 0.902222
+  type: 'test'
+  ...
+# Subtest: Round plans vary, lurkers split lanes, bomb carriers commit to planting sites
+ok 22 - Round plans vary, lurkers split lanes, bomb carriers commit to planting sites
+  ---
+  duration_ms: 0.486418
+  type: 'test'
+  ...
+# Subtest: Support escorts an advancing carrier; defenders spread and rotate from real intel
+ok 23 - Support escorts an advancing carrier; defenders spread and rotate from real intel
+  ---
+  duration_ms: 0.798577
+  type: 'test'
+  ...
+# Subtest: One defuser remains assigned while teammates cover, then a survivor takes over
+ok 24 - One defuser remains assigned while teammates cover, then a survivor takes over
+  ---
+  duration_ms: 0.345063
+  type: 'test'
+  ...
+# Subtest: A player defusing is covered and an expiring spike outranks low-health retreat
+ok 25 - A player defusing is covered and an expiring spike outranks low-health retreat
+  ---
+  duration_ms: 0.428769
+  type: 'test'
+  ...
+# Subtest: Combat cover is reachable, spaced and committed instead of changing each frame
+ok 26 - Combat cover is reachable, spaced and committed instead of changing each frame
+  ---
+  duration_ms: 1.00227
+  type: 'test'
+  ...
+# Subtest: Healing targets injured allies/self safely, does not waste charges at full health
+ok 27 - Healing targets injured allies/self safely, does not waste charges at full health
+  ---
+  duration_ms: 0.573076
+  type: 'test'
+  ...
+# Subtest: Damage utility avoids teammates and low-health bots prefer smoke
+ok 28 - Damage utility avoids teammates and low-health bots prefer smoke
+  ---
+  duration_ms: 0.287735
+  type: 'test'
+  ...
+# Subtest: Weighted navigation chooses a safer branch while retaining collision verification
+ok 29 - Weighted navigation chooses a safer branch while retaining collision verification
+  ---
+  duration_ms: 0.783134
+  type: 'test'
+  ...
+# Subtest: both teams confined for every x including large movements and team swaps
+ok 30 - both teams confined for every x including large movements and team swaps
+  ---
+  duration_ms: 0.871144
+  type: 'test'
+  ...
+# Subtest: walls release at live and never restrict team deathmatch
+ok 31 - walls release at live and never restrict team deathmatch
+  ---
+  duration_ms: 0.187103
+  type: 'test'
+  ...
+# Subtest: 2026 forms follow attack side after halves swap; both sample actions backwards without history
+ok 32 - 2026 forms follow attack side after halves swap; both sample actions backwards without history
+  ---
+  duration_ms: 1075.450912
+  type: 'test'
+  ...
+# Subtest: six downloaded kill cues are independent files, and attack/defense soundtracks differ
+ok 33 - six downloaded kill cues are independent files, and attack/defense soundtracks differ
+  ---
+  duration_ms: 33.566884
+  type: 'test'
+  ...
+# Subtest: kill audio stays at source rate, replacing cues without stopping gunfire; stop clears overlapping shots
+ok 34 - kill audio stays at source rate, replacing cues without stopping gunfire; stop clears overlapping shots
+  ---
+  duration_ms: 1.43432
+  type: 'test'
+  ...
+# Subtest: finisher clones visible victim parts despite circular entity data, excludes hitboxes and preserves shared geometry
+ok 35 - finisher clones visible victim parts despite circular entity data, excludes hitboxes and preserves shared geometry
+  ---
+  duration_ms: 406.151698
+  type: 'test'
+  ...
+# Subtest: hit sparks are repeatable, depth tested, bounded and do not intercept raycasts
+ok 36 - hit sparks are repeatable, depth tested, bounded and do not intercept raycasts
+  ---
+  duration_ms: 26.509052
+  type: 'test'
+  ...
+# Subtest: downloaded Chaos cues preserve five distinct source hashes and fifth-kill tail
+ok 37 - downloaded Chaos cues preserve five distinct source hashes and fifth-kill tail
+  ---
+  duration_ms: 3.667161
+  type: 'test'
+  ...
+# Subtest: badge supports every forward/backward frame without residual effects
+ok 38 - badge supports every forward/backward frame without residual effects
+  ---
+  duration_ms: 10.63249
+  type: 'test'
+  ...
+# Subtest: shop groups use actual owned and affordable states and expose only fresh receipts
+ok 39 - shop groups use actual owned and affordable states and expose only fresh receipts
+  ---
+  duration_ms: 17.358196
+  type: 'test'
+  ...
+# Subtest: reload replaces the reactor core in source order, keeping the magazine seated
+ok 40 - reload replaces the reactor core in source order, keeping the magazine seated
+  ---
+  duration_ms: 152.47566
+  type: 'test'
+  ...
+# Subtest: every color supports repeatable frame seeking and cancellation during each reload stage
+ok 41 - every color supports repeatable frame seeking and cancellation during each reload stage
+  ---
+  duration_ms: 176.988238
+  type: 'test'
+  ...
+# Subtest: Chaos equip can seek backwards and recover from reload or inspection in all variants
+ok 42 - Chaos equip can seek backwards and recover from reload or inspection in all variants
+  ---
+  duration_ms: 203.378931
+  type: 'test'
+  ...
+# Subtest: Chaos has its own rifle geometry and equip reaches a neutral pose
+ok 43 - Chaos has its own rifle geometry and equip reaches a neutral pose
+  ---
+  duration_ms: 15.564587
+  type: 'test'
+  ...
+# Subtest: Preview drafts never equip skins; confirmed gun skins persist independently and reject wrong gun families
+ok 44 - Preview drafts never equip skins; confirmed gun skins persist independently and reject wrong gun families
+  ---
+  duration_ms: 1.407793
+  type: 'test'
+  ...
+# Subtest: Collection filters compatible skins and exposes all 44 VCT capsule variants with real model thumbnails
+ok 45 - Collection filters compatible skins and exposes all 44 VCT capsule variants with real model thumbnails
+  ---
+  duration_ms: 8.734922
+  type: 'test'
+  ...
+# Subtest: Zero-FPS source holds stay static yet allow exact forward/backward frame inspection
+ok 46 - Zero-FPS source holds stay static yet allow exact forward/backward frame inspection
+  ---
+  duration_ms: 40.991265
+  type: 'test'
+  ...
+# Subtest: Showroom exclusions are reversible and never change any source action triangle or bone pose
+ok 47 - Showroom exclusions are reversible and never change any source action triangle or bone pose
+  ---
+  duration_ms: 977.4938
+  type: 'test'
+  ...
+# Subtest: Both supplied kill banks keep five different original wave files
+ok 48 - Both supplied kill banks keep five different original wave files
+  ---
+  duration_ms: 26.358791
+  type: 'test'
+  ...
+# Subtest: Native shell reload chains preserve time, insert order and cancellation across render rates
+ok 49 - Native shell reload chains preserve time, insert order and cancellation across render rates
+  ---
+  duration_ms: 44.971305
+  type: 'test'
+  ...
+# Subtest: Chaos 1–5 select separate original-rate buffers, replace old cue, preserve shots
+ok 50 - Chaos 1–5 select separate original-rate buffers, replace old cue, preserve shots
+  ---
+  duration_ms: 1.970169
+  type: 'test'
+  ...
+# Subtest: Headshot is an independent impact over kill cue, with pellet spam throttling
+ok 51 - Headshot is an independent impact over kill cue, with pellet spam throttling
+  ---
+  duration_ms: 4.197921
+  type: 'test'
+  ...
+# Subtest: Team streak resets on death while round-based modes use round kills
+ok 52 - Team streak resets on death while round-based modes use round kills
+  ---
+  duration_ms: 0.173585
+  type: 'test'
+  ...
+# Subtest: faster reload preserves every source pose and resumes without consuming paused time
+ok 53 - faster reload preserves every source pose and resumes without consuming paused time
+  ---
+  duration_ms: 4.446623
+  type: 'test'
+  ...
+# Subtest: Enemy outline stencil rejects every body pixel and restores materials on disposal
+ok 54 - Enemy outline stencil rejects every body pixel and restores materials on disposal
+  ---
+  duration_ms: 212.109617
+  type: 'test'
+  ...
+# Subtest: enemy shells follow animated limbs, exclude hitboxes, respect depth and never intercept shots
+ok 55 - enemy shells follow animated limbs, exclude hitboxes, respect depth and never intercept shots
+  ---
+  duration_ms: 134.534953
+  type: 'test'
+  ...
+# Subtest: all weapon and knife skin combinations have finite renderable geometry and recoil
+ok 56 - all weapon and knife skin combinations have finite renderable geometry and recoil
+  ---
+  duration_ms: 3920.127357
+  type: 'test'
+  ...
+# Subtest: static render batching preserves standalone collision raycasts
+ok 57 - static render batching preserves standalone collision raycasts
+  ---
+  duration_ms: 2.903829
+  type: 'test'
+  ...
+# Subtest: Kuronami animation remains finite through equip, accelerated inspect, attacks and interruption
+ok 58 - Kuronami animation remains finite through equip, accelerated inspect, attacks and interruption
+  ---
+  duration_ms: 744.504879
+  type: 'test'
+  ...
+# Subtest: crossing compass zero does not spin the camera
+ok 59 - crossing compass zero does not spin the camera
+  ---
+  duration_ms: 3.590437
+  type: 'test'
+  ...
+# Subtest: unchanged device gives zero input in each screen orientation
+ok 60 - unchanged device gives zero input in each screen orientation
+  ---
+  duration_ms: 0.830608
+  type: 'test'
+  ...
+# Subtest: permission denial leaves sensor disabled
+ok 61 - permission denial leaves sensor disabled
+  ---
+  duration_ms: 0.824064
+  type: 'test'
+  ...
+# Subtest: no secure origin reports a clear error without requesting permission
+ok 62 - no secure origin reports a clear error without requesting permission
+  ---
+  duration_ms: 1.245117
+  type: 'test'
+  ...
+# Subtest: calibration and ADS activation discard pre-activation rotation
+ok 63 - calibration and ADS activation discard pre-activation rotation
+  ---
+  duration_ms: 3.125302
+  type: 'test'
+  ...
+# Subtest: screen rotation resets reference and avoids an abrupt aim jump
+ok 64 - screen rotation resets reference and avoids an abrupt aim jump
+  ---
+  duration_ms: 0.304867
+  type: 'test'
+  ...
+# Subtest: landscape sensor motion follows screen axes even when modern orientation reports zero
+ok 65 - landscape sensor motion follows screen axes even when modern orientation reports zero
+  ---
+  duration_ms: 0.810847
+  type: 'test'
+  ...
+# Subtest: manual axis correction supports a browser with a stuck orientation API
+ok 66 - manual axis correction supports a browser with a stuck orientation API
+  ---
+  duration_ms: 0.362024
+  type: 'test'
+  ...
+# Subtest: orientation changes discard pending motion even before a screen change event
+ok 67 - orientation changes discard pending motion even before a screen change event
+  ---
+  duration_ms: 0.348207
+  type: 'test'
+  ...
+# Subtest: All supplied GoldSrc model variants decode every original bone frame, event, texture and triangle
+ok 68 - All supplied GoldSrc model variants decode every original bone frame, event, texture and triangle
+  ---
+  duration_ms: 21491.098398
+  type: 'test'
+  ...
+# Subtest: Native seeking restores identical deformed mesh positions in either direction
+ok 69 - Native seeking restores identical deformed mesh positions in either direction
+  ---
+  duration_ms: 63.594688
+  type: 'test'
+  ...
+# Subtest: Native event cursor survives low FPS, seeking and repeated actions without replaying stale cues
+ok 70 - Native event cursor survives low FPS, seeking and repeated actions without replaying stale cues
+  ---
+  duration_ms: 19.56771
+  type: 'test'
+  ...
+# Subtest: Native pose clock and action recovery remain identical at 30 / 60 / 120 / 165 / 240 Hz
+ok 71 - Native pose clock and action recovery remain identical at 30 / 60 / 120 / 165 / 240 Hz
+  ---
+  duration_ms: 11.599861
+  type: 'test'
+  ...
+# Subtest: Selection respects weapon slots and validates native variants
+ok 72 - Selection respects weapon slots and validates native variants
+  ---
+  duration_ms: 0.597693
+  type: 'test'
+  ...
+# Subtest: Malformed / truncated native resources fail clearly
+ok 73 - Malformed / truncated native resources fail clearly
+  ---
+  duration_ms: 1.875152
+  type: 'test'
+  ...
+# Subtest: Champion upgrade levels retain their separate same-named sound files
+ok 74 - Champion upgrade levels retain their separate same-named sound files
+  ---
+  duration_ms: 0.863583
+  type: 'test'
+  ...
+# Subtest: equip crosses hands before catch and finishes in the same held pose as idle
+ok 75 - equip crosses hands before catch and finishes in the same held pose as idle
+  ---
+  duration_ms: 35.609108
+  type: 'test'
+  ...
+# Subtest: seeking any 60 fps equip frame gives identical blade and ribbon geometry regardless of previous frame rate
+ok 76 - seeking any 60 fps equip frame gives identical blade and ribbon geometry regardless of previous frame rate
+  ---
+  duration_ms: 123.252567
+  type: 'test'
+  ...
+# Subtest: Every map retains its source spawn district, five separated floors per team and routes to all sites
+ok 77 - Every map retains its source spawn district, five separated floors per team and routes to all sites
+  ---
+  duration_ms: 1814.03876
+  type: 'test'
+  ...
+# Subtest: Orbs require a continuous one-second hold and reset with destructible doors on the next round
+ok 78 - Orbs require a continuous one-second hold and reset with destructible doors on the next round
+  ---
+  duration_ms: 79.007627
+  type: 'test'
+  ...
+# Subtest: Fracture rope moves an actor over time and stops on death
+ok 79 - Fracture rope moves an actor over time and stops on death
+  ---
+  duration_ms: 125.273877
+  type: 'test'
+  ...
+# Subtest: An airborne projectile queries support below itself rather than snapping onto an overhead floor
+ok 80 - An airborne projectile queries support below itself rather than snapping onto an overhead floor
+  ---
+  duration_ms: 1.189003
+  type: 'test'
+  ...
+# Subtest: All six lighting bakes match their map geometry, preserve original light colors and stay within the mobile payload budget
+ok 81 - All six lighting bakes match their map geometry, preserve original light colors and stay within the mobile payload budget
+  ---
+  duration_ms: 639.490061
+  type: 'test'
+  ...
+# Subtest: The lighting decoder rejects stale geometry and truncated data before binding attributes
+ok 82 - The lighting decoder rejects stale geometry and truncated data before binding attributes
+  ---
+  duration_ms: 52.754752
+  type: 'test'
+  ...
+# Subtest: Map profiles change the shared bounded lighting, fog and actual shadow direction together
+ok 83 - Map profiles change the shared bounded lighting, fog and actual shadow direction together
+  ---
+  duration_ms: 2.428921
+  type: 'test'
+  ...
+# Subtest: Only glossy map surfaces enable highlight math; baked samples are a separate shader variant and no texture pass is added
+ok 84 - Only glossy map surfaces enable highlight math; baked samples are a separate shader variant and no texture pass is added
+  ---
+  duration_ms: 0.793951
+  type: 'test'
+  ...
+# Subtest: both pistol halves ignore lobby rifles, survivors retain gear, deaths lose gear, team keeps loadout
+ok 85 - both pistol halves ignore lobby rifles, survivors retain gear, deaths lose gear, team keeps loadout
+  ---
+  duration_ms: 1.538698
+  type: 'test'
+  ...
+# Subtest: refund and replacement conserve money; duplicate guns/armor and stale live transactions rejected
+ok 86 - refund and replacement conserve money; duplicate guns/armor and stale live transactions rejected
+  ---
+  duration_ms: 0.600357
+  type: 'test'
+  ...
+# Subtest: refund restores carried equipment and damaged armor without selling it or awarding extra credits
+ok 87 - refund restores carried equipment and damaged armor without selling it or awarding extra credits
+  ---
+  duration_ms: 0.313822
+  type: 'test'
+  ...
+# Subtest: scoped release is single-owner, rejects short taps and cancellation, cannot double fire
+ok 88 - scoped release is single-owner, rejects short taps and cancellation, cannot double fire
+  ---
+  duration_ms: 0.202654
+  type: 'test'
+  ...
+# Subtest: moving and airborne scoped shots lose accuracy; release and counter-strafe restore precision
+ok 89 - moving and airborne scoped shots lose accuracy; release and counter-strafe restore precision
+  ---
+  duration_ms: 2.10591
+  type: 'test'
+  ...
+# Subtest: spectator cycles only alive teammates and recovers when watched teammate dies
+ok 90 - spectator cycles only alive teammates and recovers when watched teammate dies
+  ---
+  duration_ms: 0.280893
+  type: 'test'
+  ...
+# Subtest: traced equip retains all 49 source poses, catches after rotation and settles
+ok 91 - traced equip retains all 49 source poses, catches after rotation and settles
+  ---
+  duration_ms: 2.197782
+  type: 'test'
+  ...
+# Subtest: every Mercy variant supports arbitrary frame seeking and animation interruption
+ok 92 - every Mercy variant supports arbitrary frame seeking and animation interruption
+  ---
+  duration_ms: 142.1593
+  type: 'test'
+  ...
+# Subtest: frame caps pace real render callbacks without fabricating high FPS
+ok 93 - frame caps pace real render callbacks without fabricating high FPS
+  ---
+  duration_ms: 4.598521
+  type: 'test'
+  ...
+# Subtest: knife toggle returns to the last selected gun including pistol
+ok 94 - knife toggle returns to the last selected gun including pistol
+  ---
+  duration_ms: 0.349904
+  type: 'test'
+  ...
+# Subtest: all layout presets fit phone and tablet viewports at maximum size
+ok 95 - all layout presets fit phone and tablet viewports at maximum size
+  ---
+  duration_ms: 1.516269
+  type: 'test'
+  ...
+# Subtest: gyro preserves fine motion and total angle at every target frame rate without residual drift
+ok 96 - gyro preserves fine motion and total angle at every target frame rate without residual drift
+  ---
+  duration_ms: 4.955908
+  type: 'test'
+  ...
+# Subtest: callback diagnostics distinguish a 60 FPS game cap from a 120 Hz browser, and reset after suspension
+ok 97 - callback diagnostics distinguish a 60 FPS game cap from a 120 Hz browser, and reset after suspension
+  ---
+  duration_ms: 0.468899
+  type: 'test'
+  ...
+# Subtest: All 46 VCT/recon GZIPs restore original model bytes with browser-native and older-browser decoders
+ok 98 - All 46 VCT/recon GZIPs restore original model bytes with browser-native and older-browser decoders
+  ---
+  duration_ms: 3004.853698
+  type: 'test'
+  ...
+# Subtest: Naru four clips can seek every 60 Hz frame; water and hands remain finite
+ok 99 - Naru four clips can seek every 60 Hz frame; water and hands remain finite
+  ---
+  duration_ms: 110.306239
+  type: 'test'
+  ...
+# Subtest: Transform commits only at the water event; interruption preserves visible form
+ok 100 - Transform commits only at the water event; interruption preserves visible form
+  ---
+  duration_ms: 0.330198
+  type: 'test'
+  ...
+# Subtest: All variants support independent long and short idle plus both attacks
+ok 101 - All variants support independent long and short idle plus both attacks
+  ---
+  duration_ms: 33.762721
+  type: 'test'
+  ...
+# Subtest: Kunai catch, conversion and idle share the same closed grip without stale long-hand transforms
+ok 102 - Kunai catch, conversion and idle share the same closed grip without stale long-hand transforms
+  ---
+  duration_ms: 7.039087
+  type: 'test'
+  ...
+# Subtest: All 12 native character files retain source checksums, colored palettes and multi-blend bone poses
+ok 103 - All 12 native character files retain source checksums, colored palettes and multi-blend bone poses
+  ---
+  duration_ms: 882.701619
+  type: 'test'
+  ...
+# Subtest: Native combat bodies animate, keep feet grounded, and retain real held rifles and invisible hit regions
+ok 104 - Native combat bodies animate, keep feet grounded, and retain real held rifles and invisible hit regions
+  ---
+  duration_ms: 2168.533784
+  type: 'test'
+  ...
+# Subtest: Near-plane clipping interpolates UVs and does not discard the visible part of a textured triangle
+ok 105 - Near-plane clipping interpolates UVs and does not discard the visible part of a textured triangle
+  ---
+  duration_ms: 0.626401
+  type: 'test'
+  ...
+# Subtest: Software rendering never fills mapped additive faces white, and skips invisible hit regions
+ok 106 - Software rendering never fills mapped additive faces white, and skips invisible hit regions
+  ---
+  duration_ms: 2.941841
+  type: 'test'
+  ...
+# Subtest: Every gameplay weapon resolves an actual model; unavailable procedural skin choices are removed
+ok 107 - Every gameplay weapon resolves an actual model; unavailable procedural skin choices are removed
+  ---
+  duration_ms: 2.137201
+  type: 'test'
+  ...
+# Subtest: Six supplied maps have clear spawns, all bomb sites reachable, and finite baked geometry
+ok 108 - Six supplied maps have clear spawns, all bomb sites reachable, and finite baked geometry
+  ---
+  duration_ms: 1676.794989
+  type: 'test'
+  ...
+# Subtest: Collision respects vertical wall spans and floor steps
+ok 109 - Collision respects vertical wall spans and floor steps
+  ---
+  duration_ms: 0.812835
+  type: 'test'
+  ...
+# Subtest: Source 49 model retains 327 finite bone frames, valid skinning and material flags
+ok 110 - Source 49 model retains 327 finite bone frames, valid skinning and material flags
+  ---
+  duration_ms: 2504.752334
+  type: 'test'
+  ...
+# Subtest: All six supplied aim models and both objective view models decode, and five feedback packs retain five audio stages
+ok 111 - All six supplied aim models and both objective view models decode, and five feedback packs retain five audio stages
+  ---
+  duration_ms: 416.613381
+  type: 'test'
+  ...
+# Subtest: Four new resource packs retain exact native bytes and record every transformation
+ok 112 - Four new resource packs retain exact native bytes and record every transformation
+  ---
+  duration_ms: 460.67189
+  type: 'test'
+  ...
+# Subtest: All seven new model variants equip in their real slots and preserve every native animation frame
+ok 113 - All seven new model variants equip in their real slots and preserve every native animation frame
+  ---
+  duration_ms: 2120.651906
+  type: 'test'
+  ...
+# Subtest: Gaia collection shows the complete weapon without parked reload parts or off-camera action effects
+ok 114 - Gaia collection shows the complete weapon without parked reload parts or off-camera action effects
+  ---
+  duration_ms: 1527.156967
+  type: 'test'
+  ...
+# Subtest: Gaia native event banks resolve to supplied files; five Champion cues remain different original WAVs
+ok 115 - Gaia native event banks resolve to supplied files; five Champion cues remain different original WAVs
+  ---
+  duration_ms: 6.15717
+  type: 'test'
+  ...
+# Subtest: Both Gaia Guardian ports fire their own supplied original shot sample
+ok 116 - Both Gaia Guardian ports fire their own supplied original shot sample
+  ---
+  duration_ms: 1217.339191
+  type: 'test'
+  ...
+# Subtest: Mobile glyphs and labels survive repeated HUD changes without replacing interactive buttons
+ok 117 - Mobile glyphs and labels survive repeated HUD changes without replacing interactive buttons
+  ---
+  duration_ms: 67.105943
+  type: 'test'
+  ...
+# Subtest: Agent speech respects volume and cancellation while keeping the original recordings
+ok 118 - Agent speech respects volume and cancellation while keeping the original recordings
+  ---
+  duration_ms: 5.316514
+  type: 'test'
+  ...
+# Subtest: Champion banner switches every count and headshot layer and cleans up on interruption
+ok 119 - Champion banner switches every count and headshot layer and cleans up on interruption
+  ---
+  duration_ms: 6.303859
+  type: 'test'
+  ...
+# Subtest: The browser entry and every mutable app import share one cache version
+ok 120 - The browser entry and every mutable app import share one cache version
+  ---
+  duration_ms: 6.39837
+  type: 'test'
+  ...
+# Subtest: Opaque native palettes bypass PBR light saturation; additive and cutout maps retain their flags
+ok 121 - Opaque native palettes bypass PBR light saturation; additive and cutout maps retain their flags
+  ---
+  duration_ms: 0.68236
+  type: 'test'
+  ...
+# Subtest: Native triangle commands face the same direction as the source normals after CCW conversion
+ok 122 - Native triangle commands face the same direction as the source normals after CCW conversion
+  ---
+  duration_ms: 207.060051
+  type: 'test'
+  ...
+# Subtest: Five uploads retain source hashes; nine valid variants equip in compatible slots with original action banks
+ok 123 - Five uploads retain source hashes; nine valid variants equip in compatible slots with original action banks
+  ---
+  duration_ms: 3680.455729
+  type: 'test'
+  ...
+# Subtest: Champion audio cues match original backslash events and normalized metadata paths
+ok 124 - Champion audio cues match original backslash events and normalized metadata paths
+  ---
+  duration_ms: 293.501267
+  type: 'test'
+  ...
+# Subtest: every spawn has a collision-free path to both bombsites
+ok 125 - every spawn has a collision-free path to both bombsites
+  ---
+  duration_ms: 13.530664
+  type: 'test'
+  ...
+# Subtest: armor absorbs two thirds until depleted, rifle headshot still lethal
+ok 126 - armor absorbs two thirds until depleted, rifle headshot still lethal
+  ---
+  duration_ms: 1.927644
+  type: 'test'
+  ...
+# Subtest: planted bomb survives attacker elimination and round timeout
+ok 127 - planted bomb survives attacker elimination and round timeout
+  ---
+  duration_ms: 0.190963
+  type: 'test'
+  ...
+# Subtest: rank promotions cross 100 and 300 RR boundaries
+ok 128 - rank promotions cross 100 and 300 RR boundaries
+  ---
+  duration_ms: 0.192949
+  type: 'test'
+  ...
+# Subtest: Selecting, waiting and cancelling utility neither releases effects nor spends a charge
+ok 129 - Selecting, waiting and cancelling utility neither releases effects nor spends a charge
+  ---
+  duration_ms: 10.32099
+  type: 'test'
+  ...
+# Subtest: Jett arms one dash, needs a second activation, moves over time and recharges after two enemy kills
+ok 130 - Jett arms one dash, needs a second activation, moves over time and recharges after two enemy kills
+  ---
+  duration_ms: 2.005304
+  type: 'test'
+  ...
+# Subtest: Sova bow supports 0/1/2 bounces, held charge, release-only consumption and physical flight
+ok 131 - Sova bow supports 0/1/2 bounces, held charge, release-only consumption and physical flight
+  ---
+  duration_ms: 7.523418
+  type: 'test'
+  ...
+# Subtest: Recon pulse reveals only in sight, is destructible, and pulses three times
+ok 132 - Recon pulse reveals only in sight, is destructible, and pulses three times
+  ---
+  duration_ms: 8.611829
+  type: 'test'
+  ...
+# Subtest: Sage deliberately targets team healing or self healing, fortifies independent wall segments and channels resurrection
+ok 133 - Sage deliberately targets team healing or self healing, fortifies independent wall segments and channels resurrection
+  ---
+  duration_ms: 36.54433
+  type: 'test'
+  ...
+# Subtest: Raze satchel deploys before reactivation and blast momentum never damages its owner
+ok 134 - Raze satchel deploys before reactivation and blast momentum never damages its owner
+  ---
+  duration_ms: 3.709847
+  type: 'test'
+  ...
+# Subtest: Raze grenade produces four separately delayed submunitions and rocket flies before contact damage
+ok 135 - Raze grenade produces four separately delayed submunitions and rocket flies before contact damage
+  ---
+  duration_ms: 11.352534
+  type: 'test'
+  ...
+# Subtest: Sova drone and Skye tiger are controlled cameras rather than autonomous reveal seekers
+ok 136 - Sova drone and Skye tiger are controlled cameras rather than autonomous reveal seekers
+  ---
+  duration_ms: 3.446627
+  type: 'test'
+  ...
+# Subtest: Skye regrowth consumes a shared pool only while damaged allies are in range and sight
+ok 137 - Skye regrowth consumes a shared pool only while damaged allies are in range and sight
+  ---
+  duration_ms: 1.795926
+  type: 'test'
+  ...
+# Subtest: Brimstone confirms multiple tactical smoke points without automatic recharge
+ok 138 - Brimstone confirms multiple tactical smoke points without automatic recharge
+  ---
+  duration_ms: 53.985702
+  type: 'test'
+  ...
+# Subtest: Flash affects either team when looking toward it but respects occlusion and looking away
+ok 139 - Flash affects either team when looking toward it but respects occlusion and looking away
+  ---
+  duration_ms: 0.601712
+  type: 'test'
+  ...
+# Subtest: Phoenix anchor restores position and yaw after lethal damage or timeout, preserving spent armor
+ok 140 - Phoenix anchor restores position and yaw after lethal damage or timeout, preserving spent armor
+  ---
+  duration_ms: 0.958572
+  type: 'test'
+  ...
+# Subtest: Jett right-click volley empties knives and has no kill refill, while single throws refill
+ok 141 - Jett right-click volley empties knives and has no kill refill, while single throws refill
+  ---
+  duration_ms: 1.014151
+  type: 'test'
+  ...
+# Subtest: Every roster skill has a distinct runtime path, and reset removes all utility colliders
+ok 142 - Every roster skill has a distinct runtime path, and reset removes all utility colliders
+  ---
+  duration_ms: 117.680472
+  type: 'test'
+  ...
+# Subtest: A weapon without a unique banner always uses the original standard badge
+ok 143 - A weapon without a unique banner always uses the original standard badge
+  ---
+  duration_ms: 1.092455
+  type: 'test'
+  ...
+# Subtest: Sova and Raze can return to a holstered ultimate without paying its cost again
+ok 144 - Sova and Raze can return to a holstered ultimate without paying its cost again
+  ---
+  duration_ms: 0.26705
+  type: 'test'
+  ...
+# Subtest: Regrowth spends its purchased charge once and keeps the remaining pool usable
+ok 145 - Regrowth spends its purchased charge once and keeps the remaining pool usable
+  ---
+  duration_ms: 0.359869
+  type: 'test'
+  ...
+# Subtest: A flying rocket detonates on a standing actor before reaching the floor
+ok 146 - A flying rocket detonates on a standing actor before reaching the floor
+  ---
+  duration_ms: 0.959033
+  type: 'test'
+  ...
+# Subtest: Phoenix gains one flash charge after two kills rather than a free full refill
+ok 147 - Phoenix gains one flash charge after two kills rather than a free full refill
+  ---
+  duration_ms: 0.12315
+  type: 'test'
+  ...
+# Subtest: Sage can heal a teammate while aiming at the head inside the target capsule
+ok 148 - Sage can heal a teammate while aiming at the head inside the target capsule
+  ---
+  duration_ms: 0.248563
+  type: 'test'
+  ...
+# Subtest: secondary and third touches activate independently while joystick remains held
+ok 149 - secondary and third touches activate independently while joystick remains held
+  ---
+  duration_ms: 1.410124
+  type: 'test'
+  ...
+# Subtest: keyboard click remains available; inactive match and layout editing ignore action
+ok 150 - keyboard click remains available; inactive match and layout editing ignore action
+  ---
+  duration_ms: 0.46945
+  type: 'test'
+  ...
+# Subtest: Models and sound event banks resolve to the pinned public GitHub tree without credentials
+ok 151 - Models and sound event banks resolve to the pinned public GitHub tree without credentials
+  ---
+  duration_ms: 13.064915
+  type: 'test'
+  ...
+# Subtest: HTML, partial downloads and timeouts fail explicitly; a cancelled request never retries
+ok 152 - HTML, partial downloads and timeouts fail explicitly; a cancelled request never retries
+  ---
+  duration_ms: 14.053803
+  type: 'test'
+  ...
+# Subtest: A WebView exposing a broken DecompressionStream still decodes the unchanged original model
+ok 153 - A WebView exposing a broken DecompressionStream still decodes the unchanged original model
+  ---
+  duration_ms: 27.479721
+  type: 'test'
+  ...
+# Subtest: Optional audio configuration failure cannot discard a valid animated model; failed model downloads can retry
+ok 154 - Optional audio configuration failure cannot discard a valid animated model; failed model downloads can retry
+  ---
+  duration_ms: 624.371687
+  type: 'test'
+  ...
+# Subtest: architectural reconstruction preserves physical walls and remains a batched finite scene
+ok 155 - architectural reconstruction preserves physical walls and remains a batched finite scene
+  ---
+  duration_ms: 530.297485
+  type: 'test'
+  ...
+# Subtest: map shadow materials retain baked colors and alpha while weapon palettes keep their original renderer
+ok 156 - map shadow materials retain baked colors and alpha while weapon palettes keep their original renderer
+  ---
+  duration_ms: 1.698118
+  type: 'test'
+  ...
+# Subtest: shadow frustum follows faraway maps, stays stable within a texel, and quality transitions release old maps
+ok 157 - shadow frustum follows faraway maps, stays stable within a texel, and quality transitions release old maps
+  ---
+  duration_ms: 0.916482
+  type: 'test'
+  ...
+# Subtest: all six BSP maps identify cyan tool seals without removing water, glass or architecture
+ok 158 - all six BSP maps identify cyan tool seals without removing water, glass or architecture
+  ---
+  duration_ms: 993.06635
+  type: 'test'
+  ...
+1..158
+# tests 158
+# suites 0
+# pass 158
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 65687.240274

@@ -1,0 +1,474 @@
+[
+  {
+    "index": 0,
+    "name": "Shezo",
+    "fps": 60.0,
+    "frames": 2,
+    "events": []
+  },
+  {
+    "index": 1,
+    "name": "zoom_idle",
+    "fps": 60.0,
+    "frames": 2,
+    "events": []
+  },
+  {
+    "index": 2,
+    "name": "reload_1",
+    "fps": 30.0,
+    "frames": 89,
+    "events": [
+      {
+        "frame": 1,
+        "event": 5004,
+        "options": "weapons\\valorant\\phaseguardvandal/Reload_Mvt_A.wav",
+        "sound": null
+      },
+      {
+        "frame": 5,
+        "event": 5004,
+        "options": "weapons\\valorant\\phaseguardvandal/Reload_Element_A.wav",
+        "sound": null
+      },
+      {
+        "frame": 20,
+        "event": 5004,
+        "options": "weapons\\valorant\\phaseguardvandal/Reload_MagOut.wav",
+        "sound": null
+      },
+      {
+        "frame": 30,
+        "event": 5004,
+        "options": "weapons\\valorant\\phaseguardvandal/Reload_Element_B.wav",
+        "sound": null
+      },
+      {
+        "frame": 35,
+        "event": 5004,
+        "options": "weapons\\valorant\\phaseguardvandal/Reload_MagIn_Start.wav",
+        "sound": null
+      },
+      {
+        "frame": 40,
+        "event": 5004,
+        "options": "weapons\\valorant\\phaseguardvandal/Reload_Element_C.wav",
+        "sound": null
+      },
+      {
+        "frame": 40,
+        "event": 5004,
+        "options": "weapons\\valorant\\phaseguardvandal/Reload_MagIn_End.wav",
+        "sound": null
+      },
+      {
+        "frame": 50,
+        "event": 5004,
+        "options": "weapons\\valorant\\phaseguardvandal/Reload_Chg_Hndl_Back_FP.wav",
+        "sound": null
+      },
+      {
+        "frame": 60,
+        "event": 5004,
+        "options": "weapons\\valorant\\phaseguardvandal/Reload_Element_E.wav",
+        "sound": null
+      },
+      {
+        "frame": 60,
+        "event": 5004,
+        "options": "weapons\\valorant\\phaseguardvandal/Reload_Chg_Hndl_Fwd_FP.wav",
+        "sound": null
+      }
+    ]
+  },
+  {
+    "index": 3,
+    "name": "reload_2",
+    "fps": 40.0,
+    "frames": 89,
+    "events": [
+      {
+        "frame": 1,
+        "event": 5004,
+        "options": "weapons\\valorant\\phaseguardvandal/Reload_Mvt_A.wav",
+        "sound": null
+      },
+      {
+        "frame": 5,
+        "event": 5004,
+        "options": "weapons\\valorant\\phaseguardvandal/Reload_Element_A.wav",
+        "sound": null
+      },
+      {
+        "frame": 20,
+        "event": 5004,
+        "options": "weapons\\valorant\\phaseguardvandal/Reload_MagOut.wav",
+        "sound": null
+      },
+      {
+        "frame": 30,
+        "event": 5004,
+        "options": "weapons\\valorant\\phaseguardvandal/Reload_Element_B.wav",
+        "sound": null
+      },
+      {
+        "frame": 35,
+        "event": 5004,
+        "options": "weapons\\valorant\\phaseguardvandal/Reload_MagIn_Start.wav",
+        "sound": null
+      },
+      {
+        "frame": 40,
+        "event": 5004,
+        "options": "weapons\\valorant\\phaseguardvandal/Reload_Element_C.wav",
+        "sound": null
+      },
+      {
+        "frame": 40,
+        "event": 5004,
+        "options": "weapons\\valorant\\phaseguardvandal/Reload_MagIn_End.wav",
+        "sound": null
+      },
+      {
+        "frame": 50,
+        "event": 5004,
+        "options": "weapons\\valorant\\phaseguardvandal/Reload_Chg_Hndl_Back_FP.wav",
+        "sound": null
+      },
+      {
+        "frame": 60,
+        "event": 5004,
+        "options": "weapons\\valorant\\phaseguardvandal/Reload_Element_E.wav",
+        "sound": null
+      },
+      {
+        "frame": 60,
+        "event": 5004,
+        "options": "weapons\\valorant\\phaseguardvandal/Reload_Chg_Hndl_Fwd_FP.wav",
+        "sound": null
+      }
+    ]
+  },
+  {
+    "index": 4,
+    "name": "draw_1",
+    "fps": 60.0,
+    "frames": 100,
+    "events": [
+      {
+        "frame": 1,
+        "event": 5004,
+        "options": "weapons\\valorant\\phaseguardvandal/Equip_Mvt_A.wav",
+        "sound": null
+      },
+      {
+        "frame": 25,
+        "event": 5004,
+        "options": "weapons\\valorant\\phaseguardvandal/Equip_Chg_Hndl_Back_FP.wav",
+        "sound": null
+      },
+      {
+        "frame": 40,
+        "event": 5004,
+        "options": "weapons\\valorant\\phaseguardvandal/Equip_Chg_Hndl_Fwd_FP.wav",
+        "sound": null
+      },
+      {
+        "frame": 48,
+        "event": 5004,
+        "options": "weapons\\valorant\\phaseguardvandal/Chg_Fwd_Element.wav",
+        "sound": null
+      },
+      {
+        "frame": 57,
+        "event": 5004,
+        "options": "weapons\\valorant\\phaseguardvandal/Equip_Element_B_FP.wav",
+        "sound": null
+      },
+      {
+        "frame": 71,
+        "event": 5004,
+        "options": "weapons\\valorant\\phaseguardvandal/Grab.wav",
+        "sound": null
+      }
+    ]
+  },
+  {
+    "index": 5,
+    "name": "draw_2",
+    "fps": 70.0,
+    "frames": 100,
+    "events": [
+      {
+        "frame": 1,
+        "event": 5004,
+        "options": "weapons\\valorant\\phaseguardvandal/Equip_Mvt_A.wav",
+        "sound": null
+      },
+      {
+        "frame": 25,
+        "event": 5004,
+        "options": "weapons\\valorant\\phaseguardvandal/Equip_Chg_Hndl_Back_FP.wav",
+        "sound": null
+      },
+      {
+        "frame": 40,
+        "event": 5004,
+        "options": "weapons\\valorant\\phaseguardvandal/Equip_Chg_Hndl_Fwd_FP.wav",
+        "sound": null
+      },
+      {
+        "frame": 52,
+        "event": 5004,
+        "options": "weapons\\valorant\\phaseguardvandal/Chg_Fwd_Element.wav",
+        "sound": null
+      },
+      {
+        "frame": 65,
+        "event": 5004,
+        "options": "weapons\\valorant\\phaseguardvandal/Grab.wav",
+        "sound": null
+      }
+    ]
+  },
+  {
+    "index": 6,
+    "name": "shoot_1",
+    "fps": 60.0,
+    "frames": 20,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5001,
+        "options": "24",
+        "sound": null
+      }
+    ]
+  },
+  {
+    "index": 7,
+    "name": "shoot_2",
+    "fps": 60.0,
+    "frames": 20,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5001,
+        "options": "24",
+        "sound": null
+      }
+    ]
+  },
+  {
+    "index": 8,
+    "name": "zoom_shoot",
+    "fps": 60.0,
+    "frames": 20,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5001,
+        "options": "24",
+        "sound": null
+      }
+    ]
+  },
+  {
+    "index": 9,
+    "name": "zoom_shoot_fast",
+    "fps": 90.0,
+    "frames": 20,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5001,
+        "options": "24",
+        "sound": null
+      }
+    ]
+  },
+  {
+    "index": 10,
+    "name": "inspect_1",
+    "fps": 30.0,
+    "frames": 236,
+    "events": [
+      {
+        "frame": 1,
+        "event": 5004,
+        "options": "weapons\\valorant\\phaseguardvandal/Inspect_Mvt_A.wav",
+        "sound": null
+      },
+      {
+        "frame": 10,
+        "event": 5004,
+        "options": "weapons\\valorant\\phaseguardvandal/Reload_MagOut.wav",
+        "sound": null
+      },
+      {
+        "frame": 50,
+        "event": 5004,
+        "options": "weapons\\valorant\\phaseguardvandal/Inspect_Mvt_B.wav",
+        "sound": null
+      },
+      {
+        "frame": 55,
+        "event": 5004,
+        "options": "weapons\\valorant\\phaseguardvandal/Reload_MagIn_Start.wav",
+        "sound": null
+      },
+      {
+        "frame": 58,
+        "event": 5004,
+        "options": "weapons\\valorant\\phaseguardvandal/Reload_MagIn_End.wav",
+        "sound": null
+      },
+      {
+        "frame": 75,
+        "event": 5004,
+        "options": "weapons\\valorant\\phaseguardvandal/Inspect_Mvt_C.wav",
+        "sound": null
+      },
+      {
+        "frame": 80,
+        "event": 5004,
+        "options": "weapons\\valorant\\phaseguardvandal/Reload_Chg_Hndl_Back_FP.wav",
+        "sound": null
+      },
+      {
+        "frame": 85,
+        "event": 5004,
+        "options": "weapons\\valorant\\phaseguardvandal/Inspect_Mvt_D.wav",
+        "sound": null
+      },
+      {
+        "frame": 115,
+        "event": 5004,
+        "options": "weapons\\valorant\\phaseguardvandal/Reload_Chg_Hndl_Fwd_FP.wav",
+        "sound": null
+      },
+      {
+        "frame": 120,
+        "event": 5004,
+        "options": "weapons\\valorant\\phaseguardvandal/Reload_Element_E.wav",
+        "sound": null
+      },
+      {
+        "frame": 130,
+        "event": 5004,
+        "options": "weapons\\valorant\\phaseguardvandal/Inspect_Mvt_F.wav",
+        "sound": null
+      },
+      {
+        "frame": 140,
+        "event": 5004,
+        "options": "weapons\\valorant\\phaseguardvandal/Inspect_Element_Cloak.wav",
+        "sound": null
+      },
+      {
+        "frame": 205,
+        "event": 5004,
+        "options": "weapons\\valorant\\phaseguardvandal/Inspect_Element_Cloak_Out.wav",
+        "sound": null
+      },
+      {
+        "frame": 230,
+        "event": 5004,
+        "options": "weapons\\valorant\\phaseguardvandal/Chg_Fwd_Element.wav",
+        "sound": null
+      }
+    ]
+  },
+  {
+    "index": 11,
+    "name": "inspect_2",
+    "fps": 30.0,
+    "frames": 236,
+    "events": [
+      {
+        "frame": 1,
+        "event": 5004,
+        "options": "weapons\\valorant\\phaseguardvandal/Inspect_Mvt_A.wav",
+        "sound": null
+      },
+      {
+        "frame": 10,
+        "event": 5004,
+        "options": "weapons\\valorant\\phaseguardvandal/Reload_MagOut.wav",
+        "sound": null
+      },
+      {
+        "frame": 50,
+        "event": 5004,
+        "options": "weapons\\valorant\\phaseguardvandal/Inspect_Mvt_B.wav",
+        "sound": null
+      },
+      {
+        "frame": 55,
+        "event": 5004,
+        "options": "weapons\\valorant\\phaseguardvandal/Reload_MagIn_Start.wav",
+        "sound": null
+      },
+      {
+        "frame": 58,
+        "event": 5004,
+        "options": "weapons\\valorant\\phaseguardvandal/Reload_MagIn_End.wav",
+        "sound": null
+      },
+      {
+        "frame": 75,
+        "event": 5004,
+        "options": "weapons\\valorant\\phaseguardvandal/Inspect_Mvt_C.wav",
+        "sound": null
+      },
+      {
+        "frame": 80,
+        "event": 5004,
+        "options": "weapons\\valorant\\phaseguardvandal/Reload_Chg_Hndl_Back_FP.wav",
+        "sound": null
+      },
+      {
+        "frame": 85,
+        "event": 5004,
+        "options": "weapons\\valorant\\phaseguardvandal/Inspect_Mvt_D.wav",
+        "sound": null
+      },
+      {
+        "frame": 115,
+        "event": 5004,
+        "options": "weapons\\valorant\\phaseguardvandal/Reload_Chg_Hndl_Fwd_FP.wav",
+        "sound": null
+      },
+      {
+        "frame": 120,
+        "event": 5004,
+        "options": "weapons\\valorant\\phaseguardvandal/Reload_Element_E.wav",
+        "sound": null
+      },
+      {
+        "frame": 130,
+        "event": 5004,
+        "options": "weapons\\valorant\\phaseguardvandal/Inspect_Mvt_F.wav",
+        "sound": null
+      },
+      {
+        "frame": 140,
+        "event": 5004,
+        "options": "weapons\\valorant\\phaseguardvandal/Inspect_Element_Cloak.wav",
+        "sound": null
+      },
+      {
+        "frame": 205,
+        "event": 5004,
+        "options": "weapons\\valorant\\phaseguardvandal/Inspect_Element_Cloak_Out.wav",
+        "sound": null
+      },
+      {
+        "frame": 230,
+        "event": 5004,
+        "options": "weapons\\valorant\\phaseguardvandal/Chg_Fwd_Element.wav",
+        "sound": null
+      }
+    ]
+  }
+]

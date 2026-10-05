@@ -1,0 +1,2410 @@
+{
+  "files": [
+    {
+      "archive": "Valorant 盖亚套 By MotH.7z",
+      "source": "sound/weapons/ak47-1.wav",
+      "output": "dist/assets/imported/gaiavandal/sound/9ba29e7d7713a83e53a2.wav",
+      "sourceSHA256": "9ba29e7d7713a83e53a21650735a639bbc2cc25762dfad35fc4ee43d1d38f12b",
+      "outputSHA256": "9ba29e7d7713a83e53a21650735a639bbc2cc25762dfad35fc4ee43d1d38f12b",
+      "bytes": 20224,
+      "gzip": false
+    },
+    {
+      "archive": "Valorant 盖亚套 By MotH.7z",
+      "source": "sound/weapons/ak47-2.wav",
+      "output": "dist/assets/imported/gaiavandal/sound/b8eb549ba3378d148061.wav",
+      "sourceSHA256": "b8eb549ba3378d148061f51db2658c790c6eeebb293ecc2bff8327d08218f3c0",
+      "outputSHA256": "b8eb549ba3378d148061f51db2658c790c6eeebb293ecc2bff8327d08218f3c0",
+      "bytes": 20224,
+      "gzip": false
+    },
+    {
+      "archive": "Valorant 盖亚套 By MotH.7z",
+      "source": "sound/weapons/valorant/gaiavandal/ashen_grab.wav",
+      "output": "dist/assets/imported/gaiavandal/sound/142022e532e9b2ab0eaa.wav",
+      "sourceSHA256": "142022e532e9b2ab0eaa538391c7392d115ba67722c8ee5dac5ea21b07f94a2c",
+      "outputSHA256": "142022e532e9b2ab0eaa538391c7392d115ba67722c8ee5dac5ea21b07f94a2c",
+      "bytes": 10398,
+      "gzip": false
+    },
+    {
+      "archive": "Valorant 盖亚套 By MotH.7z",
+      "source": "sound/weapons/valorant/gaiavandal/handleback.wav",
+      "output": "dist/assets/imported/gaiavandal/sound/c98eabdbcfe517b5e0aa.wav",
+      "sourceSHA256": "c98eabdbcfe517b5e0aa0e70ae945f034cf036819887fced1e7c7c199b2109f7",
+      "outputSHA256": "c98eabdbcfe517b5e0aa0e70ae945f034cf036819887fced1e7c7c199b2109f7",
+      "bytes": 23122,
+      "gzip": false
+    },
+    {
+      "archive": "Valorant 盖亚套 By MotH.7z",
+      "source": "sound/weapons/valorant/gaiavandal/equip_ele_a.wav",
+      "output": "dist/assets/imported/gaiavandal/sound/2777d356540fdd8ce259.wav",
+      "sourceSHA256": "2777d356540fdd8ce259aa441ba7ec7ded5cab677d9c99eafcb11ce4b5fe9dcd",
+      "outputSHA256": "2777d356540fdd8ce259aa441ba7ec7ded5cab677d9c99eafcb11ce4b5fe9dcd",
+      "bytes": 77200,
+      "gzip": false
+    },
+    {
+      "archive": "Valorant 盖亚套 By MotH.7z",
+      "source": "sound/weapons/valorant/gaiavandal/inspect_mvt_b.wav",
+      "output": "dist/assets/imported/gaiavandal/sound/fa0ce2e2e66ee611b895.wav",
+      "sourceSHA256": "fa0ce2e2e66ee611b895f4689a4ee4f6a183cff41dc5d5008f945428e333d478",
+      "outputSHA256": "fa0ce2e2e66ee611b895f4689a4ee4f6a183cff41dc5d5008f945428e333d478",
+      "bytes": 26518,
+      "gzip": false
+    },
+    {
+      "archive": "Valorant 盖亚套 By MotH.7z",
+      "source": "sound/weapons/valorant/gaiavandal/inspect_mvt_a.wav",
+      "output": "dist/assets/imported/gaiavandal/sound/f8d137555fe3ae421934.wav",
+      "sourceSHA256": "f8d137555fe3ae421934e5c9237a3b625f5df4b9d81090e4be702458de18b734",
+      "outputSHA256": "f8d137555fe3ae421934e5c9237a3b625f5df4b9d81090e4be702458de18b734",
+      "bytes": 23500,
+      "gzip": false
+    },
+    {
+      "archive": "Valorant 盖亚套 By MotH.7z",
+      "source": "sound/weapons/valorant/gaiavandal/reload_ele_b.wav",
+      "output": "dist/assets/imported/gaiavandal/sound/a757965e729cc606b5d7.wav",
+      "sourceSHA256": "a757965e729cc606b5d7b7a55c576cbc1e5c4bca70e760c6fa24f48b917d0ef9",
+      "outputSHA256": "a757965e729cc606b5d7b7a55c576cbc1e5c4bca70e760c6fa24f48b917d0ef9",
+      "bytes": 76488,
+      "gzip": false
+    },
+    {
+      "archive": "Valorant 盖亚套 By MotH.7z",
+      "source": "sound/weapons/valorant/gaiavandal/inspect_ele_b.wav",
+      "output": "dist/assets/imported/gaiavandal/sound/5a8866f6f293e915fc09.wav",
+      "sourceSHA256": "5a8866f6f293e915fc09c215116c2d938bd67c7510d1d1682d5d078e9d58fb67",
+      "outputSHA256": "5a8866f6f293e915fc09c215116c2d938bd67c7510d1d1682d5d078e9d58fb67",
+      "bytes": 106728,
+      "gzip": false
+    },
+    {
+      "archive": "Valorant 盖亚套 By MotH.7z",
+      "source": "sound/weapons/valorant/gaiavandal/reload_magout.wav",
+      "output": "dist/assets/imported/gaiavandal/sound/553d9c6f03ea64e84894.wav",
+      "sourceSHA256": "553d9c6f03ea64e848944fb7b2912d56b8398fe4b2f93a2941531661f8e7e561",
+      "outputSHA256": "553d9c6f03ea64e848944fb7b2912d56b8398fe4b2f93a2941531661f8e7e561",
+      "bytes": 16482,
+      "gzip": false
+    },
+    {
+      "archive": "Valorant 盖亚套 By MotH.7z",
+      "source": "sound/weapons/valorant/gaiavandal/reload_ele_a.wav",
+      "output": "dist/assets/imported/gaiavandal/sound/913be7ba86901334afa2.wav",
+      "sourceSHA256": "913be7ba86901334afa263449a479d21ef294b5b4fe46eefdf71f28131264ac8",
+      "outputSHA256": "913be7ba86901334afa263449a479d21ef294b5b4fe46eefdf71f28131264ac8",
+      "bytes": 61940,
+      "gzip": false
+    },
+    {
+      "archive": "Valorant 盖亚套 By MotH.7z",
+      "source": "sound/weapons/valorant/gaiavandal/reload_maginend.wav",
+      "output": "dist/assets/imported/gaiavandal/sound/8d5de3ffaace771ceb6f.wav",
+      "sourceSHA256": "8d5de3ffaace771ceb6f632f3bfd35bfaba1722d57e65179473cd78b72b01764",
+      "outputSHA256": "8d5de3ffaace771ceb6f632f3bfd35bfaba1722d57e65179473cd78b72b01764",
+      "bytes": 12494,
+      "gzip": false
+    },
+    {
+      "archive": "Valorant 盖亚套 By MotH.7z",
+      "source": "sound/weapons/valorant/gaiavandal/handlegrab.wav",
+      "output": "dist/assets/imported/gaiavandal/sound/a59260e760cd613f7ddd.wav",
+      "sourceSHA256": "a59260e760cd613f7ddd493fd73b4519fd78978bd7fe0c0e1bdac2ce74f69eac",
+      "outputSHA256": "a59260e760cd613f7ddd493fd73b4519fd78978bd7fe0c0e1bdac2ce74f69eac",
+      "bytes": 8434,
+      "gzip": false
+    },
+    {
+      "archive": "Valorant 盖亚套 By MotH.7z",
+      "source": "sound/weapons/valorant/gaiavandal/reload_mvt_a.wav",
+      "output": "dist/assets/imported/gaiavandal/sound/5faf8e242536387945dd.wav",
+      "sourceSHA256": "5faf8e242536387945dd9c9aecdf92e0396930cc1c4b152ecdc403a8b05aec64",
+      "outputSHA256": "5faf8e242536387945dd9c9aecdf92e0396930cc1c4b152ecdc403a8b05aec64",
+      "bytes": 19350,
+      "gzip": false
+    },
+    {
+      "archive": "Valorant 盖亚套 By MotH.7z",
+      "source": "sound/weapons/valorant/gaiavandal/reload_maginstart.wav",
+      "output": "dist/assets/imported/gaiavandal/sound/2295b9b40e9ef6848d5c.wav",
+      "sourceSHA256": "2295b9b40e9ef6848d5ca70d9dc5e3b6a5b4e623a4340281e2b3971376f7e82c",
+      "outputSHA256": "2295b9b40e9ef6848d5ca70d9dc5e3b6a5b4e623a4340281e2b3971376f7e82c",
+      "bytes": 7298,
+      "gzip": false
+    },
+    {
+      "archive": "Valorant 盖亚套 By MotH.7z",
+      "source": "sound/weapons/valorant/gaiavandal/reload_ele_c.wav",
+      "output": "dist/assets/imported/gaiavandal/sound/83a7ad24b964bff2d1bc.wav",
+      "sourceSHA256": "83a7ad24b964bff2d1bc33588cd785895ce240a36e007f550b94b24e1bb32265",
+      "outputSHA256": "83a7ad24b964bff2d1bc33588cd785895ce240a36e007f550b94b24e1bb32265",
+      "bytes": 28608,
+      "gzip": false
+    },
+    {
+      "archive": "Valorant 盖亚套 By MotH.7z",
+      "source": "sound/weapons/valorant/gaiavandal/inspect_mvt_d.wav",
+      "output": "dist/assets/imported/gaiavandal/sound/68df0849367c03ed2856.wav",
+      "sourceSHA256": "68df0849367c03ed28569abd070d90842a0291143a76882d298759657ebe72cc",
+      "outputSHA256": "68df0849367c03ed28569abd070d90842a0291143a76882d298759657ebe72cc",
+      "bytes": 8672,
+      "gzip": false
+    },
+    {
+      "archive": "Valorant 盖亚套 By MotH.7z",
+      "source": "sound/weapons/valorant/gaiavandal/inspect_mvt_c.wav",
+      "output": "dist/assets/imported/gaiavandal/sound/8bfcd0529567ab236d5c.wav",
+      "sourceSHA256": "8bfcd0529567ab236d5c3aba6e29408b97da1aa39758adf3491b069e16d2274d",
+      "outputSHA256": "8bfcd0529567ab236d5c3aba6e29408b97da1aa39758adf3491b069e16d2274d",
+      "bytes": 22082,
+      "gzip": false
+    },
+    {
+      "archive": "Valorant 盖亚套 By MotH.7z",
+      "source": "sound/weapons/valorant/gaiavandal/handlefw.wav",
+      "output": "dist/assets/imported/gaiavandal/sound/36487417aa080570cb60.wav",
+      "sourceSHA256": "36487417aa080570cb60e785770cc3272b93fc3992be18e1b5f1d79a2bdd0ad1",
+      "outputSHA256": "36487417aa080570cb60e785770cc3272b93fc3992be18e1b5f1d79a2bdd0ad1",
+      "bytes": 12760,
+      "gzip": false
+    },
+    {
+      "archive": "Valorant 盖亚套 By MotH.7z",
+      "source": "sound/weapons/valorant/gaiavandal/inspect_ele_c.wav",
+      "output": "dist/assets/imported/gaiavandal/sound/edd594d303ddc2d38904.wav",
+      "sourceSHA256": "edd594d303ddc2d389041ee31745ae73d8792ae595e8d39028c9dc80f8962ba8",
+      "outputSHA256": "edd594d303ddc2d389041ee31745ae73d8792ae595e8d39028c9dc80f8962ba8",
+      "bytes": 124132,
+      "gzip": false
+    },
+    {
+      "archive": "Valorant 盖亚套 By MotH.7z",
+      "source": "sound/weapons/valorant/gaiavandal/inspect_ele_a.wav",
+      "output": "dist/assets/imported/gaiavandal/sound/f3b8e3673150741f1f73.wav",
+      "sourceSHA256": "f3b8e3673150741f1f733ccca8e70e9b4a1aaaecdf6212204816eea7ba621d12",
+      "outputSHA256": "f3b8e3673150741f1f733ccca8e70e9b4a1aaaecdf6212204816eea7ba621d12",
+      "bytes": 106752,
+      "gzip": false
+    },
+    {
+      "archive": "Valorant 盖亚套 By MotH.7z",
+      "source": "models/v_ak47.mdl",
+      "output": "dist/assets/imported/gaiavandal/base/model.mdl.gz",
+      "sourceSHA256": "5b7f7d0a0b8f3cef264314caf06c5f018f2008a219ed54a26af11a96409571bc",
+      "outputSHA256": "dffd68149da59f279621167068d878f96764837320ee8f8f5b2ca01a21ce49fe",
+      "bytes": 6886224,
+      "gzip": true
+    },
+    {
+      "archive": "Valorant 盖亚套 By MotH.7z",
+      "source": "sound/weapons/g3sg1-2.wav",
+      "output": "dist/assets/imported/gaiaguardian/sound/765eeb0f57b1cbbcc5ec.wav",
+      "sourceSHA256": "765eeb0f57b1cbbcc5ec769fb092845f76f9019ec9622fdc504d4029d036c62c",
+      "outputSHA256": "765eeb0f57b1cbbcc5ec769fb092845f76f9019ec9622fdc504d4029d036c62c",
+      "bytes": 34816,
+      "gzip": false
+    },
+    {
+      "archive": "Valorant 盖亚套 By MotH.7z",
+      "source": "sound/weapons/g3sg1-1.wav",
+      "output": "dist/assets/imported/gaiaguardian/sound/652f84e49e851a14ab2b.wav",
+      "sourceSHA256": "652f84e49e851a14ab2b67a05f7d52b62383c5988152a1ba94f9e83ef8787fdc",
+      "outputSHA256": "652f84e49e851a14ab2b67a05f7d52b62383c5988152a1ba94f9e83ef8787fdc",
+      "bytes": 34816,
+      "gzip": false
+    },
+    {
+      "archive": "Valorant 盖亚套 By MotH.7z",
+      "source": "sound/weapons/valorant/gaiaguardian/inspect_c.wav",
+      "output": "dist/assets/imported/gaiaguardian/sound/52135fa7fd7487b160d1.wav",
+      "sourceSHA256": "52135fa7fd7487b160d1a8b70d980feaae73919f879081cfd19255bb86775268",
+      "outputSHA256": "52135fa7fd7487b160d1a8b70d980feaae73919f879081cfd19255bb86775268",
+      "bytes": 188702,
+      "gzip": false
+    },
+    {
+      "archive": "Valorant 盖亚套 By MotH.7z",
+      "source": "sound/weapons/valorant/gaiaguardian/reload_mvt_b.wav",
+      "output": "dist/assets/imported/gaiaguardian/sound/315dac2b512649138c67.wav",
+      "sourceSHA256": "315dac2b512649138c67e2c30cab4cad0805f34dddbf0c0e1d7b1c1fb0088180",
+      "outputSHA256": "315dac2b512649138c67e2c30cab4cad0805f34dddbf0c0e1d7b1c1fb0088180",
+      "bytes": 18944,
+      "gzip": false
+    },
+    {
+      "archive": "Valorant 盖亚套 By MotH.7z",
+      "source": "sound/weapons/valorant/gaiaguardian/handleback.wav",
+      "output": "dist/assets/imported/gaiaguardian/sound/ab83507d608316e35892.wav",
+      "sourceSHA256": "ab83507d608316e3589228f4ee8f01b6f975ee1422d585aa13dc82af03747d28",
+      "outputSHA256": "ab83507d608316e3589228f4ee8f01b6f975ee1422d585aa13dc82af03747d28",
+      "bytes": 21098,
+      "gzip": false
+    },
+    {
+      "archive": "Valorant 盖亚套 By MotH.7z",
+      "source": "sound/weapons/valorant/gaiaguardian/equip_ele_a.wav",
+      "output": "dist/assets/imported/gaiaguardian/sound/fe7220d442bb69519f3f.wav",
+      "sourceSHA256": "fe7220d442bb69519f3fe0537bb365d7e0ce2f3efbf3e77b25da1568a3e97f36",
+      "outputSHA256": "fe7220d442bb69519f3fe0537bb365d7e0ce2f3efbf3e77b25da1568a3e97f36",
+      "bytes": 80026,
+      "gzip": false
+    },
+    {
+      "archive": "Valorant 盖亚套 By MotH.7z",
+      "source": "sound/weapons/valorant/gaiaguardian/Play_Wp_DMR_Ashen_Inspect_Mvt_B_FP.wav",
+      "output": "dist/assets/imported/gaiaguardian/sound/56c6cbc29ab83e55bccf.wav",
+      "sourceSHA256": "56c6cbc29ab83e55bccf04c9470c3f31962056c0044ed7583baa87dfe453c86d",
+      "outputSHA256": "56c6cbc29ab83e55bccf04c9470c3f31962056c0044ed7583baa87dfe453c86d",
+      "bytes": 411998,
+      "gzip": false
+    },
+    {
+      "archive": "Valorant 盖亚套 By MotH.7z",
+      "source": "sound/weapons/valorant/gaiaguardian/magout_end.wav",
+      "output": "dist/assets/imported/gaiaguardian/sound/98d236209e23ceb4df65.wav",
+      "sourceSHA256": "98d236209e23ceb4df65870dfbcb99a40bd4e5d65f85f0fe4ca86e464f7752cf",
+      "outputSHA256": "98d236209e23ceb4df65870dfbcb99a40bd4e5d65f85f0fe4ca86e464f7752cf",
+      "bytes": 19476,
+      "gzip": false
+    },
+    {
+      "archive": "Valorant 盖亚套 By MotH.7z",
+      "source": "sound/weapons/valorant/gaiaguardian/inspect_a.wav",
+      "output": "dist/assets/imported/gaiaguardian/sound/6c2fea20bab719c8baf4.wav",
+      "sourceSHA256": "6c2fea20bab719c8baf4d676252a4b7e53867927c234f931f6676bf4eae113f4",
+      "outputSHA256": "6c2fea20bab719c8baf4d676252a4b7e53867927c234f931f6676bf4eae113f4",
+      "bytes": 185530,
+      "gzip": false
+    },
+    {
+      "archive": "Valorant 盖亚套 By MotH.7z",
+      "source": "sound/weapons/valorant/gaiaguardian/inspect_d.wav",
+      "output": "dist/assets/imported/gaiaguardian/sound/df5c8a1e64cde01ea78d.wav",
+      "sourceSHA256": "df5c8a1e64cde01ea78dc628143edc690a3ab492e3a724dfa3547b2cf502a93c",
+      "outputSHA256": "df5c8a1e64cde01ea78dc628143edc690a3ab492e3a724dfa3547b2cf502a93c",
+      "bytes": 10744,
+      "gzip": false
+    },
+    {
+      "archive": "Valorant 盖亚套 By MotH.7z",
+      "source": "sound/weapons/valorant/gaiaguardian/equip_mvt_c.wav",
+      "output": "dist/assets/imported/gaiaguardian/sound/a702a56ada582d4f590f.wav",
+      "sourceSHA256": "a702a56ada582d4f590f336fcdfcb0153c3fc9a3b1357050e100d7d59baa428c",
+      "outputSHA256": "a702a56ada582d4f590f336fcdfcb0153c3fc9a3b1357050e100d7d59baa428c",
+      "bytes": 18804,
+      "gzip": false
+    },
+    {
+      "archive": "Valorant 盖亚套 By MotH.7z",
+      "source": "sound/weapons/valorant/gaiaguardian/inspect_b.wav",
+      "output": "dist/assets/imported/gaiaguardian/sound/59bb77cbc28d3016a3d5.wav",
+      "sourceSHA256": "59bb77cbc28d3016a3d5e69d9220e44a8c7407a20bfdeab4a05af283ef7f0494",
+      "outputSHA256": "59bb77cbc28d3016a3d5e69d9220e44a8c7407a20bfdeab4a05af283ef7f0494",
+      "bytes": 189540,
+      "gzip": false
+    },
+    {
+      "archive": "Valorant 盖亚套 By MotH.7z",
+      "source": "sound/weapons/valorant/gaiaguardian/reload_ele_b.wav",
+      "output": "dist/assets/imported/gaiaguardian/sound/a3288c45358599187fd6.wav",
+      "sourceSHA256": "a3288c45358599187fd61f5f2b2262c8bd98654c1f39a3707db5885247915b4e",
+      "outputSHA256": "a3288c45358599187fd61f5f2b2262c8bd98654c1f39a3707db5885247915b4e",
+      "bytes": 108460,
+      "gzip": false
+    },
+    {
+      "archive": "Valorant 盖亚套 By MotH.7z",
+      "source": "sound/weapons/valorant/gaiaguardian/reload_mvt_c.wav",
+      "output": "dist/assets/imported/gaiaguardian/sound/c8267894388a57e3c88a.wav",
+      "sourceSHA256": "c8267894388a57e3c88a914aec1d8eb756dd582a8972182170ceffc22bfe9aea",
+      "outputSHA256": "c8267894388a57e3c88a914aec1d8eb756dd582a8972182170ceffc22bfe9aea",
+      "bytes": 16960,
+      "gzip": false
+    },
+    {
+      "archive": "Valorant 盖亚套 By MotH.7z",
+      "source": "sound/weapons/valorant/gaiaguardian/Play_Wp_DMR_Ashen_Inspect_Mvt_C_FP.wav",
+      "output": "dist/assets/imported/gaiaguardian/sound/514e9a240ef498c13ab0.wav",
+      "sourceSHA256": "514e9a240ef498c13ab0edb7e148d312ef4b389a5340e505cfea92d0f6f513fd",
+      "outputSHA256": "514e9a240ef498c13ab0edb7e148d312ef4b389a5340e505cfea92d0f6f513fd",
+      "bytes": 410180,
+      "gzip": false
+    },
+    {
+      "archive": "Valorant 盖亚套 By MotH.7z",
+      "source": "sound/weapons/valorant/gaiaguardian/reload_ele_a.wav",
+      "output": "dist/assets/imported/gaiaguardian/sound/641c77d7f650e71b8c03.wav",
+      "sourceSHA256": "641c77d7f650e71b8c03acf0d5ede44b85473bc5a946a5fcf3f7c28b2f258d82",
+      "outputSHA256": "641c77d7f650e71b8c03acf0d5ede44b85473bc5a946a5fcf3f7c28b2f258d82",
+      "bytes": 45004,
+      "gzip": false
+    },
+    {
+      "archive": "Valorant 盖亚套 By MotH.7z",
+      "source": "sound/weapons/valorant/gaiaguardian/handlegrab.wav",
+      "output": "dist/assets/imported/gaiaguardian/sound/f1ed713dd126e9ca99aa.wav",
+      "sourceSHA256": "f1ed713dd126e9ca99aa00d16af2ad5523742934e2d17b73f96ec0b18a9c6110",
+      "outputSHA256": "f1ed713dd126e9ca99aa00d16af2ad5523742934e2d17b73f96ec0b18a9c6110",
+      "bytes": 6020,
+      "gzip": false
+    },
+    {
+      "archive": "Valorant 盖亚套 By MotH.7z",
+      "source": "sound/weapons/valorant/gaiaguardian/equip_mvt_a.wav",
+      "output": "dist/assets/imported/gaiaguardian/sound/e425b45620ed967a1165.wav",
+      "sourceSHA256": "e425b45620ed967a1165b40cddfa7df87ab3c897452bc9cb389f57dea7c834fb",
+      "outputSHA256": "e425b45620ed967a1165b40cddfa7df87ab3c897452bc9cb389f57dea7c834fb",
+      "bytes": 14070,
+      "gzip": false
+    },
+    {
+      "archive": "Valorant 盖亚套 By MotH.7z",
+      "source": "sound/weapons/valorant/gaiaguardian/reload_mvt_a.wav",
+      "output": "dist/assets/imported/gaiaguardian/sound/467f9b0092245571947e.wav",
+      "sourceSHA256": "467f9b0092245571947e44648bcf6d47a74e866dfd7f947771b6223f99d8998b",
+      "outputSHA256": "467f9b0092245571947e44648bcf6d47a74e866dfd7f947771b6223f99d8998b",
+      "bytes": 4836,
+      "gzip": false
+    },
+    {
+      "archive": "Valorant 盖亚套 By MotH.7z",
+      "source": "sound/weapons/valorant/gaiaguardian/magout_begin.wav",
+      "output": "dist/assets/imported/gaiaguardian/sound/904042b61fc4d72cdfd1.wav",
+      "sourceSHA256": "904042b61fc4d72cdfd1d2136afd3208b018c81ea525f38323afb15cb6eef252",
+      "outputSHA256": "904042b61fc4d72cdfd1d2136afd3208b018c81ea525f38323afb15cb6eef252",
+      "bytes": 10796,
+      "gzip": false
+    },
+    {
+      "archive": "Valorant 盖亚套 By MotH.7z",
+      "source": "sound/weapons/valorant/gaiaguardian/handlefw.wav",
+      "output": "dist/assets/imported/gaiaguardian/sound/15f4663e640d6eaea8d9.wav",
+      "sourceSHA256": "15f4663e640d6eaea8d967eae88e099dd6a9f5f48117dfc9a90e822ca97a7515",
+      "outputSHA256": "15f4663e640d6eaea8d967eae88e099dd6a9f5f48117dfc9a90e822ca97a7515",
+      "bytes": 20548,
+      "gzip": false
+    },
+    {
+      "archive": "Valorant 盖亚套 By MotH.7z",
+      "source": "sound/weapons/valorant/gaiaguardian/Play_Wp_DMR_Ashen_Inspect_Mvt_D_FP.wav",
+      "output": "dist/assets/imported/gaiaguardian/sound/94bb0eddb3c18eb9d299.wav",
+      "sourceSHA256": "94bb0eddb3c18eb9d2994c85a2ce451d4e771fc533125e45cf67eca502a33629",
+      "outputSHA256": "94bb0eddb3c18eb9d2994c85a2ce451d4e771fc533125e45cf67eca502a33629",
+      "bytes": 23370,
+      "gzip": false
+    },
+    {
+      "archive": "Valorant 盖亚套 By MotH.7z",
+      "source": "sound/weapons/valorant/gaiaguardian/equip_mvt_b.wav",
+      "output": "dist/assets/imported/gaiaguardian/sound/714ea4343d2d5c5deebc.wav",
+      "sourceSHA256": "714ea4343d2d5c5deebc30a4780e1a1b19c73fa70f227ce29962715f06219a56",
+      "outputSHA256": "714ea4343d2d5c5deebc30a4780e1a1b19c73fa70f227ce29962715f06219a56",
+      "bytes": 9008,
+      "gzip": false
+    },
+    {
+      "archive": "Valorant 盖亚套 By MotH.7z",
+      "source": "sound/weapons/valorant/gaiaguardian/magin_end.wav",
+      "output": "dist/assets/imported/gaiaguardian/sound/4c0572733b9ac5be3228.wav",
+      "sourceSHA256": "4c0572733b9ac5be32289b48fb8160654759ef9601d4ebf286008ec2677629ef",
+      "outputSHA256": "4c0572733b9ac5be32289b48fb8160654759ef9601d4ebf286008ec2677629ef",
+      "bytes": 10548,
+      "gzip": false
+    },
+    {
+      "archive": "Valorant 盖亚套 By MotH.7z",
+      "source": "sound/weapons/valorant/gaiaguardian/Play_Wp_DMR_Ashen_Inspect_Mvt_A_FP.wav",
+      "output": "dist/assets/imported/gaiaguardian/sound/87d59435ae6680f374f3.wav",
+      "sourceSHA256": "87d59435ae6680f374f33cf70b0162643d0433626c03c545ee4fe079a8e9a36e",
+      "outputSHA256": "87d59435ae6680f374f33cf70b0162643d0433626c03c545ee4fe079a8e9a36e",
+      "bytes": 403284,
+      "gzip": false
+    },
+    {
+      "archive": "Valorant 盖亚套 By MotH.7z",
+      "source": "models/v_g3sg1.mdl",
+      "output": "dist/assets/imported/gaiaguardian/base/model.mdl.gz",
+      "sourceSHA256": "4dca643c1d30550764a1e309d71efb29de1e2b105155272cff1efaf4f7460373",
+      "outputSHA256": "28bab77e2abb624cf797cd311338c50717245b1f56387bd6294412064135bf0f",
+      "bytes": 10124748,
+      "gzip": true
+    },
+    {
+      "archive": "Valorant 盖亚套 By MotH.7z",
+      "source": "sound/weapons/scout_fire-1.wav",
+      "output": "dist/assets/imported/gaiamarshal/sound/973505fae27ea98c87d6.wav",
+      "sourceSHA256": "973505fae27ea98c87d6a79c592b15d9ad13e67a7b39a76e87e9320e2d923b55",
+      "outputSHA256": "973505fae27ea98c87d6a79c592b15d9ad13e67a7b39a76e87e9320e2d923b55",
+      "bytes": 28934,
+      "gzip": false
+    },
+    {
+      "archive": "Valorant 盖亚套 By MotH.7z",
+      "source": "sound/weapons/valorant/gaiamarshal/lever_out.wav",
+      "output": "dist/assets/imported/gaiamarshal/sound/2f3345871cfbcb098ebd.wav",
+      "sourceSHA256": "2f3345871cfbcb098ebd64a14c23a0673ac49cfdb47ddd6d4f5329aa9dcb6ed7",
+      "outputSHA256": "2f3345871cfbcb098ebd64a14c23a0673ac49cfdb47ddd6d4f5329aa9dcb6ed7",
+      "bytes": 15440,
+      "gzip": false
+    },
+    {
+      "archive": "Valorant 盖亚套 By MotH.7z",
+      "source": "sound/weapons/valorant/gaiamarshal/reload_mvt_b.wav",
+      "output": "dist/assets/imported/gaiamarshal/sound/a1bfb825e39108166db1.wav",
+      "sourceSHA256": "a1bfb825e39108166db1156e73aca8927d9ce3db455de9af20f3de297f41113b",
+      "outputSHA256": "a1bfb825e39108166db1156e73aca8927d9ce3db455de9af20f3de297f41113b",
+      "bytes": 20998,
+      "gzip": false
+    },
+    {
+      "archive": "Valorant 盖亚套 By MotH.7z",
+      "source": "sound/weapons/valorant/gaiamarshal/equip_ele_a.wav",
+      "output": "dist/assets/imported/gaiamarshal/sound/68b36c62a21522821e7e.wav",
+      "sourceSHA256": "68b36c62a21522821e7e0e78de3fb1fd0bcf7e91bd523382ca9b270762c03b79",
+      "outputSHA256": "68b36c62a21522821e7e0e78de3fb1fd0bcf7e91bd523382ca9b270762c03b79",
+      "bytes": 81238,
+      "gzip": false
+    },
+    {
+      "archive": "Valorant 盖亚套 By MotH.7z",
+      "source": "sound/weapons/valorant/gaiamarshal/lever_out_fast.wav",
+      "output": "dist/assets/imported/gaiamarshal/sound/d9386f9349405202451b.wav",
+      "sourceSHA256": "d9386f9349405202451b30c984d5986daec73683528de3a785cad791c084139f",
+      "outputSHA256": "d9386f9349405202451b30c984d5986daec73683528de3a785cad791c084139f",
+      "bytes": 10674,
+      "gzip": false
+    },
+    {
+      "archive": "Valorant 盖亚套 By MotH.7z",
+      "source": "sound/weapons/valorant/gaiamarshal/inspect_lever_in.wav",
+      "output": "dist/assets/imported/gaiamarshal/sound/050b37e2630c57bcdf67.wav",
+      "sourceSHA256": "050b37e2630c57bcdf67b1bf43fe846e0d610a5b42615627b0ef351eccc31296",
+      "outputSHA256": "050b37e2630c57bcdf67b1bf43fe846e0d610a5b42615627b0ef351eccc31296",
+      "bytes": 36150,
+      "gzip": false
+    },
+    {
+      "archive": "Valorant 盖亚套 By MotH.7z",
+      "source": "sound/weapons/valorant/gaiamarshal/inspect_mvt_b.wav",
+      "output": "dist/assets/imported/gaiamarshal/sound/a9efb3474965daca9dc0.wav",
+      "sourceSHA256": "a9efb3474965daca9dc08d21628dfb2e156aed1468715b95bdba8797843a72a3",
+      "outputSHA256": "a9efb3474965daca9dc08d21628dfb2e156aed1468715b95bdba8797843a72a3",
+      "bytes": 93352,
+      "gzip": false
+    },
+    {
+      "archive": "Valorant 盖亚套 By MotH.7z",
+      "source": "sound/weapons/valorant/gaiamarshal/inspect_mvt_a.wav",
+      "output": "dist/assets/imported/gaiamarshal/sound/30cc87d103f5a34c59a1.wav",
+      "sourceSHA256": "30cc87d103f5a34c59a103eb71a50612ee86e69d70e361fbff7a5c7ec24915e0",
+      "outputSHA256": "30cc87d103f5a34c59a103eb71a50612ee86e69d70e361fbff7a5c7ec24915e0",
+      "bytes": 80684,
+      "gzip": false
+    },
+    {
+      "archive": "Valorant 盖亚套 By MotH.7z",
+      "source": "sound/weapons/valorant/gaiamarshal/reload_ele_b.wav",
+      "output": "dist/assets/imported/gaiamarshal/sound/ff194692fe324038a6b0.wav",
+      "sourceSHA256": "ff194692fe324038a6b07e706f5c1f87e83fb07d83a04c1d1d04c0d4ce4c0cff",
+      "outputSHA256": "ff194692fe324038a6b07e706f5c1f87e83fb07d83a04c1d1d04c0d4ce4c0cff",
+      "bytes": 134594,
+      "gzip": false
+    },
+    {
+      "archive": "Valorant 盖亚套 By MotH.7z",
+      "source": "sound/weapons/valorant/gaiamarshal/inspect_lever_out.wav",
+      "output": "dist/assets/imported/gaiamarshal/sound/4ea9710f74b810015d58.wav",
+      "sourceSHA256": "4ea9710f74b810015d58ac64574e0da439892afe5a1fe6aa4d336fed0dd35309",
+      "outputSHA256": "4ea9710f74b810015d58ac64574e0da439892afe5a1fe6aa4d336fed0dd35309",
+      "bytes": 36810,
+      "gzip": false
+    },
+    {
+      "archive": "Valorant 盖亚套 By MotH.7z",
+      "source": "sound/weapons/valorant/gaiamarshal/lever_in.wav",
+      "output": "dist/assets/imported/gaiamarshal/sound/481e6907f0895a73c7cb.wav",
+      "sourceSHA256": "481e6907f0895a73c7cbccd1efdc63d56d6206595fec5e86c378e306e2ef54a4",
+      "outputSHA256": "481e6907f0895a73c7cbccd1efdc63d56d6206595fec5e86c378e306e2ef54a4",
+      "bytes": 17232,
+      "gzip": false
+    },
+    {
+      "archive": "Valorant 盖亚套 By MotH.7z",
+      "source": "sound/weapons/valorant/gaiamarshal/equip_mvt_a.wav",
+      "output": "dist/assets/imported/gaiamarshal/sound/d1ca5cfaf142a3cd79ac.wav",
+      "sourceSHA256": "d1ca5cfaf142a3cd79acb1ea8564331bc5cf0f837609c0acbd7e712681079090",
+      "outputSHA256": "d1ca5cfaf142a3cd79acb1ea8564331bc5cf0f837609c0acbd7e712681079090",
+      "bytes": 9836,
+      "gzip": false
+    },
+    {
+      "archive": "Valorant 盖亚套 By MotH.7z",
+      "source": "sound/weapons/valorant/gaiamarshal/inspect_lo_start.wav",
+      "output": "dist/assets/imported/gaiamarshal/sound/302ac1d8cbdc6778865a.wav",
+      "sourceSHA256": "302ac1d8cbdc6778865a02ae102e9b77922bdf26b4e3c896de3146aaa76dcdb6",
+      "outputSHA256": "302ac1d8cbdc6778865a02ae102e9b77922bdf26b4e3c896de3146aaa76dcdb6",
+      "bytes": 7574,
+      "gzip": false
+    },
+    {
+      "archive": "Valorant 盖亚套 By MotH.7z",
+      "source": "sound/weapons/valorant/gaiamarshal/reload_mvt_a.wav",
+      "output": "dist/assets/imported/gaiamarshal/sound/d6339031e4889d8cad7f.wav",
+      "sourceSHA256": "d6339031e4889d8cad7fff8fc4c2a3979ccb025d793f4ea8f5439399f0380570",
+      "outputSHA256": "d6339031e4889d8cad7fff8fc4c2a3979ccb025d793f4ea8f5439399f0380570",
+      "bytes": 18268,
+      "gzip": false
+    },
+    {
+      "archive": "Valorant 盖亚套 By MotH.7z",
+      "source": "sound/weapons/valorant/gaiamarshal/inspect_mvt_c.wav",
+      "output": "dist/assets/imported/gaiamarshal/sound/5492b62d3ceb37ddd3e4.wav",
+      "sourceSHA256": "5492b62d3ceb37ddd3e4b2a9c41e708136e14dac328075fb894be195a327eb30",
+      "outputSHA256": "5492b62d3ceb37ddd3e4b2a9c41e708136e14dac328075fb894be195a327eb30",
+      "bytes": 81480,
+      "gzip": false
+    },
+    {
+      "archive": "Valorant 盖亚套 By MotH.7z",
+      "source": "sound/weapons/valorant/gaiamarshal/lever_in_fast.wav",
+      "output": "dist/assets/imported/gaiamarshal/sound/ae58e8b21f4b5a90242a.wav",
+      "sourceSHA256": "ae58e8b21f4b5a90242a1794f3f63487145d3bf5e414d4b54e08cbf74293be68",
+      "outputSHA256": "ae58e8b21f4b5a90242a1794f3f63487145d3bf5e414d4b54e08cbf74293be68",
+      "bytes": 9084,
+      "gzip": false
+    },
+    {
+      "archive": "Valorant 盖亚套 By MotH.7z",
+      "source": "sound/weapons/valorant/gaiamarshal/reload_grab.wav",
+      "output": "dist/assets/imported/gaiamarshal/sound/ab3b67a7257a5425f51f.wav",
+      "sourceSHA256": "ab3b67a7257a5425f51fd573d48609e8c3efd26385c89b3fedc749fcca0986b8",
+      "outputSHA256": "ab3b67a7257a5425f51fd573d48609e8c3efd26385c89b3fedc749fcca0986b8",
+      "bytes": 11942,
+      "gzip": false
+    },
+    {
+      "archive": "Valorant 盖亚套 By MotH.7z",
+      "source": "sound/weapons/valorant/gaiamarshal/reload_portclick.wav",
+      "output": "dist/assets/imported/gaiamarshal/sound/20450abe8847861ede55.wav",
+      "sourceSHA256": "20450abe8847861ede550c4eb6defda699f4f6e6719a0ba6aea14c17ae329632",
+      "outputSHA256": "20450abe8847861ede550c4eb6defda699f4f6e6719a0ba6aea14c17ae329632",
+      "bytes": 3868,
+      "gzip": false
+    },
+    {
+      "archive": "Valorant 盖亚套 By MotH.7z",
+      "source": "sound/weapons/valorant/gaiamarshal/equip_mvt_b.wav",
+      "output": "dist/assets/imported/gaiamarshal/sound/3128ee3e350720687eb3.wav",
+      "sourceSHA256": "3128ee3e350720687eb324581ee734f4889877e36c6d152cc8864060528599a9",
+      "outputSHA256": "3128ee3e350720687eb324581ee734f4889877e36c6d152cc8864060528599a9",
+      "bytes": 22840,
+      "gzip": false
+    },
+    {
+      "archive": "Valorant 盖亚套 By MotH.7z",
+      "source": "sound/weapons/valorant/gaiamarshal/reload_shellinsert.wav",
+      "output": "dist/assets/imported/gaiamarshal/sound/b6929b7bf62ab330048b.wav",
+      "sourceSHA256": "b6929b7bf62ab330048b3bdcfc8dfdb4c4a03778df1c7def9a9d31bd47157282",
+      "outputSHA256": "b6929b7bf62ab330048b3bdcfc8dfdb4c4a03778df1c7def9a9d31bd47157282",
+      "bytes": 30638,
+      "gzip": false
+    },
+    {
+      "archive": "Valorant 盖亚套 By MotH.7z",
+      "source": "models/v_scout.mdl",
+      "output": "dist/assets/imported/gaiamarshal/base/model.mdl.gz",
+      "sourceSHA256": "ec944df8ea96ec56152a460e6b76a9fbabd7dd20c473be01fceebe407660ae51",
+      "outputSHA256": "525e698c0accc6d6b6030d5210bd0902401ef957c6d8e7d273ca8c2999205fa1",
+      "bytes": 8156200,
+      "gzip": true
+    },
+    {
+      "archive": "Valorant 盖亚套 By MotH.7z",
+      "source": "sound/weapons/usp2.wav",
+      "output": "dist/assets/imported/gaiaghost/sound/29ca8303f221e6d08e21.wav",
+      "sourceSHA256": "29ca8303f221e6d08e21627a30970e99b3a75bb64229944f71d15a1271fb489b",
+      "outputSHA256": "29ca8303f221e6d08e21627a30970e99b3a75bb64229944f71d15a1271fb489b",
+      "bytes": 20784,
+      "gzip": false
+    },
+    {
+      "archive": "Valorant 盖亚套 By MotH.7z",
+      "source": "sound/weapons/usp_unsil-1.wav",
+      "output": "dist/assets/imported/gaiaghost/sound/5693fd7e804d298cd467.wav",
+      "sourceSHA256": "5693fd7e804d298cd467b12c0f3eb0eca826f26c7f851fee5a4b1a3bce9445e4",
+      "outputSHA256": "5693fd7e804d298cd467b12c0f3eb0eca826f26c7f851fee5a4b1a3bce9445e4",
+      "bytes": 20784,
+      "gzip": false
+    },
+    {
+      "archive": "Valorant 盖亚套 By MotH.7z",
+      "source": "sound/weapons/usp1.wav",
+      "output": "dist/assets/imported/gaiaghost/sound/5b28d866c2d5d3dfde33.wav",
+      "sourceSHA256": "5b28d866c2d5d3dfde3339aa38ee3bddeb9f40ae50ded1443faaef3f5d7d8b8d",
+      "outputSHA256": "5b28d866c2d5d3dfde3339aa38ee3bddeb9f40ae50ded1443faaef3f5d7d8b8d",
+      "bytes": 20784,
+      "gzip": false
+    },
+    {
+      "archive": "Valorant 盖亚套 By MotH.7z",
+      "source": "sound/weapons/valorant/gaiaghost/equip_ele_a.wav",
+      "output": "dist/assets/imported/gaiaghost/sound/617cc8cf2e9e908a39e5.wav",
+      "sourceSHA256": "617cc8cf2e9e908a39e546ee70acc0eb4c74ddbe6b901f398e4aedaec668f7aa",
+      "outputSHA256": "617cc8cf2e9e908a39e546ee70acc0eb4c74ddbe6b901f398e4aedaec668f7aa",
+      "bytes": 57198,
+      "gzip": false
+    },
+    {
+      "archive": "Valorant 盖亚套 By MotH.7z",
+      "source": "sound/weapons/valorant/gaiaghost/reload_back.wav",
+      "output": "dist/assets/imported/gaiaghost/sound/a1ffff78ee531a05a1c0.wav",
+      "sourceSHA256": "a1ffff78ee531a05a1c09c89d1cc1f07a5c4acdc86cc03cad5e4d85ed64948df",
+      "outputSHA256": "a1ffff78ee531a05a1c09c89d1cc1f07a5c4acdc86cc03cad5e4d85ed64948df",
+      "bytes": 10008,
+      "gzip": false
+    },
+    {
+      "archive": "Valorant 盖亚套 By MotH.7z",
+      "source": "sound/weapons/valorant/gaiaghost/inspect_mvt_b.wav",
+      "output": "dist/assets/imported/gaiaghost/sound/26987649441e38a26765.wav",
+      "sourceSHA256": "26987649441e38a26765ca321b8268bac1db90b5cef2336c6b60a2218c66c8ea",
+      "outputSHA256": "26987649441e38a26765ca321b8268bac1db90b5cef2336c6b60a2218c66c8ea",
+      "bytes": 21718,
+      "gzip": false
+    },
+    {
+      "archive": "Valorant 盖亚套 By MotH.7z",
+      "source": "sound/weapons/valorant/gaiaghost/inspect_mvt_a.wav",
+      "output": "dist/assets/imported/gaiaghost/sound/d7ba5f3979ed1f950b4e.wav",
+      "sourceSHA256": "d7ba5f3979ed1f950b4effb6585d702c0d19c8b73eb4fd3528cecf5bc08921d3",
+      "outputSHA256": "d7ba5f3979ed1f950b4effb6585d702c0d19c8b73eb4fd3528cecf5bc08921d3",
+      "bytes": 27604,
+      "gzip": false
+    },
+    {
+      "archive": "Valorant 盖亚套 By MotH.7z",
+      "source": "sound/weapons/valorant/gaiaghost/reload_slidefwd.wav",
+      "output": "dist/assets/imported/gaiaghost/sound/94649382df0210c98432.wav",
+      "sourceSHA256": "94649382df0210c984320ddc298cea49d8a9581c2a446ce5147ff3f90c57af33",
+      "outputSHA256": "94649382df0210c984320ddc298cea49d8a9581c2a446ce5147ff3f90c57af33",
+      "bytes": 14326,
+      "gzip": false
+    },
+    {
+      "archive": "Valorant 盖亚套 By MotH.7z",
+      "source": "sound/weapons/valorant/gaiaghost/reload_ele_b.wav",
+      "output": "dist/assets/imported/gaiaghost/sound/c1345597456d30dc0102.wav",
+      "sourceSHA256": "c1345597456d30dc0102d09b8dd809f5e70c9b5e4bfd6a50c2bfc08521836583",
+      "outputSHA256": "c1345597456d30dc0102d09b8dd809f5e70c9b5e4bfd6a50c2bfc08521836583",
+      "bytes": 48802,
+      "gzip": false
+    },
+    {
+      "archive": "Valorant 盖亚套 By MotH.7z",
+      "source": "sound/weapons/valorant/gaiaghost/inspect_ele_b.wav",
+      "output": "dist/assets/imported/gaiaghost/sound/c894caf0d642738bc6c4.wav",
+      "sourceSHA256": "c894caf0d642738bc6c437fca613b7660e2d35c7794f73275818ae39cba4abb7",
+      "outputSHA256": "c894caf0d642738bc6c437fca613b7660e2d35c7794f73275818ae39cba4abb7",
+      "bytes": 35076,
+      "gzip": false
+    },
+    {
+      "archive": "Valorant 盖亚套 By MotH.7z",
+      "source": "sound/weapons/valorant/gaiaghost/reload_magout.wav",
+      "output": "dist/assets/imported/gaiaghost/sound/5b468d1dc264a50f3200.wav",
+      "sourceSHA256": "5b468d1dc264a50f3200920f103832c53b182060139ebc2d3836c17fcaa3a8c9",
+      "outputSHA256": "5b468d1dc264a50f3200920f103832c53b182060139ebc2d3836c17fcaa3a8c9",
+      "bytes": 19462,
+      "gzip": false
+    },
+    {
+      "archive": "Valorant 盖亚套 By MotH.7z",
+      "source": "sound/weapons/valorant/gaiaghost/reload_ele_a.wav",
+      "output": "dist/assets/imported/gaiaghost/sound/4cdeb823193b0574c73d.wav",
+      "sourceSHA256": "4cdeb823193b0574c73d1e9321142e37f18917e6458612e4c63423aa05c47d3c",
+      "outputSHA256": "4cdeb823193b0574c73d1e9321142e37f18917e6458612e4c63423aa05c47d3c",
+      "bytes": 85262,
+      "gzip": false
+    },
+    {
+      "archive": "Valorant 盖亚套 By MotH.7z",
+      "source": "sound/weapons/valorant/gaiaghost/equip_mvt_a.wav",
+      "output": "dist/assets/imported/gaiaghost/sound/e7960220f7a4f12e88ea.wav",
+      "sourceSHA256": "e7960220f7a4f12e88eae466426924c9ae02469e35979b3c93a2342f34e1370c",
+      "outputSHA256": "e7960220f7a4f12e88eae466426924c9ae02469e35979b3c93a2342f34e1370c",
+      "bytes": 11538,
+      "gzip": false
+    },
+    {
+      "archive": "Valorant 盖亚套 By MotH.7z",
+      "source": "sound/weapons/valorant/gaiaghost/reload_magin_a.wav",
+      "output": "dist/assets/imported/gaiaghost/sound/448c4407d11465ffec98.wav",
+      "sourceSHA256": "448c4407d11465ffec98b95da5dd556c97880baff41a2e6feb9ac4f819df01b2",
+      "outputSHA256": "448c4407d11465ffec98b95da5dd556c97880baff41a2e6feb9ac4f819df01b2",
+      "bytes": 5096,
+      "gzip": false
+    },
+    {
+      "archive": "Valorant 盖亚套 By MotH.7z",
+      "source": "sound/weapons/valorant/gaiaghost/reload_mvt_a.wav",
+      "output": "dist/assets/imported/gaiaghost/sound/c829b3fce6b13804d2a4.wav",
+      "sourceSHA256": "c829b3fce6b13804d2a4036f581095b0b1331301b5c55be8216c45aaa535962f",
+      "outputSHA256": "c829b3fce6b13804d2a4036f581095b0b1331301b5c55be8216c45aaa535962f",
+      "bytes": 11908,
+      "gzip": false
+    },
+    {
+      "archive": "Valorant 盖亚套 By MotH.7z",
+      "source": "sound/weapons/valorant/gaiaghost/reload_slidelock.wav",
+      "output": "dist/assets/imported/gaiaghost/sound/94172bef3e24bdf525b3.wav",
+      "sourceSHA256": "94172bef3e24bdf525b34e9ae02d885f5842cef6940fba88a188acbfc9b16a01",
+      "outputSHA256": "94172bef3e24bdf525b34e9ae02d885f5842cef6940fba88a188acbfc9b16a01",
+      "bytes": 16176,
+      "gzip": false
+    },
+    {
+      "archive": "Valorant 盖亚套 By MotH.7z",
+      "source": "sound/weapons/valorant/gaiaghost/inspect_mvt_d.wav",
+      "output": "dist/assets/imported/gaiaghost/sound/2a96c3f5658e44e2d84d.wav",
+      "sourceSHA256": "2a96c3f5658e44e2d84d8ea0a9f0f14f86e12a62a94171b3ddfbb91d230afb44",
+      "outputSHA256": "2a96c3f5658e44e2d84d8ea0a9f0f14f86e12a62a94171b3ddfbb91d230afb44",
+      "bytes": 24534,
+      "gzip": false
+    },
+    {
+      "archive": "Valorant 盖亚套 By MotH.7z",
+      "source": "sound/weapons/valorant/gaiaghost/reload_magin_b.wav",
+      "output": "dist/assets/imported/gaiaghost/sound/086c62b9712d3692259c.wav",
+      "sourceSHA256": "086c62b9712d3692259cca4be45355248b0ca89613c7ee8ae0204e987705009d",
+      "outputSHA256": "086c62b9712d3692259cca4be45355248b0ca89613c7ee8ae0204e987705009d",
+      "bytes": 51570,
+      "gzip": false
+    },
+    {
+      "archive": "Valorant 盖亚套 By MotH.7z",
+      "source": "sound/weapons/valorant/gaiaghost/inspect_mvt_c.wav",
+      "output": "dist/assets/imported/gaiaghost/sound/959aae8dec7cb83d9ebe.wav",
+      "sourceSHA256": "959aae8dec7cb83d9ebef816aa4f202377404aef761ec9128f946a97966751b1",
+      "outputSHA256": "959aae8dec7cb83d9ebef816aa4f202377404aef761ec9128f946a97966751b1",
+      "bytes": 18418,
+      "gzip": false
+    },
+    {
+      "archive": "Valorant 盖亚套 By MotH.7z",
+      "source": "sound/weapons/valorant/gaiaghost/reload_grab.wav",
+      "output": "dist/assets/imported/gaiaghost/sound/d00d8bace7c88c1fd7be.wav",
+      "sourceSHA256": "d00d8bace7c88c1fd7be9a7d7d0b3f1ec66254706f68797894d412c087223335",
+      "outputSHA256": "d00d8bace7c88c1fd7be9a7d7d0b3f1ec66254706f68797894d412c087223335",
+      "bytes": 11206,
+      "gzip": false
+    },
+    {
+      "archive": "Valorant 盖亚套 By MotH.7z",
+      "source": "sound/weapons/valorant/gaiaghost/inspect_ele_c.wav",
+      "output": "dist/assets/imported/gaiaghost/sound/f3f51715f86885c8f44e.wav",
+      "sourceSHA256": "f3f51715f86885c8f44e9b12d92d286699b1a5d5efe7026f062128ddfd7992dc",
+      "outputSHA256": "f3f51715f86885c8f44e9b12d92d286699b1a5d5efe7026f062128ddfd7992dc",
+      "bytes": 46618,
+      "gzip": false
+    },
+    {
+      "archive": "Valorant 盖亚套 By MotH.7z",
+      "source": "sound/weapons/valorant/gaiaghost/equip_mvt_b.wav",
+      "output": "dist/assets/imported/gaiaghost/sound/21139ac179308fc3c1e2.wav",
+      "sourceSHA256": "21139ac179308fc3c1e264b799358759dc5e0ba1b31f589d7782258a50eee4ca",
+      "outputSHA256": "21139ac179308fc3c1e264b799358759dc5e0ba1b31f589d7782258a50eee4ca",
+      "bytes": 8834,
+      "gzip": false
+    },
+    {
+      "archive": "Valorant 盖亚套 By MotH.7z",
+      "source": "sound/weapons/valorant/gaiaghost/inspect_ele_a.wav",
+      "output": "dist/assets/imported/gaiaghost/sound/3bd116d8b6253b904acf.wav",
+      "sourceSHA256": "3bd116d8b6253b904acf4ecdd6a02c47dffb83a6bbb333af9ba6db3a178afcb5",
+      "outputSHA256": "3bd116d8b6253b904acf4ecdd6a02c47dffb83a6bbb333af9ba6db3a178afcb5",
+      "bytes": 82586,
+      "gzip": false
+    },
+    {
+      "archive": "Valorant 盖亚套 By MotH.7z",
+      "source": "sound/weapons/valorant/gaiaghost/inspect_ele_d.wav",
+      "output": "dist/assets/imported/gaiaghost/sound/9061adb86c0b24eff1f4.wav",
+      "sourceSHA256": "9061adb86c0b24eff1f4d85406b59ff2cff60f85df3ead6e47723e93311d3587",
+      "outputSHA256": "9061adb86c0b24eff1f4d85406b59ff2cff60f85df3ead6e47723e93311d3587",
+      "bytes": 68822,
+      "gzip": false
+    },
+    {
+      "archive": "Valorant 盖亚套 By MotH.7z",
+      "source": "models/v_usp.mdl",
+      "output": "dist/assets/imported/gaiaghost/base/model.mdl.gz",
+      "sourceSHA256": "a61341d6eac29de9a3548a6ca4b0acdb15fe9093e2a7283da80d5e09204d6b13",
+      "outputSHA256": "5a6c3dcd5109c2b645c1bb570559ad44de5a7801546c99ffaf8d4cf9cbb75e53",
+      "bytes": 6133988,
+      "gzip": true
+    },
+    {
+      "archive": "Valorant 盖亚套 By MotH.7z",
+      "source": "sound/weapons/knife_slash1.wav",
+      "output": "dist/assets/imported/gaiaaxe/sound/eae4cb38fb9a4a2b4248.wav",
+      "sourceSHA256": "eae4cb38fb9a4a2b424883cfd8639a9d0ad55b205415bdc05f9255769dd3b00f",
+      "outputSHA256": "eae4cb38fb9a4a2b424883cfd8639a9d0ad55b205415bdc05f9255769dd3b00f",
+      "bytes": 30404,
+      "gzip": false
+    },
+    {
+      "archive": "Valorant 盖亚套 By MotH.7z",
+      "source": "sound/weapons/valorant/melee_ashen/equip.wav",
+      "output": "dist/assets/imported/gaiaaxe/sound/a74fa931965b2244d54c.wav",
+      "sourceSHA256": "a74fa931965b2244d54c32c56e44be18845dc69c8ec9d33d5e8f1c90c0a84014",
+      "outputSHA256": "a74fa931965b2244d54c32c56e44be18845dc69c8ec9d33d5e8f1c90c0a84014",
+      "bytes": 42896,
+      "gzip": false
+    },
+    {
+      "archive": "Valorant 盖亚套 By MotH.7z",
+      "source": "sound/weapons/valorant/melee_ashen/inspect_ele_b.wav",
+      "output": "dist/assets/imported/gaiaaxe/sound/f8b8dc577f77c4c7216d.wav",
+      "sourceSHA256": "f8b8dc577f77c4c7216dc188318899af7779fe5443bf100120068e57beb6476f",
+      "outputSHA256": "f8b8dc577f77c4c7216dc188318899af7779fe5443bf100120068e57beb6476f",
+      "bytes": 90134,
+      "gzip": false
+    },
+    {
+      "archive": "Valorant 盖亚套 By MotH.7z",
+      "source": "sound/weapons/valorant/melee_ashen/inspect_ele_c.wav",
+      "output": "dist/assets/imported/gaiaaxe/sound/0f20eefd2647a63306a5.wav",
+      "sourceSHA256": "0f20eefd2647a63306a5228fcfffc6a7ea4743fad9c4184a34b51861d56c3625",
+      "outputSHA256": "0f20eefd2647a63306a5228fcfffc6a7ea4743fad9c4184a34b51861d56c3625",
+      "bytes": 96150,
+      "gzip": false
+    },
+    {
+      "archive": "Valorant 盖亚套 By MotH.7z",
+      "source": "sound/weapons/valorant/melee_ashen/inspect_ele_a.wav",
+      "output": "dist/assets/imported/gaiaaxe/sound/f32741ec8c2fec189cb8.wav",
+      "sourceSHA256": "f32741ec8c2fec189cb88080c1e7345f02482a1e639c85cac637b01d946b9971",
+      "outputSHA256": "f32741ec8c2fec189cb88080c1e7345f02482a1e639c85cac637b01d946b9971",
+      "bytes": 185530,
+      "gzip": false
+    },
+    {
+      "archive": "Valorant 盖亚套 By MotH.7z",
+      "source": "models/v_knife.mdl",
+      "output": "dist/assets/imported/gaiaaxe/base/model.mdl.gz",
+      "sourceSHA256": "13b5f744dab7a9cca474eb0a009a8a343949a360db2057fe219586a99d225ffc",
+      "outputSHA256": "140c138319952aa9712c9dccdcb8728abb7aa6075ce58ca1ef3b4f09d359b8e3",
+      "bytes": 7395304,
+      "gzip": true
+    },
+    {
+      "archive": "Valorant 盖亚套 By MotH.7z",
+      "source": "sound/weapons/sg550-2.wav",
+      "output": "dist/assets/imported/gaiaguardian/sound/be11ba0d0cfaf8d4b052.wav",
+      "sourceSHA256": "be11ba0d0cfaf8d4b05218ab2f639e745016be182fc8c32911635b0a3265ea39",
+      "outputSHA256": "be11ba0d0cfaf8d4b05218ab2f639e745016be182fc8c32911635b0a3265ea39",
+      "bytes": 34816,
+      "gzip": false
+    },
+    {
+      "archive": "Valorant 盖亚套 By MotH.7z",
+      "source": "sound/weapons/sg550-1.wav",
+      "output": "dist/assets/imported/gaiaguardian/sound/2eb87bb4b648138868cf.wav",
+      "sourceSHA256": "2eb87bb4b648138868cf085030675f7ffd1bcb9c8744afde8ad2ec476c500caf",
+      "outputSHA256": "2eb87bb4b648138868cf085030675f7ffd1bcb9c8744afde8ad2ec476c500caf",
+      "bytes": 34816,
+      "gzip": false
+    },
+    {
+      "archive": "Valorant 盖亚套 By MotH.7z",
+      "source": "models/v_sg550.mdl",
+      "output": "dist/assets/imported/gaiaguardian/sg550/model.mdl.gz",
+      "sourceSHA256": "918feab18f4fa417478cb81371af5018f45cffee490e95a30fcd466e350e5b54",
+      "outputSHA256": "f63d74340d03f3932c1620481a6ef7054389fdf4bd3ab67f82d6f29966794bf3",
+      "bytes": 10124748,
+      "gzip": true
+    },
+    {
+      "archive": "val逆命中队狂徒.zip",
+      "source": "val逆命中队狂徒/Vandal/v_vandal.mdl",
+      "output": "dist/assets/imported/nimingvandal/base/model.mdl.gz",
+      "sourceSHA256": "e7fdd5e6b1e8b5c1e2d4d7ac9e0333dc198bb1edbcdd96b7b43518feb2665e8f",
+      "outputSHA256": "6775ca97cc31ac3a5a135280f5ce3c488de76f206a1aa3498cf5acd844bfb0af",
+      "bytes": 3559456,
+      "gzip": true
+    },
+    {
+      "archive": "21冠军反馈.val.zip",
+      "source": "21冠军反馈.val/default/1.tga",
+      "output": "dist/assets/feedback/champions21/1.png",
+      "sourceSHA256": "495af5ecb310f9172f4ebeba09f29ee68546e75fa04441cb2d2a47d131193b9b",
+      "outputSHA256": "e497ca2f599a68685b917011c3b77b12b5d5da7fc2b6dcbd43d49517cf409706",
+      "conversion": "TGA to lossless RGBA PNG"
+    },
+    {
+      "archive": "21冠军反馈.val.zip",
+      "source": "21冠军反馈.val/default/bg/1.tga",
+      "output": "dist/assets/feedback/champions21/bg/1.png",
+      "sourceSHA256": "d982ba0b06e3a9c86b6058313bc1bdbf90bd2111c963a2365286d7bcb8768e8e",
+      "outputSHA256": "64dc33a946b2e76be22a85c649f3223624e6b90276e6273f667654f3245053dc",
+      "conversion": "TGA to lossless RGBA PNG"
+    },
+    {
+      "archive": "21冠军反馈.val.zip",
+      "source": "21冠军反馈.val/default/frame1/1.tga",
+      "output": "dist/assets/feedback/champions21/frame1/1.png",
+      "sourceSHA256": "04e5c2a9d731f558c67eab69a78ff765f29dd8663a5e8a2ca21ae22a08d40bad",
+      "outputSHA256": "d33335405f19df7c2bdf915507fa0da2f24d054ea2eea56e8e5753d5433ed0af",
+      "conversion": "TGA to lossless RGBA PNG"
+    },
+    {
+      "archive": "21冠军反馈.val.zip",
+      "source": "21冠军反馈.val/default/frame1/2.tga",
+      "output": "dist/assets/feedback/champions21/frame1/2.png",
+      "sourceSHA256": "13a8222867e7b07ba745c1617e23a64e1f68acd883cc733b8229b02c70b6428d",
+      "outputSHA256": "6b16666d97ae1717588c7450728ac9ceb3f33843c24ed02a86cfe584477237ad",
+      "conversion": "TGA to lossless RGBA PNG"
+    },
+    {
+      "archive": "21冠军反馈.val.zip",
+      "source": "21冠军反馈.val/default/frame1/3.tga",
+      "output": "dist/assets/feedback/champions21/frame1/3.png",
+      "sourceSHA256": "d773f78ec93e4ca194801a5db6c9359037308ee73c08cea6e532f18cd92efd00",
+      "outputSHA256": "6abe5d3f1686edc3df0b0f964728c03d2cd9d0c7f3b48df4dfd53631b7a9a033",
+      "conversion": "TGA to lossless RGBA PNG"
+    },
+    {
+      "archive": "21冠军反馈.val.zip",
+      "source": "21冠军反馈.val/default/frame1/4.tga",
+      "output": "dist/assets/feedback/champions21/frame1/4.png",
+      "sourceSHA256": "307bcb99e9e3268e423828e63f6e2c571927c33ee668003805d9ac684a13003f",
+      "outputSHA256": "cb30ad1737cee0ae644232c36dc31613ccf699c87ccb43c22c9dc6e487815048",
+      "conversion": "TGA to lossless RGBA PNG"
+    },
+    {
+      "archive": "21冠军反馈.val.zip",
+      "source": "21冠军反馈.val/default/frame1/5.tga",
+      "output": "dist/assets/feedback/champions21/frame1/5.png",
+      "sourceSHA256": "79d4c4c64e4fff72b39fb689a9b6728e5793e392c26e6613fdfb4995bf94545e",
+      "outputSHA256": "58fe9f056f14e399dfe238b8bc435e5c6ffa07828705f77106c4cabe53896238",
+      "conversion": "TGA to lossless RGBA PNG"
+    },
+    {
+      "archive": "21冠军反馈.val.zip",
+      "source": "21冠军反馈.val/default/frame1/6.tga",
+      "output": "dist/assets/feedback/champions21/frame1/6.png",
+      "sourceSHA256": "c67081121c8522ae4a473b3426a82b2e53b70a6f59bd4e3c38d46df7f886f11d",
+      "outputSHA256": "487c1ba6173827f721468ee3c49e2a03790dfe8ac786e4d966934a24aaae0de6",
+      "conversion": "TGA to lossless RGBA PNG"
+    },
+    {
+      "archive": "21冠军反馈.val.zip",
+      "source": "21冠军反馈.val/default/icons/headshot.tga",
+      "output": "dist/assets/feedback/champions21/icons/headshot.png",
+      "sourceSHA256": "fd0c6b1d94d9b9ba23f6a2350b08cba64145799595600e79fbbbf51e8a50a8d5",
+      "outputSHA256": "b735acb758f9d4df57adebd9b6cbe3ebacbec906fdb97baa5914b1b0f5eb1689",
+      "conversion": "TGA to lossless RGBA PNG"
+    },
+    {
+      "archive": "21冠军反馈.val.zip",
+      "source": "21冠军反馈.val/default/icons/skull.tga",
+      "output": "dist/assets/feedback/champions21/icons/skull.png",
+      "sourceSHA256": "e5d00b065a1f9023f0b78397b4d63bea4d55bfc3f984e632d66195e6d266593e",
+      "outputSHA256": "f847de50033f77050f9c7f575326fecb16584d82a8af97223ebf0c7c515ac7f2",
+      "conversion": "TGA to lossless RGBA PNG"
+    },
+    {
+      "archive": "21冠军反馈.val.zip",
+      "source": "21冠军反馈.val/default/kill/1.tga",
+      "output": "dist/assets/feedback/champions21/kill/1.png",
+      "sourceSHA256": "043aa4371b8f1bf30509f06c77fbfce6c2ea14aae99cf1c4bbeb95a9fcab9466",
+      "outputSHA256": "0f5c7634e1de33084ae0a3cd5237a03c19b07f22c4ff76ea6d339e5b346e57d5",
+      "conversion": "TGA to lossless RGBA PNG"
+    },
+    {
+      "archive": "21冠军反馈.val.zip",
+      "source": "21冠军反馈.val/default/kill/2.tga",
+      "output": "dist/assets/feedback/champions21/kill/2.png",
+      "sourceSHA256": "800b0c6ec05d837b70fd20ea47e7b72e4a922166704bf167183f8fb4ed5201de",
+      "outputSHA256": "13d7a37c303252fce6df96b609d79847198e3d4920c8f45d929cb25fcb5c279f",
+      "conversion": "TGA to lossless RGBA PNG"
+    },
+    {
+      "archive": "21冠军反馈.val.zip",
+      "source": "21冠军反馈.val/default/kill/3.tga",
+      "output": "dist/assets/feedback/champions21/kill/3.png",
+      "sourceSHA256": "69e0a498fb816bee05a3626527910fc1b7ea5eb87280244f7c4c66db187bbbb9",
+      "outputSHA256": "707e8cbca4898fef23700e05affb55f2c9f3d9347cda26b9b7264bad28b9bf6e",
+      "conversion": "TGA to lossless RGBA PNG"
+    },
+    {
+      "archive": "21冠军反馈.val.zip",
+      "source": "21冠军反馈.val/default/kill/4.tga",
+      "output": "dist/assets/feedback/champions21/kill/4.png",
+      "sourceSHA256": "2c918449c17001f2e241aad4f00b69aec175942c62d3752fa2170bd93fb2d8cd",
+      "outputSHA256": "e92126ace6b9f55053bae3b6c83baf93ca5e7627aed7c9d7e66fc6c290b9488a",
+      "conversion": "TGA to lossless RGBA PNG"
+    },
+    {
+      "archive": "21冠军反馈.val.zip",
+      "source": "21冠军反馈.val/default/kill/5.tga",
+      "output": "dist/assets/feedback/champions21/kill/5.png",
+      "sourceSHA256": "9e681563d89c39267aa0f77e6ac09d6f64ab9bf11b9a4eb90e2630bfe97cf129",
+      "outputSHA256": "0b0115e3f958ccc7ddbe81b40109b2da12cbc0cd12ffa5b8e23b2c49c6e6ae53",
+      "conversion": "TGA to lossless RGBA PNG"
+    },
+    {
+      "archive": "21冠军反馈.val.zip",
+      "source": "21冠军反馈.val/default/particles1/1.tga",
+      "output": "dist/assets/feedback/champions21/particles1/1.png",
+      "sourceSHA256": "04e5c2a9d731f558c67eab69a78ff765f29dd8663a5e8a2ca21ae22a08d40bad",
+      "outputSHA256": "d33335405f19df7c2bdf915507fa0da2f24d054ea2eea56e8e5753d5433ed0af",
+      "conversion": "TGA to lossless RGBA PNG"
+    },
+    {
+      "archive": "21冠军反馈.val.zip",
+      "source": "21冠军反馈.val/default/particles1/2.tga",
+      "output": "dist/assets/feedback/champions21/particles1/2.png",
+      "sourceSHA256": "13a8222867e7b07ba745c1617e23a64e1f68acd883cc733b8229b02c70b6428d",
+      "outputSHA256": "6b16666d97ae1717588c7450728ac9ceb3f33843c24ed02a86cfe584477237ad",
+      "conversion": "TGA to lossless RGBA PNG"
+    },
+    {
+      "archive": "21冠军反馈.val.zip",
+      "source": "21冠军反馈.val/default/particles1/3.tga",
+      "output": "dist/assets/feedback/champions21/particles1/3.png",
+      "sourceSHA256": "d773f78ec93e4ca194801a5db6c9359037308ee73c08cea6e532f18cd92efd00",
+      "outputSHA256": "6abe5d3f1686edc3df0b0f964728c03d2cd9d0c7f3b48df4dfd53631b7a9a033",
+      "conversion": "TGA to lossless RGBA PNG"
+    },
+    {
+      "archive": "21冠军反馈.val.zip",
+      "source": "21冠军反馈.val/default/particles1/4.tga",
+      "output": "dist/assets/feedback/champions21/particles1/4.png",
+      "sourceSHA256": "307bcb99e9e3268e423828e63f6e2c571927c33ee668003805d9ac684a13003f",
+      "outputSHA256": "cb30ad1737cee0ae644232c36dc31613ccf699c87ccb43c22c9dc6e487815048",
+      "conversion": "TGA to lossless RGBA PNG"
+    },
+    {
+      "archive": "21冠军反馈.val.zip",
+      "source": "21冠军反馈.val/default/particles1/5.tga",
+      "output": "dist/assets/feedback/champions21/particles1/5.png",
+      "sourceSHA256": "79d4c4c64e4fff72b39fb689a9b6728e5793e392c26e6613fdfb4995bf94545e",
+      "outputSHA256": "58fe9f056f14e399dfe238b8bc435e5c6ffa07828705f77106c4cabe53896238",
+      "conversion": "TGA to lossless RGBA PNG"
+    },
+    {
+      "archive": "21冠军反馈.val.zip",
+      "source": "21冠军反馈.val/default/particles1/6.tga",
+      "output": "dist/assets/feedback/champions21/particles1/6.png",
+      "sourceSHA256": "c67081121c8522ae4a473b3426a82b2e53b70a6f59bd4e3c38d46df7f886f11d",
+      "outputSHA256": "487c1ba6173827f721468ee3c49e2a03790dfe8ac786e4d966934a24aaae0de6",
+      "conversion": "TGA to lossless RGBA PNG"
+    },
+    {
+      "archive": "21冠军反馈.val.zip",
+      "source": "21冠军反馈.val/default/particles2/1.tga",
+      "output": "dist/assets/feedback/champions21/particles2/1.png",
+      "sourceSHA256": "05f6ddb6b0b6ea69d407e0ddf6df7ee07af6f2b208c959cb4e107338490fd405",
+      "outputSHA256": "65e0e677117fedf5db37bfd53e22887bf23a0dd8dbbdfc3b77cce2bdb004b544",
+      "conversion": "TGA to lossless RGBA PNG"
+    },
+    {
+      "archive": "21冠军反馈.val.zip",
+      "source": "21冠军反馈.val/default/particles2/10.tga",
+      "output": "dist/assets/feedback/champions21/particles2/10.png",
+      "sourceSHA256": "0cf81831a211a586c4e0a2ed822af6a0263a1aced7b80a123f82ea4b6fe200e2",
+      "outputSHA256": "2347f52edf2f06f09304694a4fbd90ac9cf92a63e9167b0326471865300bc085",
+      "conversion": "TGA to lossless RGBA PNG"
+    },
+    {
+      "archive": "21冠军反馈.val.zip",
+      "source": "21冠军反馈.val/default/particles2/11.tga",
+      "output": "dist/assets/feedback/champions21/particles2/11.png",
+      "sourceSHA256": "a1f4169e86c5069118b19bc06eaf2331e1acc7f0a6977c9d26c7a3453f2afa35",
+      "outputSHA256": "18a7f3ab40ce7362c650f65e354cb35051aa9b3b416b9b4a8f57086ef78eecb7",
+      "conversion": "TGA to lossless RGBA PNG"
+    },
+    {
+      "archive": "21冠军反馈.val.zip",
+      "source": "21冠军反馈.val/default/particles2/12.tga",
+      "output": "dist/assets/feedback/champions21/particles2/12.png",
+      "sourceSHA256": "fd4bc93461ca204216f479dccbfd3779c02ae4a96abf764dc386c01f15986831",
+      "outputSHA256": "176780f46eb4095df452aaf498c60319c06ed4ff55a29dda203b88c68fb07354",
+      "conversion": "TGA to lossless RGBA PNG"
+    },
+    {
+      "archive": "21冠军反馈.val.zip",
+      "source": "21冠军反馈.val/default/particles2/13.tga",
+      "output": "dist/assets/feedback/champions21/particles2/13.png",
+      "sourceSHA256": "495af5ecb310f9172f4ebeba09f29ee68546e75fa04441cb2d2a47d131193b9b",
+      "outputSHA256": "e497ca2f599a68685b917011c3b77b12b5d5da7fc2b6dcbd43d49517cf409706",
+      "conversion": "TGA to lossless RGBA PNG"
+    },
+    {
+      "archive": "21冠军反馈.val.zip",
+      "source": "21冠军反馈.val/default/particles2/2.tga",
+      "output": "dist/assets/feedback/champions21/particles2/2.png",
+      "sourceSHA256": "b095913b8924b5037eb8cc0134326d384aea3b04bd9dd5a38377f282e82e91f7",
+      "outputSHA256": "fcbc5a1db700ba1aa3a1b20f2b504d949e4f3c4f8045aacb7b3b2e220da48d23",
+      "conversion": "TGA to lossless RGBA PNG"
+    },
+    {
+      "archive": "21冠军反馈.val.zip",
+      "source": "21冠军反馈.val/default/particles2/3.tga",
+      "output": "dist/assets/feedback/champions21/particles2/3.png",
+      "sourceSHA256": "e8a9108ecf2d965644107a428fe0bd4c2b1061adab5d21345e00b2ca3ab8be6a",
+      "outputSHA256": "bfa071f624eb8a2842ee3a641f39a3ac424d6f35b3ac85925fe5b33f81267668",
+      "conversion": "TGA to lossless RGBA PNG"
+    },
+    {
+      "archive": "21冠军反馈.val.zip",
+      "source": "21冠军反馈.val/default/particles2/4.tga",
+      "output": "dist/assets/feedback/champions21/particles2/4.png",
+      "sourceSHA256": "0e5d844a04de20f6d21b760c666ae12868f5cabba2a1623c87f8129b01035a9f",
+      "outputSHA256": "c12cb3bc787d5a65243e12f4840f837bbdb2b05890dcc684b4db68ec6f8a907b",
+      "conversion": "TGA to lossless RGBA PNG"
+    },
+    {
+      "archive": "21冠军反馈.val.zip",
+      "source": "21冠军反馈.val/default/particles2/5.tga",
+      "output": "dist/assets/feedback/champions21/particles2/5.png",
+      "sourceSHA256": "33ee3afcbe3264715f4294c0f447eb15cb1341bc3fd87e24f79c92fd3f6c233d",
+      "outputSHA256": "15d27bdeda8c27858a3fa4e3334fcec6966da2d424fdac88435155adcbd28902",
+      "conversion": "TGA to lossless RGBA PNG"
+    },
+    {
+      "archive": "21冠军反馈.val.zip",
+      "source": "21冠军反馈.val/default/particles2/6.tga",
+      "output": "dist/assets/feedback/champions21/particles2/6.png",
+      "sourceSHA256": "d063063a64e52473ce964f959c347f8fec35304d7fd5c877c5152f2b4bb77820",
+      "outputSHA256": "4e34dc3998adfa7a024d532b620e86547b36bf856d7caa28a6f91c3044ce4494",
+      "conversion": "TGA to lossless RGBA PNG"
+    },
+    {
+      "archive": "21冠军反馈.val.zip",
+      "source": "21冠军反馈.val/default/particles2/7.tga",
+      "output": "dist/assets/feedback/champions21/particles2/7.png",
+      "sourceSHA256": "ae2c12d1e23bbee9ff046aeedd9b27e88d43fc5669075d1629dfe2062574d02f",
+      "outputSHA256": "2b1c98cc8d812239289a61a9352529aa3b1b65b53942d1a3c9a16ca0da02ba95",
+      "conversion": "TGA to lossless RGBA PNG"
+    },
+    {
+      "archive": "21冠军反馈.val.zip",
+      "source": "21冠军反馈.val/default/particles2/8.tga",
+      "output": "dist/assets/feedback/champions21/particles2/8.png",
+      "sourceSHA256": "d7c3f102d5818b3b3fed2739a0c54eb008b46d0ecbf625db4f13ac33a1438ab2",
+      "outputSHA256": "8ee85a34a9f14f5a023185050d9938b926e93a1c046a6599d7012bcb2da1a368",
+      "conversion": "TGA to lossless RGBA PNG"
+    },
+    {
+      "archive": "21冠军反馈.val.zip",
+      "source": "21冠军反馈.val/default/particles2/9.tga",
+      "output": "dist/assets/feedback/champions21/particles2/9.png",
+      "sourceSHA256": "5912c0e0bb8cdc45bec4e5abab9d83141e6471a750c4e777ceb33356e9e9512f",
+      "outputSHA256": "c34ac9a6de73a7a79e7ccecff0a69ad5f5318c6535c3ea2327de984d5ddbec0c",
+      "conversion": "TGA to lossless RGBA PNG"
+    },
+    {
+      "archive": "21冠军反馈.val.zip",
+      "source": "21冠军反馈.val/killbanner/default/1.wav",
+      "output": "dist/assets/feedback/champions21/1.wav",
+      "sourceSHA256": "79b4d56d7eb947b969a8e846c8e02c6e6ee25aa0337dd6467f80ef13d4a43594",
+      "outputSHA256": "79b4d56d7eb947b969a8e846c8e02c6e6ee25aa0337dd6467f80ef13d4a43594",
+      "bytes": 336518,
+      "gzip": false
+    },
+    {
+      "archive": "21冠军反馈.val.zip",
+      "source": "21冠军反馈.val/killbanner/default/2.wav",
+      "output": "dist/assets/feedback/champions21/2.wav",
+      "sourceSHA256": "16af718fb8d949e5bf12cdeae115de6dec8077a4bb1280c0e327667611a987d3",
+      "outputSHA256": "16af718fb8d949e5bf12cdeae115de6dec8077a4bb1280c0e327667611a987d3",
+      "bytes": 269702,
+      "gzip": false
+    },
+    {
+      "archive": "21冠军反馈.val.zip",
+      "source": "21冠军反馈.val/killbanner/default/3.wav",
+      "output": "dist/assets/feedback/champions21/3.wav",
+      "sourceSHA256": "3fd106db02695139925c65308f9e123c9cf1cf488e01fa8d797dbca217a9bada",
+      "outputSHA256": "3fd106db02695139925c65308f9e123c9cf1cf488e01fa8d797dbca217a9bada",
+      "bytes": 276614,
+      "gzip": false
+    },
+    {
+      "archive": "21冠军反馈.val.zip",
+      "source": "21冠军反馈.val/killbanner/default/4.wav",
+      "output": "dist/assets/feedback/champions21/4.wav",
+      "sourceSHA256": "437d74095f05c26c54b1f064e838936c8dc3f9dd74dfae4e0c621edd86af6f99",
+      "outputSHA256": "437d74095f05c26c54b1f064e838936c8dc3f9dd74dfae4e0c621edd86af6f99",
+      "bytes": 278918,
+      "gzip": false
+    },
+    {
+      "archive": "21冠军反馈.val.zip",
+      "source": "21冠军反馈.val/killbanner/default/5.wav",
+      "output": "dist/assets/feedback/champions21/5.wav",
+      "sourceSHA256": "778da7a080f2a46a9289054ac386e63d2dbfa9a90e3ae879f217919ddb209e48",
+      "outputSHA256": "778da7a080f2a46a9289054ac386e63d2dbfa9a90e3ae879f217919ddb209e48",
+      "bytes": 587654,
+      "gzip": false
+    },
+    {
+      "archive": "瓦手键位界面图标2.0.zip",
+      "source": "valstrike/gfx/buttons/duck.tga",
+      "output": "dist/assets/native-ui/mobile2/duck.webp",
+      "sourceSHA256": "87d69659b3f20533646dd2418e271d8017e9462e77590528a9e4283497be33c3",
+      "outputSHA256": "6ae13120eb6d89ba68824be04494c65cd21f11434672b7e9cedc4047e41924ad",
+      "sourceSize": [
+        1080,
+        1080
+      ],
+      "runtimeSize": [
+        384,
+        384
+      ],
+      "crop": null,
+      "conversion": "RGBA glyph, lossless WebP; static source ammo/text excluded"
+    },
+    {
+      "archive": "瓦手键位界面图标2.0.zip",
+      "source": "valstrike/gfx/buttons/inspect.tga",
+      "output": "dist/assets/native-ui/mobile2/inspect.webp",
+      "sourceSHA256": "7a6861e084367c6cb92b650793e537de54569f87012e2c9f8e7d08772d23c4e3",
+      "outputSHA256": "dc238cc7d1ba292784ca7c9c4189eace1069b1bda51c688eb06ba100ffbae6d1",
+      "sourceSize": [
+        1080,
+        1080
+      ],
+      "runtimeSize": [
+        384,
+        384
+      ],
+      "crop": null,
+      "conversion": "RGBA glyph, lossless WebP; static source ammo/text excluded"
+    },
+    {
+      "archive": "瓦手键位界面图标2.0.zip",
+      "source": "valstrike/gfx/buttons/jump.tga",
+      "output": "dist/assets/native-ui/mobile2/jump.webp",
+      "sourceSHA256": "cf0ae92b01405590c1af9b9c8c164f9d50cae59a5beea21b5b9a9456f91d001f",
+      "outputSHA256": "2ae50ff5bdc4d1ae7e4f763e1ed7bd6f77a2b46ebcb06525071f0c48cd456d72",
+      "sourceSize": [
+        1080,
+        1080
+      ],
+      "runtimeSize": [
+        384,
+        384
+      ],
+      "crop": null,
+      "conversion": "RGBA glyph, lossless WebP; static source ammo/text excluded"
+    },
+    {
+      "archive": "瓦手键位界面图标2.0.zip",
+      "source": "valstrike/gfx/buttons/pause.tga",
+      "output": "dist/assets/native-ui/mobile2/pause.webp",
+      "sourceSHA256": "8af4a751eec11eeab9ec60bc378c8ed44d51dc160dd59f65f0ff66a3c7b901ba",
+      "outputSHA256": "78bbf37130260582e35c6532fa9ad59f038e6c0e083cd97b9894b414ffe95796",
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "runtimeSize": [
+        384,
+        384
+      ],
+      "crop": null,
+      "conversion": "RGBA glyph, lossless WebP; static source ammo/text excluded"
+    },
+    {
+      "archive": "瓦手键位界面图标2.0.zip",
+      "source": "valstrike/gfx/buttons/reload.tga",
+      "output": "dist/assets/native-ui/mobile2/reload.webp",
+      "sourceSHA256": "1232a2b3ae12f3f03da29beb026724680964c031c27fd73c8f0ca8d14309b559",
+      "outputSHA256": "41f84e6db418debc7c0a1d2bbc414991b8f43fc803b90c2fdbd5a6a99f9e824d",
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "runtimeSize": [
+        384,
+        384
+      ],
+      "crop": null,
+      "conversion": "RGBA glyph, lossless WebP; static source ammo/text excluded"
+    },
+    {
+      "archive": "瓦手键位界面图标2.0.zip",
+      "source": "valstrike/gfx/buttons/use.tga",
+      "output": "dist/assets/native-ui/mobile2/use.webp",
+      "sourceSHA256": "9e6e36b67f4afb885a5bc7a53696b4dfa33a1b06ef6f3b3f73f534ae2e7eaef9",
+      "outputSHA256": "bd1155f010bc6c079099db186159494782c7470276e473b663b8d3be3aed329b",
+      "sourceSize": [
+        1080,
+        1080
+      ],
+      "runtimeSize": [
+        384,
+        384
+      ],
+      "crop": null,
+      "conversion": "RGBA glyph, lossless WebP; static source ammo/text excluded"
+    },
+    {
+      "archive": "瓦手键位界面图标2.0.zip",
+      "source": "valstrike/gfx/buttons/joy.tga",
+      "output": "dist/assets/native-ui/mobile2/joy.webp",
+      "sourceSHA256": "e8e8a91b5a4e7aeaa42e55a903a402cd782197b9d526aee9c7288999e404f67e",
+      "outputSHA256": "b3029a2c39fee7ea84ada41c15ab33e92148776a111e4fbfcb0318b5eb419574",
+      "sourceSize": [
+        128,
+        128
+      ],
+      "runtimeSize": [
+        128,
+        128
+      ],
+      "crop": null,
+      "conversion": "RGBA glyph, lossless WebP; static source ammo/text excluded"
+    },
+    {
+      "archive": "瓦手键位界面图标2.0.zip",
+      "source": "valstrike/gfx/buttons/bgab.tga",
+      "output": "dist/assets/native-ui/mobile2/bgab.webp",
+      "sourceSHA256": "fbff729761fbb57db751bf337e4abb40a1abdf7154377ed2f5d817a47d78d14f",
+      "outputSHA256": "d37e113c9528a1d578aeff84eec74599207d80ce4efb6414d458c63a31828d8a",
+      "sourceSize": [
+        1080,
+        1080
+      ],
+      "runtimeSize": [
+        384,
+        384
+      ],
+      "crop": null,
+      "conversion": "RGBA glyph, lossless WebP; static source ammo/text excluded"
+    },
+    {
+      "archive": "瓦手键位界面图标2.0.zip",
+      "source": "valstrike/gfx/buttons/1.tga",
+      "output": "dist/assets/native-ui/mobile2/primary.webp",
+      "sourceSHA256": "f1adbf450c10f2f97443f533f23209673d99020ab0b64cc2b689f9057aefbc10",
+      "outputSHA256": "c6ce3e37a0ec75ee9a525128509033691a9a8f53984d43828068e4dc3aa50a3a",
+      "sourceSize": [
+        2400,
+        814
+      ],
+      "runtimeSize": [
+        384,
+        103
+      ],
+      "crop": [
+        180,
+        90,
+        1750,
+        510
+      ],
+      "conversion": "RGBA glyph, lossless WebP; static source ammo/text excluded"
+    },
+    {
+      "archive": "瓦手键位界面图标2.0.zip",
+      "source": "valstrike/gfx/buttons/2.tga",
+      "output": "dist/assets/native-ui/mobile2/pistol.webp",
+      "sourceSHA256": "96210c16f2ddeffdf84125221cc2c8d29c52f5b390f0c3e87623fee67851849e",
+      "outputSHA256": "17b888d7192a3d4bdff3471a290d5cb2ba099c62df707074c2aaa1c1f88c042d",
+      "sourceSize": [
+        1582,
+        1080
+      ],
+      "runtimeSize": [
+        384,
+        224
+      ],
+      "crop": [
+        310,
+        270,
+        1160,
+        765
+      ],
+      "conversion": "RGBA glyph, lossless WebP; static source ammo/text excluded"
+    },
+    {
+      "archive": "瓦手键位界面图标2.0.zip",
+      "source": "valstrike/touch_default/joy_bg.tga",
+      "output": "dist/assets/native-ui/mobile2/joy_bg.webp",
+      "sourceSHA256": "3b04552031c7760b80d621e1aca629f89fb97a4432017ea9b83d67e02691785c",
+      "outputSHA256": "825e90009546c6b2485d2e03190c9e3a60788ed6b5fd7537f1d94b4c6ccc8309",
+      "sourceSize": [
+        1080,
+        1080
+      ],
+      "runtimeSize": [
+        384,
+        384
+      ],
+      "crop": null,
+      "conversion": "RGBA glyph, lossless WebP; static source ammo/text excluded"
+    },
+    {
+      "archive": "瓦手键位界面图标2.0.zip",
+      "source": "valstrike/sound/VO/jett/Play_VO_Wushu_PickMe.wav",
+      "output": "dist/assets/native-ui/mobile2/voice/wushu.wav",
+      "sourceSHA256": "f7b2d5ccf985b8ebe227bb15f868acf0e49df4507e35520f453d83170e821981",
+      "outputSHA256": "f7b2d5ccf985b8ebe227bb15f868acf0e49df4507e35520f453d83170e821981",
+      "bytes": 430158,
+      "gzip": false
+    },
+    {
+      "archive": "瓦手键位界面图标2.0.zip",
+      "source": "valstrike/sound/VO/sage/Play_VO_Thorne_Pickme.wav",
+      "output": "dist/assets/native-ui/mobile2/voice/thorne.wav",
+      "sourceSHA256": "f8940f206c7da1652a0a0cac7f133a8b277ce871bfa580c449635e807ab2a9e9",
+      "outputSHA256": "f8940f206c7da1652a0a0cac7f133a8b277ce871bfa580c449635e807ab2a9e9",
+      "bytes": 327486,
+      "gzip": false
+    },
+    {
+      "archive": "瓦手键位界面图标2.0.zip",
+      "source": "valstrike/sound/VO/sova/Play_VO_Hunter_Pickme.wav",
+      "output": "dist/assets/native-ui/mobile2/voice/hunter.wav",
+      "sourceSHA256": "fa6148a4c409f7c2e3a43660e30c64720df1073155110bd467e9453337d89e4c",
+      "outputSHA256": "fa6148a4c409f7c2e3a43660e30c64720df1073155110bd467e9453337d89e4c",
+      "bytes": 324942,
+      "gzip": false
+    },
+    {
+      "archive": "瓦手键位界面图标2.0.zip",
+      "source": "valstrike/sound/VO/phoenix/Play_VO_Phoenix_Pickme.wav",
+      "output": "dist/assets/native-ui/mobile2/voice/phoenix.wav",
+      "sourceSHA256": "5d3e283d8b8bee5b124aff5ec2515e3a9f8c50491b66c9f22aeedc22a05a9a08",
+      "outputSHA256": "5d3e283d8b8bee5b124aff5ec2515e3a9f8c50491b66c9f22aeedc22a05a9a08",
+      "bytes": 345918,
+      "gzip": false
+    },
+    {
+      "archive": "瓦手键位界面图标2.0.zip",
+      "source": "valstrike/sound/VO/brimstone/Play_VO_Sarge_PickMe.wav",
+      "output": "dist/assets/native-ui/mobile2/voice/sarge.wav",
+      "sourceSHA256": "590a2a24aa63ac03ec697028c9910f57318f95964974c3494bb6c5cdacd9c552",
+      "outputSHA256": "590a2a24aa63ac03ec697028c9910f57318f95964974c3494bb6c5cdacd9c552",
+      "bytes": 603214,
+      "gzip": false
+    },
+    {
+      "archive": "瓦手键位界面图标2.0.zip",
+      "source": "valstrike/sound/VO/skye/Play_VO_Guide_Pickme.wav",
+      "output": "dist/assets/native-ui/mobile2/voice/guide.wav",
+      "sourceSHA256": "49d5b602352b4bd98fd0df542df0e0a7a7ca95a7f62e53d7edc049b600ca162f",
+      "outputSHA256": "49d5b602352b4bd98fd0df542df0e0a7a7ca95a7f62e53d7edc049b600ca162f",
+      "bytes": 292334,
+      "gzip": false
+    },
+    {
+      "archive": "瓦手键位界面图标2.0.zip",
+      "source": "valstrike/sound/VO/raze/Play_VO_Clay_PickMe.wav",
+      "output": "dist/assets/native-ui/mobile2/voice/clay.wav",
+      "sourceSHA256": "6fd5967b5aa92c2e1e8786b89e2d36727e82a36756d62508383f71732dc00742",
+      "outputSHA256": "6fd5967b5aa92c2e1e8786b89e2d36727e82a36756d62508383f71732dc00742",
+      "bytes": 278862,
+      "gzip": false
+    },
+    {
+      "archive": "瓦手键位界面图标2.0.zip",
+      "source": "valstrike/sound/pickagent/you_are_attacking.wav",
+      "output": "dist/assets/native-ui/mobile2/voice/attacking.wav",
+      "sourceSHA256": "e6689a10357d93c25f92d086247a81966ea29d65e9f0ca69bf3c5476e8843414",
+      "outputSHA256": "e6689a10357d93c25f92d086247a81966ea29d65e9f0ca69bf3c5476e8843414",
+      "bytes": 156990,
+      "gzip": false
+    },
+    {
+      "archive": "瓦手键位界面图标2.0.zip",
+      "source": "valstrike/sound/pickagent/you_are_defending.wav",
+      "output": "dist/assets/native-ui/mobile2/voice/defending.wav",
+      "sourceSHA256": "fe70b037f8ccfa76b687d8e47be6a5a2bccc4cfac62ba800ff06eda0c6ac4c15",
+      "outputSHA256": "fe70b037f8ccfa76b687d8e47be6a5a2bccc4cfac62ba800ff06eda0c6ac4c15",
+      "bytes": 190254,
+      "gzip": false
+    }
+  ],
+  "actions": [
+    {
+      "weapon": "gaiavandal",
+      "variant": "base",
+      "id": "By MotH",
+      "frames": 1,
+      "fps": 60.0,
+      "status": "unverified",
+      "origin": "original IDST v10 animation and native event records",
+      "missingAudio": [],
+      "report": null,
+      "verified_commit": null
+    },
+    {
+      "weapon": "gaiavandal",
+      "variant": "base",
+      "id": "reload",
+      "frames": 177,
+      "fps": 60.0,
+      "status": "unverified",
+      "origin": "original IDST v10 animation and native event records",
+      "missingAudio": [],
+      "report": null,
+      "verified_commit": null
+    },
+    {
+      "weapon": "gaiavandal",
+      "variant": "base",
+      "id": "draw",
+      "frames": 100,
+      "fps": 60.0,
+      "status": "unverified",
+      "origin": "original IDST v10 animation and native event records",
+      "missingAudio": [],
+      "report": null,
+      "verified_commit": null
+    },
+    {
+      "weapon": "gaiavandal",
+      "variant": "base",
+      "id": "shoot1",
+      "frames": 21,
+      "fps": 60.0,
+      "status": "unverified",
+      "origin": "original IDST v10 animation and native event records",
+      "missingAudio": [],
+      "report": null,
+      "verified_commit": null
+    },
+    {
+      "weapon": "gaiavandal",
+      "variant": "base",
+      "id": "shoot2",
+      "frames": 21,
+      "fps": 60.0,
+      "status": "unverified",
+      "origin": "original IDST v10 animation and native event records",
+      "missingAudio": [],
+      "report": null,
+      "verified_commit": null
+    },
+    {
+      "weapon": "gaiavandal",
+      "variant": "base",
+      "id": "shoot3",
+      "frames": 21,
+      "fps": 60.0,
+      "status": "unverified",
+      "origin": "original IDST v10 animation and native event records",
+      "missingAudio": [],
+      "report": null,
+      "verified_commit": null
+    },
+    {
+      "weapon": "gaiavandal",
+      "variant": "base",
+      "id": "inspect",
+      "frames": 251,
+      "fps": 60.0,
+      "status": "unverified",
+      "origin": "original IDST v10 animation and native event records",
+      "missingAudio": [],
+      "report": null,
+      "verified_commit": null
+    },
+    {
+      "weapon": "gaiaguardian",
+      "variant": "base",
+      "id": "ByMotH",
+      "frames": 166,
+      "fps": 60.0,
+      "status": "unverified",
+      "origin": "original IDST v10 animation and native event records",
+      "missingAudio": [],
+      "report": null,
+      "verified_commit": null
+    },
+    {
+      "weapon": "gaiaguardian",
+      "variant": "base",
+      "id": "shoot1",
+      "frames": 22,
+      "fps": 60.0,
+      "status": "unverified",
+      "origin": "original IDST v10 animation and native event records",
+      "missingAudio": [],
+      "report": null,
+      "verified_commit": null
+    },
+    {
+      "weapon": "gaiaguardian",
+      "variant": "base",
+      "id": "shoot2",
+      "frames": 22,
+      "fps": 60.0,
+      "status": "unverified",
+      "origin": "original IDST v10 animation and native event records",
+      "missingAudio": [],
+      "report": null,
+      "verified_commit": null
+    },
+    {
+      "weapon": "gaiaguardian",
+      "variant": "base",
+      "id": "reload",
+      "frames": 181,
+      "fps": 60.0,
+      "status": "unverified",
+      "origin": "original IDST v10 animation and native event records",
+      "missingAudio": [
+        "weapons/valorant/gaiaguardian/ashen_grab.wav"
+      ],
+      "report": null,
+      "verified_commit": null
+    },
+    {
+      "weapon": "gaiaguardian",
+      "variant": "base",
+      "id": "draw",
+      "frames": 111,
+      "fps": 60.0,
+      "status": "unverified",
+      "origin": "original IDST v10 animation and native event records",
+      "missingAudio": [],
+      "report": null,
+      "verified_commit": null
+    },
+    {
+      "weapon": "gaiaguardian",
+      "variant": "base",
+      "id": "inspect",
+      "frames": 251,
+      "fps": 60.0,
+      "status": "unverified",
+      "origin": "original IDST v10 animation and native event records",
+      "missingAudio": [
+        "weapons/valorant/gaiaguardian/ashen_grab.wav"
+      ],
+      "report": null,
+      "verified_commit": null
+    },
+    {
+      "weapon": "gaiamarshal",
+      "variant": "base",
+      "id": "idle",
+      "frames": 166,
+      "fps": 30.0,
+      "status": "unverified",
+      "origin": "original IDST v10 animation and native event records",
+      "missingAudio": [],
+      "report": null,
+      "verified_commit": null
+    },
+    {
+      "weapon": "gaiamarshal",
+      "variant": "base",
+      "id": "shoot1",
+      "frames": 41,
+      "fps": 75.0,
+      "status": "unverified",
+      "origin": "original IDST v10 animation and native event records",
+      "missingAudio": [],
+      "report": null,
+      "verified_commit": null
+    },
+    {
+      "weapon": "gaiamarshal",
+      "variant": "base",
+      "id": "shoot2",
+      "frames": 41,
+      "fps": 75.0,
+      "status": "unverified",
+      "origin": "original IDST v10 animation and native event records",
+      "missingAudio": [],
+      "report": null,
+      "verified_commit": null
+    },
+    {
+      "weapon": "gaiamarshal",
+      "variant": "base",
+      "id": "reload",
+      "frames": 141,
+      "fps": 70.5,
+      "status": "unverified",
+      "origin": "original IDST v10 animation and native event records",
+      "missingAudio": [],
+      "report": null,
+      "verified_commit": null
+    },
+    {
+      "weapon": "gaiamarshal",
+      "variant": "base",
+      "id": "draw",
+      "frames": 107,
+      "fps": 60.0,
+      "status": "unverified",
+      "origin": "original IDST v10 animation and native event records",
+      "missingAudio": [],
+      "report": null,
+      "verified_commit": null
+    },
+    {
+      "weapon": "gaiamarshal",
+      "variant": "base",
+      "id": "inspect",
+      "frames": 261,
+      "fps": 65.0,
+      "status": "unverified",
+      "origin": "original IDST v10 animation and native event records",
+      "missingAudio": [],
+      "report": null,
+      "verified_commit": null
+    },
+    {
+      "weapon": "gaiaghost",
+      "variant": "base",
+      "id": "By MotH",
+      "frames": 2,
+      "fps": 60.0,
+      "status": "unverified",
+      "origin": "original IDST v10 animation and native event records",
+      "missingAudio": [],
+      "report": null,
+      "verified_commit": null
+    },
+    {
+      "weapon": "gaiaghost",
+      "variant": "base",
+      "id": "shoot1",
+      "frames": 23,
+      "fps": 60.0,
+      "status": "unverified",
+      "origin": "original IDST v10 animation and native event records",
+      "missingAudio": [],
+      "report": null,
+      "verified_commit": null
+    },
+    {
+      "weapon": "gaiaghost",
+      "variant": "base",
+      "id": "shoot2",
+      "frames": 23,
+      "fps": 60.0,
+      "status": "unverified",
+      "origin": "original IDST v10 animation and native event records",
+      "missingAudio": [],
+      "report": null,
+      "verified_commit": null
+    },
+    {
+      "weapon": "gaiaghost",
+      "variant": "base",
+      "id": "shoot3",
+      "frames": 23,
+      "fps": 60.0,
+      "status": "unverified",
+      "origin": "original IDST v10 animation and native event records",
+      "missingAudio": [],
+      "report": null,
+      "verified_commit": null
+    },
+    {
+      "weapon": "gaiaghost",
+      "variant": "base",
+      "id": "shootlast",
+      "frames": 23,
+      "fps": 60.0,
+      "status": "unverified",
+      "origin": "original IDST v10 animation and native event records",
+      "missingAudio": [],
+      "report": null,
+      "verified_commit": null
+    },
+    {
+      "weapon": "gaiaghost",
+      "variant": "base",
+      "id": "reload",
+      "frames": 131,
+      "fps": 60.0,
+      "status": "unverified",
+      "origin": "original IDST v10 animation and native event records",
+      "missingAudio": [
+        "weapons/valorant/gaiaghost/reload_slideback.wav"
+      ],
+      "report": null,
+      "verified_commit": null
+    },
+    {
+      "weapon": "gaiaghost",
+      "variant": "base",
+      "id": "draw",
+      "frames": 84,
+      "fps": 60.0,
+      "status": "unverified",
+      "origin": "original IDST v10 animation and native event records",
+      "missingAudio": [
+        "weapons/valorant/gaiaghost/reload_slideback.wav"
+      ],
+      "report": null,
+      "verified_commit": null
+    },
+    {
+      "weapon": "gaiaghost",
+      "variant": "base",
+      "id": "add_silencer",
+      "frames": 2,
+      "fps": 60.0,
+      "status": "unverified",
+      "origin": "original IDST v10 animation and native event records",
+      "missingAudio": [],
+      "report": null,
+      "verified_commit": null
+    },
+    {
+      "weapon": "gaiaghost",
+      "variant": "base",
+      "id": "idle_unsil",
+      "frames": 2,
+      "fps": 60.0,
+      "status": "unverified",
+      "origin": "original IDST v10 animation and native event records",
+      "missingAudio": [],
+      "report": null,
+      "verified_commit": null
+    },
+    {
+      "weapon": "gaiaghost",
+      "variant": "base",
+      "id": "shoot1_unsil",
+      "frames": 23,
+      "fps": 60.0,
+      "status": "unverified",
+      "origin": "original IDST v10 animation and native event records",
+      "missingAudio": [],
+      "report": null,
+      "verified_commit": null
+    },
+    {
+      "weapon": "gaiaghost",
+      "variant": "base",
+      "id": "shoot2_unsil",
+      "frames": 23,
+      "fps": 60.0,
+      "status": "unverified",
+      "origin": "original IDST v10 animation and native event records",
+      "missingAudio": [],
+      "report": null,
+      "verified_commit": null
+    },
+    {
+      "weapon": "gaiaghost",
+      "variant": "base",
+      "id": "shoot3_unsil",
+      "frames": 23,
+      "fps": 60.0,
+      "status": "unverified",
+      "origin": "original IDST v10 animation and native event records",
+      "missingAudio": [],
+      "report": null,
+      "verified_commit": null
+    },
+    {
+      "weapon": "gaiaghost",
+      "variant": "base",
+      "id": "shootlast_unsil",
+      "frames": 23,
+      "fps": 60.0,
+      "status": "unverified",
+      "origin": "original IDST v10 animation and native event records",
+      "missingAudio": [],
+      "report": null,
+      "verified_commit": null
+    },
+    {
+      "weapon": "gaiaghost",
+      "variant": "base",
+      "id": "reload_unsil",
+      "frames": 131,
+      "fps": 60.0,
+      "status": "unverified",
+      "origin": "original IDST v10 animation and native event records",
+      "missingAudio": [
+        "weapons/valorant/gaiaghost/reload_slideback.wav"
+      ],
+      "report": null,
+      "verified_commit": null
+    },
+    {
+      "weapon": "gaiaghost",
+      "variant": "base",
+      "id": "draw_unsil",
+      "frames": 84,
+      "fps": 60.0,
+      "status": "unverified",
+      "origin": "original IDST v10 animation and native event records",
+      "missingAudio": [
+        "weapons/valorant/gaiaghost/reload_slideback.wav"
+      ],
+      "report": null,
+      "verified_commit": null
+    },
+    {
+      "weapon": "gaiaghost",
+      "variant": "base",
+      "id": "add_silencer",
+      "frames": 2,
+      "fps": 60.0,
+      "status": "unverified",
+      "origin": "original IDST v10 animation and native event records",
+      "missingAudio": [],
+      "report": null,
+      "verified_commit": null
+    },
+    {
+      "weapon": "gaiaghost",
+      "variant": "base",
+      "id": "inspect",
+      "frames": 193,
+      "fps": 60.0,
+      "status": "unverified",
+      "origin": "original IDST v10 animation and native event records",
+      "missingAudio": [],
+      "report": null,
+      "verified_commit": null
+    },
+    {
+      "weapon": "gaiaghost",
+      "variant": "base",
+      "id": "inspect_unsil",
+      "frames": 193,
+      "fps": 60.0,
+      "status": "unverified",
+      "origin": "original IDST v10 animation and native event records",
+      "missingAudio": [],
+      "report": null,
+      "verified_commit": null
+    },
+    {
+      "weapon": "gaiaaxe",
+      "variant": "base",
+      "id": "ByMotH",
+      "frames": 62,
+      "fps": 30.5,
+      "status": "unverified",
+      "origin": "original IDST v10 animation and native event records",
+      "missingAudio": [],
+      "report": null,
+      "verified_commit": null
+    },
+    {
+      "weapon": "gaiaaxe",
+      "variant": "base",
+      "id": "slash1",
+      "frames": 96,
+      "fps": 60.638301849365234,
+      "status": "unverified",
+      "origin": "original IDST v10 animation and native event records",
+      "missingAudio": [],
+      "report": null,
+      "verified_commit": null
+    },
+    {
+      "weapon": "gaiaaxe",
+      "variant": "base",
+      "id": "slash2",
+      "frames": 95,
+      "fps": 60.638301849365234,
+      "status": "unverified",
+      "origin": "original IDST v10 animation and native event records",
+      "missingAudio": [],
+      "report": null,
+      "verified_commit": null
+    },
+    {
+      "weapon": "gaiaaxe",
+      "variant": "base",
+      "id": "draw",
+      "frames": 101,
+      "fps": 60.599998474121094,
+      "status": "unverified",
+      "origin": "original IDST v10 animation and native event records",
+      "missingAudio": [],
+      "report": null,
+      "verified_commit": null
+    },
+    {
+      "weapon": "gaiaaxe",
+      "variant": "base",
+      "id": "stab",
+      "frames": 96,
+      "fps": 60.638301849365234,
+      "status": "unverified",
+      "origin": "original IDST v10 animation and native event records",
+      "missingAudio": [],
+      "report": null,
+      "verified_commit": null
+    },
+    {
+      "weapon": "gaiaaxe",
+      "variant": "base",
+      "id": "stab_miss",
+      "frames": 96,
+      "fps": 60.638301849365234,
+      "status": "unverified",
+      "origin": "original IDST v10 animation and native event records",
+      "missingAudio": [],
+      "report": null,
+      "verified_commit": null
+    },
+    {
+      "weapon": "gaiaaxe",
+      "variant": "base",
+      "id": "midslash1",
+      "frames": 96,
+      "fps": 60.638301849365234,
+      "status": "unverified",
+      "origin": "original IDST v10 animation and native event records",
+      "missingAudio": [],
+      "report": null,
+      "verified_commit": null
+    },
+    {
+      "weapon": "gaiaaxe",
+      "variant": "base",
+      "id": "midslash2",
+      "frames": 95,
+      "fps": 60.638301849365234,
+      "status": "unverified",
+      "origin": "original IDST v10 animation and native event records",
+      "missingAudio": [],
+      "report": null,
+      "verified_commit": null
+    },
+    {
+      "weapon": "gaiaaxe",
+      "variant": "base",
+      "id": "inspect",
+      "frames": 195,
+      "fps": 60.3109016418457,
+      "status": "unverified",
+      "origin": "original IDST v10 animation and native event records",
+      "missingAudio": [],
+      "report": null,
+      "verified_commit": null
+    },
+    {
+      "weapon": "gaiaaxe",
+      "variant": "base",
+      "id": "inspect_2",
+      "frames": 195,
+      "fps": 60.3109016418457,
+      "status": "unverified",
+      "origin": "original IDST v10 animation and native event records",
+      "missingAudio": [],
+      "report": null,
+      "verified_commit": null
+    },
+    {
+      "weapon": "gaiaguardian",
+      "variant": "sg550",
+      "id": "ByMotH",
+      "frames": 166,
+      "fps": 60.0,
+      "status": "unverified",
+      "origin": "original IDST v10 animation and native event records",
+      "missingAudio": [],
+      "report": null,
+      "verified_commit": null
+    },
+    {
+      "weapon": "gaiaguardian",
+      "variant": "sg550",
+      "id": "shoot1",
+      "frames": 22,
+      "fps": 60.0,
+      "status": "unverified",
+      "origin": "original IDST v10 animation and native event records",
+      "missingAudio": [],
+      "report": null,
+      "verified_commit": null
+    },
+    {
+      "weapon": "gaiaguardian",
+      "variant": "sg550",
+      "id": "shoot2",
+      "frames": 22,
+      "fps": 60.0,
+      "status": "unverified",
+      "origin": "original IDST v10 animation and native event records",
+      "missingAudio": [],
+      "report": null,
+      "verified_commit": null
+    },
+    {
+      "weapon": "gaiaguardian",
+      "variant": "sg550",
+      "id": "reload",
+      "frames": 181,
+      "fps": 60.0,
+      "status": "unverified",
+      "origin": "original IDST v10 animation and native event records",
+      "missingAudio": [
+        "weapons/valorant/gaiaguardian/ashen_grab.wav"
+      ],
+      "report": null,
+      "verified_commit": null
+    },
+    {
+      "weapon": "gaiaguardian",
+      "variant": "sg550",
+      "id": "draw",
+      "frames": 111,
+      "fps": 60.0,
+      "status": "unverified",
+      "origin": "original IDST v10 animation and native event records",
+      "missingAudio": [],
+      "report": null,
+      "verified_commit": null
+    },
+    {
+      "weapon": "gaiaguardian",
+      "variant": "sg550",
+      "id": "inspect",
+      "frames": 251,
+      "fps": 60.0,
+      "status": "unverified",
+      "origin": "original IDST v10 animation and native event records",
+      "missingAudio": [
+        "weapons/valorant/gaiaguardian/ashen_grab.wav"
+      ],
+      "report": null,
+      "verified_commit": null
+    },
+    {
+      "weapon": "nimingvandal",
+      "variant": "base",
+      "id": "Shezo",
+      "frames": 2,
+      "fps": 60.0,
+      "status": "unverified",
+      "origin": "original IDST v10 animation and native event records",
+      "missingAudio": [],
+      "report": null,
+      "verified_commit": null
+    },
+    {
+      "weapon": "nimingvandal",
+      "variant": "base",
+      "id": "zoom_idle",
+      "frames": 2,
+      "fps": 60.0,
+      "status": "unverified",
+      "origin": "original IDST v10 animation and native event records",
+      "missingAudio": [],
+      "report": null,
+      "verified_commit": null
+    },
+    {
+      "weapon": "nimingvandal",
+      "variant": "base",
+      "id": "reload_1",
+      "frames": 89,
+      "fps": 30.0,
+      "status": "unverified",
+      "origin": "original IDST v10 animation and native event records",
+      "missingAudio": [
+        "weapons\\valorant\\phaseguardvandal/Reload_Mvt_A.wav",
+        "weapons\\valorant\\phaseguardvandal/Reload_Element_A.wav",
+        "weapons\\valorant\\phaseguardvandal/Reload_MagOut.wav",
+        "weapons\\valorant\\phaseguardvandal/Reload_Element_B.wav",
+        "weapons\\valorant\\phaseguardvandal/Reload_MagIn_Start.wav",
+        "weapons\\valorant\\phaseguardvandal/Reload_Element_C.wav",
+        "weapons\\valorant\\phaseguardvandal/Reload_MagIn_End.wav",
+        "weapons\\valorant\\phaseguardvandal/Reload_Chg_Hndl_Back_FP.wav",
+        "weapons\\valorant\\phaseguardvandal/Reload_Element_E.wav",
+        "weapons\\valorant\\phaseguardvandal/Reload_Chg_Hndl_Fwd_FP.wav"
+      ],
+      "report": null,
+      "verified_commit": null
+    },
+    {
+      "weapon": "nimingvandal",
+      "variant": "base",
+      "id": "reload_2",
+      "frames": 89,
+      "fps": 40.0,
+      "status": "unverified",
+      "origin": "original IDST v10 animation and native event records",
+      "missingAudio": [
+        "weapons\\valorant\\phaseguardvandal/Reload_Mvt_A.wav",
+        "weapons\\valorant\\phaseguardvandal/Reload_Element_A.wav",
+        "weapons\\valorant\\phaseguardvandal/Reload_MagOut.wav",
+        "weapons\\valorant\\phaseguardvandal/Reload_Element_B.wav",
+        "weapons\\valorant\\phaseguardvandal/Reload_MagIn_Start.wav",
+        "weapons\\valorant\\phaseguardvandal/Reload_Element_C.wav",
+        "weapons\\valorant\\phaseguardvandal/Reload_MagIn_End.wav",
+        "weapons\\valorant\\phaseguardvandal/Reload_Chg_Hndl_Back_FP.wav",
+        "weapons\\valorant\\phaseguardvandal/Reload_Element_E.wav",
+        "weapons\\valorant\\phaseguardvandal/Reload_Chg_Hndl_Fwd_FP.wav"
+      ],
+      "report": null,
+      "verified_commit": null
+    },
+    {
+      "weapon": "nimingvandal",
+      "variant": "base",
+      "id": "draw_1",
+      "frames": 100,
+      "fps": 60.0,
+      "status": "unverified",
+      "origin": "original IDST v10 animation and native event records",
+      "missingAudio": [
+        "weapons\\valorant\\phaseguardvandal/Equip_Mvt_A.wav",
+        "weapons\\valorant\\phaseguardvandal/Equip_Chg_Hndl_Back_FP.wav",
+        "weapons\\valorant\\phaseguardvandal/Equip_Chg_Hndl_Fwd_FP.wav",
+        "weapons\\valorant\\phaseguardvandal/Chg_Fwd_Element.wav",
+        "weapons\\valorant\\phaseguardvandal/Equip_Element_B_FP.wav",
+        "weapons\\valorant\\phaseguardvandal/Grab.wav"
+      ],
+      "report": null,
+      "verified_commit": null
+    },
+    {
+      "weapon": "nimingvandal",
+      "variant": "base",
+      "id": "draw_2",
+      "frames": 100,
+      "fps": 70.0,
+      "status": "unverified",
+      "origin": "original IDST v10 animation and native event records",
+      "missingAudio": [
+        "weapons\\valorant\\phaseguardvandal/Equip_Mvt_A.wav",
+        "weapons\\valorant\\phaseguardvandal/Equip_Chg_Hndl_Back_FP.wav",
+        "weapons\\valorant\\phaseguardvandal/Equip_Chg_Hndl_Fwd_FP.wav",
+        "weapons\\valorant\\phaseguardvandal/Chg_Fwd_Element.wav",
+        "weapons\\valorant\\phaseguardvandal/Grab.wav"
+      ],
+      "report": null,
+      "verified_commit": null
+    },
+    {
+      "weapon": "nimingvandal",
+      "variant": "base",
+      "id": "shoot_1",
+      "frames": 20,
+      "fps": 60.0,
+      "status": "unverified",
+      "origin": "original IDST v10 animation and native event records",
+      "missingAudio": [],
+      "report": null,
+      "verified_commit": null
+    },
+    {
+      "weapon": "nimingvandal",
+      "variant": "base",
+      "id": "shoot_2",
+      "frames": 20,
+      "fps": 60.0,
+      "status": "unverified",
+      "origin": "original IDST v10 animation and native event records",
+      "missingAudio": [],
+      "report": null,
+      "verified_commit": null
+    },
+    {
+      "weapon": "nimingvandal",
+      "variant": "base",
+      "id": "zoom_shoot",
+      "frames": 20,
+      "fps": 60.0,
+      "status": "unverified",
+      "origin": "original IDST v10 animation and native event records",
+      "missingAudio": [],
+      "report": null,
+      "verified_commit": null
+    },
+    {
+      "weapon": "nimingvandal",
+      "variant": "base",
+      "id": "zoom_shoot_fast",
+      "frames": 20,
+      "fps": 90.0,
+      "status": "unverified",
+      "origin": "original IDST v10 animation and native event records",
+      "missingAudio": [],
+      "report": null,
+      "verified_commit": null
+    },
+    {
+      "weapon": "nimingvandal",
+      "variant": "base",
+      "id": "inspect_1",
+      "frames": 236,
+      "fps": 30.0,
+      "status": "unverified",
+      "origin": "original IDST v10 animation and native event records",
+      "missingAudio": [
+        "weapons\\valorant\\phaseguardvandal/Inspect_Mvt_A.wav",
+        "weapons\\valorant\\phaseguardvandal/Reload_MagOut.wav",
+        "weapons\\valorant\\phaseguardvandal/Inspect_Mvt_B.wav",
+        "weapons\\valorant\\phaseguardvandal/Reload_MagIn_Start.wav",
+        "weapons\\valorant\\phaseguardvandal/Reload_MagIn_End.wav",
+        "weapons\\valorant\\phaseguardvandal/Inspect_Mvt_C.wav",
+        "weapons\\valorant\\phaseguardvandal/Reload_Chg_Hndl_Back_FP.wav",
+        "weapons\\valorant\\phaseguardvandal/Inspect_Mvt_D.wav",
+        "weapons\\valorant\\phaseguardvandal/Reload_Chg_Hndl_Fwd_FP.wav",
+        "weapons\\valorant\\phaseguardvandal/Reload_Element_E.wav",
+        "weapons\\valorant\\phaseguardvandal/Inspect_Mvt_F.wav",
+        "weapons\\valorant\\phaseguardvandal/Inspect_Element_Cloak.wav",
+        "weapons\\valorant\\phaseguardvandal/Inspect_Element_Cloak_Out.wav",
+        "weapons\\valorant\\phaseguardvandal/Chg_Fwd_Element.wav"
+      ],
+      "report": null,
+      "verified_commit": null
+    },
+    {
+      "weapon": "nimingvandal",
+      "variant": "base",
+      "id": "inspect_2",
+      "frames": 236,
+      "fps": 30.0,
+      "status": "unverified",
+      "origin": "original IDST v10 animation and native event records",
+      "missingAudio": [
+        "weapons\\valorant\\phaseguardvandal/Inspect_Mvt_A.wav",
+        "weapons\\valorant\\phaseguardvandal/Reload_MagOut.wav",
+        "weapons\\valorant\\phaseguardvandal/Inspect_Mvt_B.wav",
+        "weapons\\valorant\\phaseguardvandal/Reload_MagIn_Start.wav",
+        "weapons\\valorant\\phaseguardvandal/Reload_MagIn_End.wav",
+        "weapons\\valorant\\phaseguardvandal/Inspect_Mvt_C.wav",
+        "weapons\\valorant\\phaseguardvandal/Reload_Chg_Hndl_Back_FP.wav",
+        "weapons\\valorant\\phaseguardvandal/Inspect_Mvt_D.wav",
+        "weapons\\valorant\\phaseguardvandal/Reload_Chg_Hndl_Fwd_FP.wav",
+        "weapons\\valorant\\phaseguardvandal/Reload_Element_E.wav",
+        "weapons\\valorant\\phaseguardvandal/Inspect_Mvt_F.wav",
+        "weapons\\valorant\\phaseguardvandal/Inspect_Element_Cloak.wav",
+        "weapons\\valorant\\phaseguardvandal/Inspect_Element_Cloak_Out.wav",
+        "weapons\\valorant\\phaseguardvandal/Chg_Fwd_Element.wav"
+      ],
+      "report": null,
+      "verified_commit": null
+    }
+  ],
+  "archives": {
+    "瓦手键位界面图标2.0.zip": "af57e0f377d4e9c033b0680bcdb0b26e917729e10c49fe2f531ed8b1cd0f3aca",
+    "21冠军反馈.val.zip": "d26cff5f79d51ba1a67e636ee82f05f4ff62f36dca4e8c8d7c5a688d4c1142f3",
+    "Valorant 盖亚套 By MotH.7z": "1d260fb3b245e0c8da448de0aa7e185e330c86ffc2bef999a0f8beea9c20841e",
+    "val逆命中队狂徒.zip": "df962a86056244b68458f845b8ca44fbb388f569e828a9bf3a87adb6e696915f"
+  },
+  "render_fidelity": "native asset bytes/events retained; source gameplay videos and complete image/audio timestamp comparisons were not supplied",
+  "notes": [
+    "Niming includes no WAV files: generic weapon sound fallback; native animation audio events remain unresolved.",
+    "Gaia Guardian has two original CS ports, exposed as separate model variants.",
+    "HUD screenshots with baked ammo/player/build text, microphone/radio controls without a networking feature, unsupported-agent voices and menu BGM are not overlaid on live game state."
+  ]
+}

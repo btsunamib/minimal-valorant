@@ -1,0 +1,11 @@
+{
+  "results": [],
+  "assets": [],
+  "errors": [],
+  "checks": [
+    "Actual WebGL frame with visible landscape touch controls",
+    "Every mapped icon has decoded natural image dimensions",
+    "Champion crest visible after every active image layer has loaded",
+    "No page or console errors"
+  ]
+}

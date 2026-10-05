@@ -1,0 +1,191 @@
+[
+  {
+    "index": 0,
+    "name": "ByMotH",
+    "fps": 60.0,
+    "frames": 166,
+    "events": []
+  },
+  {
+    "index": 1,
+    "name": "shoot1",
+    "fps": 60.0,
+    "frames": 22,
+    "events": []
+  },
+  {
+    "index": 2,
+    "name": "shoot2",
+    "fps": 60.0,
+    "frames": 22,
+    "events": []
+  },
+  {
+    "index": 3,
+    "name": "reload",
+    "fps": 60.0,
+    "frames": 181,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5004,
+        "options": "weapons/valorant/gaiaguardian/reload_mvt_b.wav",
+        "sound": "315dac2b512649138c67.wav"
+      },
+      {
+        "frame": 31,
+        "event": 5004,
+        "options": "weapons/valorant/gaiaguardian/reload_ele_a.wav",
+        "sound": "641c77d7f650e71b8c03.wav"
+      },
+      {
+        "frame": 31,
+        "event": 5004,
+        "options": "weapons/valorant/gaiaguardian/magout_begin.wav",
+        "sound": "904042b61fc4d72cdfd1.wav"
+      },
+      {
+        "frame": 69,
+        "event": 5004,
+        "options": "weapons/valorant/gaiaguardian/magin_end.wav",
+        "sound": "4c0572733b9ac5be3228.wav"
+      },
+      {
+        "frame": 69,
+        "event": 5004,
+        "options": "weapons/valorant/gaiaguardian/magout_end.wav",
+        "sound": "98d236209e23ceb4df65.wav"
+      },
+      {
+        "frame": 76,
+        "event": 5004,
+        "options": "weapons/valorant/gaiaguardian/reload_ele_b.wav",
+        "sound": "a3288c45358599187fd6.wav"
+      },
+      {
+        "frame": 79,
+        "event": 5004,
+        "options": "weapons/valorant/gaiaguardian/reload_mvt_b.wav",
+        "sound": "315dac2b512649138c67.wav"
+      },
+      {
+        "frame": 105,
+        "event": 5004,
+        "options": "weapons/valorant/gaiaguardian/handlegrab.wav",
+        "sound": "f1ed713dd126e9ca99aa.wav"
+      },
+      {
+        "frame": 110,
+        "event": 5004,
+        "options": "weapons/valorant/gaiaguardian/handleback.wav",
+        "sound": "ab83507d608316e35892.wav"
+      },
+      {
+        "frame": 132,
+        "event": 5004,
+        "options": "weapons/valorant/gaiaguardian/handlefw.wav",
+        "sound": "15f4663e640d6eaea8d9.wav"
+      },
+      {
+        "frame": 152,
+        "event": 5004,
+        "options": "weapons/valorant/gaiaguardian/ashen_grab.wav",
+        "sound": null
+      },
+      {
+        "frame": 158,
+        "event": 5004,
+        "options": "weapons/valorant/gaiaguardian/reload_mvt_c.wav",
+        "sound": "c8267894388a57e3c88a.wav"
+      }
+    ]
+  },
+  {
+    "index": 4,
+    "name": "draw",
+    "fps": 60.0,
+    "frames": 111,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5004,
+        "options": "weapons/valorant/gaiaguardian/equip_mvt_a.wav",
+        "sound": "e425b45620ed967a1165.wav"
+      },
+      {
+        "frame": 7,
+        "event": 5004,
+        "options": "weapons/valorant/gaiaguardian/handlegrab.wav",
+        "sound": "f1ed713dd126e9ca99aa.wav"
+      },
+      {
+        "frame": 8,
+        "event": 5004,
+        "options": "weapons/valorant/gaiaguardian/handleback.wav",
+        "sound": "ab83507d608316e35892.wav"
+      },
+      {
+        "frame": 22,
+        "event": 5004,
+        "options": "weapons/valorant/gaiaguardian/equip_ele_a.wav",
+        "sound": "fe7220d442bb69519f3f.wav"
+      },
+      {
+        "frame": 25,
+        "event": 5004,
+        "options": "weapons/valorant/gaiaguardian/handlefw.wav",
+        "sound": "15f4663e640d6eaea8d9.wav"
+      },
+      {
+        "frame": 46,
+        "event": 5004,
+        "options": "weapons/valorant/gaiaguardian/equip_mvt_c.wav",
+        "sound": "a702a56ada582d4f590f.wav"
+      },
+      {
+        "frame": 67,
+        "event": 5004,
+        "options": "weapons/valorant/gaiaguardian/equip_mvt_b.wav",
+        "sound": "714ea4343d2d5c5deebc.wav"
+      }
+    ]
+  },
+  {
+    "index": 5,
+    "name": "inspect",
+    "fps": 60.0,
+    "frames": 251,
+    "events": [
+      {
+        "frame": 5,
+        "event": 5004,
+        "options": "weapons/valorant/gaiaguardian/inspect_a.wav",
+        "sound": "6c2fea20bab719c8baf4.wav"
+      },
+      {
+        "frame": 108,
+        "event": 5004,
+        "options": "weapons/valorant/gaiaguardian/inspect_b.wav",
+        "sound": "59bb77cbc28d3016a3d5.wav"
+      },
+      {
+        "frame": 189,
+        "event": 5004,
+        "options": "weapons/valorant/gaiaguardian/inspect_c.wav",
+        "sound": "52135fa7fd7487b160d1.wav"
+      },
+      {
+        "frame": 200,
+        "event": 5004,
+        "options": "weapons/valorant/gaiaguardian/ashen_grab.wav",
+        "sound": null
+      },
+      {
+        "frame": 212,
+        "event": 5004,
+        "options": "weapons/valorant/gaiaguardian/inspect_d.wav",
+        "sound": "df5c8a1e64cde01ea78d.wav"
+      }
+    ]
+  }
+]

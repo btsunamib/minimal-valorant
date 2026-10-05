@@ -1,0 +1,36 @@
+{
+  "results": [],
+  "assets": [
+    {
+      "key": "gaiavandal",
+      "meshes": 25,
+      "frames": 592
+    },
+    {
+      "key": "gaiaguardian",
+      "meshes": 39,
+      "frames": 753
+    },
+    {
+      "key": "gaiamarshal",
+      "meshes": 29,
+      "frames": 757
+    },
+    {
+      "key": "gaiaghost",
+      "meshes": 22,
+      "frames": 1008
+    },
+    {
+      "key": "gaiaaxe",
+      "meshes": 27,
+      "frames": 1127
+    },
+    {
+      "key": "nimingvandal",
+      "meshes": 23,
+      "frames": 934
+    }
+  ],
+  "errors": []
+}

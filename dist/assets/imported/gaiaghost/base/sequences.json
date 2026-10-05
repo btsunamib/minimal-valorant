@@ -1,0 +1,490 @@
+[
+  {
+    "index": 0,
+    "name": "By MotH",
+    "fps": 60.0,
+    "frames": 2,
+    "events": []
+  },
+  {
+    "index": 1,
+    "name": "shoot1",
+    "fps": 60.0,
+    "frames": 23,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5001,
+        "options": "11",
+        "sound": null
+      }
+    ]
+  },
+  {
+    "index": 2,
+    "name": "shoot2",
+    "fps": 60.0,
+    "frames": 23,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5001,
+        "options": "11",
+        "sound": null
+      }
+    ]
+  },
+  {
+    "index": 3,
+    "name": "shoot3",
+    "fps": 60.0,
+    "frames": 23,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5001,
+        "options": "11",
+        "sound": null
+      }
+    ]
+  },
+  {
+    "index": 4,
+    "name": "shootlast",
+    "fps": 60.0,
+    "frames": 23,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5001,
+        "options": "11",
+        "sound": null
+      }
+    ]
+  },
+  {
+    "index": 5,
+    "name": "reload",
+    "fps": 60.0,
+    "frames": 131,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5004,
+        "options": "weapons/valorant/gaiaghost/reload_mvt_a.wav",
+        "sound": "c829b3fce6b13804d2a4.wav"
+      },
+      {
+        "frame": 17,
+        "event": 5004,
+        "options": "weapons/valorant/gaiaghost/reload_magout.wav",
+        "sound": "5b468d1dc264a50f3200.wav"
+      },
+      {
+        "frame": 19,
+        "event": 5004,
+        "options": "weapons/valorant/gaiaghost/reload_ele_b.wav",
+        "sound": "c1345597456d30dc0102.wav"
+      },
+      {
+        "frame": 31,
+        "event": 5004,
+        "options": "weapons/valorant/gaiaghost/reload_magin_a.wav",
+        "sound": "448c4407d11465ffec98.wav"
+      },
+      {
+        "frame": 42,
+        "event": 5004,
+        "options": "weapons/valorant/gaiaghost/reload_magin_b.wav",
+        "sound": "086c62b9712d3692259c.wav"
+      },
+      {
+        "frame": 62,
+        "event": 5004,
+        "options": "weapons/valorant/gaiaghost/reload_ele_a.wav",
+        "sound": "4cdeb823193b0574c73d.wav"
+      },
+      {
+        "frame": 65,
+        "event": 5004,
+        "options": "weapons/valorant/gaiaghost/reload_slideback.wav",
+        "sound": null
+      },
+      {
+        "frame": 72,
+        "event": 5004,
+        "options": "weapons/valorant/gaiaghost/reload_slidefwd.wav",
+        "sound": "94649382df0210c98432.wav"
+      },
+      {
+        "frame": 74,
+        "event": 5004,
+        "options": "weapons/valorant/gaiaghost/reload_slidelock.wav",
+        "sound": "94172bef3e24bdf525b3.wav"
+      },
+      {
+        "frame": 91,
+        "event": 5004,
+        "options": "weapons/valorant/gaiaghost/reload_grab.wav",
+        "sound": "d00d8bace7c88c1fd7be.wav"
+      }
+    ]
+  },
+  {
+    "index": 6,
+    "name": "draw",
+    "fps": 60.0,
+    "frames": 84,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5004,
+        "options": "weapons/valorant/gaiaghost/reload_mvt_a.wav",
+        "sound": "c829b3fce6b13804d2a4.wav"
+      },
+      {
+        "frame": 6,
+        "event": 5004,
+        "options": "weapons/valorant/gaiaghost/reload_slideback.wav",
+        "sound": null
+      },
+      {
+        "frame": 13,
+        "event": 5004,
+        "options": "weapons/valorant/gaiaghost/equip_ele_a.wav",
+        "sound": "617cc8cf2e9e908a39e5.wav"
+      },
+      {
+        "frame": 20,
+        "event": 5004,
+        "options": "weapons/valorant/gaiaghost/reload_slidefwd.wav",
+        "sound": "94649382df0210c98432.wav"
+      },
+      {
+        "frame": 24,
+        "event": 5004,
+        "options": "weapons/valorant/gaiaghost/reload_slidelock.wav",
+        "sound": "94172bef3e24bdf525b3.wav"
+      },
+      {
+        "frame": 39,
+        "event": 5004,
+        "options": "weapons/valorant/gaiaghost/reload_grab.wav",
+        "sound": "d00d8bace7c88c1fd7be.wav"
+      },
+      {
+        "frame": 44,
+        "event": 5004,
+        "options": "weapons/valorant/gaiaghost/equip_mvt_b.wav",
+        "sound": "21139ac179308fc3c1e2.wav"
+      }
+    ]
+  },
+  {
+    "index": 7,
+    "name": "add_silencer",
+    "fps": 60.0,
+    "frames": 2,
+    "events": []
+  },
+  {
+    "index": 8,
+    "name": "idle_unsil",
+    "fps": 60.0,
+    "frames": 2,
+    "events": []
+  },
+  {
+    "index": 9,
+    "name": "shoot1_unsil",
+    "fps": 60.0,
+    "frames": 23,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5021,
+        "options": "24",
+        "sound": null
+      }
+    ]
+  },
+  {
+    "index": 10,
+    "name": "shoot2_unsil",
+    "fps": 60.0,
+    "frames": 23,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5021,
+        "options": "24",
+        "sound": null
+      }
+    ]
+  },
+  {
+    "index": 11,
+    "name": "shoot3_unsil",
+    "fps": 60.0,
+    "frames": 23,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5021,
+        "options": "24",
+        "sound": null
+      }
+    ]
+  },
+  {
+    "index": 12,
+    "name": "shootlast_unsil",
+    "fps": 60.0,
+    "frames": 23,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5021,
+        "options": "24",
+        "sound": null
+      }
+    ]
+  },
+  {
+    "index": 13,
+    "name": "reload_unsil",
+    "fps": 60.0,
+    "frames": 131,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5004,
+        "options": "weapons/valorant/gaiaghost/reload_mvt_a.wav",
+        "sound": "c829b3fce6b13804d2a4.wav"
+      },
+      {
+        "frame": 17,
+        "event": 5004,
+        "options": "weapons/valorant/gaiaghost/reload_magout.wav",
+        "sound": "5b468d1dc264a50f3200.wav"
+      },
+      {
+        "frame": 19,
+        "event": 5004,
+        "options": "weapons/valorant/gaiaghost/reload_ele_b.wav",
+        "sound": "c1345597456d30dc0102.wav"
+      },
+      {
+        "frame": 31,
+        "event": 5004,
+        "options": "weapons/valorant/gaiaghost/reload_magin_a.wav",
+        "sound": "448c4407d11465ffec98.wav"
+      },
+      {
+        "frame": 42,
+        "event": 5004,
+        "options": "weapons/valorant/gaiaghost/reload_magin_b.wav",
+        "sound": "086c62b9712d3692259c.wav"
+      },
+      {
+        "frame": 62,
+        "event": 5004,
+        "options": "weapons/valorant/gaiaghost/reload_ele_a.wav",
+        "sound": "4cdeb823193b0574c73d.wav"
+      },
+      {
+        "frame": 65,
+        "event": 5004,
+        "options": "weapons/valorant/gaiaghost/reload_slideback.wav",
+        "sound": null
+      },
+      {
+        "frame": 72,
+        "event": 5004,
+        "options": "weapons/valorant/gaiaghost/reload_slidefwd.wav",
+        "sound": "94649382df0210c98432.wav"
+      },
+      {
+        "frame": 74,
+        "event": 5004,
+        "options": "weapons/valorant/gaiaghost/reload_slidelock.wav",
+        "sound": "94172bef3e24bdf525b3.wav"
+      },
+      {
+        "frame": 91,
+        "event": 5004,
+        "options": "weapons/valorant/gaiaghost/reload_grab.wav",
+        "sound": "d00d8bace7c88c1fd7be.wav"
+      }
+    ]
+  },
+  {
+    "index": 14,
+    "name": "draw_unsil",
+    "fps": 60.0,
+    "frames": 84,
+    "events": [
+      {
+        "frame": 0,
+        "event": 5004,
+        "options": "weapons/valorant/gaiaghost/reload_mvt_a.wav",
+        "sound": "c829b3fce6b13804d2a4.wav"
+      },
+      {
+        "frame": 6,
+        "event": 5004,
+        "options": "weapons/valorant/gaiaghost/reload_slideback.wav",
+        "sound": null
+      },
+      {
+        "frame": 18,
+        "event": 5004,
+        "options": "weapons/valorant/gaiaghost/equip_ele_a.wav",
+        "sound": "617cc8cf2e9e908a39e5.wav"
+      },
+      {
+        "frame": 20,
+        "event": 5004,
+        "options": "weapons/valorant/gaiaghost/reload_slidefwd.wav",
+        "sound": "94649382df0210c98432.wav"
+      },
+      {
+        "frame": 24,
+        "event": 5004,
+        "options": "weapons/valorant/gaiaghost/reload_slidelock.wav",
+        "sound": "94172bef3e24bdf525b3.wav"
+      },
+      {
+        "frame": 39,
+        "event": 5004,
+        "options": "weapons/valorant/gaiaghost/reload_grab.wav",
+        "sound": "d00d8bace7c88c1fd7be.wav"
+      },
+      {
+        "frame": 44,
+        "event": 5004,
+        "options": "weapons/valorant/gaiaghost/equip_mvt_b.wav",
+        "sound": "21139ac179308fc3c1e2.wav"
+      }
+    ]
+  },
+  {
+    "index": 15,
+    "name": "add_silencer",
+    "fps": 60.0,
+    "frames": 2,
+    "events": []
+  },
+  {
+    "index": 16,
+    "name": "inspect",
+    "fps": 60.0,
+    "frames": 193,
+    "events": [
+      {
+        "frame": 7,
+        "event": 5004,
+        "options": "weapons/valorant/gaiaghost/inspect_mvt_a.wav",
+        "sound": "d7ba5f3979ed1f950b4e.wav"
+      },
+      {
+        "frame": 7,
+        "event": 5004,
+        "options": "weapons/valorant/gaiaghost/inspect_ele_a.wav",
+        "sound": "3bd116d8b6253b904acf.wav"
+      },
+      {
+        "frame": 68,
+        "event": 5004,
+        "options": "weapons/valorant/gaiaghost/inspect_mvt_b.wav",
+        "sound": "26987649441e38a26765.wav"
+      },
+      {
+        "frame": 68,
+        "event": 5004,
+        "options": "weapons/valorant/gaiaghost/inspect_ele_b.wav",
+        "sound": "c894caf0d642738bc6c4.wav"
+      },
+      {
+        "frame": 106,
+        "event": 5004,
+        "options": "weapons/valorant/gaiaghost/inspect_mvt_c.wav",
+        "sound": "959aae8dec7cb83d9ebe.wav"
+      },
+      {
+        "frame": 106,
+        "event": 5004,
+        "options": "weapons/valorant/gaiaghost/inspect_ele_c.wav",
+        "sound": "f3f51715f86885c8f44e.wav"
+      },
+      {
+        "frame": 154,
+        "event": 5004,
+        "options": "weapons/valorant/gaiaghost/inspect_mvt_d.wav",
+        "sound": "2a96c3f5658e44e2d84d.wav"
+      },
+      {
+        "frame": 154,
+        "event": 5004,
+        "options": "weapons/valorant/gaiaghost/inspect_ele_d.wav",
+        "sound": "9061adb86c0b24eff1f4.wav"
+      }
+    ]
+  },
+  {
+    "index": 17,
+    "name": "inspect_unsil",
+    "fps": 60.0,
+    "frames": 193,
+    "events": [
+      {
+        "frame": 7,
+        "event": 5004,
+        "options": "weapons/valorant/gaiaghost/inspect_mvt_a.wav",
+        "sound": "d7ba5f3979ed1f950b4e.wav"
+      },
+      {
+        "frame": 7,
+        "event": 5004,
+        "options": "weapons/valorant/gaiaghost/inspect_ele_a.wav",
+        "sound": "3bd116d8b6253b904acf.wav"
+      },
+      {
+        "frame": 68,
+        "event": 5004,
+        "options": "weapons/valorant/gaiaghost/inspect_mvt_b.wav",
+        "sound": "26987649441e38a26765.wav"
+      },
+      {
+        "frame": 68,
+        "event": 5004,
+        "options": "weapons/valorant/gaiaghost/inspect_ele_b.wav",
+        "sound": "c894caf0d642738bc6c4.wav"
+      },
+      {
+        "frame": 106,
+        "event": 5004,
+        "options": "weapons/valorant/gaiaghost/inspect_mvt_c.wav",
+        "sound": "959aae8dec7cb83d9ebe.wav"
+      },
+      {
+        "frame": 106,
+        "event": 5004,
+        "options": "weapons/valorant/gaiaghost/inspect_ele_c.wav",
+        "sound": "f3f51715f86885c8f44e.wav"
+      },
+      {
+        "frame": 154,
+        "event": 5004,
+        "options": "weapons/valorant/gaiaghost/inspect_mvt_d.wav",
+        "sound": "2a96c3f5658e44e2d84d.wav"
+      },
+      {
+        "frame": 154,
+        "event": 5004,
+        "options": "weapons/valorant/gaiaghost/inspect_ele_d.wav",
+        "sound": "9061adb86c0b24eff1f4.wav"
+      }
+    ]
+  }
+]

@@ -1,12 +1,28 @@
-import {NATIVE_UI} from './ui-catalog.js?v=20261005-lighting2';
-import {FEEDBACK_PACKS} from './feedback-catalog.js?v=20261005-lighting2';
-import {fetchWeaponAsset,weaponAssetURL} from './weapon-assets.js?v=20261005-lighting2';
-export const FEEDBACK_NAMES={auto:'随皮肤',champions24phantom:'2024 冠军 · 幻影',sovereign:'天界神兵',phaseguard:'超时空护卫队',singularity:'奇点 · 白色',neo:'新边疆',additional:'资源包击杀徽章'};
+import {NATIVE_UI} from './ui-catalog.js?v=20261005-ai-packs1';
+import {FEEDBACK_PACKS} from './feedback-catalog.js?v=20261005-ai-packs1';
+import {fetchWeaponAsset,weaponAssetURL} from './weapon-assets.js?v=20261005-ai-packs1';
+import {MOBILE2_UI,MOBILE2_VOICES} from './october5-extra-catalog.js?v=20261005-ai-packs1';
+export const FEEDBACK_NAMES={auto:'随皮肤',champions21:'2021 冠军',champions24phantom:'2024 冠军 · 幻影',sovereign:'天界神兵',phaseguard:'超时空护卫队',singularity:'奇点 · 白色',neo:'新边疆',additional:'资源包击杀徽章'};
+export function setNativeButtonLabel(el,text){
+ if(!el)return;const icon=el.querySelector('.native-touch-icon');
+ if(!icon){el.textContent=text;return;}
+ let label=el.querySelector('.native-touch-label');
+ if(!label){for(const node of [...el.childNodes])if(node.nodeType===3)node.remove();label=el.ownerDocument.createElement('span');label.className='native-touch-label';el.append(label);}
+ label.textContent=text;
+}
 export function setupNativeUI(doc){
- const mappings={touchFire:'attack',touchAim:'attack2',touchReload:'reload',touchJump:'jump',touchCrouch:'duck',touchSwitch:'lastinv',touchBuy:'buy',touchPlant:'use',touchPrimary:'1',touchPistol:'2',pauseBtn:'pause'};
- for(const[id,name]of Object.entries(mappings)){const file=NATIVE_UI.find(p=>p.endsWith('/buttons/'+name+'.png'));const el=doc.getElementById(id);if(el&&file){const img=doc.createElement('img');img.className='native-touch-icon';img.src=weaponAssetURL(file);img.alt='';el.prepend(img);}}
+ const mappings={touchFire:'attack',touchAim:'attack2',touchReload:'reload',touchJump:'jump',touchCrouch:'duck',touchSwitch:'lastinv',touchBuy:'buy',touchPlant:'use',touchPrimary:'primary',touchPistol:'pistol',touchInspect:'inspect',pauseBtn:'pause'};
+ for(const[id,name]of Object.entries(mappings)){const file=MOBILE2_UI[name]||NATIVE_UI.find(p=>p.endsWith('/buttons/'+({primary:'1',pistol:'2'}[name]||name)+'.png'));const el=doc.getElementById(id);if(el&&file){const text=el.textContent,img=el.querySelector('.native-touch-icon')||doc.createElement('img');img.className='native-touch-icon';img.src=weaponAssetURL(file);img.alt='';if(!img.parentNode)el.prepend(img);setNativeButtonLabel(el,text);}}
+ const joystick=doc.getElementById('joystick');if(joystick){joystick.style.backgroundImage=`url("${weaponAssetURL(MOBILE2_UI.joy_bg)}")`;joystick.firstElementChild.style.backgroundImage=`url("${weaponAssetURL(MOBILE2_UI.joy)}")`;}
  const damage=NATIVE_UI.find(p=>p.endsWith('/damage_indicator.png'));if(damage)doc.getElementById('damage').style.backgroundImage=`url("${weaponAssetURL(damage)}")`;
  const banner=doc.getElementById('roundBanner');for(const result of ['won','lost']){const file=NATIVE_UI.find(p=>p.endsWith('/round_notice/'+result+'.png'));if(file)banner.style.setProperty('--native-'+result,`url("${weaponAssetURL(file)}")`);}
+}
+export class NativeVoice{
+ constructor(audio,volume){this.audio=audio;this.volume=volume;this.serial=0;this.cache=new Map();}
+ stop(){this.serial++;try{this.source?.stop();}catch{}this.source=null;}
+ async play(name){this.stop();const ctx=this.audio(),file=MOBILE2_VOICES[name];if(!ctx||!file||!this.volume())return;const serial=this.serial;
+  try{if(!this.cache.has(file))this.cache.set(file,fetchWeaponAsset('./'+file).then(b=>ctx.decodeAudioData(b)).catch(e=>{this.cache.delete(file);throw e;}));const buffer=await this.cache.get(file);if(serial!==this.serial)return;const source=ctx.createBufferSource(),gain=ctx.createGain();source.buffer=buffer;gain.gain.value=this.volume();source.connect(gain);gain.connect(ctx.destination);this.source=source;source.onended=()=>{source.disconnect();gain.disconnect();if(this.source===source)this.source=null;};source.start();}catch{}
+ }
 }
 export class NativeFeedback{
  constructor(container,audio,volume){this.container=container;this.audio=audio;this.volume=volume;this.age=10;this.serial=0;this.cache=new Map();this.el=document.createElement('div');this.el.className='native-feedback hidden';container.append(this.el);}
